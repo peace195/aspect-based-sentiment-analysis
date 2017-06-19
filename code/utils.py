@@ -1,5 +1,7 @@
 
-# coding: utf-8
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
 #-------------------------------------------------------------------------------------------#
 #		author: BinhDT																		#
 # 		description: preprocess data like exporting term & aspect, word2vec, load embedding #
@@ -12,6 +14,7 @@ import os
 from collections import Counter
 import codecs
 from collections import defaultdict
+import xml.etree.ElementTree as ET
 
 def export_term_aspect(data_dir):
 	term_list = list()
@@ -259,3 +262,50 @@ def load_data(data_dir, flag_word2vec, label_dict, seq_max_len, flag_addition_co
 	print('len of aspect_list is %d' %(len(aspect_list)))
 
 	return data, mask, binary_mask, label, word_dict, word_dict_rev, embedding, term_list, aspect_list
+
+
+
+
+
+def process_semeval_2015():
+    # the train set is composed by train and trial data set
+    corpora = dict()
+    corpora['laptop'] = dict()
+    train_filename = '../data/ABSA-SemEval2015/ABSA-15_Restaurants_Train_Final.xml'
+    trial_filename = '../data//ABSA-SemEval2015/absa-2015_restaurants_trial.xml'
+
+    reviews = ET.parse(train_filename).getroot().findall('Review') + \
+              ET.parse(trial_filename).getroot().findall('Review')
+
+    sentences = []
+    for r in reviews:
+        sentences += r.find('sentences').getchildren()
+
+    # TODO: parser is not loading aspect words and opinioss
+    corpus = Corpus(sentences)
+    corpus.size()
+
+def main():
+    # TODO: start corenlp server "python corenlp.py"
+
+    # interface for Stanford-Core-NLP server
+    server = jsonrpc.ServerProxy(jsonrpc.JsonRpc20(),
+                                 jsonrpc.TransportTcpIp(addr=("127.0.0.1",
+                                                              8080)))
+
+    result = loads(server.parse("Hello world.  It is so beautiful"))
+    print "Result", result
+
+    corpora = process_semeval_2014()
+    train_restaurants = corpora['restaurants']['trainset']['corpus']
+
+    for s in train_restaurants.corpus:
+        print s.text
+
+    """
+    print train_restaurants.size
+    print train_restaurants.aspect_terms_fd
+    """
+
+if __name__ == '__main__':
+    main()
