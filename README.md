@@ -1,6 +1,7 @@
 # SentimentAnalysis
 
 ## Descriptions
+![alt text](https://github.com/peace195/SentimentAnalysis/blob/master/model.png)
 
 ## Getting Started
 
