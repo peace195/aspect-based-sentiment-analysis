@@ -11,8 +11,8 @@ The purpose of this project are:
 ![alt text](https://github.com/peace195/SentimentAnalysis/blob/master/model.png)
 
 Step by step:
-(1) Used contest data and "addition restaurantsreview data" to learn word embedding by fastText.
-(2) Used bidirectional LSTM in the model as above. Input of the model are the vector of word embedding that we trained before.
+1. Used contest data and "addition restaurantsreview data" to learn word embedding by fastText.
+2. Used bidirectional LSTM in the model as above. Input of the model are the vector of word embedding that we trained before.
 
 ## Getting Started
 
