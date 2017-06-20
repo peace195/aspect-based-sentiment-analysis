@@ -10,11 +10,17 @@ The purpose of this project are:
 
 ![alt text](https://github.com/peace195/SentimentAnalysis/blob/master/model.png)
 
+Step by step:
+(1) Used contest data and "addition restaurantsreview data" to learn word embedding by fastText.
+(2) Used bidirectional LSTM in the model as above. Input of the model are the vector of word embedding that we trained before.
+
 ## Getting Started
 
 ### Data
 * SemEval-2015 Task 12 dataset: http://alt.qcri.org/semeval2015/task12/index.php?id=data-and-tools
-* Addition restaurants data: 
+* Addition restaurant review data for restaurant-word2vec. Here, I use:
+** https://inclass.kaggle.com/c/restaurant-reviews
+** https://www.kaggle.com/snap/amazon-fine-food-reviews
 
 ### Prerequisites
 * python 2.7
@@ -23,7 +29,7 @@ The purpose of this project are:
 
 ### Installing
 
-## Built With
+## Results
 
 ## Authors
 
