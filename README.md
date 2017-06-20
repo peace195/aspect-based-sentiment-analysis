@@ -19,8 +19,8 @@ Step by step:
 ### Data
 * SemEval-2015 Task 12 dataset: http://alt.qcri.org/semeval2015/task12/index.php?id=data-and-tools
 * Addition restaurant review data for restaurant-word2vec. Here, I use:
-** https://inclass.kaggle.com/c/restaurant-reviews
-** https://www.kaggle.com/snap/amazon-fine-food-reviews
+	** https://inclass.kaggle.com/c/restaurant-reviews
+	** https://www.kaggle.com/snap/amazon-fine-food-reviews
 
 ### Prerequisites
 * python 2.7
