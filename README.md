@@ -28,7 +28,9 @@ Step by step:
 * fastText: https://github.com/facebookresearch/fastText
 
 ### Installing
-
+	
+	python sa_aspect_term_oop.py
+	
 ## Results
 
 ## Authors
