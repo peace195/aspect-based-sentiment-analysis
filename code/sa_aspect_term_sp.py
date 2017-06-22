@@ -3,10 +3,10 @@
 # tensorflow version 1.2
 #---------------------------------------------------------------------------#
 #       author: BinhDT                                                      #
-#       description: Bi-direction LSTM model for term, aspect sentiment     # 
-#       input: sentences contain terms or aspects                           #
-#       output: sentiment label for terms, aspects                          #
-#       last update on 11:47PM 07/6/2017                                    #
+#       description: Bi-direction LSTM model for aspect sentiment           # 
+#       input: sentences contain aspects                                    #
+#       output: sentiment label for aspects                                 #
+#       last update on 11:47PM 23/6/2017                                    #
 #---------------------------------------------------------------------------#
 
 import json
@@ -29,26 +29,23 @@ TRAINING_ITERATIONS = 15000
 LEARNING_RATE = 0.1
 WEIGHT_DECAY = 0.0005
 negative_weight = 2.0
-positive_weight = 3.0
-neutral_weight = 1.0
+positive_weight = 1.0
+neutral_weight = 3.0
 
 label_dict = {
-    't-positive': 1,
     'a-positive' : 1,
-    't-neutral' : 0,
     'a-neutral' : 0,
-    't-negative': 2,
     'a-negative': 2
 }
 
-data_dir = '../data/raw_data/'
+data_dir = '../data'
 flag_word2vec = True
 flag_addition_corpus = False
 flag_change_file_structure = True
 flag_train = True
 flag_test = True
 
-data, mask, binary_mask, label, word_list, word_dict_rev, embedding, term_list, aspect_list = utils.load_data(
+data, mask, binary_mask, label, word_list, word_dict_rev, embedding, aspect_list = utils.load_data(
     data_dir,
     flag_word2vec,
     label_dict,
@@ -220,9 +217,9 @@ with tf.Session(graph=graph, config=tf.ConfigProto(log_device_placement=False)) 
                 plt.savefig('loss.png')
                 plt.close()
 
-        saver.save(sess, '../ckpt/se-apect-term-v0.ckpt')
+        saver.save(sess, '../ckpt/se-apect-v0.ckpt')
     else:
-        saver.restore(sess, '../ckpt/se-apect-term-v0.ckpt')
+        saver.restore(sess, '../ckpt/se-apect-v0.ckpt')
 
     correct_prediction_test, prediction_test = sess.run([correct_prediction, prediction], 
                                               feed_dict={tf_X_train: np.asarray(x_test),
