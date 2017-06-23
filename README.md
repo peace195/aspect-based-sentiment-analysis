@@ -38,7 +38,7 @@ Step by step:
 * **Binh Thanh Do** 
 
 ## References
-* [1] http://alt.qcri.org/semeval2015/cdrom/pdf/SemEval082.pdf
+[1] http://alt.qcri.org/semeval2015/cdrom/pdf/SemEval082.pdf
 
 ## License
 
