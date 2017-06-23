@@ -1,34 +1,34 @@
 judging from previous posts this used to be a good place{a-negative}, but not any longer
 we, there were four of us, arrived at noon - the place was empty - and the staff{a-negative} acted like we were imposing on them and they were very rude
 they never brought us complimentary noodles, ignored repeated requests for sugar, and threw our dishes on the table unknowntoken{a-negative}
-the food{a-negative} was lousy - too sweet or too salty and the portions tiny
+the food{a-negative} was lousy - too sweet or too salty and the portions{a-negative} tiny
 after all that, they complained to me about the small tip unknowntoken{a-negative}
 avoid this place{a-negative}
 i have eaten at saul, many times, the food{a-positive} is always consistently, outrageously good
 saul is the best restaurant on smith street and in brooklyn unknowntoken{a-positive}
-the duck confit is always amazing and the foie_gras_terrine_with_figs{a-positive} was out of this world
+the duck_confit{a-positive} is always amazing and the foie_gras_terrine_with_figs{a-positive} was out of this world
 the wine_list{a-positive} is interesting and has many good values
-for the price, you cannot eat this well in manhattan unknowntoken{a-positive}
+for the price, you cannot eat this well in manhattan unknowntoken{a-positive} unknowntoken{a-positive}
 i was very disappointed with this restaurant{a-negative}
 ive asked a cart_attendant{a-negative} for a lotus leaf wrapped rice and she replied back rice and just walked away
 i had to ask her three times before she finally came back with the dish ive requested unknowntoken{a-negative}
 food was okay, nothing great unknowntoken{a-neutral}
-chow fun was dry; pork shu mai was more than usually greasy and had to share a table with loud and rude family  unknowntoken{a-negative}
+chow fun was dry; pork_shu_mai{a-negative} was more than usually greasy and had to share a table with loud and rude family  unknowntoken{a-negative} unknowntoken{a-negative}
 i/we will never go back to this place{a-negative} again
 went on a 3 day oyster binge, with fish{a-positive} bringing up the closing, and i am so glad this was the place it o trip ended, because it was so great
-service was devine, oysters where a sensual as they come, and the price can't be beat unknowntoken{a-positive}
+service was devine, oysters{a-positive} where a sensual as they come, and the price can't be beat unknowntoken{a-positive} unknowntoken{a-positive}
 you can't go wrong here unknowntoken{a-positive}
 every time in new york i make it a point to visit restaurant_saul{a-positive} on smith street
-everything is always cooked to perfection, the service is excellent, the decor cool and understated unknowntoken{a-positive}
+everything is always cooked to perfection, the service{a-positive} is excellent, the decor{a-positive} cool and understated unknowntoken{a-positive}
 i had the duck_breast_special{a-positive} on my last visit and it was incredible
 can't wait wait for my next visit unknowntoken{a-positive}
 and i hate to say this but i doubt i'll ever go back  unknowntoken{a-negative}
-the food{a-negative} is very averagethe thai fusion stuff is a bit too sweet, every thing they serve is too sweet here
+the food{a-negative} is very averagethe thai_fusion_stuff{a-negative} is a bit too sweet, every thing they serve is too sweet here unknowntoken{a-negative}
 the only thing i moderately enjoyed was their grilled_chicken_special_with_edamame_puree{a-positive}
 i had never had edamame_pureed{a-positive} before but i thought it was innovative and tasty (could've used a bit more salt)
-the decor is night thobut they really need to clean that vent in the ceilingits quite un-appetizing, and kills your effort to make this place{a-negative} look sleek and modern
-their sake_list{a-positive} was extensive, but we were looking for purple haze, which wasn't listed but made for us upon request
-the spicy_tuna_roll{a-positive} was unusually good and the rock shrimp tempura was awesome, great appetizer to share
+the decor{a-positive} is night thobut they really need to clean that vent{a-negative} in the ceilingits quite un-appetizing, and kills your effort to make this place{a-negative} look sleek and modern
+their sake_list{a-positive} was extensive, but we were looking for purple haze, which wasn't listed but made for us upon request unknowntoken{a-positive}
+the spicy_tuna_roll{a-positive} was unusually good and the rock_shrimp_tempura{a-positive} was awesome, great appetizer to share
 we went around 9:30 on a friday and it had died down a bit by then so the service{a-positive} was great
 we love th pink_pony{a-positive}
 the perfect spot{a-positive}
@@ -49,124 +49,124 @@ service is top notch unknowntoken{a-positive}
 i have been going back again and again unknowntoken{a-positive}
 i tend to judge a sushi restaurant by its sea_urchin{a-positive}, which was heavenly at sushi rose
 it melted in my little mouth and the perfect consistency-not too fishy, creamy, and slightly buttery unknowntoken{a-positive}
-the sushi{a-positive} seemed pretty fresh and was adequately proportioned
+the sushi{a-positive}{a-positive} seemed pretty fresh and was adequately proportioned
 the rice_to_fish_ration{a-positive} was also good--they didn't try to overpack the rice
 we took advanatage of the half_price_sushi_deal{a-positive} on saturday so it was well worth it
 surprisingly nothing could be further from the truth unknowntoken{a-positive}
 in the evening, this place attracted a well dressed, with it, ny crowd{a-positive}
-the food{a-positive} was well prepared and the service impecable
+the food{a-positive} was well prepared and the service{a-positive} impecable
 i'm going back unknowntoken{a-positive}
 quite simply it's like stepping out of manhattan and into a haven of tranquility unknowntoken{a-positive}
 the prix_fixe_menu{a-positive} is worth every penny and you get more than enough (both in quantity and quality)
 i will be going back and heartily recommend it unknowntoken{a-positive}
-it is terrific, as is the value unknowntoken{a-positive}
-$6 and there is much tasty food{a-positive}, all of it fresh and continually refilled
+it is terrific, as is the value unknowntoken{a-positive} unknowntoken{a-positive}
+$6 and there is much tasty food{a-positive}{a-positive}{a-positive}, all of it fresh and continually refilled
 i am not a vegetarian but, almost all the dishes{a-positive} were great
 go hungry and enjoy unknowntoken{a-positive}
-the food{a-positive} here is rather good, but only if you like to wait for it
-i like the somosas{a-positive}, chai, and the chole, but the dhosas and dhal were kinda dissapointing
+the food{a-positive} here is rather good, but only if you like to wait for it unknowntoken{a-negative}
+i like the somosas{a-positive}, chai{a-positive}, and the chole{a-positive}, but the dhosas{a-negative} and dhal{a-negative} were kinda dissapointing
 the service{a-negative} varys from day to day- sometimes they're very nice, and sometimes not
 the kitchen{a-negative} however, is almost always slow
 also, specify if you like your food{a-negative} spicy- its rather bland if you don't
-the ambience{a-positive} is pretty and nice for conversation, so a casual lunch here would probably be best
+the ambience{a-positive} is pretty and nice for conversation, so a casual lunch here would probably be best unknowntoken{a-positive}
 if you've ever been along the river in weehawken you have an idea of the top of view{a-positive} the chart house has to offer
-add to that great service{a-positive} and great food at a reasonable price and you have yourself the beginning of a great evening
+add to that great service{a-positive} and great food{a-positive}{a-positive} at a reasonable price and you have yourself the beginning of a great evening
 the lava_cake_dessert{a-positive} was incredible and i recommend it
 once you step into cosette{a-positive}, you're miraculously in a small, off-the-beaten path parisian bistro
 this tiny restaurant{a-positive} is as cozy as it gets, with that certain parisian flair
-the food{a-positive} was average to above-average; the french onion soup filling yet not overly impressive, and the desserts not brilliant in any way
-however, go for the ambience{a-positive}, and consider the food just a companion for a trip across the world
+the food{a-positive} was average to above-average; the french_onion_soup{a-negative} filling yet not overly impressive, and the desserts{a-negative} not brilliant in any way
+however, go for the ambience{a-positive}, and consider the food{a-neutral} just a companion for a trip across the world
 it was horrible unknowntoken{a-negative}
-the pizza{a-negative} was delivered cold and the cheese wasn't even fully melted
+the pizza{a-negative} was delivered cold and the cheese{a-negative} wasn't even fully melted
 it looked like shredded cheese partly done - still in strips unknowntoken{a-negative}
 this has got to be one of the most overrated restaurants in brooklyn unknowntoken{a-negative}
-the pizza{a-negative} is overpriced and soggy
-yes, they use fancy ingredients{a-positive}, but even fancy ingredients{a-positive} don't make for good pizza unless someone knows how to get the crust right
+the pizza{a-negative}{a-negative} is overpriced and soggy
+yes, they use fancy ingredients{a-positive}, but even fancy ingredients{a-positive} don't make for good pizza{a-negative} unless someone knows how to get the crust{a-negative} right
 a big disappointment, all around unknowntoken{a-negative}
 i think i've had some the best meals{a-positive} of my life at minnow
-the seafood{a-positive} is amazing, there's a good wine list, and the ever-changing menu always offers some great surprises
+the seafood{a-positive} is amazing, there's a good wine_list{a-positive}, and the ever-changing menu{a-positive} always offers some great surprises
 the combination of super-fresh ingredients{a-positive} in the dishes are unusual but really delicious
 worth the trip from manhattan unknowntoken{a-positive}
-best pastrami{a-positive} i ever had and great portion without being ridiculous
+best pastrami{a-positive} i ever had and great portion{a-positive} without being ridiculous
 my wife had the fried_shrimp{a-positive} which are huge and loved it
 as a japanese native, i've lived in the tristate area for over 8 years, but i was just so amazed at this place{a-positive}
 this place{a-positive} is the most japanese it can ever get
-the signs{a-positive}, the specials menus, food, and even all the waitstaff are all totally japanese
+the signs{a-positive}, the specials_menus{a-positive}, food{a-positive}, and even all the waitstaff{a-positive} are all totally japanese
 this place{a-positive} is worth an one-hour drive
 i am so coming back here again, as much as i can unknowntoken{a-positive}
-leon is an east village gem: casual but hip, with well prepared basic french bistro fare, good specials, a warm and lively atmosphere unknowntoken{a-positive}
+leon is an east village gem: casual but hip, with well prepared basic french_bistro_fare{a-positive}, good specials{a-positive}, a warm and lively atmosphere{a-positive} unknowntoken{a-positive} unknowntoken{a-positive}
 my wife and i always enjoy the young, not always well trained but nevertheless friendly, staff{a-positive}, all of whom have a story
-decent wine{a-neutral} at reasonable prices
+decent wine{a-positive}{a-neutral} at reasonable prices
 have been dozens of times and never failed to enjoy the experience unknowntoken{a-positive}
 our teenage kids love it, too unknowntoken{a-positive}
 everytime i decide to try another place on the ues, i get angry that i didn't just go to zucchero_pomodori{a-positive}
 this is by far my favorite place{a-positive} in the neighborhood
-the service{a-positive} is excellent, the decor is great, and the food is delicious and comes in large portions
+the service{a-positive} is excellent, the decor{a-positive} is great, and the food{a-positive} is delicious and comes in large portions{a-positive}
 i'm partial to the gnocchi{a-positive}
 this place{a-negative} is incredibly tiny
 they refuse to seat parties of 3 or more on weekends unknowntoken{a-negative}
 the hostess{a-negative} is rude to the point of being offensive
 the food{a-negative} was bland oily
 i just don't understand all the hype unknowntoken{a-negative}
-we have been to this place many times, and always have great food{a-positive}, wine, and service
+we have been to this place many times, and always have great food{a-positive}, wine{a-positive}, and service{a-positive}
 we were worried we would have trouble getting in, but somehow managed to have a short wait{a-positive}
 as always we had a great glass_of_wine{a-positive} while we waited
 when we sat, we got great and fast service{a-positive}
 the people{a-positive} that work there are always so friendly you forget you are in new york sometimes
 make sure you try this place{a-positive} as often as you can
 this is a fun restaurant{a-positive} to go to
-the pizza{a-positive} is yummy and i like the atmoshpere
+the pizza{a-positive} is yummy and i like the atmoshpere{a-positive}
 but the pizza{a-negative} is way to expensive
 i went there for lunch{a-negative} and it was not as good as i expected from the reviews i read
-sauce was watery and the food didn't have much flavor unknowntoken{a-negative}
+sauce was watery and the food{a-negative} didn't have much flavor unknowntoken{a-negative}
 i don't think i would go again unknowntoken{a-negative}
 this place{a-positive} is great
 i had a huge group for my birthday and we were well taken care of unknowntoken{a-positive}
-the waitress{a-positive} was very patient with us and the food is phenomenal
+the waitress{a-positive} was very patient with us and the food{a-positive} is phenomenal
 service was prompt, friendly and great unknowntoken{a-positive}
-slightly on the pricey side but worth it unknowntoken{a-negative}
-great pizza{a-positive} and fantastic service
+slightly on the pricey side but worth it unknowntoken{a-negative} unknowntoken{a-positive}
+great pizza{a-positive} and fantastic service{a-positive}
 there was a small wait{a-positive}, but shorter than i expected
 located at the end of a magnificent block unknowntoken{a-positive}
 very cozy and warm inside unknowntoken{a-positive}
 i will be back unknowntoken{a-positive}
 this is the best sushi{a-positive} in new york city - hands down
-the place{a-negative} is small and cramped but the food is fantastic
+the place{a-negative} is small and cramped but the food{a-positive} is fantastic
 get the tuna_of_gari{a-positive}
-planet thailand has always been a hit with me , i go there usually for the sushi{a-positive}, which is great , the thai food is excellent too 
+planet thailand has always been a hit with me , i go there usually for the sushi{a-positive}, which is great , the thai_food{a-positive} is excellent too  unknowntoken{a-positive}
 with the great variety on the menu{a-positive} , i eat here often and never get bored 
-the atmosphere{a-negative} isn't the greatest , but i suppose that's how they keep the prices down 
+the atmosphere{a-negative} isn't the greatest , but i suppose that's how they keep the prices down  unknowntoken{a-positive}
 it's all about the food{a-positive} 
 first it took us a long time to find the place{a-negative}
 but when we looked at the menu{a-negative}, there weren't a lot of choices, most of them were dumplings in the appetizer section
-those rolls{a-neutral} were big, but not good and sashimi wasn't fresh
+those rolls{a-negative}{a-neutral} were big, but not good and sashimi{a-negative} wasn't fresh
 they were dry and disgusting, i didn't even finish my first piece unknowntoken{a-negative}
 hurley's is like cheers where everyone knows your name and they are actually glad you came unknowntoken{a-positive}
 try the crunchy_tuna{a-positive}, it is to die for
 try everything for that matter, it is all good unknowntoken{a-positive}
 i have been going there since it opened and i can't get enough unknowntoken{a-positive}
 first went here to enjoy their garden_terrace{a-positive}
-the food{a-positive} was amazing, and the service was prompt and helpful, but not over-bearing or rushed
+the food{a-positive} was amazing, and the service{a-positive} was prompt and helpful, but not over-bearing or rushed
 the steak_tartare{a-positive} is a great bet, they fix it for you at the table
-admittedly some nights inside the restaurant were rather warm, but the open_kitchen{a-positive} is part of the charm
-great wine_selection{a-positive}, gigondas is worth the price, and the house champagne is a great value
-it may be a bit packed on weekends, but the vibe is good and it is the best french food you will find in the area unknowntoken{a-neutral}
+admittedly some nights inside the restaurant{a-negative} were rather warm, but the open_kitchen{a-positive} is part of the charm
+great wine_selection{a-positive}, gigondas{a-positive} is worth the price, and the house_champagne{a-positive} is a great value
+it may be a bit packed on weekends, but the vibe{a-positive} is good and it is the best french_food{a-positive} you will find in the area unknowntoken{a-neutral}
 have recommended the place{a-positive} to friends, always gets good response
-pizza - the only pizza in nyc that should not have additional toppings - the crust{a-positive} tastes like the best, freshly baked bread
+pizza - the only pizza{a-positive} in nyc that should not have additional toppings - the crust{a-positive} tastes like the best, freshly baked bread
 i take all my nyc guests to vt's{a-positive}
-not sure where the previous reviewer, lonk, dined, but saul is in a great neighborhood{a-positive} and has great food
+not sure where the previous reviewer, lonk, dined, but saul is in a great neighborhood{a-positive} and has great food{a-positive}
 i've been there three times and have always had wonderful experiences unknowntoken{a-positive}
-i'd highly recommend it for a special occasion -- it provides and intimate setting{a-positive} and nice service
+i'd highly recommend it for a special occasion -- it provides and intimate setting{a-positive} and nice service{a-positive} unknowntoken{a-positive}
 i'm not sure where the other reviewers ate but it seems as if we visited two different restaurants because my friends and i all enjoy mizu{a-positive} very much and we're repeat customers
 even after they overcharged me the last time i was there unknowntoken{a-negative}
 make sure you have the spicy_scallop_roll{a-positive} 
 it's delicious unknowntoken{a-positive}
-moules were excellent, lobster ravioli was very salty unknowntoken{a-positive}
+moules were excellent, lobster_ravioli{a-negative} was very salty unknowntoken{a-positive}
 took my mom for mother's day, and the maitre_d'{a-negative} was pretty rude
 told us to sit anywhere, and when we sat he said the table was reserved unknowntoken{a-negative}
 stepped on my foot on the second time he reached over me to adjust lighting unknowntoken{a-negative}
-tiny dessert{a-negative} was $800just plain overpriced for what it is
-the drinks{a-positive} are always welll made and wine selection is fairly priced
+tiny dessert{a-negative}{a-negative}{a-negative} was $800just plain overpriced for what it is
+the drinks{a-positive} are always welll made and wine_selection{a-positive} is fairly priced
 try their chef's_specials{a-positive}-- they are to die for
 service is not exactly five star, but thats not really a big deal unknowntoken{a-neutral}
 downstairs lounge is always a good attraction unknowntoken{a-positive}
@@ -174,38 +174,38 @@ raga's is a romantic, cozy restaurant unknowntoken{a-positive}
 the exotic_food{a-positive} is beautifully presented and is a delight in delicious combinations
 it is also extremely well priced unknowntoken{a-positive}
 the staff{a-positive} is incredibly helpful and attentive
-the bar{a-positive} is very well stocked with interesting beers and well priced wines
+the bar{a-positive} is very well stocked with interesting beers{a-positive} and well priced wines{a-positive}
 this is one of my favorite restaurants and it is not to be missed unknowntoken{a-positive}
 your friends will thank you for introducing them to this gem unknowntoken{a-positive}
 when we stumbled on leon{a-negative}, we thought that we had found quite the gem but, we were certainly wrong
 the waitress{a-negative} moved our table practically into the bathroom and when we asked to cancel our dinner orders because we did not want to eat sitting on the toilet, we were told no
 then, to top things off, she dropped used silverware on my boyfriend's jacket and did not stop to apologize or clean the mess that was left on clothes  unknowntoken{a-negative}
 such a disappointment unknowntoken{a-negative}
-rude service{a-negative}, medicore foodthere are tons of restaurants in nystay away from this one
+rude service{a-negative}, medicore food{a-neutral}there are tons of restaurants in nystay away from this one unknowntoken{a-negative}
 i had a grat time at jekyll_and_hyde{a-positive}
-i loved everythig about it-especially the shows and actors unknowntoken{a-positive}
+i loved everythig about it-especially the shows{a-positive} and actors{a-positive} unknowntoken{a-positive}
 our server{a-positive} was very helpful and friendly
 i am bringing my whole family back next time unknowntoken{a-positive}
 the food{a-positive} was good too
-the tuna{a-positive} and wasabe potatoes are excellent
+the tuna{a-positive} and wasabe_potatoes{a-positive} are excellent
 the outdoor_atmosphere{a-positive} of sitting on the sidewalk watching the world go by 50 feet away on 6th avenue on a cool evening was wonderful
 inside is a little cramped, but to be expected unknowntoken{a-neutral}
 service was prompt and courteous unknowntoken{a-positive}
 this was a repeat visit and we'll definitely be back again unknowntoken{a-positive}
-great service{a-positive}, great food
+great service{a-positive}, great food{a-positive}
 prices are in line unknowntoken{a-neutral}
 but too far east unknowntoken{a-negative}
-the pizza{a-positive} is delicious - they use fresh mozzarella instead of the cheap, frozen, shredded cheese common to most pizza{a-positive}ria's
+the pizza{a-positive} is delicious - they use fresh_mozzarella{a-positive} instead of the cheap, frozen, shredded cheese common to most pizza{a-positive}ria's
 two complaints- their appetizer_selection{a-negative} stinks, it would be nice to get some mozzarella sticks on the menu
-also, because it is so thin, it gets cold very quickly and its not that filling unknowntoken{a-negative}
-wait staff is blantently unappreciative of your business but its the best pie on the uws unknowntoken{a-negative}
+also, because it is so thin, it gets cold very quickly and its not that filling unknowntoken{a-negative} unknowntoken{a-negative}
+wait staff is blantently unappreciative of your business but its the best pie{a-positive} on the uws unknowntoken{a-negative}
 by far the best salad{a-positive} i have had in a fast food restaurant
 fine dining{a-positive} restaurant quality
 over 100 different choices to create your own unknowntoken{a-positive}
 a must try unknowntoken{a-positive}
 on a recent sunday afternoon, a friend and i accidently found this great restaurant{a-positive} on our way to see the pulitzer prize winning play doubt
-this was the perfect quiet, relaxing, and delicious accompaniment to our afternoon of theater unknowntoken{a-positive}
-the chicken_pot_pie{a-positive} is excpetiona, the cheeseburger huge and delictable, and the service professional wan warm
+this was the perfect quiet, relaxing, and delicious accompaniment to our afternoon of theater unknowntoken{a-positive} unknowntoken{a-positive}
+the chicken_pot_pie{a-positive} is excpetiona, the cheeseburger{a-positive}{a-positive} huge and delictable, and the service{a-positive} professional wan warm
 with so many poor experiences to be had in the theater district, is truly an excellent find unknowntoken{a-positive}
 we will return many times for this oasis in mid-town unknowntoken{a-positive}
 the staff{a-positive} is no nonsense
@@ -215,34 +215,34 @@ worth visiting the 1st_ave_spot{a-positive} because it is the original store
 he served me an uni_hand_roll{a-positive}, which i never had before, and let me tell youit was heaven
 the sake_menu{a-positive} should not be overlooked
 all in all, this midtown gem instantly became one of my favorite sushi restaurants in the city unknowntoken{a-positive}
-try the lobster_teriyaki{a-positive} and the rose special roll
+try the lobster_teriyaki{a-positive} and the rose_special_roll{a-positive}
 service was very good - prompt, attentive and non-intrusive unknowntoken{a-positive}
-food was very good as well, considering that we tried the budget selection (though i wish the pork belly that i ordered was roasted a bit longer, so that fat was more of a melt-in-your-mouth experience) unknowntoken{a-positive}
-wine list selection is good and wine-by-the-glass was generously filled to the top unknowntoken{a-positive}
-traditional french decour was pleasant though the hall was rather noisy - the restaurant was full and we had to raise our voices to be able to maintain a conversation unknowntoken{a-positive}
+food was very good as well, considering that we tried the budget selection (though i wish the pork_belly{a-negative} that i ordered was roasted a bit longer, so that fat was more of a melt-in-your-mouth experience) unknowntoken{a-positive}
+wine list selection is good and wine-by-the-glass{a-positive} was generously filled to the top unknowntoken{a-positive}
+traditional french decour was pleasant though the hall{a-negative} was rather noisy - the restaurant was full and we had to raise our voices to be able to maintain a conversation unknowntoken{a-positive}
 i've been to at cafe_spice{a-positive} probably 5-8 times, it is probably still the best indian restaurant around union square
 to sum it up: service{a-neutral} varies from good to mediorce, depending on which waiter you get; generally it is just average ok 
 seating is always prompt, though the restaurant does fill up in the evening unknowntoken{a-positive}
-food is usually very good, though ocasionally i wondered about freshmess of raw vegatables in side orders unknowntoken{a-positive}
+food is usually very good, though ocasionally i wondered about freshmess of raw_vegatables_in_side_orders{a-negative} unknowntoken{a-positive}
 as many other reviewers noticed, your order is often slow to arrive - this is particularly true in the evening but is not a problem during lunch time unknowntoken{a-neutral}
-the decor{a-positive} is vibrant and eye-pleasing with several semi-private boths on the right side of the dining hall, which are great for a date
+the decor{a-positive} is vibrant and eye-pleasing with several semi-private_boths{a-positive} on the right side of the dining hall, which are great for a date
 i have never been disappointed in the red_eye{a-positive}
-the first time i went, and was completely taken by the live_jazz_band{a-positive} and atmosphere, i ordered the lobster cobb salad
+the first time i went, and was completely taken by the live_jazz_band{a-positive} and atmosphere{a-positive}, i ordered the lobster cobb salad
 it's simply the best meal{a-positive} in nyc
 you cannot go wrong at the red_eye_grill{a-positive}
 if we were to move from the upper east side, we would genuinely miss this restaurant{a-positive}
 the restaurant{a-neutral} is cute but not upscale
-the food{a-positive} is a diamond in rough -- the food{a-positive} is delicious and homemade with the perfect balance of herbs and tomatoes
+the food{a-positive} is a diamond in rough -- the food{a-positive} is delicious and homemade with the perfect balance_of_herbs_and_tomatoes{a-positive}
 i would highly recommend it unknowntoken{a-positive}
 it's one of our favorite places to eat in ny unknowntoken{a-positive}
 we had a great time at the jekyll_and_hyde_pub{a-positive} last night
 after really enjoying ourselves at the bar{a-positive} we sat down at a table and had dinner
 the server{a-positive} was really cool and served us our food and drinks with a smile
-the place's decor{a-positive} and hidden bathrooms made for a good laugh
+the place's decor{a-positive} and hidden_bathrooms{a-positive} made for a good laugh
 i highly recommend visiting this restaurant{a-positive} and having dinner and drinks
 if you are the type of person who likes being scared and entertained, this is a great place{a-positive} to go and eat
 my husband and i thougt it would be great to go to the jekyll_and_hyde_pub{a-positive} for our anniversary, and to our surprise it was fantastic
-the have over 100 different beers{a-positive} to offer thier guest so that made my husband very happy and the food was delicious, if i must recommend a dish it must be the pumkin tortelini
+the have over 100 different beers{a-positive} to offer thier guest so that made my husband very happy and the food{a-positive} was delicious, if i must recommend a dish it must be the pumkin_tortelini{a-positive}
 the entertainment{a-positive} was great they have shows that go on through out the dinner
 please take my advice, go and try this place{a-positive}
 you will not be disapointed at all unknowntoken{a-positive}
@@ -251,88 +251,88 @@ the bagel{a-positive} was huge
 they were served warm and had a soft fluffy interior unknowntoken{a-positive}
 the workers there also absolutely load the bagel{a-negative} with cream cheese (gets a little messy)
 i loved it and would highly recommend unknowntoken{a-positive}
-this was my frist time at cafe st bart's and i must say how delicous the food{a-positive} and the service was
-i have to highly recommend the lobster_roll{a-positive} - not to much mayo; you can tell it was a fresh lobster
-other guests enjoyed pizza{a-positive}, santa fe chopped salad and fish and chips
-i highly recommend cafe st bart's for their food{a-positive}, the ambience and wonderful service
+this was my frist time at cafe st bart's and i must say how delicous the food{a-positive} and the service{a-positive} was
+i have to highly recommend the lobster{a-positive}_roll{a-positive} - not to much mayo; you can tell it was a fresh lobster{a-positive}
+other guests enjoyed pizza{a-positive}, santa_fe_chopped_salad{a-positive} and fish_and_chips{a-positive}
+i highly recommend cafe st bart's for their food{a-positive}, the ambience{a-positive} and wonderful service{a-positive}
 all the staff{a-positive} is absolutely professional 
 (that is a must, but not every restaurant can do)  unknowntoken{a-positive}
 there's nice and quiet, small but enough for 6 (or more) unknowntoken{a-positive}
 this restaurant{a-negative} was way overhyped
 my chow_fun_and_chow_see{a-negative} was really bland and oily
 okay-i don't mind the oily part (cause most are cooked that way) but it was way too bland unknowntoken{a-negative}
-the scallion_pancakes{a-neutral} and fried dumplings were nothing out of the ordinary
-the service{a-positive} was the only thing good about this restaurant
-it's boring on the inside, and our sushi was pretty below average the tuna was soggy and the other rolls had no flavor unknowntoken{a-negative}
+the scallion_pancakes{a-neutral} and fried_dumplings{a-neutral} were nothing out of the ordinary
+the service{a-positive} was the only thing good about this restaurant{a-negative}
+it's boring on the inside, and our sushi{a-negative} was pretty below average the tuna{a-negative} was soggy and the other rolls{a-negative} had no flavor unknowntoken{a-negative}
 i definitely wouldn't go back unknowntoken{a-negative}
-their pad_penang{a-positive} is delicious and everything else is fantastic
-the price is reasonable although the service is poor unknowntoken{a-positive}
-fresh restaurant was amazing food was delicious and of course fresh unknowntoken{a-positive}
-great for a romantic evening, or a fun evening with friends unknowntoken{a-positive}
+their pad_penang{a-positive} is delicious and everything else is fantastic unknowntoken{a-positive}
+the price is reasonable although the service{a-negative} is poor unknowntoken{a-positive}
+fresh restaurant was amazing food{a-positive} was delicious and of course fresh unknowntoken{a-positive}
+great for a romantic evening, or a fun evening with friends unknowntoken{a-positive} unknowntoken{a-positive}
 i will be going back very soon unknowntoken{a-positive}
 keep up the good work unknowntoken{a-positive}
 hats off to the chef{a-positive}
 it was wonderful unknowntoken{a-positive}
 the salads{a-positive} are delicious, both refreshing and very spicy
 we had pam's_special_fried_fish{a-positive} and it was amazing
-too large for just two people but nothing was left unknowntoken{a-negative}
+too large for just two people but nothing was left unknowntoken{a-negative} unknowntoken{a-positive}
 great vibe{a-positive}, lots of people
-my husbands was perfect, my was well done and dry unknowntoken{a-positive}
+my husbands was perfect, my was well done and dry unknowntoken{a-positive} unknowntoken{a-negative}
 i didn't complain, i liked the atmosphere{a-positive} so much
 on a hot day it was fabulous to stop in and enjoy lunch unknowntoken{a-positive}
-ambience is so cute and quaint, good for business although we were there on vacation unknowntoken{a-positive}
+ambience is so cute and quaint, good for business although we were there on vacation unknowntoken{a-positive} unknowntoken{a-positive}
 salads were fantastic unknowntoken{a-positive}
 although we were looking for regular lettuce and some walnuts the salads{a-positive} we got were great
 ingredients are organic which is a real plus for me unknowntoken{a-positive}
 we will be back unknowntoken{a-positive}
-this is some really good, inexpensive sushi{a-positive}
+this is some really good, inexpensive sushi{a-positive}{a-positive}
 the spicy_tuna_roll{a-positive} is huge and probably the best that i've had at this price range
 the yellowtail{a-positive} was particularly good as well
 i have reservations about the all_you_can_eat_deal{a-negative}, however -- the choices are fairly limited and you can probably order more food than you can eat for less than $18 by just going off the menu
 in any event, this is a place{a-positive} i'll be sure to stop by again when i'm in this part of town
 big wong gets big ups for a fine establishment unknowntoken{a-positive}
-they have it all -- great price, food, and service unknowntoken{a-positive}
-the atmosphere{a-negative} is noisy and the waiters are literally walking around doing things as fast as they can
+they have it all -- great price, food{a-positive}, and service{a-positive} unknowntoken{a-positive} unknowntoken{a-positive}
+the atmosphere{a-negative} is noisy and the waiters{a-positive} are literally walking around doing things as fast as they can
 the food is prepared quickly and efficiently unknowntoken{a-positive}
-and it all comes at a very reasonable price (congee, noodles, and rice dishes are no more than $3-6 each) unknowntoken{a-positive}
+and it all comes at a very reasonable price (congee{a-positive}, noodles{a-positive}, and rice_dishes{a-positive} are no more than $3-6 each) unknowntoken{a-positive}
 the takeout{a-positive} is great too since they give high quality tupperware as well
 this place{a-positive} is always very crowded and popular
-enjoyed a very nice caesar_salad{a-positive} while my wife had arugula and goat cheeseboth very tasty
-we both opted for a pasta dish and they were served timely and fresh unknowntoken{a-positive}
+enjoyed a very nice caesar_salad{a-positive} while my wife had arugula_and_goat_cheese{a-positive}both very tasty
+we both opted for a pasta_dish{a-positive} and they were served timely and fresh unknowntoken{a-positive}
 we concluded with tiramisu_chocolate_cake{a-positive}, both were delicious
 we'd go back again unknowntoken{a-positive}
 i recently went to this restaurant{a-positive} with some co-workers for lunch and had an amazing time
-the staff{a-positive} was accomodating, the food was absolutely delicious and the place is lovely
+the staff{a-positive} was accomodating, the food{a-positive} was absolutely delicious and the place{a-positive} is lovely
 we even had a visit from the manager{a-positive} who wanted to make sure we were enjoying ourselves
-yes, the prices are high, but i felt it was worth it unknowntoken{a-negative}
+yes, the prices are high, but i felt it was worth it unknowntoken{a-negative} unknowntoken{a-positive}
 we all felt it was worth it unknowntoken{a-positive}
-sometimes i get good food{a-positive} and ok service
-sometimes i get bad food{a-negative} and bad service, sometimes i get good good and bad service
+sometimes i get good food{a-positive} and ok service{a-neutral}
+sometimes i get bad food{a-negative} and bad service{a-negative}{a-negative}, sometimes i get good{a-positive} good{a-positive} and bad service{a-negative}{a-negative}
 it is not consistent unknowntoken{a-negative}
-the place is a bistro which means: simple dishes{a-positive} and wine served efficiently in a bustling atmosphere
+the place is a bistro which means: simple dishes{a-positive} and wine{a-positive} served efficiently in a bustling atmosphere{a-positive} unknowntoken{a-positive}
 and where does patis{a-positive} go wrong; no where 
-you are not eating haut cuisine with subtle hints of whatever but: cassuolet, steake fritte, tripe stew, etc; simple stuff unknowntoken{a-positive}
+you are not eating haut cuisine with subtle hints of whatever but: cassuolet, steake fritte, tripe stew, etc; simple stuff unknowntoken{a-positive} unknowntoken{a-positive}
 and evaluated on those terms pastis{a-positive} is simply wonderful
-right off the l in brooklyn this is a nice cozy place with good pizza{a-positive}
-mine was a little burnt but still delicious with goat cheese and panchetta (raddichio{a-negative} was kind of bitter though)
+right off the l in brooklyn this is a nice cozy place{a-positive} with good pizza{a-positive}
+mine was a little burnt but still delicious with goat cheese and panchetta (raddichio{a-negative} was kind of bitter though) unknowntoken{a-positive}
 my friend got the mushroom_pizza{a-positive} which tasted better
 the sangria{a-positive} was pretty tasty and good on a hot muggy day
 kind of a small place{a-neutral} but i guess if they are not too busy might be able to fit a group or kids
 overall i would recommend it and go back again unknowntoken{a-positive}
 i started out with a bombay_beer{a-positive} which was big enough for two
 mmmmm it was delicious unknowntoken{a-positive}
-service was slow, but the people were friendly unknowntoken{a-negative}
+service was slow, but the people{a-positive} were friendly unknowntoken{a-negative}
 it's a nice place{a-positive} to relax and have conversation
 i can't wait to go back unknowntoken{a-positive}
 the food{a-positive} is authentic italian - delicious
-pizza is terrific, as is homemade pasta unknowntoken{a-positive}
-ambience is delightful, service impeccable unknowntoken{a-positive}
+pizza is terrific, as is homemade_pasta{a-positive} unknowntoken{a-positive}
+ambience is delightful, service{a-positive} impeccable unknowntoken{a-positive}
 i'm still mad that i had to pay for lousy food{a-negative}
-the hanger_steak{a-negative} was like rubber and the tuna was flavorless not to mention it tasted like it had just been thawed
-service was also horrible and the ambience is not that great unknowntoken{a-negative}
+the hanger_steak{a-negative} was like rubber and the tuna{a-negative} was flavorless not to mention it tasted like it had just been thawed
+service was also horrible and the ambience{a-negative} is not that great unknowntoken{a-negative}
 do not try unless you're just going there to hang out like the rest of the hipsters who apparently have no sense of taste unknowntoken{a-negative}
 i go and eat out at many different restaurants and this is one place{a-positive} you have go and try
-this is my first time writing a review for a restaurant because the food{a-positive} and service was excellent
+this is my first time writing a review for a restaurant because the food{a-positive} and service{a-positive} was excellent
 the filet_mignon_dish{a-positive} was superb
 i would defiantly come back here again as one of my top choices unknowntoken{a-positive}
 it's a small cute restaurant{a-positive}
@@ -341,49 +341,49 @@ i like the ambience{a-positive}, it's very dark and original
 the sushi{a-positive} is amazing 
 and amazingly cheap unknowntoken{a-positive}
 big thumbs up unknowntoken{a-positive}
-very affordable and excellent ambient{a-positive}
+very affordable and excellent ambient{a-positive} unknowntoken{a-positive}
 we ordered some beef_and_noodle_soup_dishes{a-negative} from the thai section of the menu but nothing we got was thai
 we were very disappointed unknowntoken{a-negative}
 we won't go to this place again for a good meal{a-negative}
 however, i think this place{a-positive} is a good hang out spot
 my girlfriend and i stumbled onto this hopping place{a-positive} the other night and had a great time
-the pizza{a-positive} and wine were excellent-the service too--but what really made this place was the backyard dining area
+the pizza{a-positive} and wine{a-positive} were excellent-the service{a-positive} too--but what really made this place was the backyard_dining_area{a-positive}
 it is one the nicest outdoor_restaurants{a-positive} i have ever seen in ny--i am from italy and this place rivals the ones in my country
 they tell me they are going to cover the garden in glass for the winter, so i'm looking forward to going there on a snowy night to enjoy it unknowntoken{a-positive}
 check this place{a-positive} out
 highly recommended unknowntoken{a-positive}
 first of all, this place{a-negative} is *not* romantic, as claimed by citysearch's editorial review
 either that, or the editor's idea of romance must be sharing a conversation with the next table, while trying to speak louder than the traffic on 57th unknowntoken{a-negative}
-the tables{a-negative} are crammed way too close, the menu is typical of any italian restaurant, and the wine list is simply overpriced
-slightly above average wines{a-negative} start at $70+ with only one selection listed at $30+
+the tables{a-negative} are crammed way too close, the menu{a-neutral} is typical of any italian restaurant, and the wine_list{a-negative} is simply overpriced
+slightly above average wines{a-negative}{a-negative} start at $70+ with only one selection listed at $30+
 service is not what one would expect from a joint in this price category unknowntoken{a-negative}
 for instance, plates were just dumped on the table, i was handed the wine list upside down, etc  unknowntoken{a-negative}
 somehow working the italian charm with constant mille grazie does not constitute proper service{a-negative}
-to be completely fair, the only redeeming factor was the food{a-positive}, which was above average, but couldn't make up for all the other deficiencies of teodora
-not one of our meals{a-negative} was edible - bland and/or made with weird rosemary or orange flavoring
+to be completely fair, the only redeeming factor was the food{a-positive}, which was above average, but couldn't make up for all the other deficiencies of teodora{a-negative}
+not one of our meals{a-negative} was edible - bland and/or made with weird rosemary_or_orange_flavoring{a-negative}
 fish was overdone unknowntoken{a-negative}
-cute place, nice wait_staff{a-positive} but would never go there again
+cute place{a-negative}{a-positive}, nice wait_staff{a-positive} but would never go there again
 someone else recommended the dessert{a-negative} - we also left that
 one of us actually liked the expresso{a-positive} - that's it
 skip this restaurant{a-negative}, it's a big disappointment
 myagi is one of my favorite restaurants in the city; the place the negative reviews describe sound like they were somewhere else unknowntoken{a-positive}
-i've never had bad service{a-positive} and the fish is fresh and delicious
+i've never had bad service{a-positive} and the fish{a-positive} is fresh and delicious
 their tuna_tartar_appetizer{a-positive} is to die for
 i come from a family of pizzeria owners, and i'm almost ashamed to say that the pizza{a-positive} in fornino's blows my families receipies away
 it is simply amazing unknowntoken{a-positive}
-the place is so cool and the service{a-positive} is prompt and curtious
+the place{a-positive} is so cool and the service{a-positive} is prompt and curtious
 i highly recommend to anyone to give this place{a-positive} a try
 you will find yourself returning quite often unknowntoken{a-positive}
-a restaurant that doesn't try to do anything except serve great food{a-positive} with great service in a pleasant atmosphere
+a restaurant that doesn't try to do anything except serve great food{a-positive} with great service{a-positive} in a pleasant atmosphere{a-positive}
 no gimmicks here -- the food{a-positive} speaks for itself in its freshness and preparation
 the dining_room{a-positive} is quietly elegant with no music to shout over -- how refreshing
-the service{a-positive} was impeccable and unobtrusive -- the staff knows what they are there to do -- to know their menu, present your meal, and attend to your needs
-looking around, i saw a room full of new yorkers enjoying a real meal{a-positive} in a real restaurant, not a clubhouse of the fabulous trying to be seen
+the service{a-positive} was impeccable and unobtrusive -- the staff{a-positive} knows what they are there to do -- to know their menu, present your meal, and attend to your needs
+looking around, i saw a room full of new yorkers enjoying a real meal{a-positive} in a real restaurant{a-positive}, not a clubhouse of the fabulous trying to be seen
 beautiful experience unknowntoken{a-positive}
-the view{a-positive} is breathtaking the service is top notch the ambiance is wonderfull
+the view{a-positive} is breathtaking the service{a-positive} is top notch the ambiance{a-positive} is wonderfull
 the staff{a-positive} offers impeccable service
 i had lobster_bisque{a-positive} it has 2 oz of maine lobster in it
-my boyfriend had the new_england_chowder{a-positive} it was good but i think the award should go to the lobster bisque
+my boyfriend had the new_england_chowder{a-positive} it was good but i think the award should go to the lobster_bisque{a-positive}
 it was divine melts in your mouth unknowntoken{a-positive}
 my boyfriend had prime_rib{a-positive} it was good 
 we didn't want a bottle of bubbly on a weekday so we each got little bottles_of_korbett{a-positive} it was just enough 
@@ -393,14 +393,14 @@ my wife and i ate here earlier this week and have not stopped ranting and raving
 if you like spicy food get the chicken_vindaloo{a-positive}
 it's very spicy but not offensive unknowntoken{a-positive}
 we will definitely go back unknowntoken{a-positive}
-go to volare for 1st class service{a-positive} and terrific food
+go to volare for 1st class service{a-positive} and terrific food{a-positive}
 the portions{a-positive} are large and the servers always surprise us with a different starter
 the wine_list{a-positive} is excellent
-the food{a-positive} is amazing especially if you get the chef's tasting menu and your favourite bottle (or two) of wine from an extensive selection of wines
-the place is small and intimate and you may feel a little crowded, but the service{a-positive} is excellent and it's great for friends out, a romantic date, or a special occassion
-the food{a-negative} can get pricey but the prixe fixe tasting menu is the greatest food{a-negative} for a good price and they cater the food{a-negative} to any food{a-negative} allergies or food{a-negative} you don't like
+the food{a-positive} is amazing especially if you get the chef's_tasting_menu{a-positive} and your favourite bottle (or two) of wine from an extensive selection_of_wines{a-positive}
+the place{a-positive}{a-negative} is small and intimate and you may feel a little crowded, but the service{a-positive} is excellent and it's great for friends out, a romantic date, or a special occassion
+the food{a-negative} can get pricey but the prixe_fixe_tasting_menu{a-positive} is the greatest food{a-negative} for a good price and they cater the food{a-negative} to any food{a-negative} allergies or food{a-negative} you don't like unknowntoken{a-positive}
 please be aware that it's cash or amex only unknowntoken{a-neutral}
-with the exception of our lemon salad that had so much pepper on it that our eyes started watering, the food{a-neutral} here was decent, not great
+with the exception of our lemon_salad{a-negative} that had so much pepper on it that our eyes started watering, the food{a-neutral} here was decent, not great
 the menu{a-negative} is very limited - i think we counted 4 or 5 entrees
 we ordered the special, grilled_branzino{a-negative}, that was so infused with bone, it was difficult to eat
 the decor{a-neutral} in this place is very diner-ish and the kind of place you expect in the east village - not romantic, just simple, small and sparse
@@ -414,94 +414,94 @@ the staff{a-positive} was the friendliest that have seen in new york
 we will go back every time we are in the city unknowntoken{a-positive}
 if you want something really different than try jekyll_and_hyde{a-positive}
 it is a lot of fun with live entertainment and all kinds of disney type special effects unknowntoken{a-positive}
-the food{a-positive} was pretty tradional but it was hot and good with large portions
+the food{a-positive} was pretty tradional but it was hot and good with large portions{a-positive}
 i highly recommend it unknowntoken{a-positive}
 the place{a-positive} is a lot of fun
 my six year old loved it unknowntoken{a-positive}
 the characters{a-positive} really make for an enjoyable experience
 the food{a-negative} however, is what one might expect
-it is very overpriced and not very tasty unknowntoken{a-negative}
+it is very overpriced and not very tasty unknowntoken{a-negative} unknowntoken{a-negative}
 however, i think jeckll_and_hydes{a-positive} t is one of those places that is fun to do once
 we had a good time unknowntoken{a-positive}
 went there with my wife and we had to wait for a table even though you could see there many that were empty with not reservation sigh on them unknowntoken{a-negative}
 service was slow had to wait to order and get food although not crowded unknowntoken{a-negative}
 drinks way over priced unknowntoken{a-negative}
-food was good not great not worth the wait or another visit unknowntoken{a-neutral}
+food was good not great not worth the wait or another visit unknowntoken{a-neutral} unknowntoken{a-negative}
 great pizza{a-positive} for lunch place
 service was quick unknowntoken{a-positive}
 the pizza{a-positive} was great
 and it was quick which is very important unknowntoken{a-positive}
 it was wonderful unknowntoken{a-positive}
-whenever you need a sushi fix, mizu will be there with quality fish{a-positive} and great service
+whenever you need a sushi fix, mizu will be there with quality fish{a-positive} and great service{a-positive}
 delivery is fast too unknowntoken{a-positive}
-great friendly service{a-positive}, fast seating, fast delivery, excellent sushi
-a little overpriced but worth it once you take a bite unknowntoken{a-negative}
+great friendly service{a-positive}, fast seating{a-positive}, fast delivery{a-positive}, excellent sushi{a-positive}
+a little overpriced but worth it once you take a bite unknowntoken{a-negative} unknowntoken{a-positive}
 ess-a-bagel (either by sty-town or midtown) is by far the best bagel{a-positive} in ny
-the bagels{a-positive} always warm, soft on the inside, crispy on the outside and enormous in size
-they have a huge selection of different cream cheeses and all of their salads{a-positive} are great
+the bagels{a-positive}{a-positive} always warm, soft on the inside, crispy on the outside and enormous in size
+they have a huge selection of different cream_cheeses{a-positive} and all of their salads{a-positive} are great
 the lox{a-positive} is always fresh too
 highly recommended to all unknowntoken{a-positive}
 not impressed with the food{a-negative}
-prices too high for this cramped and unappealing resturant{a-negative}
+prices too high for this cramped and unappealing resturant{a-negative}{a-negative}
 zero ambiance{a-negative} to boot
 i thought this place{a-negative} was totally overrated
 everything we had was good or okbut definitely nothing great unknowntoken{a-neutral}
-the ambience{a-positive} was nice, but service wasn't so great
-when you add it all together, it just doesn't seem worth it to meespecially considering the prices unknowntoken{a-negative}
+the ambience{a-positive} was nice, but service{a-negative} wasn't so great
+when you add it all together, it just doesn't seem worth it to meespecially considering the prices unknowntoken{a-negative} unknowntoken{a-negative}
 this is the best shabu-shabu_restaurant{a-positive} in the try-state area
-i have lived in japan for 7 years and the taste of the food{a-positive} and the feel of the restaurant is like being back in japan
+i have lived in japan for 7 years and the taste of the food{a-positive} and the feel{a-positive} of the restaurant is like being back in japan
 thius is a must for anyone who loves shabu-shabu{a-positive}
 the atmosphere{a-positive} is nothing special, but it feels like a sushi establishment in tokyo
-the owner{a-positive} and staff are all japanese as well and that adds to the entire ambiance
-despite a slightly limited menu{a-negative}, everything prepared is done to perfection, ultra fresh and a work of food art
+the owner{a-positive} and staff{a-positive} are all japanese as well and that adds to the entire ambiance{a-positive}
+despite a slightly limited menu{a-negative}, everything prepared is done to perfection, ultra fresh and a work of food art unknowntoken{a-positive} unknowntoken{a-positive}
 i must give it yon out of yon stars unknowntoken{a-positive}
 taxan delicious unknowntoken{a-positive}
 we weren't unknowntoken{a-positive}
-the prices were cheap compared to the quality of service and food unknowntoken{a-positive}
+the prices were cheap compared to the quality of service{a-positive} and food{a-positive} unknowntoken{a-positive}
 we liked it so much, that we will always make it a point to dine here when we visit new york unknowntoken{a-positive}
-the location{a-neutral} and ambience is ok but the food is what makes up for it
+the location{a-neutral} and ambience{a-neutral} is ok but the food{a-positive} is what makes up for it
 there is a lot of variety even for people who eat vegetarian like me unknowntoken{a-positive}
 try green_curry_with_vegetables{a-positive}
 the quantity{a-positive} is also very good, you will come out satisfied
 the service{a-neutral} is ok, some of the people didn't get what they asked for
 i was there on sat for my birthday and we had an excellent time unknowntoken{a-positive}
 i had the best ravioli{a-positive} ever
-the wine{a-positive} the service was very good too
+the wine{a-positive} the service{a-positive} was very good too
 moderate prices unknowntoken{a-neutral}
 a little noise but i think that was because of our party unknowntoken{a-neutral}
-this quaint and romantic trattoria{a-positive} is at the top of my manhattan restaurant list
-the food{a-positive} is delicious - from the specials to the regular menu-fare, the dishes are never a disappointment
-whether it's the parmesean_porcini_souffle{a-positive} or the lamb glazed with balsamic vinegar, you will surely be transported to northern italy with one bite
-although the tables may be closely situated, the candle-light{a-positive}, food-quality and service overcompensate
+this quaint and romantic trattoria{a-positive}{a-positive} is at the top of my manhattan restaurant list
+the food{a-positive} is delicious - from the specials{a-positive} to the regular_menu-fare{a-positive}, the dishes{a-positive} are never a disappointment
+whether it's the parmesean_porcini_souffle{a-positive} or the lamb_glazed_with_balsamic_vinegar{a-positive}, you will surely be transported to northern italy with one bite
+although the tables{a-negative} may be closely situated, the candle-light{a-positive}, food{a-positive}-quality and service{a-positive} overcompensate
 a guaranteeed delight unknowntoken{a-positive}
-i have known about this secret for the last 13 years, emilio(the godfather) has continued to serve food{a-positive} and wine for the gods at mortal prices
-if you go, try the marinara/arrabiatta_sauce{a-positive}, the mozzarella en carozza is mmmmmmmm everything is just delicious
+i have known about this secret for the last 13 years, emilio(the godfather) has continued to serve food{a-positive}{a-positive} and wine{a-positive}{a-positive} for the gods at mortal prices
+if you go, try the marinara/arrabiatta_sauce{a-positive}, the mozzarella_en_carozza{a-positive} is mmmmmmmm everything is just delicious unknowntoken{a-positive}
 check out the secret back_room{a-positive}
 i pray it stays open forever unknowntoken{a-positive}
 thank you emilio{a-positive}
-i found the food{a-positive}, service and value exceptional everytime i have been there
+i found the food{a-positive}, service{a-positive} and value exceptional everytime i have been there unknowntoken{a-positive}
 the food{a-positive} was authentic
 i felt as though i were eating in paris unknowntoken{a-positive}
 the service{a-positive} was excellent - friendly and attentive
 the prices are wonderfully low unknowntoken{a-positive}
 very good wine_choices{a-positive}
 who has room for cheesesticks with the best pizza{a-positive} in nyc
-get the pepperoni{a-positive} - yum - and a family style salad
+get the pepperoni{a-positive} - yum - and a family_style_salad{a-positive}
 great staff{a-positive}
 always great service{a-positive}
 i go twice a month unknowntoken{a-positive}
 fantastic unknowntoken{a-positive}
 the food{a-positive} is good, i can't lie
 but the staff{a-negative} was so horrible to us
-the hostess{a-negative} and the waitress were incredibly rude and did everything they could to rush us out
+the hostess{a-negative} and the waitress{a-negative} were incredibly rude and did everything they could to rush us out
 we were planning to get dessert but the waitress{a-negative} basically through the bill at us before we had a chance to order
-this place{a-negative} is pricey, and yes, the food is worth it; but the service makes you feel like you should be paying a quater of the price
+this place{a-negative} is pricey, and yes, the food{a-positive} is worth it; but the service{a-negative} makes you feel like you should be paying a quater of the price
 save yourself the time and trouble and skip this one unknowntoken{a-negative}
 amma is nothing special unknowntoken{a-neutral}
-i ate here a week ago and found most dishes{a-negative} average at best and too expensive
+i ate here a week ago and found most dishes{a-negative}{a-negative} average at best and too expensive
 will not be back unknowntoken{a-negative}
-don't dine at tamarind for the vegetarian_dishes{a-negative}, they are simply not up to par with the non-veg selections
-decor is nice though service can be spotty unknowntoken{a-positive}
+don't dine at tamarind for the vegetarian_dishes{a-negative}, they are simply not up to par with the non-veg_selections{a-positive}
+decor is nice though service{a-negative} can be spotty unknowntoken{a-positive}
 this place{a-neutral} is always packed
 most importantly, food{a-positive} is excellent
 try the sea_bass{a-positive}
@@ -509,18 +509,18 @@ highly recommended unknowntoken{a-positive}
 first of all dal_bukhara{a-positive} rocks
 i am happy i did the food{a-positive} was awsome
 just awsome unknowntoken{a-positive}
-and yes dal bukhara is so dam good and so are all the kababs{a-positive}
+and yes dal_bukhara{a-positive} is so dam good and so are all the kababs{a-positive}
 but overall i give it a 10 unknowntoken{a-positive}
 10 unknowntoken{a-positive}
 haru on park s is simply disgusting unknowntoken{a-negative}
-the fish{a-negative} was not fresh and the rice tasted old and stale
+the fish{a-negative} was not fresh and the rice{a-negative} tasted old and stale
 quite frankly, this is some of the worst sushi{a-negative} i have ever tried
 will never be back unknowntoken{a-negative}
 honestly the worst sushi{a-negative} my husband and i had in our entire lives
 not sure why this restaurant{a-negative} would be rated that highly
 the all-u-can-eat_sushi{a-negative} is definitely in very poor quality
-limited menu{a-negative}, no-so-fresh ingredients, thinly-sliced fish, fall-apart rice 
-the only things u could really taste are the very salty soy_sauce{a-negative} (even its low sodium), the vinegar-soaked rice, and the scallion on top of the fish 
+limited menu{a-negative}, no-so-fresh ingredients{a-negative}, thinly-sliced fish{a-negative}, fall-apart rice{a-negative} 
+the only things u could really taste are the very salty soy_sauce{a-negative} (even its low sodium), the vinegar-soaked rice{a-negative}, and the scallion on top of the fish 
 the waitstaffs{a-positive} are nice though
 wont come back again for sure unknowntoken{a-negative}
 i have been to roth's{a-negative} twice and both times were very disappointing
@@ -530,25 +530,25 @@ much of the time it seems like they do not care about you unknowntoken{a-negativ
 the dinner{a-negative} was ok, nothing i would have again
 i had their eggs_benedict{a-negative} for brunch, which were the worst in my entire life, i tried removing the hollondaise sauce completely that was how failed it was
 this was a great surprise unknowntoken{a-positive}
-with the theater 2 blocks away we had a delicious meal{a-positive} in a beautiful room
+with the theater 2 blocks away we had a delicious meal{a-positive} in a beautiful room{a-positive} unknowntoken{a-positive}
 the service{a-positive} was attentive
 i look forward to eating here again unknowntoken{a-positive}
 planet thai is great unknowntoken{a-positive}
-we love the food{a-positive}, drinks, and atmosphere
-the svc{a-negative} can be a bit rude at times, esp if you have big group, but overall the restaurant is a must
-try the pad_thai{a-positive}, it's fabulous and their prices are so cheap
-just because it's cheap does not mean the portions{a-positive} are small or the food is nasty, it is great
+we love the food{a-positive}, drinks{a-positive}, and atmosphere{a-positive}
+the svc{a-negative} can be a bit rude at times, esp if you have big group, but overall the restaurant{a-positive} is a must
+try the pad_thai{a-positive}, it's fabulous and their prices are so cheap unknowntoken{a-positive}
+just because it's cheap does not mean the portions{a-positive} are small or the food{a-positive} is nasty, it is great unknowntoken{a-positive}
 they forgot a sandwich, didn't include plastic forks, and didn't include pita with the hummus platter unknowntoken{a-negative}
-also, the sandwiches{a-negative} (nearing $7) didn't come with anything like chips or a side
-overall, not worth the money unknowntoken{a-negative}
-eating in, the atmosphere{a-positive} saves it, but at your desk, it's a very disappointing experience
+also, the sandwiches{a-negative}{a-negative} (nearing $7) didn't come with anything like chips or a side
+overall, not worth the money unknowntoken{a-negative} unknowntoken{a-negative}
+eating in, the atmosphere{a-positive} saves it, but at your desk, it's a very disappointing experience unknowntoken{a-negative}
 chennai garden is my favorite indian restaurant in the city unknowntoken{a-positive}
-they have authentic indian{a-positive} at amazin prices
+they have authentic indian{a-positive}{a-positive} at amazin prices
 this restaurant is vegetarian; there are no meat_dishes{a-negative} whatsoever
 the seats{a-negative} are uncomfortable if you are sitting against the wall on wooden benches
-it's a rather cramped and busy restaurant{a-negative} and it closes early
-patroon features a nice cigar_bar{a-positive} and has great staff
-the food{a-positive} is tasty and portion sizes are appropriate
+it's a rather cramped and busy restaurant{a-negative}{a-negative} and it closes early
+patroon features a nice cigar_bar{a-positive} and has great staff{a-positive}
+the food{a-positive} is tasty and portion_sizes{a-positive} are appropriate
 this is a nice restaurant{a-positive} if you are looking for a good place to host an intimate dinner meeting with business associates
 not a great place{a-negative} for family or general dining
 lloovve this place{a-positive}
@@ -556,15 +556,15 @@ food is excellent unknowntoken{a-positive}
 fish is so very fresh unknowntoken{a-positive}
 waitstaff are very friendly unknowntoken{a-positive}
 love yuka{a-positive}
-mermaid inn is an overall good restaurant with really good seafood{a-positive}
-the menu{a-negative} is limited but almost all of the dishes are excellent
-the lobster_sandwich{a-positive} is good and the spaghetti with scallops and shrimp is great
-the service{a-positive} is good and ambience is good for a date or group outing
+mermaid inn is an overall good restaurant with really good seafood{a-positive} unknowntoken{a-positive}
+the menu{a-negative} is limited but almost all of the dishes{a-positive} are excellent
+the lobster_sandwich{a-positive} is good and the spaghetti_with_scallops_and_shrimp{a-positive} is great
+the service{a-positive} is good and ambience{a-positive} is good for a date or group outing
 the only fallback on this restaurant{a-negative} is the prices
-even though its good seafood{a-positive}, the prices are too high
+even though its good seafood{a-positive}, the prices are too high unknowntoken{a-negative}
 the lobster_sandwich{a-positive} is $24 and although it was good it was not nearly enough to warrant that price
 we were very pleasantly surprised unknowntoken{a-positive}
-the food{a-positive} was delicious (i had a halibut special, my husband had steak), and the service was top-notch
+the food{a-positive} was delicious (i had a halibut_special{a-positive}, my husband had steak{a-positive}), and the service{a-positive} was top-notch
 when my dessert came, there was a candle in it - not because anyone asked for one - but because the waiter{a-positive} must have seen me opening my birthday card and gift, and said he knew it was a special occassion of some sort
 truly the mark of an attentive waiter{a-positive}
 i highly recommend the restaurant{a-positive} based on our experience last night
@@ -572,27 +572,27 @@ we ate at this thai place following the reviews but very unhappy with the foods{
 we thought that this place is using too much of msg cooking in the foods{a-negative}
 they don't concern much of customer's health, just want to make money unknowntoken{a-negative}
 please don't fool us unknowntoken{a-negative}
-i recommend the jelly_fish{a-positive}, drunken chicken and the soupy dumplings, certainly the stir fry blue crab
-the food{a-positive} is so cheap and the waiters are nice
+i recommend the jelly_fish{a-positive}, drunken_chicken{a-positive} and the soupy_dumplings{a-positive}, certainly the stir_fry_blue_crab{a-positive}
+the food{a-positive} is so cheap and the waiters{a-positive} are nice
 of course, it is crowded but who cares unknowntoken{a-neutral}
 authentic shanghai style and i cannot recommend a better shanghai place in new york unknowntoken{a-positive}
 have frequented 'ino for several years and the food{a-positive} remains excellent
-cheese plate is a varied delight and great bargain at $10 unknowntoken{a-positive}
-the large selection of bruschettas{a-positive}, paninis, tramezzinis keep the palate from stagnating
+cheese plate is a varied delight and great bargain at $10 unknowntoken{a-positive} unknowntoken{a-positive} unknowntoken{a-positive}
+the large selection of bruschettas{a-positive}, paninis{a-positive}, tramezzinis{a-positive} keep the palate from stagnating
 (the asparagus,_truffle_oil,_parmesan_bruschetta{a-positive} is a winner)
-wine list is extensive without being over-priced unknowntoken{a-positive}
+wine list is extensive without being over-priced unknowntoken{a-positive} unknowntoken{a-positive}
 be sure to try the seasonal, and always delicious, specials{a-positive}
 definitely a neighborhood favorite unknowntoken{a-positive}
 i loved this place{a-positive}
 i almost hesititate to write a review because the atmosphere{a-positive} was so great and i would hate for it too become to crowded
-the food{a-positive} was very good, a great deal, and the place its self was great
+the food{a-positive}{a-positive} was very good, a great deal, and the place{a-positive} its self was great
 the wait_staff{a-positive} is very freindly, they make it feel like you're eating in a freindly little european town
-i like cafe noir dont get me wrong, it is jsut that the people{a-negative} who work there are evil and incompetent
+i like cafe_noir{a-positive} dont get me wrong, it is jsut that the people{a-negative} who work there are evil and incompetent
 the service{a-negative} was terrible, we had to wait for everything and ask several of different people for the same thing before we were allowed to be served
 the waitress{a-negative}, seems to be more concerned of looking good than actually waitress{a-negative}ing
 after dinner the manager{a-negative} grabbed my boyfriend, asked him: where are you frommaybe you dont know how things work in americaand in the end stormed away almost teareyed yelling that tips are the only thing they survive on
 we did tip, i guess the model/waitress{a-negative} just wanted more and complained to the manager
-the whole set up is truly unprofessional and i wish cafe noir would get some good staff{a-negative}, because despite the current one this is a great place
+the whole set up is truly unprofessional and i wish cafe_noir{a-positive} would get some good staff{a-negative}, because despite the current one this is a great place
 pizza here is consistently good unknowntoken{a-positive}
 salads are a delicious way to begin the meal unknowntoken{a-positive}
 you should pass on the calamari{a-negative}
@@ -600,7 +600,7 @@ it is thick and slightly soggy unknowntoken{a-negative}
 decor is charming unknowntoken{a-positive}
 service is average unknowntoken{a-neutral}
 what a great place{a-positive}
-the ambience{a-positive} was so fun, and the prices were great, on top of the fact that the food was really tasty
+the ambience{a-positive} was so fun, and the prices were great, on top of the fact that the food{a-positive} was really tasty unknowntoken{a-positive}
 i wasn't thrilled to have to wait on line for thirty minutes, but i guess that's the price you pay for a popular place unknowntoken{a-neutral}
 i would definitely recommend sea if you like thai_cuisine{a-positive}
 i was here a few weeks back and we had the worst customer_service{a-negative} experience at a restaurant ever
@@ -609,57 +609,57 @@ when asked about how a certain dish was prepared in comparison to a similar at o
 while it is understandable that every place is indeed different, there was not a need to be uncourteous to customers and downright rude unknowntoken{a-negative}
 never again unknowntoken{a-negative}
 i absolutely loved this place{a-positive}
-excellent atmosphere{a-positive}, delicious dishes good and friendly service
+excellent atmosphere{a-positive}, delicious dishes{a-positive} good and friendly service{a-positive}
 this is can became on e of the ny italian food fare institutions unknowntoken{a-positive}
 i think that it is absolutely brilliant and well runned business operation unknowntoken{a-positive}
 the wine_list{a-positive} is also really nice
-everything was wonderful; food, drinks, staff, mileau unknowntoken{a-positive}
+everything was wonderful; food{a-positive}, drinks{a-positive}, staff{a-positive}, mileau{a-positive} unknowntoken{a-positive}
 i would highly recommend this place{a-positive}
 i have been to casimir{a-positive} over 5 times and i have always had a great time there
-the food{a-positive} is great and reasonably priced
+the food{a-positive}{a-positive} is great and reasonably priced
 i have tried to make reservations, but both times, the hostess{a-negative} didn't have my name
 if the weather is nice, try to snag an outside_table{a-positive}
-the staff{a-positive} has been nice, but they seemed really stressed and the unisex bathroom needs to be cleaned more often
+the staff{a-positive} has been nice, but they seemed really stressed and the unisex_bathroom{a-negative} needs to be cleaned more often
 my boyfriend and i went there to celebrate my birthday the other night and all i can say is that it was magnificent unknowntoken{a-positive}
-from the spectacular caviar{a-positive} to the hospitable waitstaff, i felt like royalty and enjoyed every second of it
+from the spectacular caviar{a-positive} to the hospitable waitstaff{a-positive}, i felt like royalty and enjoyed every second of it
 considering we were the last patrons there and it was after the closing time, the waitstaff{a-positive} did not rush us at all and made us feel comfortable and relaxed
-i highly recommend caviar russe to anyone who wants delicious top grade caviar{a-positive} and fantastic service
+i highly recommend caviar russe to anyone who wants delicious top grade caviar{a-positive} and fantastic service{a-positive}
 nice family owned traditional restaurant{a-positive}
-fresh ingredients{a-positive} and everything is made to order
+fresh ingredients{a-positive} and everything is made to order unknowntoken{a-positive}
 i was pleasantly surprised to find this gem in hoboken unknowntoken{a-positive}
 friendly staff{a-positive} that actually lets you enjoy your meal and the company you're with
-i found the food{a-positive} to be outstanding, particulary the salmon dish i had
+i found the food{a-positive} to be outstanding, particulary the salmon_dish{a-positive} i had
 i also ordered the change_mojito{a-positive}, which was out of this world
 my friends settled for rice dishes, but we came back the following day to try the dim_sum{a-neutral}, which was goodnot outstanding, but good
-we ate out in the back_patio{a-positive}, which is worth it as it's cool and the music is hear well there
+we ate out in the back_patio{a-positive}, which is worth it as it's cool and the music{a-positive} is hear well there
 overall, excellent restaurant{a-positive}
 the food{a-positive} was good
 the place{a-positive} was nice and calm
 but the service{a-negative} was a bit slow
 the buffet{a-positive} had a nice selection
-the food{a-positive} was average or above including some surprising tasty dishes
+the food{a-positive} was average or above including some surprising tasty dishes{a-positive}
 service was also very good unknowntoken{a-positive}
 i would go back unknowntoken{a-positive}
-i got an excellent piece of cheesecake{a-positive} and we had several other nice pastries
-i would recommend roxy's for that, but not for their food{a-negative}
+i got an excellent piece of cheesecake{a-positive} and we had several other nice pastries{a-positive}
+i would recommend roxy's for that, but not for their food{a-negative} unknowntoken{a-positive}
 my son and his girlfriend both wanted cheeseburgers{a-neutral} and they were huge
 but, they were too big for the bun unknowntoken{a-negative}
 consequently, their burgers{a-negative} fell apart in their hands and made such a mess that they did'nt feel like finishing them
 also they were $15 each unknowntoken{a-negative}
 i had a huge pastrami_sandwich_on_a_roll{a-neutral}
-it was $14 not really bad for a pound of pastrami-but it didn't have much taste-i've had better for less elsewhere unknowntoken{a-neutral}
-this place is really trendi but they have forgotten about the most important part of a  restaurant, the food{a-negative}
-the last two times i ordered from here my food{a-negative} was soo spicy that  i could barely eat it, and the spice took away from the flavor of the dish
+it was $14 not really bad for a pound of pastrami-but it didn't have much taste-i've had better for less elsewhere unknowntoken{a-neutral} unknowntoken{a-negative}
+this place{a-positive} is really trendi but they have forgotten about the most important part of a  restaurant, the food{a-negative}
+the last two times i ordered from here my food{a-negative} was soo spicy that  i could barely eat it, and the spice{a-negative} took away from the flavor of the dish
 and the tom_kha_soup{a-negative} was pathetic
 if you want good authentic thai{a-negative} this place is not the place to go
 we went here for lunch a couple of weeks ago on a saturday, and i was thoroughly impressed with the food{a-positive}
-the pesto_pizza{a-positive} was excellent, thin-crust pizza with a nice amount of spicy italian cheese that i'd never heard of before
+the pesto_pizza{a-positive} was excellent, thin-crust pizza with a nice amount of spicy_italian_cheese{a-positive} that i'd never heard of before
 conveniently located too, being right on bedford ave unknowntoken{a-positive}
 the back_garden_sitting_area{a-positive} is very pleasant, where you can see their personal herb garden
 i will definetly be going back unknowntoken{a-positive}
 we had the lobster_sandwich{a-positive} and it was fantastic
-my husband said he could've eaten several more, the portion was fine for me he even exclaimed that the french fries were the best he has had unknowntoken{a-negative}
-we had the scallops{a-positive} as an appetizer and they were delicious and the sauce was wonderful
+my husband said he could've eaten several more, the portion{a-positive} was fine for me he even exclaimed that the french_fries{a-positive} were the best he has had unknowntoken{a-negative}
+we had the scallops{a-positive} as an appetizer and they were delicious and the sauce{a-positive} was wonderful
 we waited at the bar and had martinis{a-positive} that were just right
 we will be back unknowntoken{a-positive}
 love the food{a-positive}
@@ -667,77 +667,77 @@ it's the only place you can get yummy authentic japanese_comfort_food{a-positive
 and you can't beat the prices unknowntoken{a-positive}
 highly recommended unknowntoken{a-positive}
 i've lived in ny for 5 years and this place{a-positive} has it all
-great food{a-positive}, good size menu, great service and an unpretensious setting
-the dishes{a-positive} offered were unique, very tasty and fresh from the lamb sausages, sardines with biscuits, large whole shrimp to the amazing pistachio ice cream (the best and freshest i've ever had)
+great food{a-positive}, good size menu{a-positive}, great service{a-positive} and an unpretensious setting{a-positive}
+the dishes{a-positive} offered were unique, very tasty and fresh from the lamb_sausages{a-positive}, sardines_with_biscuits{a-positive}, large_whole_shrimp{a-positive} to the amazing pistachio_ice_cream{a-positive} (the best and freshest i've ever had)
 i'm glad i was introduced to this place{a-positive} and this is a rare gem in ny
-the freshest, best variety, and the fastest delivery unknowntoken{a-positive}
+the freshest, best variety, and the fastest delivery{a-positive} unknowntoken{a-positive} unknowntoken{a-positive}
 also very inexpensive unknowntoken{a-positive}
-a great choice at any cost and a great deal unknowntoken{a-positive}
-the service{a-positive} was excellent and the food was delicious
-we are very particular about sushi{a-positive} and were both please with every choice which included: ceviche mix (special), crab dumplings, assorted sashimi, sushi{a-positive} and rolls, two types of sake, and the banana tempura
+a great choice at any cost and a great deal unknowntoken{a-positive} unknowntoken{a-positive}
+the service{a-positive} was excellent and the food{a-positive} was delicious
+we are very particular about sushi{a-positive}{a-positive} and were both please with every choice which included: ceviche_mix_(special){a-positive}, crab_dumplings{a-positive}, assorted_sashimi{a-positive}, sushi{a-positive}{a-positive} and rolls{a-positive}, two_types_of_sake{a-positive}, and the banana_tempura{a-positive}
 definitely a great spot{a-positive} for a nice occasion or date
-average to good thai_food{a-positive}, but terrible delivery
+average to good thai_food{a-positive}, but terrible delivery{a-negative}
 i've waited over one hour for food unknowntoken{a-negative}
 they were very abrupt with me when i called and actually claimed the food was late because they were out of rice unknowntoken{a-negative}
 a thai_restaurant{a-negative} out of rice during dinner?
-the food{a-negative} arrived 20 minutes after i called, cold and soggy
-this is a wonderful place{a-positive} on all stand points especially value ofr money
+the food{a-negative} arrived 20 minutes after i called, cold and soggy unknowntoken{a-negative}
+this is a wonderful place{a-positive}{a-positive} on all stand points especially value ofr money
 an excellent service{a-positive}
 we were greeted promptly by the waiter{a-positive} who was very nice and cordial
-she was very helpful in suggesting us drinks and helped us in ordering a lot of good dishes since we knew nothing about indian food unknowntoken{a-positive}
+she was very helpful in suggesting us drinks and helped us in ordering a lot of good dishes{a-positive} since we knew nothing about indian food unknowntoken{a-positive}
 the food{a-positive} looked very appetizing and delicious since it came on a variety of fancy plates
 we ended our great experience by having gulab_jamun_(dessert){a-positive} recommended by the waiter
 i thanked my friend who recommended me this restaurant{a-positive} and will certainly recommend it to others
-service here was great, food was fantastic unknowntoken{a-positive}
-guacamole+shrimp appetizer was really great, we both had the filet, very good, didn't much like the frites that came with, but the filet was so good, neither of us cared unknowntoken{a-positive}
+service here was great, food{a-positive} was fantastic unknowntoken{a-positive}
+guacamole+shrimp appetizer was really great, we both had the filet{a-positive}, very good, didn't much like the frites{a-negative} that came with, but the filet{a-positive} was so good, neither of us cared unknowntoken{a-positive}
 will absolutely visit again unknowntoken{a-positive}
 you cannot go wrong with this place{a-positive}
-the food{a-positive} is outstanding and the service is quick, friendly and very professional
-always a nice crowd{a-positive}, but never loud
+the food{a-positive} is outstanding and the service{a-positive} is quick, friendly and very professional
+always a nice crowd{a-positive}, but never loud unknowntoken{a-positive}
 go here unknowntoken{a-positive}
 good for dates or with friends unknowntoken{a-positive}
 i am reluctant to write because i would not want my jem of a pizza_place{a-positive} to become overcrowded
 however, it is jus too good to not praise it unknowntoken{a-positive}
 by far, the best pizza{a-positive} in manhattan
-the crust{a-positive} is thin, the ingredients are fresh and the staff is friendly
+the crust{a-positive} is thin, the ingredients{a-positive} are fresh and the staff{a-positive} is friendly
 the menu{a-positive} has so many fish items and oysters
 the fish{a-positive} was really,really fresh
 we all agreed that mare{a-positive} is one of the best seafood restaurants in new york
 i stumbled upon this great pizzeria{a-positive} as i explored my new neighborhood
-all of the pizzas{a-positive} are terrific and the price is even better
+all of the pizzas{a-positive} are terrific and the price is even better unknowntoken{a-positive}
 i highly recommend the sophia_pizza{a-positive}
 it's to die for unknowntoken{a-positive}
-the food{a-negative} was mediocre at best but it was the horrible service that made me vow never to go back
+the food{a-negative} was mediocre at best but it was the horrible service{a-negative} that made me vow never to go back
 immediately after we paid, the waiter{a-negative} took the money and said, okay, you guys are outta here
 so rushing us out was absolutely unnecessary unknowntoken{a-negative}
-for the people who want great food{a-negative} plus great service, roxy is a place to avoid
-the first time the sushi{a-positive} was outstanding, the second time it was a little bland
+for the people who want great food{a-negative} plus great service{a-negative}, roxy is a place to avoid
+the first time the sushi{a-negative}{a-positive} was outstanding, the second time it was a little bland
 i'm sure i'll return for a final judgement tho unknowntoken{a-neutral}
-the blond_wood_decor{a-positive} is very soothing, the premium sake is excellent and the service is great
+the blond_wood_decor{a-positive} is very soothing, the premium_sake{a-positive} is excellent and the service{a-positive} is great
 mizu is the japenese find in grammercy unknowntoken{a-positive}
-while their kitchen_food{a-positive} is delicious, their sushi is out of this world
+while their kitchen_food{a-positive} is delicious, their sushi{a-positive} is out of this world
 mizu is home to creative and unique rolls{a-positive} not to found anywhere else
-not only is the cuisine{a-positive} the best around, the service has always been attentive and charming
+not only is the cuisine{a-positive} the best around, the service{a-positive} has always been attentive and charming
 warning: you may find it difficult to dine at other japanese restaurants after a visit to mizu{a-positive}
-thalia is a beautiful restaurant with beautiful people{a-positive} serving you, but the food doesn't quite match up
+thalia is a beautiful restaurant with beautiful people{a-positive} serving you, but the food{a-negative} doesn't quite match up unknowntoken{a-positive}
 i ordered the smoked_salmon_and_roe_appetizer{a-negative} and it was off flavor
-the entree{a-negative} was bland and small, dessert was not inspired
-i expected quite a bit more from such an expensive menu{a-negative}
-the view{a-positive} is spectacular, and the food is great
+the entree{a-negative}{a-negative} was bland and small, dessert{a-negative} was not inspired
+i expected quite a bit more from such an expensive menu{a-negative}{a-negative}
+the view{a-positive} is spectacular, and the food{a-positive} is great
 wonderful strawberry_daiquiries{a-positive} as well
 definitely worth the trip to battery park city unknowntoken{a-positive}
 one of my favorite places in manhattan unknowntoken{a-positive}
 authentic taiwanese_food{a-positive} that's cheap what more could you ask for?
 (besides that there should be more restaurants like it around the city) unknowntoken{a-positive}
 the cold_appetizer_dishes{a-positive} taste like the way i remember them to taste when i was growing up in taiwan
-delicious simple food{a-positive} in nice outdoor atmosphere
+delicious simple food{a-positive}{a-positive} in nice outdoor_atmosphere{a-positive}
 kind, attentive wait_staff{a-positive}
-i really like both the scallops{a-positive} and the mahi mahi (on saffron risotto-yum)
+i really like both the scallops{a-positive} and the mahi_mahi_(on_saffron_risotto{a-positive}-yum)
 my friend devoured her chicken_and_mashed_potatos{a-positive}
 delicious crab_cakes{a-positive} too
-even if the food wasn't this good, the garden{a-positive} is a great place to sit outside and relax
+even if the food{a-positive} wasn't this good, the garden{a-positive} is a great place to sit outside and relax
 great neighborhood joint{a-positive}
-this is a nice pizza place with good selection_of_thin_crust_pizza{a-positive} including the basil slice
+this is a nice pizza_place{a-positive} with good selection_of_thin_crust_pizza{a-positive} including the basil_slice{a-positive}
 their calzones{a-negative} are horrific, bad, vomit-inducing, yuck
 they smell like they stuff them with old canned vegetables like the spinach mushroom calzone unknowntoken{a-negative}
 the counter_service{a-negative} is bad
@@ -745,87 +745,87 @@ they charge different prices all the time unknowntoken{a-negative}
 they're rude at times, and not very friendly unknowntoken{a-negative}
 no pizza_33{a-negative} for me
 anybody who likes this place must be from a different planet, where greasy, dry and tasteless are complimentary unknowntoken{a-negative}
-the dosas{a-negative} are skimpy, unattractive and drip with grease, and personally i'd drink popcorn topping before i'd eat another one of these
-the sandwiches{a-negative} are dry, tasteless and way overpriced
-calling the place{a-negative} hampton chutney co does warn you that these folks offer more style than substance, but in this unattractive room with unhelpful clerks there was a dearth of the former too
+the dosas{a-negative}{a-negative} are skimpy, unattractive and drip with grease, and personally i'd drink popcorn topping before i'd eat another one of these
+the sandwiches{a-negative}{a-negative} are dry, tasteless and way overpriced
+calling the place{a-negative} hampton chutney co does warn you that these folks offer more style than substance, but in this unattractive room{a-negative} with unhelpful clerks{a-negative} there was a dearth of the former too
 seriously, this place{a-positive} kicks ass
-the atmosphere{a-positive} is unheralded, the service impecible, and the food magnificant
+the atmosphere{a-positive} is unheralded, the service{a-positive} impecible, and the food{a-positive} magnificant
 best italian_food{a-positive} i ever had (and being italian, that means alot)
 it is nearly impossible to get a table, so if you ever have the chance to go here for dinner, do not pass it up unknowntoken{a-positive}
 this is such a lovely, peaceful place{a-positive} to eat outside
 the restaurant{a-positive} looks out over beautiful green lawns to the hudson river and the statue of liberty
 it is set far from the small street it's on, and there is no traffic noise unknowntoken{a-positive}
-the food{a-positive} is good, especially their more basic dishes, and the drinks are delicious
+the food{a-positive} is good, especially their more basic_dishes{a-positive}, and the drinks{a-positive} are delicious
 this is a great place{a-positive} to take out-of-towners, and perfect for watching the sunset
 great sushi{a-positive} experience
 nice value unknowntoken{a-positive}
 unique apppetizers{a-positive}
 try sushimi_cucumber_roll{a-positive}
-good spreads{a-positive}, great beverage selections and bagels really tasty
+good spreads{a-positive}, great beverage_selections{a-positive} and bagels{a-positive} really tasty
 the big complaint: no toasting available unknowntoken{a-negative}
 murray won't do it unknowntoken{a-negative}
 but who says murray's is anything about service{a-negative}
 so close, but not good enough unknowntoken{a-neutral}
 don't be fooled by crowds of people unknowntoken{a-negative}
 the service{a-negative} is awful
-this place{a-negative} is not worth the prices
+this place{a-negative}{a-negative} is not worth the prices
 also, don't plan on asking for your favorite roll, if it's not on the menu, you can't have it unknowntoken{a-negative}
 love pizza_33{a-positive}
 i will be out with friends and all of a sudden i am hungry and i only crave one thing their pizza{a-positive}
 it hits the spot every time unknowntoken{a-positive}
 this tiny williamsburg_spot{a-positive} is always pleasantly surprising
-the pizza{a-positive} is delicious and the proprietor is one of the nicest in nyc
+the pizza{a-positive} is delicious and the proprietor{a-positive} is one of the nicest in nyc
 i've been many time and have never been disappointed unknowntoken{a-positive}
 they even scoop it out nice (for those on a diet) not too much not to little unknowntoken{a-positive}
-the cream_cheeses{a-positive} are out of this world and i love that coffee
-a little crowded but they move that line really fast unknowntoken{a-positive}
-a little pricey but it really hits the spot on a sunday morning unknowntoken{a-negative}
-bagels are ok, but be sure not to make any special requests unknowntoken{a-neutral}
+the cream_cheeses{a-positive} are out of this world and i love that coffee{a-positive}
+a little crowded but they move that line really fast unknowntoken{a-positive} unknowntoken{a-negative}
+a little pricey but it really hits the spot on a sunday morning unknowntoken{a-negative} unknowntoken{a-positive}
+bagels are ok, but be sure not to make any special requests unknowntoken{a-neutral} unknowntoken{a-negative}
 i asked for an open faced cheese sandwich and the manager{a-negative} basically told me to take my business elsewhere
-be sure not to get anything other than bagels unknowntoken{a-negative}
+be sure not to get anything other than bagels{a-positive} unknowntoken{a-negative}
 the turkey_burgers{a-negative} are scary
 the worst excuse for japanese food i've ever encountered unknowntoken{a-negative}
 the soup_for_the_udon{a-negative} was soy sauce and water
 the sushi{a-negative} was awful
 the rice{a-negative} was poor quality and was cooked so badly it was hard
-furthermore, the rice{a-negative} had no seasoning, so the sushi was bland and disgusting
+furthermore, the rice{a-negative} had no seasoning, so the sushi{a-negative} was bland and disgusting
 the fish{a-negative} was adequate, but inexpertly sliced
 it is obvious that no one in the restaurant has any idea about or experience with japanese_cuisine{a-negative}
 good, fast service{a-positive}
 i would highly recommend unknowntoken{a-positive}
-food is great and inexpensive unknowntoken{a-positive}
+food is great and inexpensive unknowntoken{a-positive} unknowntoken{a-positive}
 the location{a-positive} is perfect
 give it a try and enjoy unknowntoken{a-positive}
 well, this place{a-negative} is so ghetto its not even funny
-if you like your music blasted and the system isnt that great and if you want to pay at least 100 dollar bottle{a-negative} minimun then you'll love it here
+if you like your music{a-negative} blasted and the system isnt that great and if you want to pay at least 100 dollar bottle{a-negative} minimun then you'll love it here
 would never go back there unknowntoken{a-negative}
-awsome pizza{a-positive} especially the margheritta slice
+awsome pizza{a-positive} especially the margheritta_slice{a-positive}
 always busy but fast moving unknowntoken{a-positive}
-great atmoshere{a-positive} and worth every bit
+great atmoshere{a-positive} and worth every bit unknowntoken{a-positive}
 open late (well as late as i ever got there and i'm a night person) unknowntoken{a-positive}
-winnie and her staff{a-positive} are the best crew you can find serving you
-the food{a-positive} is reliable and the price is moderate
+winnie and her staff{a-positive} are the best crew you can find serving you unknowntoken{a-positive}
+the food{a-positive} is reliable and the price is moderate unknowntoken{a-neutral}
 what more can you ask for? unknowntoken{a-positive}
 for authentic thai_food{a-positive}, look no further than toons
-try the pad_thai{a-positive}, or sample anything on the appetizer menuthey're all delicious
+try the pad_thai{a-positive}, or sample anything on the appetizer_menu{a-positive}they're all delicious
 everything about this restaurant{a-positive} was special
 the service{a-positive} was attentive, yet discreet
 the flavors robust and subtle unknowntoken{a-positive}
 the brioche_and_lollies{a-positive} as party favors is a cute and sweet touch to a most memorable meal
 i'm saving up for my next visit unknowntoken{a-positive}
 the place{a-positive} was quiet and delightful
-service was good and food is wonderful unknowntoken{a-positive}
-i did not try the caviar but i tried their salmon{a-positive} and crab salad (they are all good)  
+service was good and food{a-positive} is wonderful unknowntoken{a-positive}
+i did not try the caviar but i tried their salmon{a-positive} and crab_salad{a-positive} (they are all good)  
 it is definitely a good spot{a-positive} for snacks and chat
 as a retired hipster, i can say with some degree of certainty that for the last year lucky_strike{a-positive} has been the best laid-back late night in the city
 the wait_staff{a-positive} is pleasant, fun, and for the most part gorgeous (in the wonderful aesthetic beautification way, not in that she's-way-cuter-than-me-that-b@#$* way)
-the food{a-positive} is yummy, especially their cooked-to-perfection mussels in spicy tomato sauce and their shoestring crispy fries
+the food{a-positive} is yummy, especially their cooked-to-perfection mussels_in_spicy_tomato_sauce{a-positive} and their shoestring crispy fries{a-positive}
 but the best part about ls is the late_night_atmosphere{a-positive}, delightfully free of the bts
-you can get a completely delish martini{a-positive} in a glass (that's about 2 1/2 drinks) for $850 (i recommend the vanilla shanty, mmmm) in a great homey setting with great music
+you can get a completely delish martini{a-positive}{a-positive}{a-positive} in a glass (that's about 2 1/2 drinks) for $850 (i recommend the vanilla_shanty{a-positive}, mmmm) in a great homey setting{a-positive} with great music{a-positive}
 the in-house_lady_dj{a-positive} on saturday nights has outrageously good taste in music, and moreover, takes requests
 you can't go wrong with this place{a-positive}
 suan is a great place that i often take my friends (classmates) too unknowntoken{a-positive}
-its location{a-positive} is good and the fact that hutner college is near and their prices are very reasonable, makes students go back to suan again and again
+its location{a-positive} is good and the fact that hutner college is near and their prices are very reasonable, makes students go back to suan{a-positive} again and again
 i love their thai{a-positive}
 noodles with shrimp and chicken and coconut juice is the must unknowntoken{a-positive}
 i will go back to suan{a-positive} soon
@@ -833,7 +833,7 @@ in summer-eat outside on a terrace{a-positive} (another great feature of suan)
 i cannot imagine a friendlier staff{a-positive} working in a restaurant
 i cannot imagine better indian_food{a-positive} in all of the city
 i cannot imagine you not rushing out to eat there unknowntoken{a-positive}
-during the course of the past 3 months, the chef{a-negative} and staff changed and it was not for the better
+during the course of the past 3 months, the chef{a-negative} and staff{a-negative} changed and it was not for the better
 i wish they would change back to what it was before unknowntoken{a-negative}
 the food{a-negative} now is inconsistent
 this is the kind of place{a-positive} you'd like to take all your friends to and still keep a secret
@@ -842,66 +842,66 @@ prices are very good unknowntoken{a-positive}
 the food{a-positive} is excellent 
 if you're daring, try the balsamic_vinegar_over_icecream{a-positive}, it's wonderful
 do not get the go_go_hamburgers{a-negative}, no matter what the reviews say
-they were such a rip-off ($895 for four small meat patties in steamed buns) and not worth trying unknowntoken{a-negative}
+they were such a rip-off ($895 for four small meat patties in steamed buns) and not worth trying unknowntoken{a-negative} unknowntoken{a-negative} unknowntoken{a-negative}
 the rest of the dim_sum{a-negative}, though pricey by chinatown standards, is worth it
 steamed fresh so brought hot hot hot to your table unknowntoken{a-positive}
-the wait{a-negative} here is long for dim sum, but if you don't like sharing tables or if the typical raucous dim sum atmosphere is not your gig, this is a sleek (for chinatown) alternative
-a few tips: skip the turnip_cake{a-negative}, roast pork buns and egg custards
-these are overpriced and you can get better just around the corner: unknowntoken{a-negative}
+the wait{a-negative} here is long for dim sum, but if you don't like sharing tables or if the typical raucous dim sum atmosphere{a-negative} is not your gig, this is a sleek (for chinatown) alternative unknowntoken{a-negative}
+a few tips: skip the turnip_cake{a-negative}, roast_pork_buns{a-negative} and egg_custards{a-negative}
+these are overpriced and you can get better just around the corner: unknowntoken{a-negative} unknowntoken{a-negative}
 i was pleasantly suprised unknowntoken{a-positive}
 the food{a-positive} was exceptional
 i choose to go with one of the special, the braised_lamb_shank_in_red_wine{a-positive}, which was excellent
-the service{a-positive} was friendly and the atmosphere was casual
-the restaurant is a bit noisy but that is something that can be overlooked once you sit down and enjoy a great meal{a-positive}
-this little place has a cute interior_decor{a-positive} and affordable city prices
-the pad_se_ew_chicken{a-positive} was delicious, however the pad thai was far too oily
+the service{a-positive} was friendly and the atmosphere{a-neutral} was casual
+the restaurant{a-negative} is a bit noisy but that is something that can be overlooked once you sit down and enjoy a great meal{a-positive}
+this little place{a-positive} has a cute interior_decor{a-positive} and affordable city prices
+the pad_se_ew_chicken{a-positive} was delicious, however the pad_thai{a-negative} was far too oily
 have eaten at ginger_house{a-positive} several times, and it's always good
 the fried_dumplings{a-positive} are great
 finally a reliable chinese_restaurant{a-positive}
 this place would be so much better served by being run by a group that actually understands customer_service{a-negative}
 they are not helpful in the least and will give you the grand run around so by the time the event date rolls around you will not only regret chosing this place, but also become hostile unknowntoken{a-negative}
 nobody at this restaurant will give firm answers about anything and in the end, not one person takes responsibility for anything unknowntoken{a-negative}
-terrible, terrible management{a-negative} - deserves to be shut-down
+terrible, terrible management{a-negative} - deserves to be shut-down unknowntoken{a-negative}
 never fails to please unknowntoken{a-positive}
 delicious bagels{a-positive}, especially when right out of the oven
-spreads and toppings are great - though a bit pricey unknowntoken{a-positive}
+spreads and toppings{a-negative}{a-positive} are great - though a bit pricey unknowntoken{a-positive} unknowntoken{a-negative}
 service is fast and friendly unknowntoken{a-positive}
 only drawback - they won't toast your bagel, and they don't make eggs for the bagel unknowntoken{a-negative}
 but that is highly forgivable unknowntoken{a-positive}
-the food{a-negative} is decent at best, and the ambience, well, it's a matter of opinion, some may consider it to be a sweet thing, i thought it was just annoying
+the food{a-negative} is decent at best, and the ambience{a-negative}, well, it's a matter of opinion, some may consider it to be a sweet thing, i thought it was just annoying
 if celebrities make you sweat, then your in for a ride, but if your like most around these parts then you'll just yawn and wonder whats with all the hype unknowntoken{a-negative}
 rao is a good restaurant, but it's nothing special unknowntoken{a-neutral}
 but after last night, spice grill is the only place i'm eating indian_cuisine{a-positive}
 you must try the shrimp_appetizers{a-positive}
 even my indian friend couldn't believe how good and tasty everything was unknowntoken{a-positive}
-this place has the the correct ambience{a-positive} and an excellent staff to make you feel like a guest and a friend at the same time
-great food{a-positive}, great prices, great service
-if you are looking for a good quality, cheap eats{a-positive} - this is the place
+this place has the the correct ambience{a-positive} and an excellent staff{a-positive} to make you feel like a guest and a friend at the same time
+great food{a-positive}, great prices, great service{a-positive} unknowntoken{a-positive}
+if you are looking for a good quality, cheap eats{a-positive}{a-positive} - this is the place
 it's a perfect place to have a amanzing indian_food{a-positive}
 i really loved the different and inovated touch that's the cheff{a-positive} gives to the food
-also it's great to have dinner in a very romantic and confortable place{a-positive}, the service it's just perfectthey're so frendly that we never want to live the place{a-positive}
+also it's great to have dinner in a very romantic and confortable place{a-positive}, the service{a-positive} it's just perfectthey're so frendly that we never want to live the place{a-positive}
 their bagels{a-negative} are fine, but they are a little overcooked, and not really a 'special' bagel experience
-great bagels{a-positive} made the old-fashioned way
+great bagels{a-positive}{a-positive} made the old-fashioned way
 drawbacks: service{a-negative} is slow and they don't toast
 the food{a-positive} was absolutely amazing
 the baked_clams_octopus{a-positive} we shared as appetizers were the best we've ever had 
-the lamb{a-positive} was tender so full of flavor, the dessert was divine
+the lamb{a-positive} was tender so full of flavor, the dessert{a-positive} was divine
 the waiter{a-positive} was attentive
-the place{a-positive} itself is beautiful the bar scene seems to be happening
-downtown dinner 2002 - prixe fix: appetizers{a-neutral} were ok, waiter gave me poor suggestiontry the potato stuff kanish best one
-small servings for main entree, i had salmon{a-negative} (wasnt impressed) girlfriend had chicken, it was good
+the place{a-positive} itself is beautiful the bar_scene{a-positive} seems to be happening
+downtown dinner 2002 - prixe fix: appetizers{a-neutral} were ok, waiter{a-negative} gave me poor suggestiontry the potato_stuff_kanish{a-positive} best one
+small servings_for_main_entree{a-negative}, i had salmon{a-negative} (wasnt impressed) girlfriend had chicken{a-positive}, it was good
 dessert is a jokedont bother unknowntoken{a-negative}
 volare virgins or weekly regulars, everyone gets treated the same and you can't ask for more than that when the service{a-positive} is this friendly
-the restaurant{a-positive} has a family feel, not least with regard to the portions which are enormous; the veal alone could have single-handedly solved third world famine
-the anti-pasta{a-positive} was excellent, especially the calamari, as were the filling pasta mains
-the wine_list{a-positive} is extensive and can easily hike up an otherwise reasonably priced meal
-still, any quibbles about the bill were off-set by the pour-your-own measures of liquers which were courtesey of the house unknowntoken{a-neutral}
+the restaurant{a-positive} has a family feel, not least with regard to the portions{a-positive} which are enormous; the veal{a-positive} alone could have single-handedly solved third world famine
+the anti-pasta{a-positive} was excellent, especially the calamari{a-positive}, as were the filling pasta_mains{a-positive}
+the wine_list{a-positive} is extensive and can easily hike up an otherwise reasonably priced meal{a-positive}
+still, any quibbles about the bill were off-set by the pour-your-own measures_of_liquers{a-positive} which were courtesey of the house unknowntoken{a-neutral}
 fantastic place{a-positive}
 cute and decorative unknowntoken{a-positive}
 a pleasant surprise unknowntoken{a-positive}
 go there to relax and feel like your somewhere else unknowntoken{a-positive}
 lucky strike is a great casual place to just grab a bite to eat unknowntoken{a-positive}
-great food{a-positive}, great decor, great service
+great food{a-positive}, great decor{a-positive}, great service{a-positive}
 i recommend it unknowntoken{a-positive}
 this is the perfect spot{a-positive} for meeting friends, having lunch, dinner, pre-theatre or after-theatre drinks
 (always ask the bartender for the seasonal_beer{a-positive}
@@ -912,22 +912,22 @@ all the people that i bring there go back on their own and bring their friends u
 go there once and oh yesyou will go backyou will unknowntoken{a-positive}
 what a great place{a-positive}
 not the typical nyc gimmick theme restaurant{a-positive}
-a cool bar{a-positive} with great food, and tons of excellent beer
+a cool bar{a-positive} with great food{a-positive}, and tons of excellent beer{a-positive}{a-positive}
 and even with it's pub atmosphere they were great to my kids too unknowntoken{a-positive}
 loved it unknowntoken{a-positive}
-the shrimp_scampi{a-positive} was excellent and the antipasti were plentiful
-it is expensive but well worth the money unknowntoken{a-negative}
+the shrimp_scampi{a-positive} was excellent and the antipasti{a-positive} were plentiful
+it is expensive but well worth the money unknowntoken{a-negative} unknowntoken{a-positive}
 if you venture off the island of manhattan and can't seem to find a great italian restaurant, drive to corona{a-positive}
-the only thing more wonderful than the food{a-positive} (which is exceptional) is the service
+the only thing more wonderful than the food{a-positive} (which is exceptional) is the service{a-positive}
 the only thing the waiters{a-positive} don't do for you is wipe your chin when you leave
 wonderful at holiday time unknowntoken{a-positive}
 cozy romantic atomosphere{a-positive} with only around 15 tables at most
 service was very prompt but slightly rushed unknowntoken{a-positive}
 food was very good, but not what i would consider out of this world unknowntoken{a-neutral}
-go here for a romantic dinner but not for an all out wow dining experience unknowntoken{a-positive}
+go here for a romantic dinner but not for an all out wow dining experience unknowntoken{a-positive} unknowntoken{a-negative}
 my friend from milan and myself were pleasantly surprised when we arrived and everyone spoke italian unknowntoken{a-positive}
 too bad the food{a-negative} wasn't of the same heritage
-the porcini_mushroom_pasta_special{a-negative} was tasteless, so was the seafood tagliatelle
+the porcini_mushroom_pasta_special{a-negative} was tasteless, so was the seafood_tagliatelle{a-negative}
 a real dissapointment unknowntoken{a-negative}
 but that wasn't the icing on the cake: a tiramisu{a-negative} that resembled nothing i have ever had
 they should have called it mascarpone with chocolate chips-good but a far cry from what the name implies unknowntoken{a-negative}
@@ -936,19 +936,19 @@ i really liked this place{a-positive}
 everything i had was good, and i'm a eater unknowntoken{a-positive}
 it was pretty inexpensive too unknowntoken{a-positive}
 this place has the best chinese style bbq_ribs{a-positive} in the city
-i also recommend the rice_dishes{a-positive} or the different varieties of congee (rice porridge)
+i also recommend the rice_dishes{a-positive} or the different varieties of congee_(rice_porridge){a-positive}
 it's great to go for a quick lunch either alone or with a friend unknowntoken{a-positive}
 it's definately not a place{a-negative} to go if you want to impress someone
-however, if you want great food{a-positive} at a great price and don't mind the decor, you can't beat this place
+however, if you want great food{a-positive}{a-positive} at a great price and don't mind the decor{a-neutral}, you can't beat this place
 quick and friendly service{a-positive}
 this is one of the best comfort food places in the city unknowntoken{a-positive}
 it's somewhere you can eat and be happy unknowntoken{a-positive}
-when you're sitting in their main_dining_room{a-positive} (which has a spectacular, hand-painted high ceiling) you'd never know there was a world outside
-the food{a-positive} is wonderful, tasty and filling, and the service is professional and friendly
+when you're sitting in their main_dining_room{a-positive} (which has a spectacular, hand-painted high ceiling{a-positive}) you'd never know there was a world outside
+the food{a-positive}{a-positive} is wonderful, tasty and filling, and the service{a-positive} is professional and friendly
 i can't wait for summer, when they serve outside on their gigantic patio{a-positive}
 i recently tried suan{a-positive} and i thought that it was great
-this little place definitely exceeded my expectations and you sure get a lot of food{a-positive} for your money
-the service{a-positive} was fast and friendly and the food was very tasty and they had the best hot sauce to add to your meals
+this little place{a-positive} definitely exceeded my expectations and you sure get a lot of food{a-positive}{a-positive} for your money
+the service{a-positive} was fast and friendly and the food{a-positive} was very tasty and they had the best hot_sauce{a-positive} to add to your meals
 i have to say that i am pleasantly suprised and i will most likely stop in again if i am in the neighborhood unknowntoken{a-positive}
 they all know you unknowntoken{a-positive}
 good food{a-positive}
@@ -956,123 +956,123 @@ good drink{a-positive}
 how do you rate home? unknowntoken{a-positive}
 i have never had cheescake{a-positive} like this
 i thought i had died and gone to heaven unknowntoken{a-positive}
-great spot{a-positive}, whether looking for a couple of drinks or quiet dinner
-warm and friendly in the winter and terrific outdoor seating in the warmer months unknowntoken{a-positive}
-the food{a-positive} is great and they have a good selecion of wines at reasonable prices
+great spot{a-positive}{a-positive}, whether looking for a couple of drinks or quiet dinner
+warm and friendly in the winter and terrific outdoor_seating{a-positive} in the warmer months unknowntoken{a-positive}
+the food{a-positive} is great and they have a good selecion of wines{a-positive}{a-positive} at reasonable prices
 have been several times and it never dissapoints unknowntoken{a-positive}
 we were less than impressed unknowntoken{a-negative}
-while the ambiance{a-positive} and atmosphere were great, the food and service could have been a lot better
+while the ambiance{a-positive} and atmosphere{a-positive} were great, the food{a-negative} and service{a-negative} could have been a lot better
 we ordered the chicken_casserole{a-negative}, but what we got were a few small pieces of chicken, all dark meat and on the bone
 probably would not go again unknowntoken{a-negative}
 i've been to sapphire twice and both times the food{a-positive} was fine, if not good
-stick with the chicken{a-positive}, beef, and lamb dishes
-service is friendly, and never had a problem walking in and getting a table unknowntoken{a-positive}
+stick with the chicken{a-positive}, beef{a-positive}, and lamb_dishes{a-positive}
+service is friendly, and never had a problem walking in and getting a table unknowntoken{a-positive} unknowntoken{a-positive}
 skip dessert{a-negative}
 best reuben_sandwich{a-positive} ever
 a classic unknowntoken{a-positive}
 don't miss bloom's{a-positive} on your next trip to manhatten
 it was the first place{a-positive} we ate on our first trip to new york, and it will be the last place{a-positive} we stop as we head out of town on our next trip to new york
 thanks bloom's{a-positive} for a lovely trip
-the food{a-negative} was not fresh, the sauces were bland and very oily
+the food{a-negative} was not fresh, the sauces{a-negative} were bland and very oily
 it just wasn't thai unknowntoken{a-negative}
 was surprisingly disappointed unknowntoken{a-negative}
 pizza was a little soggy unknowntoken{a-negative}
-ravioli was goodbut i have to say that i found everything a bit overpriced unknowntoken{a-positive}
+ravioli was goodbut i have to say that i found everything a bit overpriced unknowntoken{a-positive} unknowntoken{a-negative}
 not enough wines_by_the_glass{a-negative} either
-service, however, was excellentand i liked the setting/atmosphere a lot  unknowntoken{a-positive}
-food was just averageif they lowered the prices just a bit, it would be a bigger draw unknowntoken{a-neutral}
+service, however, was excellentand i liked the setting/atmosphere{a-positive} a lot  unknowntoken{a-positive}
+food was just averageif they lowered the prices just a bit, it would be a bigger draw unknowntoken{a-neutral} unknowntoken{a-negative}
 this place{a-positive} is a great bargain
 authentic pakistani_food{a-positive}
 people are always friendly unknowntoken{a-positive}
-just straight up cheap, good food{a-positive}
+just straight up cheap, good food{a-positive}{a-positive}
 faan is sooo good unknowntoken{a-positive}
 the best pad_thai{a-positive} i've ever had
-the design{a-positive} and atmosphere is just as good
-bottles of wine are cheap and good unknowntoken{a-positive}
+the design{a-positive} and atmosphere{a-positive} is just as good
+bottles of wine are cheap and good unknowntoken{a-positive} unknowntoken{a-positive}
 what more could you want? unknowntoken{a-positive}
 the food{a-negative} was actually aweful
 i'm not picky - but it was actually gross unknowntoken{a-negative}
-the mussles{a-negative} were the fishiest things i've ever tasted, the seabass was bland, the goat cheese salad was missing the goat cheese, the penne w/ chicken had bones in it it was disgusting
-nice atmosphere{a-positive}, the service was very pleasant and the desert was good
+the mussles{a-negative} were the fishiest things i've ever tasted, the seabass{a-negative} was bland, the goat_cheese_salad{a-negative} was missing the goat cheese, the penne_w/_chicken{a-negative} had bones in it it was disgusting unknowntoken{a-negative}
+nice atmosphere{a-positive}, the service{a-positive} was very pleasant and the desert{a-positive} was good
 wouldn't recomend it for dinner unknowntoken{a-negative}
 this is the perfect date spot for williamsburg couples unknowntoken{a-positive}
 the jukebox{a-positive} plays everything from italian opera to the strokes
-the food{a-positive} is amazing, rich pastas and fresh doughy pizza
-best of all is the warm vibe{a-positive}, the owner is super friendly and service is fast
+the food{a-positive} is amazing, rich pastas{a-positive} and fresh doughy pizza{a-positive}
+best of all is the warm vibe{a-positive}, the owner{a-positive} is super friendly and service{a-positive} is fast
 if only they delivered, they'd make a mint unknowntoken{a-neutral}
 go here for the drinks{a-positive}
-the drinks{a-positive} are amazing and half off till 8pm
+the drinks{a-positive}{a-positive} are amazing and half off till 8pm
 ask for usha{a-positive}, the nicest bartender in manhattan
 my fav was the sassy_lassi{a-positive}
 this is an amazing place to try some roti_rolls{a-positive}
 i really recommend the very simple unda_(egg)_rolls{a-positive}
-delicate spices{a-positive}, onions, eggs and a kick-ass roti
+delicate spices{a-positive}, onions{a-positive}, eggs{a-positive} and a kick-ass roti{a-positive}
 amazing unknowntoken{a-positive}
 toons has recently been redone, so it's now a very attractive space unknowntoken{a-positive}
 the food{a-positive}'s as good as ever
 in an area sadly lacking in decent thai_food{a-positive}, this is one of the best spots
-went here last night - nice decor{a-positive}, good service, but the food was surprisingly excellent
+went here last night - nice decor{a-positive}, good service{a-positive}, but the food{a-positive} was surprisingly excellent
 the portions{a-neutral} are huge, so it might be good to order three things to split (rather than one appetizer and entree per person) for two people
 can't wait to go back unknowntoken{a-positive}
-best drumsticks_over_rice{a-positive} and sour spicy soup in town
+best drumsticks_over_rice{a-positive} and sour_spicy_soup{a-positive} in town
 beef noodle soup is good as well unknowntoken{a-positive}
-the service{a-positive} is good and the resturant is clean
+the service{a-positive} is good and the resturant{a-positive} is clean
 best taiwanese_food{a-positive} in ny
 i have been to rao's{a-positive} probably 15 times the past 3 years and it keeps getting better
 for those that go once and don't enjoy it, all i can say is that they just don't get it unknowntoken{a-positive}
-rao's has the best service{a-positive} and atmosphere in nyc
+rao's has the best service{a-positive} and atmosphere{a-positive} in nyc
 good luck getting a table unknowntoken{a-negative}
 my roommate and i love this place{a-positive}
 we recently decided to try this location, and to our delight, they have outdoor_seating{a-positive}, perfect since i had my yorkie with me
 indoor was very cozy and cute unknowntoken{a-positive}
-the portion_sizes{a-positive} here are huge, and the sushi is good
+the portion_sizes{a-positive} here are huge, and the sushi{a-positive} is good
 staff is very accomodating unknowntoken{a-positive}
-excellent dumplings{a-positive} served amid clean, chic decor
+excellent dumplings{a-positive} served amid clean, chic decor{a-positive}
 i got the $10_10-piece_dim_sum_combo{a-positive}, every bite of which was great
 but $1 for each small piece??? unknowntoken{a-negative}
 not worth it unknowntoken{a-negative}
 i won't go back unless someone else is footing the bill unknowntoken{a-negative}
 the decor{a-positive} is very simple but comfortable
-the food{a-positive} was delicious but do not come here on a empty stomach
-the portions{a-negative} are small but being that the food was so good makes up for that
-you must have the crabmeat_lasagna{a-positive} which is out of this world and the chocolate bread pudding for dessert
+the food{a-negative}{a-positive} was delicious but do not come here on a empty stomach
+the portions{a-negative} are small but being that the food{a-positive} was so good makes up for that
+you must have the crabmeat_lasagna{a-positive} which is out of this world and the chocolate_bread_pudding{a-positive} for dessert
 the staff{a-positive} there is very attentive and down to earth
 i loved it and would go again unknowntoken{a-positive}
-great indian_food{a-positive} and the service is incredible
+great indian_food{a-positive} and the service{a-positive} is incredible
 the owner{a-positive} truly caters to all your needs
 when family came in he gave them apps to test their palets, and then ordered for them unknowntoken{a-positive}
 everyone was more then happy with his choices unknowntoken{a-positive}
-great food{a-positive} and the prices are very reasonable
+great food{a-positive} and the prices are very reasonable unknowntoken{a-positive}
 the food{a-positive} here does a great service to the name (cantonese that is)
 i fell in love with the egg_noodles_in_the_beef_broth_with_shrimp_dumplings_and_slices_of_bbq_roast_pork{a-positive}
 this dish{a-positive} is my favorite and i always get it when i go there and never get tired of it
-try the congee{a-positive} and the donut like deep fried dough they call ow ley soh, a delicious and sweet tasting bread
+try the congee{a-positive} and the donut like deep fried dough they call ow_ley_soh{a-positive}, a delicious and sweet tasting bread
 simply some good tasting chinese_food{a-positive} at incredible prices
 service is not what you are coming here for unknowntoken{a-negative}
 big wong is a great place to eat and fill your stomach unknowntoken{a-positive}
 whoever the jazz_duo{a-positive} was, they were on point
-good music{a-positive}, great food, speedy service affordable prices
+good music{a-positive}, great food{a-positive}, speedy service{a-positive} affordable prices unknowntoken{a-positive}
 even the wine_by_the_glass{a-positive} was good
-its a little out of the way if you don't live in the neighborhood, but definitely worth the trip from wherever you are unknowntoken{a-negative}
+its a little out of the way if you don't live in the neighborhood, but definitely worth the trip from wherever you are unknowntoken{a-negative} unknowntoken{a-positive}
 consistently good japanese_tapas{a-positive}
-always good drinks{a-positive} and service is pretty good;
+always good drinks{a-positive} and service{a-positive} is pretty good;
 atmosphere is nice and relaxed too unknowntoken{a-positive}
 a great place{a-positive} to meet up for some food and drinks  
 yakitori (bbq meats) is tasty too unknowntoken{a-positive}
-if you don't mind pre-sliced low quality fish{a-negative}, unfriendly staff and a sushi chef that looks like he is miserable then this is your place
-price and quality of fish{a-negative} alone will keep us from making a return visit
+if you don't mind pre-sliced low quality fish{a-negative}, unfriendly staff{a-negative} and a sushi_chef{a-negative} that looks like he is miserable then this is your place
+price and quality of fish{a-negative}{a-negative} alone will keep us from making a return visit unknowntoken{a-negative}
 wasn't going to share but i feel obligatedwhile sitting at the sushi bar dining we watched the chef{a-negative} accidentally drop a piece of unagi on the floor and upon retrieving it from the floor proceed to use the piece in the delivery order he was preparing
 no thanks unknowntoken{a-negative}
 this place{a-positive}, which is only a few months old, is perhaps queens' biggest secret
-fabulous decor{a-positive} - makes you feel like you're in a trendy manhattan restaurant, very very good food, cheaply-priced, generally friendly staff, and if you're a manhattanite, or spend most of your time in manhattan, rice avenue will make you feel at homevery soho/village/upper west side minus the expensive prices and pretentious clienteleall on roosevelt avenue
+fabulous decor{a-positive} - makes you feel like you're in a trendy manhattan restaurant, very very good food{a-positive}{a-positive}, cheaply-priced, generally friendly staff{a-positive}, and if you're a manhattanite, or spend most of your time in manhattan, rice_avenue{a-positive} will make you feel at homevery soho/village/upper west side minus the expensive prices and pretentious clienteleall on roosevelt avenue
 we were seated outside and the waiter{a-negative} spilled red wine and hot tea on myself and my date
 we were then shooed inside unknowntoken{a-negative}
 one would think we'd get an apology or complimentary drinks - instead, we got a snobby waiter{a-negative} wouldn't even take our order for 15 minutes and gave us lip when we asked him to do so
 we left, never to return unknowntoken{a-negative}
-with so many good restaurants on the uws, i don't need overpriced food{a-negative}, absurdly arrogant wait-staff who don't recognize they work at a glorified diner, clumsy service, and management that doesn't care
-i am relatively new to the area and tried pick a bgel on 2nd and was disappointed with the service{a-negative} and i thought the food was overated and on the pricey side
-the food{a-neutral} is okay and the prices here are mediocre
-baluchi's has solid food{a-positive} and a nice decor at reasonable prices
+with so many good restaurants on the uws, i don't need overpriced food{a-negative}, absurdly arrogant wait-staff{a-negative} who don't recognize they work at a glorified diner, clumsy service{a-negative}, and management{a-negative} that doesn't care
+i am relatively new to the area and tried pick a bgel on 2nd and was disappointed with the service{a-negative} and i thought the food{a-negative}{a-negative} was overated and on the pricey side
+the food{a-neutral} is okay and the prices here are mediocre unknowntoken{a-neutral}
+baluchi's has solid food{a-positive} and a nice decor{a-positive} at reasonable prices unknowntoken{a-positive}
 the only problem is that the manager{a-negative} is a complete incompetent
 he offers subpar service{a-negative} and has no personality
 in fact, it appears he is going to go postal at any moment unknowntoken{a-negative}
@@ -1082,24 +1082,24 @@ you can do it here unknowntoken{a-positive}
 $20 for all_you_can_eat_sushi{a-positive} cannot be beaten
 i went to areo{a-positive} on a sunday afternoon with four of my girlfriends, and spent three enjoyable hours there
 most of the servers{a-positive} are very attentive, friendly and quite attractive
-the vibe{a-positive} is very relaxed and cozy, service was great and the food was excellent
+the vibe{a-positive} is very relaxed and cozy, service{a-positive} was great and the food{a-positive} was excellent
 me and my girls will definitely go back unknowntoken{a-positive}
-food was good and the view of the new york city skiline was terrific even on a foggy rainy day like that of when i went unknowntoken{a-positive}
+food was good and the view_of_the_new_york_city_skiline{a-positive} was terrific even on a foggy rainy day like that of when i went unknowntoken{a-positive}
 i would highly recommand requesting a table_by_the_window{a-positive}
-although they do the typical what kind of water would you like questions the service{a-positive} was good and overall very relaxing to place to eat
+although they do the typical what kind of water would you like questions the service{a-positive} was good and overall very relaxing to place{a-positive} to eat
 the food{a-positive} is great
 personal pans are the perfect size for those hungry nights unknowntoken{a-positive}
 i heartily recommend unknowntoken{a-positive}
 there is a downside if you're ordering in -- the delivery_guys{a-negative} have major attitude
 never have i had such dramatic delivery_guys{a-negative} (a lot of huffing and panting and muttering under breath b/c i live in a walkup) who always seem disappointed with their tips
-love the scene{a-positive} first off- the place has a character and nice light to itvery fortunate, location wise
-the pizza{a-positive} was pretty good and huge
+love the scene{a-positive} first off- the place{a-positive} has a character and nice light to itvery fortunate, location{a-positive} wise
+the pizza{a-positive}{a-positive} was pretty good and huge
 the price very reasonable unknowntoken{a-positive}
 we were 4 and got the family size penne_a_la_vodka{a-positive} which was tremendously gigantic portiona bucket of food literally
 i would say that all was fine and tasty but the heaviness on my stomach someting that i can't not mention or undermine unknowntoken{a-negative}
 the pasta_penne{a-negative} was pretty extra buttery, creamy which means a big task to diggest tasty at first but i would say that i was full with a slice of pizza and 7 to count, pennegot a little moody afterwards cause was stuffedlol
 la rosa waltzes in, and i think they are doing it the best unknowntoken{a-positive}
-interesting selection, good wines{a-positive}, service fine, fun decor
+interesting selection{a-positive}, good wines{a-positive}, service{a-positive} fine, fun decor{a-positive}
 i love it unknowntoken{a-positive}
 i plan on stopping by next week as well unknowntoken{a-positive}
 i found it on a cold night, the perfect spot{a-positive} to warm up
@@ -1109,12 +1109,12 @@ definately check it out unknowntoken{a-positive}
 this place{a-positive} blew me awayby far my new favorite restaurant on the uppereast side
 the wine_list{a-positive} is extensive and impressive
 love the atmosphere{a-positive} - felt like i was in paris
-the mussels{a-positive} were fantastic and so was the dessertdefinitely going to be back very soon
-i have been coming here for years and have nothing but good things to say about the service{a-positive} and the great staff at la lanterna
-over the years the host{a-positive}, vittorio, and his crew, have always treated me as family--although with all the business this not-so-little gem does, it amazing he's even able to remember a consistent but not-so-frequent visitor
-i've also been amazed at all the new additions in the past few years: a new jazz bar, the most fantastic dining_garden{a-positive}, the best thin crust pizzas, and now a lasagna menu which is to die for (these are not your average lasagnas)
+the mussels{a-positive} were fantastic and so was the dessert{a-positive}definitely going to be back very soon unknowntoken{a-positive}
+i have been coming here for years and have nothing but good things to say about the service{a-positive} and the great staff{a-positive} at la lanterna
+over the years the host{a-positive}, vittorio, and his crew{a-positive}, have always treated me as family--although with all the business this not-so-little gem does, it amazing he's even able to remember a consistent but not-so-frequent visitor
+i've also been amazed at all the new additions in the past few years: a new jazz_bar{a-positive}, the most fantastic dining_garden{a-positive}, the best thin_crust_pizzas{a-positive}, and now a lasagna_menu{a-positive} which is to die for (these are not your average lasagnas)
 i love this place{a-positive}
 keep up the good work guys unknowntoken{a-positive}
 i have to say i have never had a disapointing meal{a-positive} here
 we could have made a meal of the yummy dumplings{a-positive} from the dumpling menu
-luckily we saved room for the bbq_salmon{a-positive}, sea bass and crispy duck
+luckily we saved room for the bbq_salmon{a-positive}, sea_bass{a-positive} and crispy_duck{a-positive}

@@ -25,36 +25,57 @@ def load_embedding(data_dir, flag_addition_corpus, flag_word2vec):
     
     f_corpus = codecs.open('../data/corpus_for_word2vec.txt', 'w', 'utf-8')
 
-    for file in os.listdir(data_dir + '/ABSA_SemEval2015'):
+    for file in os.listdir(data_dir + '/ABSA_SemEval2015/'):
         if file.endswith('.txt'):
-            f_processed = codecs.open(data_dir + '/ABSA_SemEval2015' + file, 'r', 'utf-8')
+            f_processed = codecs.open(data_dir + '/ABSA_SemEval2015/' + file, 'r', 'utf-8')
             for line in f_processed:
                 corpus = line
                 corpus = corpus.replace('{a-positive}', '')
                 corpus = corpus.replace('{a-negative}', '')
                 corpus = corpus.replace('{a-neutral}', '')
-                f_corpus.write(corpus + '\n')
+                f_corpus.write(corpus)
 
     if (flag_addition_corpus):
         for file in os.listdir(data_dir + '/Addition_Restaurant_Reviews_For_Word2vec'):
-            with open(data_dir + '/Addition_Restaurant_Reviews_For_Word2vec/' + file, 'rb') as csvfile:
-                if file == '1-restaurant-test.csv':
-                    reader = csv.reader(csvfile, delimiter='\t', quotechar='|')
-                    for row in reader:
-                        f_corpus.write(row[0].lower().replace('\n', '').replace('"', '') + '\n')
-                elif file == '1-restaurant-train.csv':
-                    reader = csv.reader(csvfile, delimiter='\t', quotechar='|')
-                    for row in reader:
-                        f_corpus.write(row[1].lower().replace('\n', '').replace('"', '') + '\n')
-                else:
-                    reader = csv.reader(csvfile, delimiter=',', quotechar='|')
-                    for row in reader:
-                        f_corpus.write(row[9].lower().replace('\n', '').replace('"', '') + '\n')
+            try:
+                with codecs.open(data_dir + '/Addition_Restaurant_Reviews_For_Word2vec/' + file, 'rb', 'utf-8') as csvfile:
+                    if file == '1-restaurant-test.csv':
+                        reader = csv.reader(csvfile, delimiter='\t', quotechar='|')
+                        for row in reader:
+                            f_corpus.write(row[0].
+                                replace('\\n', '').
+                                replace('\\', '').
+                                replace('\"', '').
+                                replace('.', '').
+                                replace('!', '').
+                                lower() + '\n')
+                    elif file == '1-restaurant-train.csv':
+                        reader = csv.reader(csvfile, delimiter='\t', quotechar='|')
+                        for row in reader:
+                            f_corpus.write(row[1].
+                                replace('\\n', '').
+                                replace('\\', '').
+                                replace('\"', '').
+                                replace('.', '').
+                                replace('!', '').
+                                lower() + '\n')
+                    else:
+                        reader = csv.reader(csvfile, delimiter=',', quotechar='|')
+                        for row in reader:
+                            f_corpus.write(row[9].
+                                replace('\\n', '').
+                                replace('\\', '').
+                                replace('\"', '').
+                                replace('.', '').
+                                replace('!', '').
+                                lower() + '\n')
+            except (IndexError, UnicodeEncodeError) as error:
+                continue
 
     f_corpus.close()
 
     if (flag_word2vec):
-        os.system('cd ../fastText && ./fasttext cbow -input ../data/corpus_for_word2vec.txt -output ../data/cbow -dim 256 -minCount 3 -epoch 5')
+        os.system('cd ../fastText && ./fasttext cbow -input ../data/corpus_for_word2vec.txt -output ../data/cbow -dim 256 -minCount 3 -epoch 200')
     
     f_vec = codecs.open('../data/cbow.vec', 'r', 'utf-8')
     idx = 0
@@ -95,7 +116,6 @@ def export_aspect(data_dir):
     for w in sorted(set(aspect_list)):
         fa.write(w + '\n')
     
-    ft.close()
     fa.close()
     
     return set(aspect_list)
@@ -115,6 +135,7 @@ def change_xml_to_txt(data_dir):
 
     for i in range(len(sentences)):
         try:
+            sentence = sentences[i].find('text').text
             new_sentence = sentences[i].find('text').text
             opinions = sentences[i].find('Opinions').findall('Opinion')
             for opinion in opinions:
@@ -122,12 +143,12 @@ def change_xml_to_txt(data_dir):
                 end = int(opinion.get('to'))
                 polarity = opinion.get('polarity')
                 if (start != 0):
-                    new_sentence = new_sentence.replace(new_sentence[start:end],
-                                                        new_sentence[start:end].replace(' ', '_') + '{a-' + polarity + '}')
+                    new_sentence = new_sentence.replace(sentence[start:end],
+                                                        sentence[start:end].replace(' ', '_') + '{a-' + polarity + '}')
                 else:
                     new_sentence = new_sentence + ' unknowntoken{a-' + polarity + '}'
                     
-                train_text.write(new_sentence.replace('.', '').replace('!', '').lower() + '\n')
+            train_text.write(new_sentence.replace('.', '').replace('!', '').lower() + '\n')
 
         except AttributeError:
             continue
@@ -139,6 +160,7 @@ def change_xml_to_txt(data_dir):
 
     for i in range(len(sentences)):
         try:
+            sentence = sentences[i].find('text').text
             new_sentence = sentences[i].find('text').text
             opinions = sentences[i].find('Opinions').findall('Opinion')
             for opinion in opinions:
@@ -146,12 +168,12 @@ def change_xml_to_txt(data_dir):
                 end = int(opinion.get('to'))
                 polarity = opinion.get('polarity')
                 if (start != 0):
-                    new_sentence = new_sentence.replace(new_sentence[start:end],
-                                                        new_sentence[start:end].replace(' ', '_') + '{a-' + polarity + '}')
+                    new_sentence = new_sentence.replace(sentence[start:end],
+                                                        sentence[start:end].replace(' ', '_') + '{a-' + polarity + '}')
                 else:
                     new_sentence = new_sentence + ' unknowntoken{a-' + polarity + '}'
                     
-                test_text.write(new_sentence.replace('.', '').replace('!', '').lower() + '\n')
+            test_text.write(new_sentence.replace('.', '').replace('!', '').lower() + '\n')
 
         except AttributeError:
             continue
@@ -250,8 +272,10 @@ def load_data(data_dir, flag_word2vec, label_dict, seq_max_len, flag_addition_co
 
 
 def main():
-    change_xml_to_txt('../data')
-    export_aspect('../data')
+    data_dir = '../data'
+    change_xml_to_txt(data_dir)
+    export_aspect(data_dir)
+    load_embedding(data_dir, True, True)
 
 if __name__ == '__main__':
     main()
