@@ -35,7 +35,7 @@ Step by step:
 
 ## Authors
 
-* **Binh Thanh Do** 
+**Binh Thanh Do** 
 
 ## References
 [1] http://alt.qcri.org/semeval2015/cdrom/pdf/SemEval082.pdf
