@@ -29,11 +29,7 @@ def load_embedding(data_dir, flag_addition_corpus, flag_word2vec):
         if file.endswith('.txt'):
             f_processed = codecs.open(data_dir + '/ABSA_SemEval2015/' + file, 'r', 'utf-8')
             for line in f_processed:
-                corpus = line
-                corpus = corpus.replace('{a-positive}', '')
-                corpus = corpus.replace('{a-negative}', '')
-                corpus = corpus.replace('{a-neutral}', '')
-                f_corpus.write(corpus)
+                f_corpus.write(line.replace('{a-positive}', '').replace('{a-negative}', '').replace('{a-neutral}', ''))
 
     if (flag_addition_corpus):
         for file in os.listdir(data_dir + '/Addition_Restaurant_Reviews_For_Word2vec'):
@@ -75,7 +71,7 @@ def load_embedding(data_dir, flag_addition_corpus, flag_word2vec):
     f_corpus.close()
 
     if (flag_word2vec):
-        os.system('cd ../fastText && ./fasttext cbow -input ../data/corpus_for_word2vec.txt -output ../data/cbow -dim 256 -minCount 3 -epoch 200')
+        os.system('cd ../fastText && ./fasttext cbow -input ../data/corpus_for_word2vec.txt -output ../data/cbow -dim 256 -minCount 0 -epoch 1')
     
     f_vec = codecs.open('../data/cbow.vec', 'r', 'utf-8')
     idx = 0
@@ -180,17 +176,21 @@ def change_xml_to_txt(data_dir):
 
 def load_data(data_dir, flag_word2vec, label_dict, seq_max_len, flag_addition_corpus,
             flag_change_xml_to_txt, negative_weight, positive_weight, neutral_weight):
-    data = list()
-    mask = list()
-    binary_mask = list()
-    label = list()
+    train_data = list()
+    train_mask = list()
+    train_binary_mask = list()
+    train_label = list()
+    test_data = list()
+    test_mask = list()
+    test_binary_mask = list()
+    test_label = list()
 
     count_pos = 0
     count_neg = 0
     count_neu = 0
 
     if (flag_change_xml_to_txt):
-        flag_change_xml_to_txt(data_dir)
+        change_xml_to_txt(data_dir)
 
     aspect_list = export_aspect(data_dir)
     word_dict, word_dict_rev, embedding = load_embedding(data_dir, flag_addition_corpus, flag_word2vec)
@@ -210,12 +210,10 @@ def load_data(data_dir, flag_word2vec, label_dict, seq_max_len, flag_addition_co
             label_tmp = list()
             count_len = 0
 
-            words = line.split(' ')
+            words = line.strip().split(' ')
             for word in words:
-                word_clean = word
-                word_clean = word_clean.replace('{a-positive}', '')
-                word_clean = word_clean.replace('{a-negative}', '')
-                word_clean = word_clean.replace('{a-neutral}', '')
+                word_clean = word.replace('{a-positive}', '').replace('{a-negative}', '').replace('{a-neutral}', '')
+
                 if (word_clean in word_dict.keys() and count_len < seq_max_len):
                     if ('a-positive' in word):
                         mask_tmp.append(positive_weight)
@@ -240,42 +238,77 @@ def load_data(data_dir, flag_word2vec, label_dict, seq_max_len, flag_addition_co
 
                     data_tmp.append(word_dict[word_clean])
 
+
             for _ in range(seq_max_len - count_len):
                 data_tmp.append(word_dict['<padding>'])
                 mask_tmp.append(0.)
                 binary_mask_tmp.append(0.)
                 label_tmp.append(0)
 
-            data.append(data_tmp)
-            mask.append(mask_tmp)
-            binary_mask.append(binary_mask_tmp)
-            label.append(label_tmp)
+            if file == 'ABSA-15_Restaurants_Train_Final.txt':
+                train_data.append(data_tmp)
+                train_mask.append(mask_tmp)
+                train_binary_mask.append(binary_mask_tmp)
+                train_label.append(label_tmp)
+            else:
+                test_data.append(data_tmp)
+                test_mask.append(mask_tmp)
+                test_binary_mask.append(binary_mask_tmp)
+                test_label.append(label_tmp)
         f_processed.close()
-
+        print(count_neu)
     #TODO: get sequence length for each sentence
     print('pos: %d' %count_pos)
     print('neu: %d' %count_neu)
     print('neg: %d' %count_neg)
-    print('len of data is %d' %(len(data)))
+    print('len of train data is %d' %(len(train_data)))
+    print('len of test data is %d' %(len(test_data)))
     data_sample = ''
-    for id in data[10]:
+    for id in train_data[10]:
         data_sample = data_sample + ' ' + word_dict_rev[id]
     print('%s' %data_sample)
-    print(data[10])
-    print(mask[10])
-    print(label[10])
+    print(train_data[10])
+    print(train_mask[10])
+    print(train_label[10])
     print('len of word dictionary is %d' %(len(word_dict)))
     print('len of embedding is %d' %(len(embedding)))
     print('len of aspect_list is %d' %(len(aspect_list)))
 
-    return data, mask, binary_mask, label, word_dict, word_dict_rev, embedding, aspect_list
+    return train_data, train_mask, train_binary_mask, train_label, \
+    test_data, test_mask, test_binary_mask, test_label, \
+    word_dict, word_dict_rev, embedding, aspect_list
 
 
 def main():
+    seq_max_len = 32
+    negative_weight = 2.0
+    positive_weight = 1.0
+    neutral_weight = 5.0
+
+    label_dict = {
+        'a-positive' : 1,
+        'a-neutral' : 0,
+        'a-negative': 2
+    }
+
     data_dir = '../data'
-    change_xml_to_txt(data_dir)
-    export_aspect(data_dir)
-    load_embedding(data_dir, True, True)
+    flag_word2vec = False
+    flag_addition_corpus = False
+    flag_change_xml_to_txt = True
+
+    train_data, train_mask, train_binary_mask, train_label, \
+    test_data, test_mask, test_binary_mask, test_label, \
+    word_dict, word_dict_rev, embedding, aspect_list = load_data(
+        data_dir,
+        flag_word2vec,
+        label_dict,
+        seq_max_len,
+        flag_addition_corpus,
+        flag_change_xml_to_txt,
+        negative_weight,
+        positive_weight,
+        neutral_weight
+    )
 
 if __name__ == '__main__':
     main()

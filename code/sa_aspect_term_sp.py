@@ -45,7 +45,9 @@ flag_change_file_structure = True
 flag_train = True
 flag_test = True
 
-data, mask, binary_mask, label, word_list, word_dict_rev, embedding, aspect_list = utils.load_data(
+train_data, train_mask, train_binary_mask, train_label, \
+test_data, test_mask, test_binary_mask, test_label, \
+word_dict, word_dict_rev, embedding, aspect_list  = utils.load_data(
     data_dir,
     flag_word2vec,
     label_dict,
@@ -57,17 +59,6 @@ data, mask, binary_mask, label, word_list, word_dict_rev, embedding, aspect_list
     neutral_weight
 )
 
-nb_sample = len(data)
-
-train_data = data[0 : 80 * nb_sample // 100]
-train_mask = mask[0 : 80 * nb_sample // 100]
-train_label = label[0 : 80 * nb_sample // 100]
-train_binary_mask = binary_mask[0 : 80 * nb_sample // 100]
-
-test_data = data[80 * nb_sample // 100 : nb_sample]
-test_mask = mask[80 * nb_sample // 100 : nb_sample]
-test_label = label[80 * nb_sample // 100 : nb_sample]
-test_binary_mask = binary_mask[80 * nb_sample // 100 : nb_sample]
 
 nb_sample_train = len(train_data)
 

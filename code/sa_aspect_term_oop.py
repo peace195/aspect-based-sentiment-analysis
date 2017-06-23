@@ -30,7 +30,9 @@ class Data:
         self.positive_weight = positive_weight
         self.neutral_weight = neutral_weight
 
-        data, mask, binary_mask, label, self.word_dict, self.word_dict_rev, self.embedding, aspect_list = utils.load_data(
+        self.train_data, self.train_mask, self.train_binary_mask, self.train_label,
+        self.test_data, self.test_mask, self.test_binary_mask, self.test_label,  \
+        self.word_dict, self.word_dict_rev, self.embedding, aspect_list = utils.load_data(
             self.data_dir,
             self.flag_word2vec,
             self.label_dict,
@@ -42,18 +44,8 @@ class Data:
             self.neutral_weight
         )
 
-        nb_sample = len(data)
-        self.train_data = data[0 : 80 * nb_sample // 100]
-        self.train_mask = mask[0 : 80 * nb_sample // 100]
-        self.train_label = label[0 : 80 * nb_sample // 100]
-        self.train_binary_mask = binary_mask[0 : 80 * nb_sample // 100]
         self.nb_sample_train = len(self.train_data)
-
-        self.test_data = data[80 * nb_sample // 100 : nb_sample]
-        self.test_mask = mask[80 * nb_sample // 100 : nb_sample]
-        self.test_label = label[80 * nb_sample // 100 : nb_sample]
-        self.test_binary_mask = binary_mask[80 * nb_sample // 100 : nb_sample]
-
+        
         self.x_test = list()
         for i in range(len(self.test_data)):
             sentence = list()
