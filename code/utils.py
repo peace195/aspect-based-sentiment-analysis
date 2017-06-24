@@ -19,7 +19,7 @@ import xml.etree.ElementTree as ET
 
 
 
-def load_embedding(data_dir, flag_addition_corpus, flag_word2vec):
+def load_embedding(data_dir, flag_addition_corpus, flag_word2vec, aspect_list):
     word_dict = dict()
     embedding = list()
     
@@ -38,7 +38,13 @@ def load_embedding(data_dir, flag_addition_corpus, flag_word2vec):
                     if file == '1-restaurant-test.csv':
                         reader = csv.reader(csvfile, delimiter='\t', quotechar='|')
                         for row in reader:
-                            f_corpus.write(row[0].
+                            content = row[0]
+                            for word in aspect_list:
+                                start = content.find(word.replace('_', ' '))
+                                if start >= 0:
+                                    content = content.replace(content[start:start + len(word)],
+                                                    content[start:start + len(word)].replace(' ', '_'))
+                            f_corpus.write(content.
                                 replace('\\n', '').
                                 replace('\\', '').
                                 replace('\"', '').
@@ -48,7 +54,13 @@ def load_embedding(data_dir, flag_addition_corpus, flag_word2vec):
                     elif file == '1-restaurant-train.csv':
                         reader = csv.reader(csvfile, delimiter='\t', quotechar='|')
                         for row in reader:
-                            f_corpus.write(row[1].
+                            content = row[1]
+                            for word in aspect_list:
+                                start = content.find(word.replace('_', ' '))
+                                if start >= 0:
+                                    content = content.replace(content[start:start + len(word)],
+                                                    content[start:start + len(word)].replace(' ', '_'))
+                            f_corpus.write(content.
                                 replace('\\n', '').
                                 replace('\\', '').
                                 replace('\"', '').
@@ -58,7 +70,13 @@ def load_embedding(data_dir, flag_addition_corpus, flag_word2vec):
                     else:
                         reader = csv.reader(csvfile, delimiter=',', quotechar='|')
                         for row in reader:
-                            f_corpus.write(row[9].
+                            content = row[9]
+                            for word in aspect_list:
+                                start = content.find(word.replace('_', ' '))
+                                if start >= 0:
+                                    content = content.replace(content[start:start + len(word)],
+                                                    content[start:start + len(word)].replace(' ', '_'))
+                            f_corpus.write(content.
                                 replace('\\n', '').
                                 replace('\\', '').
                                 replace('\"', '').
@@ -193,7 +211,7 @@ def load_data(data_dir, flag_word2vec, label_dict, seq_max_len, flag_addition_co
         change_xml_to_txt(data_dir)
 
     aspect_list = export_aspect(data_dir)
-    word_dict, word_dict_rev, embedding = load_embedding(data_dir, flag_addition_corpus, flag_word2vec)
+    word_dict, word_dict_rev, embedding = load_embedding(data_dir, flag_addition_corpus, flag_word2vec, aspect_list)
 
     # load data, mask, label
 
