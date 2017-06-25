@@ -14,6 +14,9 @@ Step by step:
 1. Used contest data and "addition restaurantsreview data" to learn word embedding by fastText.
 2. Used bidirectional LSTM in the model as above. Input of the model are the vector of word embedding that we trained before.
 
+## Results
+Achieved **79%** accuracy. **Better** than all team in the competition[1]!!!
+
 ## Getting Started
 
 ### Data
@@ -21,6 +24,7 @@ Step by step:
 * Addition restaurant review data for restaurant-word2vec. Here, I use:
 	* https://inclass.kaggle.com/c/restaurant-reviews
 	* https://www.kaggle.com/snap/amazon-fine-food-reviews
+* My embedding result is available here: [google drive](https://drive.google.com/file/d/0B7O__AeIXgEkR3NrU1NEV2JPcXM/view?usp=sharing)
 
 ### Prerequisites
 * python 2.7
@@ -31,7 +35,6 @@ Step by step:
 	
 	python sa_aspect_term_oop.py
 	
-## Results
 
 ## Authors
 
