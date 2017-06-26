@@ -6,7 +6,7 @@
 #       description: Bi-direction LSTM model for aspect sentiment           # 
 #       input: sentences contain aspects                                    #
 #       output: sentiment label for aspects                                 #
-#       last update on 11:47PM 23/6/2017                                    #
+#       last update on 25/6/2017                                    #
 #---------------------------------------------------------------------------#
 
 import json
@@ -197,7 +197,6 @@ class Model:
                     else:
                         data_sample = data_sample + data.word_dict_rev[data.test_data[i][j]] + ' '
                 ret.append(data_sample.replace('<padding>', '').strip())
-        print ret
         return ret
 
 
@@ -269,6 +268,7 @@ class Model:
             accuracy_list.append(float(correct_prediction_train)/np.sum(x_train_binary_mask_batch))
 
             if it % 100 == 0:
+                self.save_model()
                 self.evaluate(data, it + 100 >= self.TRAINING_ITERATIONS, self.flag_train)
 
                 plt.plot(accuracy_list)
@@ -287,19 +287,18 @@ class Model:
                 plt.savefig('loss.png')
                 plt.close()
 
-        self.save_model()
         self.sess.close()
 
 
 def main():
-    batch_size = 128
+    batch_size = 256
     seq_max_len = 32
     nb_sentiment_label = 3
-    embedding_size = 256
+    embedding_size = 100
     nb_linear_inside = 256
     nb_lstm_inside = 256
     layers = 1
-    TRAINING_ITERATIONS = 15000
+    TRAINING_ITERATIONS = 8000
     LEARNING_RATE = 0.1
     WEIGHT_DECAY = 0.0005
     label_dict = {
@@ -309,12 +308,12 @@ def main():
     }
     data_dir = '../data/'
     flag_word2vec = False
-    flag_addition_corpus = True
-    flag_change_file_structure = True
-    flag_train = False
+    flag_addition_corpus = False
+    flag_change_file_structure = False
+    flag_train = True
     negative_weight = 2.0
     positive_weight = 1.0
-    neutral_weight = 3.0
+    neutral_weight = 1.0
 
     sess = tf.Session()
     

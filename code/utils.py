@@ -6,7 +6,7 @@
 #       author: BinhDT                                                                      #
 #       description: preprocess data like exporting aspect, word2vec, load embedding        #
 #       prepare data for training                                                           #
-#       last update on 11:47PM 23/6/2017                                                    #
+#       last update on 25/6/2017                                                    #
 #-------------------------------------------------------------------------------------------#
 
 import numpy as np
@@ -41,7 +41,7 @@ def load_embedding(data_dir, flag_addition_corpus, flag_word2vec, aspect_list):
                             content = row[0]
                             for word in aspect_list:
                                 start = content.find(word.replace('_', ' '))
-                                if start >= 0:
+                                if start >= 0 and '_' in word:
                                     content = content.replace(content[start:start + len(word)],
                                                     content[start:start + len(word)].replace(' ', '_'))
                             f_corpus.write(content.
@@ -57,7 +57,7 @@ def load_embedding(data_dir, flag_addition_corpus, flag_word2vec, aspect_list):
                             content = row[1]
                             for word in aspect_list:
                                 start = content.find(word.replace('_', ' '))
-                                if start >= 0:
+                                if start >= 0 and '_' in word:
                                     content = content.replace(content[start:start + len(word)],
                                                     content[start:start + len(word)].replace(' ', '_'))
                             f_corpus.write(content.
@@ -73,7 +73,7 @@ def load_embedding(data_dir, flag_addition_corpus, flag_word2vec, aspect_list):
                             content = row[9]
                             for word in aspect_list:
                                 start = content.find(word.replace('_', ' '))
-                                if start >= 0:
+                                if start >= 0 and '_' in word:
                                     content = content.replace(content[start:start + len(word)],
                                                     content[start:start + len(word)].replace(' ', '_'))
                             f_corpus.write(content.
@@ -89,13 +89,13 @@ def load_embedding(data_dir, flag_addition_corpus, flag_word2vec, aspect_list):
     f_corpus.close()
 
     if (flag_word2vec):
-        os.system('cd ../fastText && ./fasttext cbow -input ../data/corpus_for_word2vec.txt -output ../data/cbow -dim 256 -minCount 0 -epoch 1')
+        os.system('cd ../fastText && ./fasttext cbow -input ../data/corpus_for_word2vec.txt -output ../data/cbow -dim 100 -minCount 1 -epoch 300')
     
     f_vec = codecs.open('../data/cbow.vec', 'r', 'utf-8')
     idx = 0
     for line in f_vec:
         
-        if len(line) < 200:
+        if len(line) < 100:
             continue
         else:
             component = line.strip().split(' ')
@@ -274,7 +274,6 @@ def load_data(data_dir, flag_word2vec, label_dict, seq_max_len, flag_addition_co
                 test_binary_mask.append(binary_mask_tmp)
                 test_label.append(label_tmp)
         f_processed.close()
-        print(count_neu)
     #TODO: get sequence length for each sentence
     print('pos: %d' %count_pos)
     print('neu: %d' %count_neu)
@@ -296,7 +295,7 @@ def load_data(data_dir, flag_word2vec, label_dict, seq_max_len, flag_addition_co
     test_data, test_mask, test_binary_mask, test_label, \
     word_dict, word_dict_rev, embedding, aspect_list
 
-
+"""
 def main():
     seq_max_len = 32
     negative_weight = 2.0
@@ -330,3 +329,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+"""

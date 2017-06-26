@@ -6,7 +6,7 @@
 #       description: Bi-direction LSTM model for aspect sentiment           # 
 #       input: sentences contain aspects                                    #
 #       output: sentiment label for aspects                                 #
-#       last update on 11:47PM 23/6/2017                                    #
+#       last update on 25/6/2017                                    #
 #---------------------------------------------------------------------------#
 
 import json
@@ -21,7 +21,7 @@ import matplotlib.pyplot as plt
 batch_size = 128
 seq_max_len = 32
 nb_sentiment_label = 3
-embedding_size = 256
+embedding_size = 100
 nb_linear_inside = 256
 nb_lstm_inside = 256
 layers = 1
@@ -59,9 +59,7 @@ word_dict, word_dict_rev, embedding, aspect_list  = utils.load_data(
     neutral_weight
 )
 
-
 nb_sample_train = len(train_data)
-
 
 # Modeling
 
