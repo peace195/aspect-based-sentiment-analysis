@@ -15,7 +15,7 @@ Step by step:
 2. Used bidirectional LSTM in the model as above. Input of the model are the vector of word embedding that we trained before.
 
 ## Results
-Achieved **79%** accuracy. **Better** than all team in the competition[1]!!!
+BINGO!! Achieved **80%** accuracy. **Better** than all team in the competition[1]
 
 ## Getting Started
 
@@ -33,7 +33,7 @@ Achieved **79%** accuracy. **Better** than all team in the competition[1]!!!
 
 ### Installing
 	
-	python sa_aspect_term_oop.py
+	$ python sa_aspect_term_oop.py
 	
 
 ## Authors
