@@ -19,7 +19,7 @@ import xml.etree.ElementTree as ET
 
 
 
-def load_embedding(data_dir, flag_addition_corpus, flag_word2vec, aspect_list):
+def load_embedding(data_dir, flag_addition_corpus, flag_word2vec):
     word_dict = dict()
     embedding = list()
     
@@ -32,19 +32,13 @@ def load_embedding(data_dir, flag_addition_corpus, flag_word2vec, aspect_list):
                 f_corpus.write(line.replace('{a-positive}', '').replace('{a-negative}', '').replace('{a-neutral}', ''))
 
     if (flag_addition_corpus):
-        for file in os.listdir(data_dir + '/Addition_Restaurant_Reviews_For_Word2vec'):
+        for file in os.listdir(data_dir + '/Addition_Restaurants_Reviews_For_Word2vec'):
             try:
-                with codecs.open(data_dir + '/Addition_Restaurant_Reviews_For_Word2vec/' + file, 'rb', 'utf-8') as csvfile:
+                with codecs.open(data_dir + '/Addition_Restaurants_Reviews_For_Word2vec/' + file, 'rb', 'utf-8') as csvfile:
                     if file == '1-restaurant-test.csv':
                         reader = csv.reader(csvfile, delimiter='\t', quotechar='|')
                         for row in reader:
-                            content = row[0]
-                            for word in aspect_list:
-                                start = content.find(word.replace('_', ' '))
-                                if start >= 0 and '_' in word:
-                                    content = content.replace(content[start:start + len(word)],
-                                                    content[start:start + len(word)].replace(' ', '_'))
-                            f_corpus.write(content.
+                            f_corpus.write(row[0].
                                 replace('\\n', '').
                                 replace('\\', '').
                                 replace('\"', '').
@@ -54,13 +48,7 @@ def load_embedding(data_dir, flag_addition_corpus, flag_word2vec, aspect_list):
                     elif file == '1-restaurant-train.csv':
                         reader = csv.reader(csvfile, delimiter='\t', quotechar='|')
                         for row in reader:
-                            content = row[1]
-                            for word in aspect_list:
-                                start = content.find(word.replace('_', ' '))
-                                if start >= 0 and '_' in word:
-                                    content = content.replace(content[start:start + len(word)],
-                                                    content[start:start + len(word)].replace(' ', '_'))
-                            f_corpus.write(content.
+                            f_corpus.write(row[1].
                                 replace('\\n', '').
                                 replace('\\', '').
                                 replace('\"', '').
@@ -69,14 +57,8 @@ def load_embedding(data_dir, flag_addition_corpus, flag_word2vec, aspect_list):
                                 lower() + '\n')
                     else:
                         reader = csv.reader(csvfile, delimiter=',', quotechar='|')
-                        for row in reader:
-                            content = row[9]
-                            for word in aspect_list:
-                                start = content.find(word.replace('_', ' '))
-                                if start >= 0 and '_' in word:
-                                    content = content.replace(content[start:start + len(word)],
-                                                    content[start:start + len(word)].replace(' ', '_'))
-                            f_corpus.write(content.
+                        for row in reader:        
+                            f_corpus.write(row[9].
                                 replace('\\n', '').
                                 replace('\\', '').
                                 replace('\"', '').
@@ -135,7 +117,7 @@ def export_aspect(data_dir):
     return set(aspect_list)
 
 
-def change_xml_to_txt(data_dir):
+def change_xml_to_txt_v1(data_dir):
     train_filename = data_dir + '/ABSA_SemEval2015/ABSA-15_Restaurants_Train_Final.xml'
     test_filename = data_dir + '/ABSA_SemEval2015/ABSA15_Restaurants_Test.xml'
 
@@ -192,6 +174,66 @@ def change_xml_to_txt(data_dir):
         except AttributeError:
             continue
 
+def change_xml_to_txt_v2(data_dir):
+    train_filename = data_dir + '/ABSA_SemEval2015/ABSA-15_Restaurants_Train_Final.xml'
+    test_filename = data_dir + '/ABSA_SemEval2015/ABSA15_Restaurants_Test.xml'
+
+    train_text = codecs.open(data_dir + '/ABSA_SemEval2015/ABSA-15_Restaurants_Train_Final.txt', 'w', 'utf-8')
+    test_text = codecs.open(data_dir + '/ABSA_SemEval2015/ABSA15_Restaurants_Test.txt', 'w', 'utf-8')
+
+    reviews = ET.parse(train_filename).getroot().findall('Review')
+    sentences = []
+    for r in reviews:
+        sentences += r.find('sentences').getchildren()
+
+    for i in range(len(sentences)):
+        try:
+            sentence = sentences[i].find('text').text
+            new_sentence = sentences[i].find('text').text
+            opinions = sentences[i].find('Opinions').findall('Opinion')
+            for opinion in opinions:
+                start = int(opinion.get('from'))
+                end = int(opinion.get('to'))
+                polarity = opinion.get('polarity')
+                category = opinion.get('category')
+                if (start != 0):
+                    new_sentence = new_sentence.replace(sentence[start:end],
+                                                        category + '{a-' + polarity + '}')
+                else:
+                    new_sentence = new_sentence + ' ' + category + '{a-' + polarity + '}'
+                    
+            train_text.write(new_sentence.replace('.', '').replace('!', '').lower() + '\n')
+
+        except AttributeError:
+            continue
+
+    reviews = ET.parse(test_filename).getroot().findall('Review')
+    sentences = []
+    for r in reviews:
+        sentences += r.find('sentences').getchildren()
+
+    for i in range(len(sentences)):
+        try:
+            sentence = sentences[i].find('text').text
+            new_sentence = sentences[i].find('text').text
+            opinions = sentences[i].find('Opinions').findall('Opinion')
+            for opinion in opinions:
+                start = int(opinion.get('from'))
+                end = int(opinion.get('to'))
+                polarity = opinion.get('polarity')
+                category = opinion.get('category')
+                if (start != 0):
+                    new_sentence = new_sentence.replace(sentence[start:end],
+                                                        category + '{a-' + polarity + '}')
+                else:
+                    new_sentence = new_sentence + ' ' + category + '{a-' + polarity + '}'
+                    
+            test_text.write(new_sentence.replace('.', '').replace('!', '').lower() + '\n')
+
+        except AttributeError:
+            continue
+
+
 def load_data(data_dir, flag_word2vec, label_dict, seq_max_len, flag_addition_corpus,
             flag_change_xml_to_txt, negative_weight, positive_weight, neutral_weight):
     train_data = list()
@@ -208,10 +250,10 @@ def load_data(data_dir, flag_word2vec, label_dict, seq_max_len, flag_addition_co
     count_neu = 0
 
     if (flag_change_xml_to_txt):
-        change_xml_to_txt(data_dir)
+        change_xml_to_txt_v2(data_dir)
 
     aspect_list = export_aspect(data_dir)
-    word_dict, word_dict_rev, embedding = load_embedding(data_dir, flag_addition_corpus, flag_word2vec, aspect_list)
+    word_dict, word_dict_rev, embedding = load_embedding(data_dir, flag_addition_corpus, flag_word2vec)
 
     # load data, mask, label
 
@@ -295,7 +337,7 @@ def load_data(data_dir, flag_word2vec, label_dict, seq_max_len, flag_addition_co
     test_data, test_mask, test_binary_mask, test_label, \
     word_dict, word_dict_rev, embedding, aspect_list
 
-"""
+
 def main():
     seq_max_len = 32
     negative_weight = 2.0
@@ -329,4 +371,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-"""
