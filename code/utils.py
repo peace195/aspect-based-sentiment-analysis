@@ -6,11 +6,12 @@
 #       author: BinhDT                                                                      #
 #       description: preprocess data like exporting aspect, word2vec, load embedding        #
 #       prepare data for training                                                           #
-#       last update on 25/6/2017                                                    #
+#       last update on 02/7/2017                                                    		#
 #-------------------------------------------------------------------------------------------#
 
 import numpy as np
 import os
+import re
 import csv
 from collections import Counter
 import codecs
@@ -38,40 +39,22 @@ def load_embedding(data_dir, flag_addition_corpus, flag_word2vec):
                     if file == '1-restaurant-test.csv':
                         reader = csv.reader(csvfile, delimiter='\t', quotechar='|')
                         for row in reader:
-                            f_corpus.write(row[0].
-                                replace('\\n', '').
-                                replace('\\', '').
-                                replace('\"', '').
-                                replace('.', '').
-                                replace('!', '').
-                                lower() + '\n')
+                            f_corpus.write(re.sub(r'[.,:;?!\n()\\]','', row[0]).lower() + '\n')
                     elif file == '1-restaurant-train.csv':
                         reader = csv.reader(csvfile, delimiter='\t', quotechar='|')
                         for row in reader:
-                            f_corpus.write(row[1].
-                                replace('\\n', '').
-                                replace('\\', '').
-                                replace('\"', '').
-                                replace('.', '').
-                                replace('!', '').
-                                lower() + '\n')
+                            f_corpus.write(re.sub(r'[.,:;?!\n()\\]','', row[1]).lower() + '\n')
                     else:
                         reader = csv.reader(csvfile, delimiter=',', quotechar='|')
                         for row in reader:        
-                            f_corpus.write(row[9].
-                                replace('\\n', '').
-                                replace('\\', '').
-                                replace('\"', '').
-                                replace('.', '').
-                                replace('!', '').
-                                lower() + '\n')
+                            f_corpus.write(re.sub(r'[.,:;?!\n()\\]','', row[9]).lower() + '\n')
             except (IndexError, UnicodeEncodeError) as error:
                 continue
 
     f_corpus.close()
 
     if (flag_word2vec):
-        os.system('cd ../fastText && ./fasttext cbow -input ../data/corpus_for_word2vec.txt -output ../data/cbow -dim 100 -minCount 1 -epoch 300')
+        os.system('cd ../fastText && ./fasttext cbow -input ../data/corpus_for_word2vec.txt -output ../data/cbow -dim 100 -minCount 2 -epoch 300')
     
     f_vec = codecs.open('../data/cbow.vec', 'r', 'utf-8')
     idx = 0
@@ -93,6 +76,14 @@ def load_embedding(data_dir, flag_addition_corpus, flag_word2vec):
     word_dict_rev = {v: k for k, v in word_dict.iteritems()}
     return word_dict, word_dict_rev, embedding
 
+
+def load_stop_words():
+    stop_words = list()
+    fsw = codecs.open('../dictionary/stop_words.txt', 'r', 'utf-8')
+    for line in fsw:
+        stop_words.append(line.strip())
+    fsw.close()
+    return stop_words
 
 def export_aspect(data_dir):
     aspect_list = list()
@@ -138,13 +129,13 @@ def change_xml_to_txt_v1(data_dir):
                 start = int(opinion.get('from'))
                 end = int(opinion.get('to'))
                 polarity = opinion.get('polarity')
-                if (start != 0):
+                if (end != 0):
                     new_sentence = new_sentence.replace(sentence[start:end],
                                                         sentence[start:end].replace(' ', '_') + '{a-' + polarity + '}')
                 else:
                     new_sentence = new_sentence + ' unknowntoken{a-' + polarity + '}'
                     
-            train_text.write(new_sentence.replace('.', '').replace('!', '').lower() + '\n')
+            train_text.write(re.sub(r'[.,:;?!\n()\\]','', new_sentence).lower() + '\n')
 
         except AttributeError:
             continue
@@ -163,16 +154,19 @@ def change_xml_to_txt_v1(data_dir):
                 start = int(opinion.get('from'))
                 end = int(opinion.get('to'))
                 polarity = opinion.get('polarity')
-                if (start != 0):
+                if (end != 0):
                     new_sentence = new_sentence.replace(sentence[start:end],
                                                         sentence[start:end].replace(' ', '_') + '{a-' + polarity + '}')
                 else:
                     new_sentence = new_sentence + ' unknowntoken{a-' + polarity + '}'
                     
-            test_text.write(new_sentence.replace('.', '').replace('!', '').lower() + '\n')
+            test_text.write(re.sub(r'[.,:;?!\n()\\]','', new_sentence).lower() + '\n')
 
         except AttributeError:
             continue
+
+def sortchildrenby(parent, attr):
+    parent[:] = sorted(parent, key=lambda child: int(child.get(attr)))
 
 def change_xml_to_txt_v2(data_dir):
     train_filename = data_dir + '/ABSA_SemEval2015/ABSA-15_Restaurants_Train_Final.xml'
@@ -188,21 +182,22 @@ def change_xml_to_txt_v2(data_dir):
 
     for i in range(len(sentences)):
         try:
-            sentence = sentences[i].find('text').text
             new_sentence = sentences[i].find('text').text
             opinions = sentences[i].find('Opinions').findall('Opinion')
+            sortchildrenby(opinions, 'from')
+            bias = 0
             for opinion in opinions:
                 start = int(opinion.get('from'))
                 end = int(opinion.get('to'))
                 polarity = opinion.get('polarity')
                 category = opinion.get('category')
-                if (start != 0):
-                    new_sentence = new_sentence.replace(sentence[start:end],
-                                                        category + '{a-' + polarity + '}')
+                target = opinion.get('target').lower()
+                if (end != 0):
+                    new_sentence = new_sentence[:bias+end] + ' ' + category + '{a-' + polarity + '}' + new_sentence[bias+end:]
+                    bias = bias + len(category + '{a-' + polarity + '}') + 1
                 else:
                     new_sentence = new_sentence + ' ' + category + '{a-' + polarity + '}'
-                    
-            train_text.write(new_sentence.replace('.', '').replace('!', '').lower() + '\n')
+            train_text.write(re.sub(r'[.,:;?!\n()\\]','', new_sentence).lower() + '\n')
 
         except AttributeError:
             continue
@@ -214,25 +209,104 @@ def change_xml_to_txt_v2(data_dir):
 
     for i in range(len(sentences)):
         try:
-            sentence = sentences[i].find('text').text
             new_sentence = sentences[i].find('text').text
             opinions = sentences[i].find('Opinions').findall('Opinion')
+            sortchildrenby(opinions, 'from')
+            bias = 0
             for opinion in opinions:
                 start = int(opinion.get('from'))
                 end = int(opinion.get('to'))
                 polarity = opinion.get('polarity')
                 category = opinion.get('category')
-                if (start != 0):
-                    new_sentence = new_sentence.replace(sentence[start:end],
-                                                        category + '{a-' + polarity + '}')
+                if (end != 0):
+                    new_sentence = new_sentence[:bias+end] + ' ' + category + '{a-' + polarity + '}' + new_sentence[bias+end:]
+                    bias = bias + len(category + '{a-' + polarity + '}') + 1
                 else:
                     new_sentence = new_sentence + ' ' + category + '{a-' + polarity + '}'
                     
-            test_text.write(new_sentence.replace('.', '').replace('!', '').lower() + '\n')
+            test_text.write(re.sub(r'[.,:;?!\n()\\]','', new_sentence).lower() + '\n')
 
         except AttributeError:
             continue
 
+def change_xml_to_txt_v3(data_dir):
+    train_filename = data_dir + '/ABSA_SemEval2015/ABSA-15_Restaurants_Train_Final.xml'
+    test_filename = data_dir + '/ABSA_SemEval2015/ABSA15_Restaurants_Test.xml'
+
+    train_text = codecs.open(data_dir + '/ABSA_SemEval2015/ABSA-15_Restaurants_Train_Final.txt', 'w', 'utf-8')
+    test_text = codecs.open(data_dir + '/ABSA_SemEval2015/ABSA15_Restaurants_Test.txt', 'w', 'utf-8')
+
+    reviews = ET.parse(train_filename).getroot().findall('Review')
+    sentences = []
+    for r in reviews:
+        sentences += r.find('sentences').getchildren()
+
+    for i in range(len(sentences)):
+        try:
+            new_sentence = sentences[i].find('text').text
+            opinions = sentences[i].find('Opinions').findall('Opinion')
+            sortchildrenby(opinions, 'from')
+            bias = 0
+            last_start = -1
+            last_end = -1
+            for opinion in opinions:
+                start = int(opinion.get('from'))
+                end = int(opinion.get('to'))
+                polarity = opinion.get('polarity')
+                category = opinion.get('category')
+                target = opinion.get('target').lower()
+                if (end != 0):
+                    if (last_start == start and last_end == end):
+                        new_sentence = new_sentence[:bias+len(target)+start+1] + category + '{a-' + polarity + '}' + new_sentence[bias+len(target)+start:]
+                        bias = bias + len(category + '{a-' + polarity + '}') + 1
+                    else:
+                        new_sentence = new_sentence[:bias+start] + category + '{a-' + polarity + '}' + new_sentence[bias+end:]
+                        bias = bias + len(category + '{a-' + polarity + '}') - len(target)
+                else:
+                    new_sentence = new_sentence + ' ' + category + '{a-' + polarity + '}'
+
+                last_start = start
+                last_end = end
+            train_text.write(re.sub(r'[.,:;?!\n()\\]','', new_sentence).lower() + '\n')
+
+        except AttributeError:
+            continue
+
+    reviews = ET.parse(test_filename).getroot().findall('Review')
+    sentences = []
+    for r in reviews:
+        sentences += r.find('sentences').getchildren()
+
+    for i in range(len(sentences)):
+        try:
+            new_sentence = sentences[i].find('text').text
+            opinions = sentences[i].find('Opinions').findall('Opinion')
+            sortchildrenby(opinions, 'from')
+            bias = 0
+            last_start = -1
+            last_end = -1
+            for opinion in opinions:
+                start = int(opinion.get('from'))
+                end = int(opinion.get('to'))
+                polarity = opinion.get('polarity')
+                category = opinion.get('category')
+                target = opinion.get('target').lower()
+                if (end != 0):
+                    if (last_start == start and last_end == end):
+                        new_sentence = new_sentence[:bias+len(target)+start+1] + category + '{a-' + polarity + '}' + new_sentence[bias+len(target)+start:]
+                        bias = bias + len(category + '{a-' + polarity + '}') + 1
+                    else:
+                        new_sentence = new_sentence[:bias+start] + category + '{a-' + polarity + '}' + new_sentence[bias+end:]
+                        bias = bias + len(category + '{a-' + polarity + '}') - len(target)
+                else:
+                    new_sentence = new_sentence + ' ' + category + '{a-' + polarity + '}'
+
+                last_start = start
+                last_end = end
+            test_text.write(re.sub(r'[.,:;?!\n()\\]','', new_sentence).lower() + '\n')
+
+        except AttributeError:
+            continue
 
 def load_data(data_dir, flag_word2vec, label_dict, seq_max_len, flag_addition_corpus,
             flag_change_xml_to_txt, negative_weight, positive_weight, neutral_weight):
@@ -240,11 +314,12 @@ def load_data(data_dir, flag_word2vec, label_dict, seq_max_len, flag_addition_co
     train_mask = list()
     train_binary_mask = list()
     train_label = list()
+    train_seq_len = list()
     test_data = list()
     test_mask = list()
     test_binary_mask = list()
     test_label = list()
-
+    test_seq_len = list()
     count_pos = 0
     count_neg = 0
     count_neu = 0
@@ -252,9 +327,9 @@ def load_data(data_dir, flag_word2vec, label_dict, seq_max_len, flag_addition_co
     if (flag_change_xml_to_txt):
         change_xml_to_txt_v2(data_dir)
 
+    stop_words = load_stop_words()
     aspect_list = export_aspect(data_dir)
     word_dict, word_dict_rev, embedding = load_embedding(data_dir, flag_addition_corpus, flag_word2vec)
-
     # load data, mask, label
 
 
@@ -272,6 +347,8 @@ def load_data(data_dir, flag_word2vec, label_dict, seq_max_len, flag_addition_co
 
             words = line.strip().split(' ')
             for word in words:
+                if (word in stop_words):
+                    continue
                 word_clean = word.replace('{a-positive}', '').replace('{a-negative}', '').replace('{a-neutral}', '')
 
                 if (word_clean in word_dict.keys() and count_len < seq_max_len):
@@ -298,6 +375,11 @@ def load_data(data_dir, flag_word2vec, label_dict, seq_max_len, flag_addition_co
 
                     data_tmp.append(word_dict[word_clean])
 
+
+            if file == 'ABSA-15_Restaurants_Train_Final.txt':
+                train_seq_len.append(count_len)
+            else:
+                test_seq_len.append(count_len)
 
             for _ in range(seq_max_len - count_len):
                 data_tmp.append(word_dict['<padding>'])
@@ -332,15 +414,15 @@ def load_data(data_dir, flag_word2vec, label_dict, seq_max_len, flag_addition_co
     print('len of word dictionary is %d' %(len(word_dict)))
     print('len of embedding is %d' %(len(embedding)))
     print('len of aspect_list is %d' %(len(aspect_list)))
-
-    return train_data, train_mask, train_binary_mask, train_label, \
-    test_data, test_mask, test_binary_mask, test_label, \
+    print('max sequence length is %d' %(np.max(test_seq_len)))
+    return train_data, train_mask, train_binary_mask, train_label, train_seq_len, \
+    test_data, test_mask, test_binary_mask, test_label, test_seq_len, \
     word_dict, word_dict_rev, embedding, aspect_list
 
 
 def main():
-    seq_max_len = 32
-    negative_weight = 2.0
+    seq_max_len = 64
+    negative_weight = 2.5
     positive_weight = 1.0
     neutral_weight = 5.0
 
@@ -355,8 +437,8 @@ def main():
     flag_addition_corpus = False
     flag_change_xml_to_txt = True
 
-    train_data, train_mask, train_binary_mask, train_label, \
-    test_data, test_mask, test_binary_mask, test_label, \
+    train_data, train_mask, train_binary_mask, train_label, train_seq_len, \
+    test_data, test_mask, test_binary_mask, test_label, test_seq_len, \
     word_dict, word_dict_rev, embedding, aspect_list = load_data(
         data_dir,
         flag_word2vec,
