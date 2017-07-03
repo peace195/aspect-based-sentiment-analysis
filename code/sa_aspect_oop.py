@@ -6,7 +6,7 @@
 #       description: Bi-direction LSTM model for aspect sentiment           # 
 #       input: sentences contain aspects                                    #
 #       output: sentiment label for aspects                                 #
-#       last update on 25/6/2017                                    #
+#       last update on 02/7/2017                                    #
 #---------------------------------------------------------------------------#
 
 import json
@@ -19,7 +19,7 @@ import matplotlib.pyplot as plt
 
 class Data:
     def __init__(self, data_dir, flag_word2vec, label_dict, seq_max_len, flag_addition_corpus,
-     flag_change_file_structure, negative_weight, positive_weight, neutral_weight):
+     flag_change_file_structure, negative_weight, positive_weight, neutral_weight, flag_use_sentiment_embedding):
         self.seq_max_len = seq_max_len
         self.label_dict = label_dict
         self.data_dir = data_dir
@@ -29,9 +29,10 @@ class Data:
         self.negative_weight = negative_weight
         self.positive_weight = positive_weight
         self.neutral_weight = neutral_weight
+        self.flag_use_sentiment_embedding = flag_use_sentiment_embedding
 
-        self.train_data, self.train_mask, self.train_binary_mask, self.train_label, \
-        self.test_data, self.test_mask, self.test_binary_mask, self.test_label,  \
+        self.train_data, self.train_mask, self.train_binary_mask, self.train_label, self.train_seq_len, \
+        self.test_data, self.test_mask, self.test_binary_mask, self.test_label, self.test_seq_len, \
         self.word_dict, self.word_dict_rev, self.embedding, aspect_list = utils.load_data(
             self.data_dir,
             self.flag_word2vec,
@@ -41,7 +42,8 @@ class Data:
             self.flag_change_file_structure,
             self.negative_weight,
             self.positive_weight,
-            self.neutral_weight
+            self.neutral_weight,
+            self.flag_use_sentiment_embedding
         )
 
         self.nb_sample_train = len(self.train_data)
@@ -110,6 +112,7 @@ class Model:
         self.tf_X_train_mask = tf.placeholder(tf.float32, shape=[None, self.seq_max_len])
         self.tf_X_binary_mask = tf.placeholder(tf.float32, shape=[None, self.seq_max_len])
         self.tf_y_train = tf.placeholder(tf.int64, shape=[None, self.seq_max_len])
+        self.tf_X_seq_len = tf.placeholder(tf.int64, shape=[None])
         self.keep_prob = tf.placeholder(tf.float32)
         
         self.ln_w = tf.Variable(tf.truncated_normal([self.embedding_size, self.nb_linear_inside], stddev = 1.0 / math.sqrt(self.embedding_size)))
@@ -144,7 +147,9 @@ class Model:
         # Get lstm cell output
         outputs, _, _ = tf.contrib.rnn.static_bidirectional_rnn(lstm_fw_multicell,
                                                      lstm_bw_multicell,
-                                                     X_train, dtype='float32')
+                                                     X_train,
+                                                     dtype='float32',
+                                                     sequence_length = self.tf_X_seq_len)
         # outputs = tf.concat(outputs, 2)
         output_fw, output_bw = tf.split(outputs, [self.nb_lstm_inside, self.nb_lstm_inside], 2)
         sentiment = tf.reshape(tf.add(output_fw, output_bw), [-1, self.nb_lstm_inside]) 
@@ -182,6 +187,7 @@ class Model:
         prediction_test = self.sess.run(self.prediction, 
                           feed_dict={self.tf_X_train: np.asarray(data.x_test),
                                      self.tf_X_binary_mask: np.asarray(data.test_binary_mask),
+                                     self.tf_X_seq_len: np.asarray(data.test_seq_len),
                                      self.keep_prob: 1.0})
 
 
@@ -206,15 +212,15 @@ class Model:
 
         correct_prediction_test, prediction_test = self.sess.run([self.correct_prediction, self.prediction], 
                                               feed_dict={self.tf_X_train: np.asarray(data.x_test),
-                                                         self.tf_X_train_mask: np.asarray(data.test_mask),
                                                          self.tf_X_binary_mask: np.asarray(data.test_binary_mask),
+                                                         self.tf_X_seq_len: np.asarray(data.test_seq_len),
                                                          self.tf_y_train: np.asarray(data.test_label),
                                                          self.keep_prob: 1.0})
 
         print('test accuracy => %.3f' %(float(correct_prediction_test)/np.sum(data.test_binary_mask)))
 
         if (flag_write_to_file):
-            f_result = codecs.open('../result/result', 'w', 'utf-8')
+            f_result = codecs.open('../result/result.txt', 'w', 'utf-8')
             f_result.write('#---------------------------------------------------------------------------------------------------------#\n')
             f_result.write('#\t author: BinhDT\n')
             f_result.write('#\t test accuracy %.2f\n' %(float(correct_prediction_test)*100/np.sum(np.asarray(data.test_binary_mask) > 0.)))
@@ -253,23 +259,35 @@ class Model:
             x_train_mask_batch  = np.asarray(data.train_mask[index : index + self.batch_size])
             x_train_binary_mask_batch  = np.asarray(data.train_binary_mask[index : index + self.batch_size])
             x_train_batch = np.asarray(data.x_train[index : index + self.batch_size])
+            x_train_seq_len = np.asarray(data.train_seq_len[index : index + self.batch_size])
 
-            _, correct_prediction_train, cost_train = self.sess.run([self.optimizer, self.correct_prediction, self.cross_entropy], 
-                                                      feed_dict={self.tf_X_train: x_train_batch,
-                                                                 self.tf_X_train_mask: x_train_mask_batch,
-                                                                 self.tf_X_binary_mask: x_train_binary_mask_batch,
-                                                                 self.tf_y_train: y_train_batch,
-                                                                 self.keep_prob: 1.0})
+            self.sess.run(self.optimizer, 
+                          feed_dict={self.tf_X_train: x_train_batch,
+                                     self.tf_X_train_mask: x_train_mask_batch,
+                                     self.tf_X_binary_mask: x_train_binary_mask_batch,
+                                     self.tf_X_seq_len: np.asarray(x_train_seq_len),
+                                     self.tf_y_train: y_train_batch,
+                                     self.keep_prob: 0.5})
 
-            print('training_accuracy => %.3f, cost value => %.5f for step %d, learning_rate => %.5f' % \
-                (float(correct_prediction_train)/np.sum(x_train_binary_mask_batch), cost_train, it, self.learning_rate.eval(session = self.sess)))
             
-            loss_list.append(cost_train)
-            accuracy_list.append(float(correct_prediction_train)/np.sum(x_train_binary_mask_batch))
 
             if it % 100 == 0:
                 self.save_model()
                 self.evaluate(data, it + 100 >= self.TRAINING_ITERATIONS, self.flag_train)
+
+                correct_prediction_train, cost_train = self.sess.run([self.correct_prediction, self.cross_entropy], 
+                                                      feed_dict={self.tf_X_train: x_train_batch,
+                                                                 self.tf_X_train_mask: x_train_mask_batch,
+                                                                 self.tf_X_binary_mask: x_train_binary_mask_batch,
+                                                                 self.tf_X_seq_len: np.asarray(x_train_seq_len),
+                                                                 self.tf_y_train: y_train_batch,
+                                                                 self.keep_prob: 0.5})
+
+                print('training_accuracy => %.3f, cost value => %.5f for step %d, learning_rate => %.5f' % \
+                (float(correct_prediction_train)/np.sum(x_train_binary_mask_batch), cost_train, it, self.learning_rate.eval(session = self.sess)))
+            
+                loss_list.append(cost_train)
+                accuracy_list.append(float(correct_prediction_train)/np.sum(x_train_binary_mask_batch))
 
                 plt.plot(accuracy_list)
                 axes = plt.gca()
@@ -291,34 +309,36 @@ class Model:
 
 
 def main():
-    batch_size = 256
-    seq_max_len = 32
+    batch_size = 128
+    seq_max_len = 38
     nb_sentiment_label = 3
-    embedding_size = 100
+    embedding_size = 50
     nb_linear_inside = 256
     nb_lstm_inside = 256
     layers = 1
-    TRAINING_ITERATIONS = 8000
+    TRAINING_ITERATIONS = 101
     LEARNING_RATE = 0.1
     WEIGHT_DECAY = 0.0005
     label_dict = {
-        'a-positive' : 1,
-        'a-neutral' : 0,
-        'a-negative': 2
+        'aspositive' : 1,
+        'asneutral' : 0,
+        'asnegative': 2
     }
     data_dir = '../data/'
-    flag_word2vec = False
-    flag_addition_corpus = False
-    flag_change_file_structure = False
+    flag_word2vec = True
+    flag_addition_corpus = True
+    flag_change_file_structure = True
+    flag_use_sentiment_embedding = False
     flag_train = True
-    negative_weight = 2.0
+
+    negative_weight = 2.5
     positive_weight = 1.0
-    neutral_weight = 1.0
+    neutral_weight = 10.0
 
     sess = tf.Session()
     
     data = Data(data_dir, flag_word2vec, label_dict, seq_max_len, flag_addition_corpus,
-        flag_change_file_structure, negative_weight, positive_weight, neutral_weight)
+        flag_change_file_structure, negative_weight, positive_weight, neutral_weight, flag_use_sentiment_embedding)
 
     model = Model(batch_size, seq_max_len, nb_sentiment_label, embedding_size, nb_linear_inside,
         nb_lstm_inside, layers, TRAINING_ITERATIONS, LEARNING_RATE, WEIGHT_DECAY, flag_train, sess)
