@@ -65,7 +65,6 @@ def load_embedding(data_dir, flag_addition_corpus, flag_word2vec, flag_use_senti
             for i in range(1, len(elements)):
                 sswe[elements[0].strip()].append(float(elements[i]))
         f_se.close()
-    print(len(sswe.keys()))
 
     f_vec = codecs.open('../data/cbow.vec', 'r', 'utf-8')
     idx = 0
@@ -98,6 +97,55 @@ def load_stop_words():
     fsw.close()
     return stop_words
 
+
+def load_sentiment_dictionary():
+    pos_list = list()
+    neg_list = list()
+    rev_list = list()
+    inc_list = list()
+    dec_list = list()
+    sent_words_dict = dict()
+
+    fneg = open('../dictionary/negative_words.txt', 'r')
+    fpos = open('../dictionary/positive_words.txt', 'r')
+    frev = open('../dictionary/reverse_words.txt', 'r')
+    fdec = open('../dictionary/decremental_words.txt', 'r')
+    finc = open('../dictionary/incremental_words.txt', 'r')
+
+    for line in fpos:
+        if not line.strip() in sent_words_dict:
+            sent_words_dict[line.strip()] = 0
+            pos_list.append(line.strip())
+
+    for line in fneg:
+        if not line.strip() in sent_words_dict:
+            sent_words_dict[line.strip()] = 1
+            neg_list.append(line.strip())
+
+    for line in frev:
+        if not line.strip() in sent_words_dict:
+            sent_words_dict[line.strip()] = 2
+            rev_list.append(line.strip())
+
+    for line in finc:
+        if not line.strip() in sent_words_dict:
+            sent_words_dict[line.strip()] = 3
+            inc_list.append(line.strip())
+
+    for line in fdec:
+        if not line.strip() in sent_words_dict:
+            sent_words_dict[line.strip()] = 4
+            dec_list.append(line.strip())
+            
+    fneg.close()
+    fpos.close()
+    frev.close()
+    fdec.close()
+    finc.close()
+
+    return pos_list, neg_list, rev_list, inc_list, dec_list, sent_words_dict
+
+
 def export_aspect(data_dir):
     aspect_list = list()
     
@@ -121,11 +169,15 @@ def export_aspect(data_dir):
     return set(aspect_list)
 
 
+def sortchildrenby(parent, attr):
+    parent[:] = sorted(parent, key=lambda child: int(child.get(attr)))
+
+
 def change_xml_to_txt_v1(data_dir):
-    train_filename = data_dir + '/ABSA_SemEval2015/ABSA-15_Restaurants_Train_Final.xml'
+    train_filename = data_dir + '/ABSA_SemEval2015/ABSA15_Restaurants_Train_Final.xml'
     test_filename = data_dir + '/ABSA_SemEval2015/ABSA15_Restaurants_Test.xml'
 
-    train_text = codecs.open(data_dir + '/ABSA_SemEval2015/ABSA-15_Restaurants_Train_Final.txt', 'w', 'utf-8')
+    train_text = codecs.open(data_dir + '/ABSA_SemEval2015/ABSA15_Restaurants_Train_Final.txt', 'w', 'utf-8')
     test_text = codecs.open(data_dir + '/ABSA_SemEval2015/ABSA15_Restaurants_Test.txt', 'w', 'utf-8')
 
     reviews = ET.parse(train_filename).getroot().findall('Review')
@@ -178,14 +230,12 @@ def change_xml_to_txt_v1(data_dir):
         except AttributeError:
             continue
 
-def sortchildrenby(parent, attr):
-    parent[:] = sorted(parent, key=lambda child: int(child.get(attr)))
 
 def change_xml_to_txt_v2(data_dir):
-    train_filename = data_dir + '/ABSA_SemEval2015/ABSA-15_Restaurants_Train_Final.xml'
+    train_filename = data_dir + '/ABSA_SemEval2015/ABSA15_Restaurants_Train_Final.xml'
     test_filename = data_dir + '/ABSA_SemEval2015/ABSA15_Restaurants_Test.xml'
 
-    train_text = codecs.open(data_dir + '/ABSA_SemEval2015/ABSA-15_Restaurants_Train_Final.txt', 'w', 'utf-8')
+    train_text = codecs.open(data_dir + '/ABSA_SemEval2015/ABSA15_Restaurants_Train_Final.txt', 'w', 'utf-8')
     test_text = codecs.open(data_dir + '/ABSA_SemEval2015/ABSA15_Restaurants_Test.txt', 'w', 'utf-8')
 
     reviews = ET.parse(train_filename).getroot().findall('Review')
@@ -242,11 +292,12 @@ def change_xml_to_txt_v2(data_dir):
         except AttributeError:
             continue
 
+
 def change_xml_to_txt_v3(data_dir):
-    train_filename = data_dir + '/ABSA_SemEval2015/ABSA-15_Restaurants_Train_Final.xml'
+    train_filename = data_dir + '/ABSA_SemEval2015/ABSA15_Restaurants_Train_Final.xml'
     test_filename = data_dir + '/ABSA_SemEval2015/ABSA15_Restaurants_Test.xml'
 
-    train_text = codecs.open(data_dir + '/ABSA_SemEval2015/ABSA-15_Restaurants_Train_Final.txt', 'w', 'utf-8')
+    train_text = codecs.open(data_dir + '/ABSA_SemEval2015/ABSA15_Restaurants_Train_Final.txt', 'w', 'utf-8')
     test_text = codecs.open(data_dir + '/ABSA_SemEval2015/ABSA15_Restaurants_Test.txt', 'w', 'utf-8')
 
     reviews = ET.parse(train_filename).getroot().findall('Review')
@@ -329,11 +380,13 @@ def load_data(data_dir, flag_word2vec, label_dict, seq_max_len, flag_addition_co
     train_binary_mask = list()
     train_label = list()
     train_seq_len = list()
+    train_sentiment_for_word = list()
     test_data = list()
     test_mask = list()
     test_binary_mask = list()
     test_label = list()
     test_seq_len = list()
+    test_sentiment_for_word = list()
     count_pos = 0
     count_neg = 0
     count_neu = 0
@@ -342,9 +395,9 @@ def load_data(data_dir, flag_word2vec, label_dict, seq_max_len, flag_addition_co
         change_xml_to_txt_v2(data_dir)
 
     stop_words = load_stop_words()
+    pos_list, neg_list, rev_list, inc_list, dec_list, sent_words_dict = load_sentiment_dictionary()
     aspect_list = export_aspect(data_dir)
     word_dict, word_dict_rev, embedding = load_embedding(data_dir, flag_addition_corpus, flag_word2vec, flag_use_sentiment_embedding)
-
     # load data, mask, label
     for file in os.listdir(data_dir + '/ABSA_SemEval2015/'):
         if not file.endswith('.txt'):
@@ -356,6 +409,7 @@ def load_data(data_dir, flag_word2vec, label_dict, seq_max_len, flag_addition_co
             mask_tmp = list()
             binary_mask_tmp = list()
             label_tmp = list()
+            sentiment_for_word_tmp = list()
             count_len = 0
 
             words = line.strip().split(' ')
@@ -365,6 +419,19 @@ def load_data(data_dir, flag_word2vec, label_dict, seq_max_len, flag_addition_co
                 word_clean = word.replace('{aspositive}', '').replace('{asnegative}', '').replace('{asneutral}', '')
 
                 if (word_clean in word_dict.keys() and count_len < seq_max_len):
+                    if (word_clean in pos_list):
+                        sentiment_for_word_tmp.append(0)
+                    elif (word_clean in neg_list):
+                        sentiment_for_word_tmp.append(1)
+                    elif (word_clean in rev_list):
+                        sentiment_for_word_tmp.append(2)
+                    elif (word_clean in inc_list):
+                        sentiment_for_word_tmp.append(3)
+                    elif (word_clean in dec_list):
+                        sentiment_for_word_tmp.append(4)
+                    else:
+                        sentiment_for_word_tmp.append(5)
+
                     if ('aspositive' in word):
                         mask_tmp.append(positive_weight)
                         binary_mask_tmp.append(1.0)
@@ -389,7 +456,7 @@ def load_data(data_dir, flag_word2vec, label_dict, seq_max_len, flag_addition_co
                     data_tmp.append(word_dict[word_clean])
 
 
-            if file == 'ABSA-15_Restaurants_Train_Final.txt':
+            if file == 'ABSA15_Restaurants_Train_Final.txt':
                 train_seq_len.append(count_len)
             else:
                 test_seq_len.append(count_len)
@@ -399,17 +466,20 @@ def load_data(data_dir, flag_word2vec, label_dict, seq_max_len, flag_addition_co
                 mask_tmp.append(0.)
                 binary_mask_tmp.append(0.)
                 label_tmp.append(0)
+                sentiment_for_word_tmp.append(5)
 
-            if file == 'ABSA-15_Restaurants_Train_Final.txt':
+            if file == 'ABSA15_Restaurants_Train_Final.txt':
                 train_data.append(data_tmp)
                 train_mask.append(mask_tmp)
                 train_binary_mask.append(binary_mask_tmp)
                 train_label.append(label_tmp)
+                train_sentiment_for_word.append(sentiment_for_word_tmp)
             else:
                 test_data.append(data_tmp)
                 test_mask.append(mask_tmp)
                 test_binary_mask.append(binary_mask_tmp)
                 test_label.append(label_tmp)
+                test_sentiment_for_word.append(sentiment_for_word_tmp)
         f_processed.close()
 
     print('pos: %d' %count_pos)
@@ -424,12 +494,13 @@ def load_data(data_dir, flag_word2vec, label_dict, seq_max_len, flag_addition_co
     print(train_data[10])
     print(train_mask[10])
     print(train_label[10])
+    print(train_sentiment_for_word[10])
     print('len of word dictionary is %d' %(len(word_dict)))
     print('len of embedding is %d' %(len(embedding)))
     print('len of aspect_list is %d' %(len(aspect_list)))
     print('max sequence length is %d' %(np.max(test_seq_len)))
-    return train_data, train_mask, train_binary_mask, train_label, train_seq_len, \
-    test_data, test_mask, test_binary_mask, test_label, test_seq_len, \
+    return train_data, train_mask, train_binary_mask, train_label, train_seq_len, train_sentiment_for_word, \
+    test_data, test_mask, test_binary_mask, test_label, test_seq_len, test_sentiment_for_word, \
     word_dict, word_dict_rev, embedding, aspect_list
 
 
@@ -451,8 +522,8 @@ def main():
     flag_change_xml_to_txt = True
     flag_use_sentiment_embedding = False
 
-    train_data, train_mask, train_binary_mask, train_label, train_seq_len, \
-    test_data, test_mask, test_binary_mask, test_label, test_seq_len, \
+    train_data, train_mask, train_binary_mask, train_label, train_seq_len, train_sentiment_for_word, \
+    test_data, test_mask, test_binary_mask, test_label, test_seq_len, test_sentiment_for_word, \
     word_dict, word_dict_rev, embedding, aspect_list = load_data(
         data_dir,
         flag_word2vec,

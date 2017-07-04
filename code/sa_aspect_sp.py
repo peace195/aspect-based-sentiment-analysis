@@ -33,9 +33,9 @@ positive_weight = 1.0
 neutral_weight = 3.0
 
 label_dict = {
-    'a-positive' : 1,
-    'a-neutral' : 0,
-    'a-negative': 2
+    'aspositive' : 1,
+    'asneutral' : 0,
+    'asnegative': 2
 }
 
 data_dir = '../data'
