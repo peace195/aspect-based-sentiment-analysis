@@ -18,10 +18,11 @@ import tensorflow as tf
 import matplotlib.pyplot as plt
 
 class Data:
-    def __init__(self, data_dir, flag_word2vec, label_dict, seq_max_len, flag_addition_corpus,
+    def __init__(self, domain, data_dir, flag_word2vec, label_dict, seq_max_len, flag_addition_corpus,
      flag_change_file_structure, negative_weight, positive_weight, neutral_weight, flag_use_sentiment_embedding):
         self.seq_max_len = seq_max_len
         self.label_dict = label_dict
+        self.domain = domain
         self.data_dir = data_dir
         self.flag_word2vec = flag_word2vec
         self.flag_addition_corpus = flag_addition_corpus
@@ -34,6 +35,7 @@ class Data:
         self.train_data, self.train_mask, self.train_binary_mask, self.train_label, self.train_seq_len, self.train_sentiment_for_word, \
         self.test_data, self.test_mask, self.test_binary_mask, self.test_label, self.test_seq_len, self.test_sentiment_for_word, \
         self.word_dict, self.word_dict_rev, self.embedding, aspect_list = utils.load_data(
+        	self.domain,
             self.data_dir,
             self.flag_word2vec,
             self.label_dict,
@@ -344,21 +346,22 @@ def main():
         'asneutral' : 0,
         'asnegative': 2
     }
-    data_dir = '../data/'
-    flag_word2vec = False
-    flag_addition_corpus = False
-    flag_change_file_structure = False
+    data_dir = '../data/ABSA_SemEval2015/'
+    domain = 'Restaurants'
+    flag_word2vec = True
+    flag_addition_corpus = True
+    flag_change_file_structure = True
     flag_use_sentiment_embedding = False
-    flag_use_sentiment_for_word = True
+    flag_use_sentiment_for_word = False
     flag_train = True
 
-    negative_weight = 3.0
+    negative_weight = 2.5
     positive_weight = 1.0
     neutral_weight = 1.0
 
     sess = tf.Session()
     
-    data = Data(data_dir, flag_word2vec, label_dict, seq_max_len, flag_addition_corpus,
+    data = Data(domain, data_dir, flag_word2vec, label_dict, seq_max_len, flag_addition_corpus,
         flag_change_file_structure, negative_weight, positive_weight, neutral_weight, flag_use_sentiment_embedding)
 
 
