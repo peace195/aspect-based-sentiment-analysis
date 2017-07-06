@@ -6,7 +6,7 @@
 #       author: BinhDT                                                                      #
 #       description: preprocess data like exporting aspect, word2vec, load embedding        #
 #       prepare data for training                                                           #
-#       last update on 02/7/2017                                                    		#
+#       last update on 02/7/2017                                                            #
 #-------------------------------------------------------------------------------------------#
 
 import numpy as np
@@ -20,22 +20,22 @@ import xml.etree.ElementTree as ET
 
 
 
-def load_embedding(data_dir, flag_addition_corpus, flag_word2vec, flag_use_sentiment_embedding):
+def load_embedding(domain, data_dir, flag_addition_corpus, flag_word2vec, flag_use_sentiment_embedding):
     word_dict = dict()
     embedding = list()
     
-    f_corpus = codecs.open('../data/corpus_for_word2vec.txt', 'w', 'utf-8')
+    f_corpus = codecs.open('../data/' + domain + '_corpus_for_word2vec.txt', 'w', 'utf-8')
 
-    for file in os.listdir(data_dir + '/ABSA_SemEval2015/'):
-        if file.endswith('.txt'):
-            f_processed = codecs.open(data_dir + '/ABSA_SemEval2015/' + file, 'r', 'utf-8')
+    for file in os.listdir(data_dir):
+        if file.endswith('.txt') and domain in file:
+            f_processed = codecs.open(data_dir + file, 'r', 'utf-8')
             for line in f_processed:
                 f_corpus.write(line.replace('{aspositive}', '').replace('{asnegative}', '').replace('{asneutral}', ''))
 
     if (flag_addition_corpus):
-        for file in os.listdir(data_dir + '/Addition_Restaurants_Reviews_For_Word2vec'):
-            try:
-                with codecs.open(data_dir + '/Addition_Restaurants_Reviews_For_Word2vec/' + file, 'rb', 'utf-8') as csvfile:
+        for file in os.listdir('../data/Addition_' + domain + '_Reviews_For_Word2vec'):
+            with open('../data/Addition_' + domain + '_Reviews_For_Word2vec/' + file, 'r') as csvfile:
+                if domain == 'Restaurants':
                     if file == '1-restaurant-test.csv':
                         reader = csv.reader(csvfile, delimiter='\t', quotechar='|')
                         for row in reader:
@@ -44,17 +44,26 @@ def load_embedding(data_dir, flag_addition_corpus, flag_word2vec, flag_use_senti
                         reader = csv.reader(csvfile, delimiter='\t', quotechar='|')
                         for row in reader:
                             f_corpus.write(' '.join(re.sub(r'[.,:;\-?!\'\"\n()\\]',' ', row[1]).lower().split()) + '\n')
+                            
                     else:
                         reader = csv.reader(csvfile, delimiter=',', quotechar='|')
-                        for row in reader:        
-                            f_corpus.write(' '.join(re.sub(r'[.,:;\-?!\'\"\n()\\]',' ', row[9]).lower().split()) + '\n')
-            except (IndexError, UnicodeEncodeError) as error:
-                continue
+                        for row in reader:
+                            try:
+                                f_corpus.write(' '.join(re.sub(r'[.,:;\-?!\'\"\n()\\]',' ', row[9].decode('utf8')).lower().split()) + '\n')
+                            except IndexError:
+                                continue
+                        
+                elif domain == 'Hotels':
+                    if file == 'Hotels_reviews.csv':
+                        reader = csv.reader(csvfile, delimiter=',', quotechar='|')
+                        for row in reader:
+                            f_corpus.write(' '.join(re.sub(r'[.,:;\-?!\'\"\n()\\]',' ', row[14]).lower().split()) + '\n')
+                            
 
     f_corpus.close()
 
     if (flag_word2vec):
-        os.system('cd ../fastText && ./fasttext cbow -input ../data/corpus_for_word2vec.txt -output ../data/cbow -dim 100 -minCount 5 -epoch 300')
+        os.system('cd ../fastText && ./fasttext cbow -input ../data/' + domain + '_corpus_for_word2vec.txt -output ../data/' + domain + '_cbow -dim 100 -minCount 5 -epoch 1000')
     
     sswe = defaultdict(list)
     if (flag_use_sentiment_embedding):
@@ -66,7 +75,7 @@ def load_embedding(data_dir, flag_addition_corpus, flag_word2vec, flag_use_senti
                 sswe[elements[0].strip()].append(float(elements[i]))
         f_se.close()
 
-    f_vec = codecs.open('../data/cbow.vec', 'r', 'utf-8')
+    f_vec = codecs.open('../data/' + domain + '_cbow.vec', 'r', 'utf-8')
     idx = 0
     for line in f_vec:
         if len(line) < 50:
@@ -146,15 +155,15 @@ def load_sentiment_dictionary():
     return pos_list, neg_list, rev_list, inc_list, dec_list, sent_words_dict
 
 
-def export_aspect(data_dir):
+def export_aspect(domain, data_dir):
     aspect_list = list()
     
-    fa = codecs.open('../dictionary/aspect.txt', 'w', 'utf-8')
-    for file in os.listdir(data_dir + '/ABSA_SemEval2015'):
-        if not file.endswith('.txt'):
+    fa = codecs.open('../dictionary/' + domain + '_aspect.txt', 'w', 'utf-8')
+    for file in os.listdir(data_dir):
+        if not (file.endswith('.txt') and domain in file):
             continue
             
-        f = codecs.open(data_dir + '/ABSA_SemEval2015/' + file, 'r', 'utf-8')
+        f = codecs.open(data_dir + file, 'r', 'utf-8')
         for line in f:
             for word in line.split(' '):
                 if '{as' in word:
@@ -173,12 +182,12 @@ def sortchildrenby(parent, attr):
     parent[:] = sorted(parent, key=lambda child: int(child.get(attr)))
 
 
-def change_xml_to_txt_v1(data_dir):
-    train_filename = data_dir + '/ABSA_SemEval2015/ABSA15_Restaurants_Train_Final.xml'
-    test_filename = data_dir + '/ABSA_SemEval2015/ABSA15_Restaurants_Test.xml'
+def change_xml_to_txt_v1(domain, data_dir):
+    train_filename = data_dir + domain + '_Train_Final.xml'
+    test_filename = data_dir + domain + '_Test.xml'
 
-    train_text = codecs.open(data_dir + '/ABSA_SemEval2015/ABSA15_Restaurants_Train_Final.txt', 'w', 'utf-8')
-    test_text = codecs.open(data_dir + '/ABSA_SemEval2015/ABSA15_Restaurants_Test.txt', 'w', 'utf-8')
+    train_text = codecs.open(data_dir + domain + '_Train_Final.txt', 'w', 'utf-8')
+    test_text = codecs.open(data_dir + domain + '_Test.txt', 'w', 'utf-8')
 
     reviews = ET.parse(train_filename).getroot().findall('Review')
     sentences = []
@@ -231,12 +240,12 @@ def change_xml_to_txt_v1(data_dir):
             continue
 
 
-def change_xml_to_txt_v2(data_dir):
-    train_filename = data_dir + '/ABSA_SemEval2015/ABSA15_Restaurants_Train_Final.xml'
-    test_filename = data_dir + '/ABSA_SemEval2015/ABSA15_Restaurants_Test.xml'
+def change_xml_to_txt_v2(domain, data_dir):
+    train_filename = data_dir + domain + '_Train_Final.xml'
+    test_filename = data_dir + domain + '_Test.xml'
 
-    train_text = codecs.open(data_dir + '/ABSA_SemEval2015/ABSA15_Restaurants_Train_Final.txt', 'w', 'utf-8')
-    test_text = codecs.open(data_dir + '/ABSA_SemEval2015/ABSA15_Restaurants_Test.txt', 'w', 'utf-8')
+    train_text = codecs.open(data_dir + domain + '_Train_Final.txt', 'w', 'utf-8')
+    test_text = codecs.open(data_dir + domain + '_Test.txt', 'w', 'utf-8')
 
     reviews = ET.parse(train_filename).getroot().findall('Review')
     sentences = []
@@ -293,12 +302,12 @@ def change_xml_to_txt_v2(data_dir):
             continue
 
 
-def change_xml_to_txt_v3(data_dir):
-    train_filename = data_dir + '/ABSA_SemEval2015/ABSA15_Restaurants_Train_Final.xml'
-    test_filename = data_dir + '/ABSA_SemEval2015/ABSA15_Restaurants_Test.xml'
+def change_xml_to_txt_v3(domain, data_dir):
+    train_filename = data_dir + domain + '_Train_Final.xml'
+    test_filename = data_dir + domain + '_Test.xml'
 
-    train_text = codecs.open(data_dir + '/ABSA_SemEval2015/ABSA15_Restaurants_Train_Final.txt', 'w', 'utf-8')
-    test_text = codecs.open(data_dir + '/ABSA_SemEval2015/ABSA15_Restaurants_Test.txt', 'w', 'utf-8')
+    train_text = codecs.open(data_dir + domain + '_Train_Final.txt', 'w', 'utf-8')
+    test_text = codecs.open(data_dir + domain + '_Test.txt', 'w', 'utf-8')
 
     reviews = ET.parse(train_filename).getroot().findall('Review')
     sentences = []
@@ -372,7 +381,7 @@ def change_xml_to_txt_v3(data_dir):
         except AttributeError:
             continue
 
-def load_data(data_dir, flag_word2vec, label_dict, seq_max_len, flag_addition_corpus,
+def load_data(domain, data_dir, flag_word2vec, label_dict, seq_max_len, flag_addition_corpus,
             flag_change_xml_to_txt, negative_weight, positive_weight, neutral_weight, 
             flag_use_sentiment_embedding):
     train_data = list()
@@ -392,18 +401,18 @@ def load_data(data_dir, flag_word2vec, label_dict, seq_max_len, flag_addition_co
     count_neu = 0
 
     if (flag_change_xml_to_txt):
-        change_xml_to_txt_v2(data_dir)
+        change_xml_to_txt_v3(domain, data_dir)
 
     stop_words = load_stop_words()
     pos_list, neg_list, rev_list, inc_list, dec_list, sent_words_dict = load_sentiment_dictionary()
-    aspect_list = export_aspect(data_dir)
-    word_dict, word_dict_rev, embedding = load_embedding(data_dir, flag_addition_corpus, flag_word2vec, flag_use_sentiment_embedding)
+    aspect_list = export_aspect(domain, data_dir)
+    word_dict, word_dict_rev, embedding = load_embedding(domain, data_dir, flag_addition_corpus, flag_word2vec, flag_use_sentiment_embedding)
     # load data, mask, label
-    for file in os.listdir(data_dir + '/ABSA_SemEval2015/'):
-        if not file.endswith('.txt'):
+    for file in os.listdir(data_dir):
+        if not (file.endswith('.txt') and domain in file):
             continue
 
-        f_processed = codecs.open(data_dir + '/ABSA_SemEval2015/' + file, 'r', 'utf-8')
+        f_processed = codecs.open(data_dir + file, 'r', 'utf-8')
         for line in f_processed:
             data_tmp = list()
             mask_tmp = list()
@@ -456,7 +465,7 @@ def load_data(data_dir, flag_word2vec, label_dict, seq_max_len, flag_addition_co
                     data_tmp.append(word_dict[word_clean])
 
 
-            if file == 'ABSA15_Restaurants_Train_Final.txt':
+            if file == domain + '_Train_Final.txt':
                 train_seq_len.append(count_len)
             else:
                 test_seq_len.append(count_len)
@@ -468,7 +477,7 @@ def load_data(data_dir, flag_word2vec, label_dict, seq_max_len, flag_addition_co
                 label_tmp.append(0)
                 sentiment_for_word_tmp.append(5)
 
-            if file == 'ABSA15_Restaurants_Train_Final.txt':
+            if file == domain + '_Train_Final.txt':
                 train_data.append(data_tmp)
                 train_mask.append(mask_tmp)
                 train_binary_mask.append(binary_mask_tmp)
@@ -490,6 +499,7 @@ def load_data(data_dir, flag_word2vec, label_dict, seq_max_len, flag_addition_co
     data_sample = ''
     for id in train_data[10]:
         data_sample = data_sample + ' ' + word_dict_rev[id]
+
     print('%s' %data_sample)
     print(train_data[10])
     print(train_mask[10])
@@ -499,13 +509,14 @@ def load_data(data_dir, flag_word2vec, label_dict, seq_max_len, flag_addition_co
     print('len of embedding is %d' %(len(embedding)))
     print('len of aspect_list is %d' %(len(aspect_list)))
     print('max sequence length is %d' %(np.max(test_seq_len)))
+
     return train_data, train_mask, train_binary_mask, train_label, train_seq_len, train_sentiment_for_word, \
     test_data, test_mask, test_binary_mask, test_label, test_seq_len, test_sentiment_for_word, \
     word_dict, word_dict_rev, embedding, aspect_list
 
 
 def main():
-    seq_max_len = 64
+    seq_max_len = 100
     negative_weight = 2.5
     positive_weight = 1.0
     neutral_weight = 5.0
@@ -516,7 +527,8 @@ def main():
         'asnegative': 2
     }
 
-    data_dir = '../data'
+    data_dir = '../data/ABSA_SemEval2016/'
+    domain = 'Restaurants'
     flag_word2vec = False
     flag_addition_corpus = False
     flag_change_xml_to_txt = True
@@ -525,6 +537,7 @@ def main():
     train_data, train_mask, train_binary_mask, train_label, train_seq_len, train_sentiment_for_word, \
     test_data, test_mask, test_binary_mask, test_label, test_seq_len, test_sentiment_for_word, \
     word_dict, word_dict_rev, embedding, aspect_list = load_data(
+        domain,
         data_dir,
         flag_word2vec,
         label_dict,
