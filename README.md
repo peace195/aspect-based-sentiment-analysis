@@ -8,7 +8,7 @@ SemEval-2016 Task 5: Aspect Based Sentiment Analysis: http://alt.qcri.org/semeva
 I specialize in restaurants domain. You can see final results of contest in [1][2].
 The purpose of this project are:
 
-* Aspect based sentiment analysis
+* Aspect based sentiment analysis.
 * A sample of bidirectional LSTM (tensorflow 1.2.0).
 * A sample of picking some special units of a recurrent network (not all units) to train and predict their labels. 
 * Compare between struct programming and object-oriented programming in Deep Learning model.
@@ -30,7 +30,7 @@ BINGO!!
 
 ### Data
 * [SemEval-2015 Task 12 dataset](http://alt.qcri.org/semeval2015/task12/index.php?id=data-and-tools)
-* [SemEval-2016 Task 5 dataset]http://alt.qcri.org/semeval2016/task5/index.php?id=data-and-tools)
+* [SemEval-2016 Task 5 dataset](http://alt.qcri.org/semeval2016/task5/index.php?id=data-and-tools)
 * Addition restaurant review data for restaurant-word2vec. Here, I use:
 	* https://inclass.kaggle.com/c/restaurant-reviews
 	* https://www.kaggle.com/snap/amazon-fine-food-reviews
