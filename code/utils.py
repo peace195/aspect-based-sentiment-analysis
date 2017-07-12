@@ -63,7 +63,7 @@ def load_embedding(domain, data_dir, flag_addition_corpus, flag_word2vec, flag_u
     f_corpus.close()
 
     if (flag_word2vec):
-        os.system('cd ../fastText && ./fasttext cbow -input ../data/' + domain + '_corpus_for_word2vec.txt -output ../data/' + domain + '_cbow -dim 100 -minCount 5 -epoch 1000')
+        os.system('cd ../fastText && ./fasttext cbow -input ../data/' + domain + '_corpus_for_word2vec.txt -output ../data/' + domain + '_cbow_more_2016 -dim 100 -minCount 5 -epoch 3000')
     
     sswe = defaultdict(list)
     if (flag_use_sentiment_embedding):
@@ -75,7 +75,7 @@ def load_embedding(domain, data_dir, flag_addition_corpus, flag_word2vec, flag_u
                 sswe[elements[0].strip()].append(float(elements[i]))
         f_se.close()
 
-    f_vec = codecs.open('../data/' + domain + '_cbow.vec', 'r', 'utf-8')
+    f_vec = codecs.open('../data/' + domain + '_cbow_more_2016.vec', 'r', 'utf-8')
     idx = 0
     for line in f_vec:
         if len(line) < 50:
@@ -516,7 +516,7 @@ def load_data(domain, data_dir, flag_word2vec, label_dict, seq_max_len, flag_add
 
 
 def main():
-    seq_max_len = 100
+    seq_max_len = 42
     negative_weight = 2.5
     positive_weight = 1.0
     neutral_weight = 5.0
