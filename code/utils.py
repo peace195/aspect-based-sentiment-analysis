@@ -39,17 +39,17 @@ def load_embedding(domain, data_dir, flag_addition_corpus, flag_word2vec, flag_u
                     if file == '1-restaurant-test.csv':
                         reader = csv.reader(csvfile, delimiter='\t', quotechar='|')
                         for row in reader:
-                            f_corpus.write(' '.join(re.sub(r'[.,:;\-?!\'\"\n()\\]',' ', row[0]).lower().split()) + '\n')
+                            f_corpus.write(' '.join(re.sub(r'[.,:;/\-?!\"\n()\\]',' ', row[0]).lower().split()) + '\n')
                     elif file == '1-restaurant-train.csv':
                         reader = csv.reader(csvfile, delimiter='\t', quotechar='|')
                         for row in reader:
-                            f_corpus.write(' '.join(re.sub(r'[.,:;\-?!\'\"\n()\\]',' ', row[1]).lower().split()) + '\n')
+                            f_corpus.write(' '.join(re.sub(r'[.,:;/\-?!\"\n()\\]',' ', row[1]).lower().split()) + '\n')
                             
                     else:
                         reader = csv.reader(csvfile, delimiter=',', quotechar='|')
                         for row in reader:
                             try:
-                                f_corpus.write(' '.join(re.sub(r'[.,:;\-?!\'\"\n()\\]',' ', row[9].decode('utf8')).lower().split()) + '\n')
+                                f_corpus.write(' '.join(re.sub(r'[.,:;/\-?!\"\n()\\]',' ', row[9].decode('utf8')).lower().split()) + '\n')
                             except IndexError:
                                 continue
                         
@@ -57,13 +57,13 @@ def load_embedding(domain, data_dir, flag_addition_corpus, flag_word2vec, flag_u
                     if file == 'Hotels_reviews.csv':
                         reader = csv.reader(csvfile, delimiter=',', quotechar='|')
                         for row in reader:
-                            f_corpus.write(' '.join(re.sub(r'[.,:;\-?!\'\"\n()\\]',' ', row[14]).lower().split()) + '\n')
+                            f_corpus.write(' '.join(re.sub(r'[.,:;/\-?!\"\n()\\]',' ', row[14]).lower().split()) + '\n')
                             
 
     f_corpus.close()
 
     if (flag_word2vec):
-        os.system('cd ../fastText && ./fasttext cbow -input ../data/' + domain + '_corpus_for_word2vec.txt -output ../data/' + domain + '_cbow_more_2016 -dim 100 -minCount 5 -epoch 3000')
+        os.system('cd ../fastText && ./fasttext cbow -input ../data/' + domain + '_corpus_for_word2vec.txt -output ../data/' + domain + '_cbow_final_2016 -dim 100 -minCount 5 -epoch 3000')
     
     sswe = defaultdict(list)
     if (flag_use_sentiment_embedding):
@@ -75,7 +75,7 @@ def load_embedding(domain, data_dir, flag_addition_corpus, flag_word2vec, flag_u
                 sswe[elements[0].strip()].append(float(elements[i]))
         f_se.close()
 
-    f_vec = codecs.open('../data/' + domain + '_cbow_more_2016.vec', 'r', 'utf-8')
+    f_vec = codecs.open('../data/' + domain + '_cbow_final_2016.vec', 'r', 'utf-8')
     idx = 0
     for line in f_vec:
         if len(line) < 50:
@@ -209,7 +209,7 @@ def change_xml_to_txt_v1(domain, data_dir):
                 else:
                     new_sentence = new_sentence + ' unknowntoken{as' + polarity + '}'
                     
-            train_text.write(' '.join(re.sub(r'[.,:;\-?!\'\"\n()\\]',' ', new_sentence).lower().split()) + '\n')
+            train_text.write(' '.join(re.sub(r'[.,:;/\-?!\"\n()\\]',' ', new_sentence).lower().split()) + '\n')
 
         except AttributeError:
             continue
@@ -234,7 +234,7 @@ def change_xml_to_txt_v1(domain, data_dir):
                 else:
                     new_sentence = new_sentence + ' unknowntoken{as' + polarity + '}'
                     
-            test_text.write(' '.join(re.sub(r'[.,:;\-?!\'\"\n()\\]',' ', new_sentence).lower().split()) + '\n')
+            test_text.write(' '.join(re.sub(r'[.,:;/\-?!\"\n()\\]',' ', new_sentence).lower().split()) + '\n')
 
         except AttributeError:
             continue
@@ -269,7 +269,7 @@ def change_xml_to_txt_v2(domain, data_dir):
                     bias = bias + len(category + '{as' + polarity + '}') + 1
                 else:
                     new_sentence = new_sentence + ' ' + category + '{as' + polarity + '}'
-            train_text.write(' '.join(re.sub(r'[.,:;\-?!\'\"\n()\\]',' ', new_sentence).lower().split()) + '\n')
+            train_text.write(' '.join(re.sub(r'[.,:;/\-?!\"\n()\\]',' ', new_sentence).lower().split()) + '\n')
 
         except AttributeError:
             continue
@@ -296,7 +296,7 @@ def change_xml_to_txt_v2(domain, data_dir):
                 else:
                     new_sentence = new_sentence + ' ' + category + '{as' + polarity + '}'
                     
-            test_text.write(' '.join(re.sub(r'[.,:;\-?!\'\"\n()\\]',' ', new_sentence).lower().split()) + '\n')
+            test_text.write(' '.join(re.sub(r'[.,:;/\-?!\"\n()\\]',' ', new_sentence).lower().split()) + '\n')
 
         except AttributeError:
             continue
@@ -340,7 +340,7 @@ def change_xml_to_txt_v3(domain, data_dir):
 
                 last_start = start
                 last_end = end
-            train_text.write(' '.join(re.sub(r'[.,:;\-?!\'\"\n()\\]',' ', new_sentence).lower().split()) + '\n')
+            train_text.write((' '.join(re.sub(r'[.,:;/\-?!\"\n()\\]',' ', new_sentence).lower().split()) + '\n').replace("'service#general", "service#general").replace("}'", "}"))
 
         except AttributeError:
             continue
@@ -376,7 +376,7 @@ def change_xml_to_txt_v3(domain, data_dir):
 
                 last_start = start
                 last_end = end
-            test_text.write(' '.join(re.sub(r'[.,:;\-?!\'\"\n()\\]',' ', new_sentence).lower().split()) + '\n')
+            test_text.write((' '.join(re.sub(r'[.,:;/\-?!\"\n()\\]',' ', new_sentence).lower().split()) + '\n').replace("'service#general", "service#general").replace("}'", "}"))
 
         except AttributeError:
             continue
@@ -529,7 +529,7 @@ def main():
 
     data_dir = '../data/ABSA_SemEval2016/'
     domain = 'Restaurants'
-    flag_word2vec = False
+    flag_word2vec = True
     flag_addition_corpus = False
     flag_change_xml_to_txt = True
     flag_use_sentiment_embedding = False

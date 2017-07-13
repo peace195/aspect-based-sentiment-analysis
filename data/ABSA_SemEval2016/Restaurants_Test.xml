@@ -2128,7 +2128,7 @@
             <sentence id="en_MercedesRestaurant_478010602:1">
                 <text>– This is one of my top lunch spots, huge portions, fast service and amazing margaritas!!</text>
                 <Opinions>
-                    <Opinion target="NULL" category="RESTAURANT#GENERAL" polarity="positive" from="0" to="89"/>
+                    <Opinion target="NULL" category="RESTAURANT#GENERAL" polarity="positive" from="0" to="0"/>
                     <Opinion target="portions" category="FOOD#STYLE_OPTIONS" polarity="positive" from="42" to="50"/>
                     <Opinion target="service" category="SERVICE#GENERAL" polarity="positive" from="57" to="64"/>
                     <Opinion target="margaritas" category="DRINKS#QUALITY" polarity="positive" from="77" to="87"/>
@@ -4261,7 +4261,7 @@
                 <text>– Mercedes restaurant is so tasty, the service is undeniably awesome!</text>
                 <Opinions>
                     <Opinion target="service" category="SERVICE#GENERAL" polarity="positive" from="39" to="46"/>
-                    <Opinion target="NULL" category="FOOD#QUALITY" polarity="positive" from="2" to="21"/>
+                    <Opinion target="Mercedes restaurant" category="FOOD#QUALITY" polarity="positive" from="2" to="21"/>
                 </Opinions>
             </sentence>
             <sentence id="en_MercedesRestaurant_478010600:2">
