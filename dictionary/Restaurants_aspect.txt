@@ -6,9 +6,7 @@ food#prices
 food#quality
 food#style_options
 location#general
-model/service#general
 restaurant#general
 restaurant#miscellaneous
 restaurant#prices
 service#general
-undeservice#general

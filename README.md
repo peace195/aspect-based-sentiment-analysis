@@ -12,6 +12,7 @@ The purpose of this project are:
 * A sample of bidirectional LSTM (tensorflow 1.2.0).
 * A sample of picking some special units of a recurrent network (not all units) to train and predict their labels. 
 * Compare between struct programming and object-oriented programming in Deep Learning model.
+* Build stop words, incremental, decremental, positive & negative dictionary for sentiment problem.
 
 ![alt text](https://github.com/peace195/SentimentAnalysis/blob/master/model.png)
 
