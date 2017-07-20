@@ -23,9 +23,9 @@ Step by step:
 ## Results
 BINGO!!
 
-* Achieved **81%** accuracy. **Better** than 2.32% winner team in the semeval2015 competition [1].
+* Achieved **81.2%** accuracy. **Better** than 2.5% winner team in the semeval2015 competition [1].
 
-* Achieved **85.7%** accuracy. rank 3/28 in the semeval2016 competition [2].
+* Achieved **85.8%** accuracy. rank 3/28 in the semeval2016 competition [2].
 
 ## Getting Started
 
