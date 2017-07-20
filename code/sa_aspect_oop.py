@@ -1,12 +1,11 @@
 
 # coding: utf-8
-# OOP
 #---------------------------------------------------------------------------#
 #       author: BinhDT                                                      #
 #       description: Bi-direction LSTM model for aspect sentiment           # 
 #       input: sentences contain aspects                                    #
 #       output: sentiment label for aspects                                 #
-#       last update on 14/7/2017                                    #
+#       last update on 20/7/2017                                    #
 #---------------------------------------------------------------------------#
 
 import json
@@ -15,7 +14,6 @@ import math
 import numpy as np
 import utils
 import tensorflow as tf
-import matplotlib.pyplot as plt
 
 class Data:
     def __init__(self, domain, data_dir, flag_word2vec, label_dict, seq_max_len, flag_addition_corpus,
@@ -128,7 +126,7 @@ class Model:
         self.sent_w = tf.Variable(tf.truncated_normal([self.nb_lstm_inside, self.nb_sentiment_label],
                                                  stddev = 1.0 / math.sqrt(self.nb_lstm_inside)))
         self.sent_b = tf.Variable(tf.zeros([self.nb_sentiment_label]))
-        
+
         y_labels = tf.one_hot(self.tf_y_train,
                               self.nb_sentiment_label,
                               on_value = 1.0,
@@ -138,8 +136,8 @@ class Model:
 
         if (self.flag_use_sentiment_for_word):
             X_sent_for_word = tf.one_hot(self.tf_X_sent_for_word, self.nb_sentiment_for_word,
-                                 on_value = 10.0,
-                                 off_value = 0.0,
+                                 on_value = 20.0,
+                                 off_value = 10.0,
                                  axis = -1)
 
             X_train = tf.concat([self.tf_X_train, X_sent_for_word], 2)
@@ -150,24 +148,20 @@ class Model:
         # Reshaping to (n_steps * batch_size, n_input)
         X_train = tf.reshape(X_train, [-1, self.embedding_size])
         X_train = tf.nn.relu(tf.add(tf.matmul(X_train, self.ln_w), self.ln_b))
-
         X_train = tf.split(axis = 0, num_or_size_splits = self.seq_max_len, value = X_train)
         
         # bidirection lstm
         # Creating the forward and backwards cells
-        lstm_fw_cell = tf.nn.rnn_cell.BasicLSTMCell(self.nb_lstm_inside, forget_bias = 1.0)
-        lstm_bw_cell = tf.nn.rnn_cell.BasicLSTMCell(self.nb_lstm_inside, forget_bias = 1.0)
-
-        # lstm_fw_multicell = tf.nn.rnn_cell.MultiRNNCell([lstm_fw_cell] * self.layers)
-        # lstm_bw_multicell = tf.nn.rnn_cell.MultiRNNCell([lstm_bw_cell] * self.layers)
+        lstm_fw_cell = tf.nn.rnn_cell.BasicLSTMCell(self.nb_lstm_inside, forget_bias = 0.8)
+        lstm_bw_cell = tf.nn.rnn_cell.BasicLSTMCell(self.nb_lstm_inside, forget_bias = 0.8)
         # Get lstm cell output
         outputs, _, _ = tf.contrib.rnn.static_bidirectional_rnn(lstm_fw_cell,
                                                      lstm_bw_cell,
                                                      X_train,
-                                                     dtype='float32',
-                                                     sequence_length = self.tf_X_seq_len)
+                                                     dtype='float32')
+
         output_fw, output_bw = tf.split(outputs, [self.nb_lstm_inside, self.nb_lstm_inside], 2)
-        sentiment = tf.reshape(tf.add(output_fw, output_bw), [-1, self.nb_lstm_inside]) 
+        sentiment = tf.reshape(tf.add(output_fw, output_bw), [-1, self.nb_lstm_inside])
         
         # sentiment = tf.reshape(outputs, [-1, 2 * self.nb_lstm_inside]) 
         # sentiment = tf.nn.dropout(sentiment, self.keep_prob)
@@ -190,7 +184,7 @@ class Model:
         '''
         self.prediction = tf.argmax(tf.nn.softmax(sentiment), 2)
         self.correct_prediction = tf.reduce_sum(tf.multiply(tf.cast(tf.equal(self.prediction, self.tf_y_train), tf.float32), self.tf_X_binary_mask))
-        self.global_step = tf.Variable(0, trainable = False)
+        self.global_step = tf.Variable(0, trainable = True)
         self.learning_rate = tf.train.exponential_decay(self.LEARNING_RATE, self.global_step, 1000, 0.65, staircase = True)
         # self.optimizer = tf.train.GradientDescentOptimizer(self.learning_rate).minimize(self.cross_entropy, global_step = self.global_step)
         self.optimizer = tf.train.AdagradOptimizer(self.learning_rate).minimize(self.cross_entropy)
@@ -267,11 +261,10 @@ class Model:
 
     def train(self, data):
         self.sess.run(self.init)
-        
+        # self.load_model()
         loss_list = list()
         accuracy_list = list()
 
-        #saver.restore(sess, '../ckpt/se-apect-term-v0.ckpt')
         for it in range(self.TRAINING_ITERATIONS):
             #generate batch (x_train, y_train, seq_lengths_train)
             if (it * self.batch_size % data.nb_sample_train + self.batch_size < data.nb_sample_train):
@@ -295,7 +288,10 @@ class Model:
                                      self.tf_y_train: y_train_batch,
                                      self.keep_prob: 0.8})
 
-            if it % 100 == 0:
+            if it % 10 == 0:
+                print(it)
+                self.evaluate(data, it + 100 >= self.TRAINING_ITERATIONS, self.flag_train)
+                
                 correct_prediction_train, cost_train = self.sess.run([self.correct_prediction, self.cross_entropy], 
                                                   feed_dict={self.tf_X_train: x_train_batch,
                                                              self.tf_X_train_mask: x_train_mask_batch,
@@ -304,12 +300,10 @@ class Model:
                                                              self.tf_X_sent_for_word: x_train_sent_for_word,
                                                              self.tf_y_train: y_train_batch,
                                                              self.keep_prob: 1.0})
-
+                
                 print('training_accuracy => %.3f, cost value => %.5f for step %d' % \
                 (float(correct_prediction_train)/np.sum(x_train_binary_mask_batch), cost_train, it))
-
-                self.evaluate(data, it + 100 >= self.TRAINING_ITERATIONS, self.flag_train)
-
+                
                 loss_list.append(cost_train)
                 accuracy_list.append(float(correct_prediction_train)/np.sum(x_train_binary_mask_batch))
 
@@ -328,36 +322,39 @@ class Model:
                 plt.xlabel('epoch')
                 plt.savefig('loss.png')
                 plt.close()
-
-        self.save_model()
+                
         self.sess.close()
 
 
 def main():
     batch_size = 128
-    seq_max_len = 50
     nb_sentiment_label = 3
-    nb_sentiment_for_word = 6
+    nb_sentiment_for_word = 3
     embedding_size = 100
-    nb_linear_inside = 512
+    nb_linear_inside = 128
     nb_lstm_inside = 256
     layers = 1
-    TRAINING_ITERATIONS = 101
+    TRAINING_ITERATIONS = 6000
     LEARNING_RATE = 0.1
-    WEIGHT_DECAY = 0.0005
+    WEIGHT_DECAY = 0.0001
     label_dict = {
         'aspositive' : 1,
         'asneutral' : 0,
         'asnegative': 2
     }
     data_dir = '../data/ABSA_SemEval2016/'
+    if '2016' in data_dir:
+        seq_max_len = 42
+    else:
+        seq_max_len = 36
+
     domain = 'Restaurants'
-    flag_word2vec = True
-    flag_addition_corpus = True
-    flag_change_file_structure = True
+    flag_word2vec = False
+    flag_addition_corpus = False
+    flag_change_file_structure = False
     flag_use_sentiment_embedding = False
-    flag_use_sentiment_for_word = False
-    flag_train = True
+    flag_use_sentiment_for_word = True
+    flag_train = False
 
     negative_weight = 1.0
     positive_weight = 1.0

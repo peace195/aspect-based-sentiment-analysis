@@ -6,7 +6,7 @@
 #       author: BinhDT                                                                      #
 #       description: preprocess data like exporting aspect, word2vec, load embedding        #
 #       prepare data for training                                                           #
-#       last update on 02/7/2017                                                            #
+#       last update on 14/7/2017                                                            #
 #-------------------------------------------------------------------------------------------#
 
 import numpy as np
@@ -63,7 +63,7 @@ def load_embedding(domain, data_dir, flag_addition_corpus, flag_word2vec, flag_u
     f_corpus.close()
 
     if (flag_word2vec):
-        os.system('cd ../fastText && ./fasttext cbow -input ../data/' + domain + '_corpus_for_word2vec.txt -output ../data/' + domain + '_cbow_final_2016 -dim 100 -minCount 5 -epoch 3000')
+        os.system('cd ../fastText && ./fasttext cbow -input ../data/' + domain + '_corpus_for_word2vec.txt -output ../data/' + domain + '_cbow_final_2016 -dim 100 -minCount 5 -epoch 2000')
     
     sswe = defaultdict(list)
     if (flag_use_sentiment_embedding):
@@ -205,7 +205,7 @@ def change_xml_to_txt_v1(domain, data_dir):
                 polarity = opinion.get('polarity')
                 if (end != 0):
                     new_sentence = new_sentence.replace(sentence[start:end],
-                                                        sentence[start:end].replace(' ', '_') + '{as' + polarity + '}')
+                                                        sentence[start:end] + '{as' + polarity + '}')
                 else:
                     new_sentence = new_sentence + ' unknowntoken{as' + polarity + '}'
                     
@@ -230,7 +230,7 @@ def change_xml_to_txt_v1(domain, data_dir):
                 polarity = opinion.get('polarity')
                 if (end != 0):
                     new_sentence = new_sentence.replace(sentence[start:end],
-                                                        sentence[start:end].replace(' ', '_') + '{as' + polarity + '}')
+                                                        sentence[start:end] + '{as' + polarity + '}')
                 else:
                     new_sentence = new_sentence + ' unknowntoken{as' + polarity + '}'
                     
@@ -330,17 +330,18 @@ def change_xml_to_txt_v3(domain, data_dir):
                 target = opinion.get('target').lower()
                 if (end != 0):
                     if (last_start == start and last_end == end):
-                        new_sentence = new_sentence[:bias+len(target)+start+1] + category + '{as' + polarity + '}' + new_sentence[bias+len(target)+start:]
+                        new_sentence = new_sentence[:bias+end+1] + category + '{as' + polarity + '}' + new_sentence[bias+end:]
                         bias = bias + len(category + '{as' + polarity + '}') + 1
                     else:
                         new_sentence = new_sentence[:bias+start] + category + '{as' + polarity + '}' + new_sentence[bias+end:]
-                        bias = bias + len(category + '{as' + polarity + '}') - len(target)
+                        bias = bias + len(category + '{as' + polarity + '}') - (end - start)
                 else:
                     new_sentence = new_sentence + ' ' + category + '{as' + polarity + '}'
 
                 last_start = start
                 last_end = end
-            train_text.write((' '.join(re.sub(r'[.,:;/\-?!\"\n()\\]',' ', new_sentence).lower().split()) + '\n').replace("'service#general", "service#general").replace("}'", "}"))
+
+            train_text.write((' '.join(re.sub(r'[.,:;/\-?!\"\n()\\]',' ', new_sentence).lower().split()) + '\n').replace("'service#general", "service#general").replace("}'s", "}").replace("}'", "}"))
 
         except AttributeError:
             continue
@@ -366,17 +367,18 @@ def change_xml_to_txt_v3(domain, data_dir):
                 target = opinion.get('target').lower()
                 if (end != 0):
                     if (last_start == start and last_end == end):
-                        new_sentence = new_sentence[:bias+len(target)+start+1] + category + '{as' + polarity + '}' + new_sentence[bias+len(target)+start:]
+                        new_sentence = new_sentence[:bias+end+1] + category + '{as' + polarity + '}' + new_sentence[bias+end:]
                         bias = bias + len(category + '{as' + polarity + '}') + 1
                     else:
                         new_sentence = new_sentence[:bias+start] + category + '{as' + polarity + '}' + new_sentence[bias+end:]
-                        bias = bias + len(category + '{as' + polarity + '}') - len(target)
+                        bias = bias + len(category + '{as' + polarity + '}') - (end - start)
                 else:
                     new_sentence = new_sentence + ' ' + category + '{as' + polarity + '}'
 
                 last_start = start
                 last_end = end
-            test_text.write((' '.join(re.sub(r'[.,:;/\-?!\"\n()\\]',' ', new_sentence).lower().split()) + '\n').replace("'service#general", "service#general").replace("}'", "}"))
+
+            test_text.write((' '.join(re.sub(r'[.,:;/\-?!\"\n()\\]',' ', new_sentence).lower().split()) + '\n').replace("'service#general", "service#general").replace("}'s", "}").replace("}'", "}"))
 
         except AttributeError:
             continue
@@ -429,17 +431,17 @@ def load_data(domain, data_dir, flag_word2vec, label_dict, seq_max_len, flag_add
 
                 if (word_clean in word_dict.keys() and count_len < seq_max_len):
                     if (word_clean in pos_list):
-                        sentiment_for_word_tmp.append(0)
-                    elif (word_clean in neg_list):
                         sentiment_for_word_tmp.append(1)
-                    elif (word_clean in rev_list):
+                    elif (word_clean in neg_list):
                         sentiment_for_word_tmp.append(2)
+                    elif (word_clean in rev_list):
+                        sentiment_for_word_tmp.append(0)
                     elif (word_clean in inc_list):
-                        sentiment_for_word_tmp.append(3)
+                        sentiment_for_word_tmp.append(0)
                     elif (word_clean in dec_list):
-                        sentiment_for_word_tmp.append(4)
+                        sentiment_for_word_tmp.append(0)
                     else:
-                        sentiment_for_word_tmp.append(5)
+                        sentiment_for_word_tmp.append(0)
 
                     if ('aspositive' in word):
                         mask_tmp.append(positive_weight)
@@ -475,7 +477,7 @@ def load_data(domain, data_dir, flag_word2vec, label_dict, seq_max_len, flag_add
                 mask_tmp.append(0.)
                 binary_mask_tmp.append(0.)
                 label_tmp.append(0)
-                sentiment_for_word_tmp.append(5)
+                sentiment_for_word_tmp.append(0)
 
             if file == domain + '_Train_Final.txt':
                 train_data.append(data_tmp)
