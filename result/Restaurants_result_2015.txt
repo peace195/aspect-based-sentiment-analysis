@@ -1,0 +1,587 @@
+#---------------------------------------------------------------------------------------------------------#
+#	 author: BinhDT
+#	 test accuracy 81.18
+#	 1:positive, 0:neutral, 2:negative
+#---------------------------------------------------------------------------------------------------------#
+love restaurant#general(label 1|predict 1)
+recommend restaurant#general(label 1|predict 1) everyone
+great food#quality(label 1|predict 1)
+one favorite places brooklyn restaurant#general(label 1|predict 1)
+food#quality(label 1|predict 1) incredible food#quality(label 1|predict 1) particularly food#quality(label 1|predict 1) fantastic food#quality(label 1|predict 1) amazing
+overpriced not tasty food#prices(label 2|predict 2) food#quality(label 2|predict 2)
+food#quality(label 2|predict 1) mediocre best
+totally overpriced food#prices(label 2|predict 2) $15 food#prices(label 2|predict 2)
+tasty food#quality(label 1|predict 1)
+awesome organic food#quality(label 1|predict 1) a conscious eco friendly restaurant#miscellaneous(label 1|predict 1)
+one best hot dogs ever eaten food#quality(label 1|predict 1)
+can't wait go back restaurant#general(label 1|predict 1)
+restaurant#general(label 1|predict 1) a lot going for
+but best food#quality(label 1|predict 1) ever main thing
+run don't walk restaurant#general(label 1|predict 1)
+super yummy food#quality(label 1|predict 1)
+visiting new york city a friend discovered really warm inviting ambience#general(label 1|predict 1)
+looove food#quality(label 1|predict 1) well food#quality(label 1|predict 1)
+food#style_options(label 1|predict 2) mine eggplant friend buffalo sooo huge for a small size pizza
+fun eating like around 3 a morning restaurant#general(label 1|predict 1)
+comeback for sure wish la restaurant#general(label 1|predict 1)
+excellent food#quality(label 1|predict 1) although ambience#general(label 2|predict 1) could use some help
+ambience#general(label 2|predict 2) kind feels like alice wonderland setting without trying
+paid just $60 for a good food#quality(label 1|predict 2) food#prices(label 1|predict 2) though
+great drinks#quality(label 1|predict 1)
+reliable fresh food#quality(label 1|predict 1)
+food#quality(label 1|predict 1) always fresh food#style_options(label 1|predict 1) food#quality(label 1|predict 1) innovative delicious
+never a problem service#general(label 1|predict 2) save a missing rice once
+service#general(label 2|predict 2) can spot lacking depending weather day week
+service#general(label 2|predict 2) sometimes get upset if don't tip more than 10%
+best food#quality(label 1|predict 1) ever
+place ruined for neighborhood food#quality(label 1|predict 1)
+creative consistent fresh food#quality(label 1|predict 1) food#style_options(label 1|predict 1)
+excellent food#quality(label 1|predict 1) food#quality(label 1|predict 1) beyond delicious
+not cheap but very yummy food#prices(label 2|predict 2) food#quality(label 1|predict 1)
+love restaurant#general(label 1|predict 1)
+very very nice restaurant#general(label 1|predict 1)
+location#general(label 0|predict 2) restaurant#general(label 1|predict 2) a bit hidden away but once get all worth
+not only food#quality(label 1|predict 2) restaurant#general(label 1|predict 2)
+loved restaurant#general(label 1|predict 1)
+a very nice time restaurant#general(label 1|predict 1)
+service#general(label 1|predict 1) attentive food#quality(label 1|predict 1) delicious location#general(label 1|predict 1) great
+definitely go back again restaurant#general(label 1|predict 1)
+great ambience#general(label 1|predict 1) relax enjoy dinner
+something ambience#general(label 1|predict 1) makes come back nearly every week
+restaurant#miscellaneous(label 1|predict 2) open till late no dress code
+good food#quality(label 1|predict 1) favorite food#quality(label 1|predict 1)
+highly recommended restaurant#general(label 1|predict 1)
+excellent food#quality(label 1|predict 1) food#prices(label 1|predict 1) for great prices
+husband sold from first visit restaurant#general(label 1|predict 1)
+service#general(label 1|predict 1) very courteous accomodating
+ambience#general(label 0|predict 2) restaurant#miscellaneous(label 2|predict 2) limited prepared wait 45 minutes 1 hour but richly rewarded when savor delicious food#quality(label 1|predict 2)
+no negatives speak restaurant#general(label 1|predict 2)
+restaurant#general(label 1|predict 1)
+favorite restaurant#general(label 1|predict 1) lol
+love food#quality(label 1|predict 1) cant remember name but sooo good
+alright restaurant#general(label 0|predict 1)
+im not necessarily fanatical restaurant#general(label 1|predict 1) restaurant#prices(label 1|predict 1) but a fun time for low
+food#quality(label 0|predict 1) good nothing spectacular
+just a fun place go not a five star restaurant#general(label 0|predict 1)
+way below average restaurant#general(label 2|predict 2)
+think food#quality(label 2|predict 2) overrated under cooked
+no flavor service#general(label 2|predict 2) rude not attentive food#quality(label 2|predict 2)
+would never go back restaurant#general(label 2|predict 2)
+love restaurant#general(label 1|predict 1)
+wasn't for pizza can't comment yet but what very good food#quality(label 1|predict 2)
+service#general(label 1|predict 1) quick friendly
+everyone smiling made feel welcome service#general(label 1|predict 1)
+thought restaurant#general(label 1|predict 1) ambience#general(label 1|predict 1) nice clean
+ordered food#quality(label 1|predict 1) pretty impressed
+food#quality(label 1|predict 1) food#quality(label 1|predict 2) cooked perfectly
+food#quality(label 1|predict 2) not dry all fact buttery
+only downside only take cash which ok if know ahead time restaurant#miscellaneous(label 2|predict 2)
+back for sure restaurant#general(label 1|predict 1)
+worst restaurant#general(label 2|predict 2) smith street brooklyn
+very immature service#general(label 2|predict 2) didnt know how make specific drinks service#general(label 2|predict 2) food#quality(label 2|predict 2) not fresh warm service#general(label 2|predict 2) busy flirting men bar werent very attentive all customers
+would never recommend restaurant#general(label 2|predict 2) restaurant#miscellaneous(label 2|predict 2) anybody even for a casual dinner
+awesome restaurant#general(label 1|predict 1)
+food#quality(label 1|predict 1) always fresh
+overpriced food#prices(label 2|predict 2) mediocre service#general(label 0|predict 2)
+went sat 1 26 disappointed restaurant#general(label 2|predict 2)
+food#style_options(label 2|predict 2) tomato pimentos top
+food#quality(label 2|predict 1) luke warm
+service#general(label 2|predict 2) not attentive all
+looking for banana tempura for food#style_options(label 2|predict 2) dont
+not because restaurant#prices(label 2|predict 2) – allowed charge arm a leg for a romatic dinner
+food#quality(label 1|predict 1) excellent well service#general(label 1|predict 1) however left restaurant#general(label 2|predict 2) very dissappointed
+not think food#prices(label 2|predict 2) manhattan should cost $400 00 where not swept off feet
+food#quality(label 1|predict 1) favorite thing eat any food group hands down
+just go restaurant#general(label 1|predict 1) order food#quality(label 1|predict 1)
+if don't like don't know what tell food#quality(label 1|predict 2)
+food#quality(label 1|predict 1) also otherworldly
+not even going bother describe speaks for food#quality(label 1|predict 2)
+favorite food#quality(label 1|predict 1) nyc
+unpretentious ambience#general(label 1|predict 1) park slope food#quality(label 1|predict 1) consistently good service#general(label 1|predict 1) pleasant effective unassuming
+summer months ambience#general(label 1|predict 1) really nice
+food#style_options(label 1|predict 1) creative yet find another sushi place serves more inventive yet delicious food#style_options(label 1|predict 1) food#quality(label 1|predict 1)
+food#quality(label 1|predict 1) musts
+good restaurant#general(label 1|predict 1)
+can eat every day week really lol love restaurant#general(label 1|predict 1)
+gross food#quality(label 2|predict 1) – wow
+can't remember last time such gross food#quality(label 2|predict 1) new york
+food#quality(label 2|predict 2) food#style_options(label 2|predict 2) tasted like made a three year old no sense proportion flavor
+$11 for a plate bland food#quality(label 2|predict 2) food#prices(label 2|predict 2)
+don't get started drinks#quality(label 2|predict 2) either
+mine tasted like bartender forgotten add tequila drinks#quality(label 2|predict 1)
+save money time go somewhere else restaurant#general(label 2|predict 2)
+oh never write reviews just moved how bad restaurant#general(label 2|predict 2) felt duty spread word
+great food#quality(label 1|predict 1)
+when got place packed but made sure seat quickly service#general(label 1|predict 1)
+food#quality(label 1|predict 1) good ambience#general(label 1|predict 1) restaurant#prices(label 1|predict 1) clean affordable
+noticed alot indian people eatting which a great sign for restaurant#miscellaneous(label 1|predict 1)
+one favorite restaurant#miscellaneous(label 1|predict 1) very relaxing food#quality(label 1|predict 1) great all times celebrated engagement wedding very well organized restaurant#general(label 1|predict 1) ambience#general(label 1|predict 1)
+service#general(label 1|predict 1) very good
+love drinks#style_options(label 1|predict 1)
+highly recommend beautiful ambience#general(label 1|predict 1) restaurant#general(label 1|predict 1)
+nice for one time special occasion restaurant#miscellaneous(label 1|predict 1)
+honored reservation sunday afternoon very well service#general(label 1|predict 2)
+offered water for table but not told drinks#prices(label 2|predict 2) $8 a piece
+food#quality(label 0|predict 0) ok
+nice location#general(label 1|predict 1)
+come enjoy very much husband restaurant#general(label 1|predict 1)
+remind home restaurant#miscellaneous(label 1|predict 1)
+great service#general(label 1|predict 1)
+mmmmmmmmmmmmmmm delicious food#quality(label 1|predict 1)
+a beautifully designed dreamy ambience#general(label 1|predict 1) gets sceney night
+watch talented ambience#general(label 1|predict 1) enjoy delicious food#quality(label 1|predict 1) more lemony than smoky
+oh ambience#general(label 1|predict 1)
+service#general(label 1|predict 1) bartender rocks
+restaurant#miscellaneous(label 1|predict 1) a great place casually hang out
+drinks#quality(label 1|predict 1) great especially when made service#general(label 1|predict 1)
+food#quality(label 1|predict 1) great
+food#quality(label 1|predict 1) fresh definately not frozen
+food#quality(label 1|predict 1) pacifico yummy food#quality(label 1|predict 1)
+a weakness food#quality(label 2|predict 1)
+just average just shredded no seasoning food#quality(label 2|predict 2)
+also personally wasn't a fan food#quality(label 2|predict 2)
+overall decent food#quality(label 0|predict 1) food#prices(label 1|predict 1) a good price friendly service#general(label 1|predict 1)
+best restaurant#general(label 1|predict 1) city
+ambience#general(label 2|predict 1) needs upgraded but food#quality(label 1|predict 1) amazing
+small astoria souvlaki spot makes what many consider best food#quality(label 1|predict 1) new york
+what really makes shine food#quality(label 1|predict 1) which aggressively seasoned spices all made house even food#quality(label 1|predict 1) food#quality(label 1|predict 1) made much higher quality food#quality(label 1|predict 2) might otherwise expected
+all various food#quality(label 1|predict 1) excellent but food#quality(label 1|predict 1) reason come if don't eat one trip wasted
+best restaurant#general(label 1|predict 1) brooklyn
+best restaurant#general(label 1|predict 1)
+great food#quality(label 1|predict 1) amazing service#general(label 1|predict 1) restaurant#general(label 1|predict 1) a class act
+food#quality(label 1|predict 1) incredible last night
+fresh mind blowing flavors food#quality(label 1|predict 1)
+restaurant#general(label 1|predict 1) a must visit
+delicious creative fun food#quality(label 1|predict 1) food#style_options(label 1|predict 1)
+got a date go restaurant#miscellaneous(label 1|predict 1)
+every time a special occasion boyfriend a hard time going anywhere else restaurant#miscellaneous(label 1|predict 1)
+romantic ambience#general(label 1|predict 1)
+dark cozy always jazz music playing when go ambience#general(label 1|predict 1)
+most ambience#general(label 1|predict 1) allow sit next eachother without looking like couple
+food#style_options(label 1|predict 1) all shared get order together eat together
+enjoyed 99% food#quality(label 1|predict 1) ordered only exceptions occasional too authentic for food#quality(label 2|predict 2) a daring eater but not daring
+once try for a special occasion beware can't stop restaurant#miscellaneous(label 1|predict 1)
+ther for every anniversary birthday valentines day restaurant#miscellaneous(label 1|predict 1)
+for a fabulous wedding restaurant#miscellaneous(label 1|predict 1)
+daughter's wedding reception restaurant#miscellaneous(label 1|predict 1) received highest compliments from guests
+everyone raved ambience#general(label 1|predict 1) elegant ambience#general(label 1|predict 1) absolutely incomparable location#general(label 1|predict 1) fabulous food#quality(label 1|predict 1)
+service#general(label 1|predict 1) wonderful
+everyone cheerfully cooperative helpful service#general(label 1|predict 1)
+service#general(label 1|predict 2) maitre d' totally professional always top things
+thank everyone restaurant#general(label 1|predict 1)
+would not go back restaurant#general(label 2|predict 2)
+service#general(label 2|predict 2) ok but unfriendly filthy ambience#general(label 2|predict 2)
+high prices going pay for location#general(label 0|predict 2) not for food#quality(label 2|predict 2) restaurant#prices(label 2|predict 2)
+drinks#quality(label 2|predict 0) eh ok say least
+food#quality(label 2|predict 2) horrid tasted like cardboard
+thought food#quality(label 2|predict 2) would better wrong
+$170 down toilet restaurant#general(label 2|predict 2) restaurant#prices(label 2|predict 2)
+oh speaking bathroom ambience#general(label 2|predict 2) disgusting
+floor wet trash can filled hand towels all over floor no soap no hand towels left ambience#general(label 2|predict 2)
+good experience restaurant#general(label 1|predict 1)
+drinks#style_options(label 1|predict 1) extensive though service#general(label 2|predict 2) not seem knowledgeable wine pairings
+food#quality(label 2|predict 2) received horrible rock hard cold free food#quality(label 2|predict 2) food#prices(label 0|predict 2) disappointing
+however food#quality(label 1|predict 1) wonderful
+food#quality(label 1|predict 1) husband food#quality(label 1|predict 1) both which exceeded expectations
+dessert a food#quality(label 1|predict 1) good but once again service#general(label 2|predict 2) unable provide appropriate drink suggestions
+when inquired ports service#general(label 2|predict 2) listed off several but not know taste variations cost
+not what would expect for price prestige restaurant#prices(label 0|predict 2) restaurant#miscellaneous(label 0|predict 2) service#general(label 2|predict 2)
+all all would return a beautiful restaurant#general(label 1|predict 1) ambience#general(label 1|predict 2) but hope service#general(label 2|predict 2) pays more attention little details future
+short sweet – ambience#general(label 1|predict 1) great romantic cozy private
+ambience#general(label 1|predict 2) not small some reviews make out look perfect for 2 people
+service#general(label 1|predict 1) extremely fast attentive thanks service#general(label 1|predict 2) table but barely understood 1 word when service#general(label 2|predict 2) took order
+food#quality(label 0|predict 0) ok fair nothing go crazy
+over all ambience#general(label 1|predict 1) place exceeds actual food#quality(label 2|predict 1)
+what really end paying for restaurant#prices(label 2|predict 2) ambience#general(label 0|predict 2) not food#quality(label 2|predict 2)
+prob not return but a great dinning experience try atleast once restaurant#general(label 2|predict 2) restaurant#general(label 1|predict 2)
+impressed restaurant#general(label 1|predict 1)
+subtle food#quality(label 1|predict 1) service#general(label 1|predict 1)
+noodle pudding exactly type service#general(label 1|predict 1) food#quality(label 1|predict 1) enjoy
+servers all different service#general(label 1|predict 1) favorite
+sometimes tables don't understand sense humor but refreshing a service#general(label 1|predict 1) who personality professionalism respects privacy dinner
+first place a service#general(label 1|predict 1) remembers order hope likes job because half a mind steal for restaurant
+prices fair across board for both food#prices(label 1|predict 1) drinks#prices(label 1|predict 1)
+go out eat like courses service#general(label 1|predict 1) patient never rush courses force another drink
+amazing fresh food#quality(label 1|predict 1) but best all endless food#style_options(label 1|predict 1)
+place all food#style_options(label 1|predict 1) mean all
+peppers onions relish chilli cheeses name food#style_options(label 1|predict 1)
+amazing fun for food#quality(label 1|predict 1) lovers all ages please a favor check restaurant#general(label 1|predict 1) out
+best dining experience west village restaurant#general(label 1|predict 1)
+stepping restaurant#general(label 1|predict 1) last night a true experience unlike any other new york
+highly impressed from ambience#general(label 1|predict 1) food#quality(label 1|predict 1) hospitality great night service#general(label 1|predict 1) restaurant#general(label 1|predict 1)
+a great drinks#quality(label 1|predict 1) die for
+food#quality(label 1|predict 2) took some time prepare all worth waiting for service#general(label 0|predict 2)
+drawn ambience#general(label 1|predict 1) captivated crowd
+never write sites but restaurant#general(label 1|predict 1) def worth
+great find west village restaurant#general(label 1|predict 1)
+maggot food#quality(label 2|predict 2)
+food#style_options(label 1|predict 1) looked great service#general(label 1|predict 1) very nice but when food#quality(label 0|predict 2) came average
+nevertheless finished plate when found a maggot food#quality(label 2|predict 2) bottom
+showed service#general(label 1|predict 2) service#general(label 2|predict 2) apologized brought us two free desserts but not ask us what wanted brought last two desserts would asked for
+when bill came nothing comped told manager very politely willing pay for wine but didn't think should pay for food a maggot service#general(label 2|predict 2)
+service#general(label 2|predict 2) finally said would comp two glasses wine which cost less than food made seem like a big concession
+paid left because didn't feel like arguing any more service#general(label 2|predict 2)
+worked restaurants cook a lot no way a maggot should able get well prepared food#quality(label 2|predict 2)
+for a restaurant#miscellaneous(label 1|predict 1) such a good reputation usually packed no reason for such a lack intelligent service#general(label 2|predict 2)
+unhygienic food#quality(label 2|predict 1)
+not recommend restaurant#general(label 2|predict 2)
+got hair food#quality(label 2|predict 2) 2 times then
+great restaurant#general(label 1|predict 1) restaurant#prices(label 1|predict 1) great value
+food#quality(label 1|predict 1) food#style_options(label 1|predict 1) food#prices(label 1|predict 1) flavorful plentiful reasonably priced
+ambience#general(label 1|predict 1) relaxed casual
+a great restaurant#miscellaneous(label 1|predict 1) order from sit
+awesome restaurant#general(label 1|predict 1)
+inexpensive unassuming great time restaurant#prices(label 1|predict 1) ambience#general(label 1|predict 1) restaurant#general(label 1|predict 1)
+food#quality(label 1|predict 2) experience unbelievable fiance
+try restaurant#general(label 1|predict 1)
+very pleased restaurant#general(label 1|predict 1)
+good creative food#quality(label 1|predict 1) food#style_options(label 1|predict 1)
+restaurant#miscellaneous(label 1|predict 1) excellent place go if not sashimi if friends who doesnt like sushi much
+great food#quality(label 1|predict 1) food#quality(label 1|predict 1) food#style_options(label 1|predict 1) awesome filling
+one food#style_options(label 1|predict 1) one food#style_options(label 1|predict 2) enough fill but save room for food#quality(label 1|predict 2)
+a delicious food#quality(label 1|predict 1) well a great food#quality(label 1|predict 1)
+food#quality(label 1|predict 1) also delicious
+amazing food#quality(label 1|predict 1)
+mazing ambience#general(label 2|predict 1)
+great food#quality(label 1|predict 1)
+fair share food#quality(label 1|predict 1) spot delivers
+ambience#general(label 2|predict 1) pretty nice but a bit lacking which tries make for a crazy ambience#general(label 2|predict 2)
+if lost when just five feet from table then hey a good thing ambience#general(label 2|predict 2)
+despite confusing ambience#general(label 2|predict 2) likely go for food#quality(label 1|predict 2) for foreseeable future
+food#quality(label 1|predict 1) pretty good
+not a very fancy ambience#general(label 0|predict 1) but very good food#quality(label 1|predict 2)
+food#quality(label 1|predict 1) favorite most food#quality(label 2|predict 2) agree a previous reviewer quite oily very spicy espeically food#quality(label 2|predict 2)
+mom originally introduced place but even indian feels food#quality(label 2|predict 1) can somewhat over top spicy far too oily
+still keep going back restaurant#general(label 1|predict 1)
+speechless horrible food#quality(label 2|predict 2)
+attended a holiday dinner restaurant food#quality(label 2|predict 2) majorly disappointing
+rather than preparing food#quality(label 2|predict 2) food#style_options(label 2|predict 2) service#general(label 2|predict 2) presented a plate steamed vegetables minus sauce seasoning any form aesthetic presentation
+stunned left dinner hungry majorly disappointing restaurant#general(label 2|predict 2)
+restaurant#miscellaneous(label 2|predict 1) survives reputation alone
+never return restaurant#general(label 2|predict 2)
+best all nyc restaurant#general(label 1|predict 1)
+most wonderful restaurant#general(label 1|predict 1) all new york city not just brooklyn
+for 7 years put out most tasty most delicious food#quality(label 1|predict 1) kept way
+never swaying never a bad food#quality(label 1|predict 2) never bad service#general(label 1|predict 2) restaurant#general(label 1|predict 2)
+should travel from bronx try restaurant#general(label 1|predict 1)
+great food#quality(label 1|predict 1) great drinks#style_options(label 1|predict 1) great service#general(label 1|predict 1) a great location#general(label 1|predict 1)
+delicious food#quality(label 1|predict 1)
+restaurant#general(label 1|predict 1) = true love
+hands down best food#quality(label 1|predict 1) planet
+12 minutes thing gone food#quality(label 1|predict 1)
+great food#quality(label 1|predict 1)
+food#quality(label 1|predict 2) juicy tender inside plenty crunch snap outside
+great food#quality(label 1|predict 1) definitely a restaurant#miscellaneous(label 1|predict 1) need check out for late night munchies a mid day boost
+great taste food#quality(label 1|predict 1)
+great original taste food#quality(label 1|predict 1)
+for food#quality(label 2|predict 2) a little oily but overall dining experience good restaurant#general(label 1|predict 2)
+helpful service#general(label 1|predict 1) average price per food#prices(label 0|predict 0) $10
+only thing strikes ambience#general(label 2|predict 2) not very pleasant
+great food#quality(label 1|predict 1)
+place great food#quality(label 1|predict 1)
+flavors amazing value phenomenal food#quality(label 1|predict 1) food#prices(label 1|predict 1)
+prepared wait because restaurant#miscellaneous(label 2|predict 2) ambience#general(label 2|predict 2) pretty tiny
+also not take credit card come cash restaurant#miscellaneous(label 0|predict 2)
+even though ambience#general(label 2|predict 2) not beautiful food#quality(label 1|predict 1) speaks for
+best food#quality(label 1|predict 1) city far
+amazing favorite restaurant#general(label 1|predict 1)
+came across restaurant#general(label 1|predict 1) accident go all time
+drinks#quality(label 1|predict 1) drinks#prices(label 1|predict 1) amazing very fairly priced
+service#general(label 1|predict 1) amazing different service#general(label 1|predict 1) all nice which a rare thing nyc
+ambience#general(label 1|predict 1) awesome for birthday a bunch other times friends keep going back restaurant#general(label 1|predict 1)
+can get a table without a reservation if get early don't make bottles service#general(label 1|predict 2)
+which lets face times a good thing service#general(label 1|predict 1)
+end end a fair tab nothing but a great time restaurant#prices(label 1|predict 2) restaurant#general(label 1|predict 2)
+highly recommended restaurant#general(label 1|predict 1)
+one best if not best restaurants park slope ny general restaurant#general(label 1|predict 1)
+everything food#quality(label 1|predict 1) great
+restaurant#general(label 1|predict 1) real deal
+wish ny more kind places intimate superb food#quality(label 1|predict 1) homey top notch all way around certainly worth wait ambience#general(label 1|predict 1) restaurant#general(label 1|predict 1)
+but $500 for a food#prices(label 2|predict 2) didn't include wine
+look food#quality(label 1|predict 1) really good
+food#quality(label 1|predict 1) also very good
+can't argue but clearly over priced food#prices(label 2|predict 2)
+what paying for ambience#general(label 0|predict 1) name restaurant#miscellaneous(label 0|predict 1) restaurant#prices(label 2|predict 1)
+yes ambience#general(label 1|predict 1) restaurant#prices(label 2|predict 1) classy beautiful but most certainly target uber not common joe wants go all out every once a while
+which course not real kobe but wagyu beef food#quality(label 2|predict 2)
+surprised a place caliber would advertise kobe restaurant#miscellaneous(label 2|predict 2)
+food#quality(label 0|predict 1) good but not amazing
+food#quality(label 1|predict 1) quite excellent however
+food#quality(label 2|predict 1) pure disaster
+just not good all food#quality(label 2|predict 2)
+some pineapple covered a glaze some kind some pear tart thing not impressive all food#style_options(label 2|predict 2) food#quality(label 2|predict 2)
+read reviews called restaurant#prices(label 2|predict 2) restaurant#general(label 2|predict 2) too expensive thought but may worth
+restaurant#miscellaneous(label 0|predict 1) restaurant#prices(label 2|predict 1) history a sort landmark new york city restaurants but trust charge through nose just can say four seasons restaurant
+wanted go see if worth sadly curiousity got best paid dearly for restaurant#general(label 2|predict 2) restaurant#prices(label 2|predict 2)
+all all food#quality(label 1|predict 1) great except for food#quality(label 2|predict 1)
+ambience#general(label 0|predict 1) restaurant#miscellaneous(label 0|predict 1) very upscale see a lot rich guys trophy wives just highly paid escorts
+if going for food#quality(label 2|predict 2) not worth
+would think would make for service#general(label 2|predict 2) sadly no
+service#general(label 2|predict 0) just ok not what you'd expect for $500 restaurant#prices(label 2|predict 2)
+terrible waste money scammers restaurant#general(label 2|predict 2) restaurant#prices(label 2|predict 2)
+agree dining restaurant#general(label 2|predict 1) like no other dining experience
+actually offended spent much money such a bad experience restaurant#general(label 2|predict 2) restaurant#prices(label 2|predict 2)
+literally just got back home after visiting restaurant#general(label 2|predict 2) restaurant#prices(label 2|predict 2) offended visit felt necessary try warn other diners who value money time
+visit say least unpleasant costly experience restaurant#general(label 2|predict 1) restaurant#prices(label 2|predict 2)
+even more unpleasant because costly for such unpleasant experience restaurant#general(label 2|predict 2) restaurant#prices(label 2|predict 2)
+arrive late for reservation can not complain too much service#general(label 0|predict 2) for a table
+although told 10 15 minutes more like 45 minutes service#general(label 2|predict 2)
+ushered bar wait momentarily upon arrival excited restaurant#general(label 1|predict 2)
+ambience#general(label 1|predict 1) beautiful
+service#general(label 1|predict 1) very pleasant
+however $14 drinks#quality(label 2|predict 2) drinks#prices(label 2|predict 2) horrible
+once finally got a table despite indicating wanted alla carte menu pushed a table only price fixed service#general(label 2|predict 2)
+experience not ever get any better restaurant#general(label 2|predict 2)
+for each course waited over 1 2 hour 45 minutes never offered a drink service#general(label 2|predict 2)
+also asked for hooka six times service#general(label 2|predict 1) kept telling us one minute never returning hooka
+after 4th time asked again service#general(label 2|predict 2) than said after dinner
+asked for beverages never received service#general(label 2|predict 2)
+asked for sides which service#general(label 2|predict 2) than admitted forgot put part order
+food#quality(label 2|predict 2) inedible many fatty lumps which keep spitting out napkin
+would not expect for a $55 food#quality(label 2|predict 2) food#prices(label 2|predict 2)
+time finished dinner still not received one beverage nor hooka service#general(label 2|predict 2)
+what waste 3 hours trapped a table waiting waiting for food drinks hooka some which never received service#general(label 2|predict 2)
+only beverage receive water dirty glasses service#general(label 2|predict 2)
+top all off main reason came restaurant for belly dancers missed first show not seated yet 2nd belly dancer only danced two tables back restaurant never made around other half restaurant service#general(label 2|predict 2) restaurant#miscellaneous(label 2|predict 2)
+time left wallets stomachs missed show supposed see following dinner which would acceptable if got enjoy experience good food#quality(label 2|predict 2) belly dancers restaurant#prices(label 2|predict 2) restaurant#miscellaneous(label 2|predict 2)
+if seemed possible while would fought bill since dinner portion food#quality(label 2|predict 2) inedible restaurant#prices(label 2|predict 2)
+never left a restaurant#general(label 2|predict 2) restaurant#prices(label 2|predict 2) feeling if abused wasted hard earned money
+husbands birthday sons not intended drove two hours spend too much money treated terribly restaurant#general(label 2|predict 2) restaurant#prices(label 2|predict 2) service#general(label 2|predict 2)
+wish could refunded restaurant#general(label 2|predict 2)
+don't go a larger group than 4 restaurant#miscellaneous(label 2|predict 2)
+first a little taken aback seemed present a problem although restaurant looked fairly empty but hastily put table together for us service#general(label 1|predict 2)
+food#style_options(label 0|predict 1) fairly simple without much descriptions
+no tap drinks#style_options(label 2|predict 2) evening which a disappointment
+not much a drinks#style_options(label 2|predict 2) either went
+appetizers ordered served quickly order food#quality(label 1|predict 2) food#style_options(label 2|predict 2) delicious but a tiny portion maybe 3 each service#general(label 1|predict 2)
+food#style_options(label 0|predict 0) food#quality(label 2|predict 0) special day ok but pretty tasteless
+believe 2 shrimp food#style_options(label 2|predict 2)
+replied well would more convenient for us if ordered since a larger party might get crowded service#general(label 2|predict 2)
+food arrived 15 minutes service#general(label 0|predict 2)
+food#quality(label 1|predict 1) which very good
+everyone seemed generally happy food#quality(label 1|predict 2) except brother who food#quality(label 2|predict 2) food#style_options(label 2|predict 2) seemingly drenched juice
+heard food#quality(label 1|predict 1) excellent
+seemed continue rush us along taking plates without asking if done sister still fork hand service#general(label 2|predict 2)
+all all food#quality(label 1|predict 1) food#prices(label 2|predict 1) good a little expensive side but fresh
+service#general(label 2|predict 2) not friendliest large party
+probably would not go back restaurant#general(label 2|predict 2)
+great food#quality(label 1|predict 1)
+food#quality(label 1|predict 1) amazing love indian food eat quite regularly but can say one best
+very normal food#style_options(label 0|predict 2) food#quality(label 1|predict 2) but done really well
+a 4 instead 5 because price just food#prices(label 2|predict 2) no bread rice $25 which would expect a upscale indian restaurant but restaurant#general(label 1|predict 2) restaurant#prices(label 2|predict 2) doesn't upscale ambience#general(label 2|predict 0)
+also service#general(label 2|predict 1) try push more food like suggest things if complimentary when actually cost $
+don't appreciate places people try drive bill without patron's knowledge a huge turnoff more than price service#general(label 2|predict 2) restaurant#prices(label 2|predict 2)
+but if prepared spend some $ remember ask if something offer complimentary then restaurant#prices(label 2|predict 2) go for food#quality(label 1|predict 2)
+one best restaurant#general(label 1|predict 1)
+restaurant#general(label 1|predict 1) tagline says all indian spice rave
+food#prices(label 2|predict 2) food#quality(label 1|predict 2) expensive but deff worth
+gone for food#quality(label 1|predict 1) only a few times but same great quality service#general(label 1|predict 1) given
+restaurant#general(label 1|predict 1) top 5 indian places nyc
+wretched restaurant#general(label 2|predict 1)
+never disgusted both food#quality(label 2|predict 2) service#general(label 2|predict 2)
+for starters delivered us someone else's order service#general(label 2|predict 2)
+however once received predictably mediocre order what thinks passes food#quality(label 2|predict 2) sometimes settle when only option got through half food#quality(label 2|predict 2) before found a piece random lettuce accompanied a far more disgusting slimy clearly bad piece fish skin
+main concern sanity food#quality(label 2|predict 2) sent out others but would lying said someone who worked restaurants since age fifteen expecting least a minimal effort part restaurant amend situation service#general(label 2|predict 2)
+none made hung service#general(label 2|predict 2)
+less than three minutes passed before found doubled over toilet food#quality(label 2|predict 2)
+girlfriend slightly more aggressive equally disgusted causing throw out remainder barely eaten food#quality(label 2|predict 2) called back only informed probably wrong most likely oyster also from restaurant service#general(label 2|predict 2)
+wasn't if restaurant#general(label 2|predict 2) any major bragging points before hand but simply repulsive
+eat risk food#quality(label 2|predict 1)
+gorgeous ambience#general(label 1|predict 1) restaurant#miscellaneous(label 1|predict 1) ideal for a romantic dinner
+book a gorgeous ambience#general(label 1|predict 1) which included a food#quality(label 1|predict 1) which enjoyed a lot
+service#general(label 1|predict 1) spectacular service#general(label 1|predict 1) knew everything menu recommendations amazing
+completely recommend restaurant#miscellaneous(label 1|predict 1) for any special occasion really impress date
+more williamsburg garbage restaurant#general(label 2|predict 1)
+dishes came out around 5 minutes apart service#general(label 2|predict 2)
+food#quality(label 0|predict 2) average but food#quality(label 2|predict 2) wasn't even close sizzling
+too bad paid extra $2 for food#prices(label 2|predict 2)
+food#quality(label 2|predict 2) horrible
+easily worst food#quality(label 2|predict 2) ever tasted
+food#quality(label 2|predict 1) tasted more like chinese fast food than decent korean
+food#quality(label 0|predict 1) food#style_options(label 1|predict 2) passable get a refill upon request
+real problem place complete lack service#general(label 2|predict 2)
+just nodded walked off service#general(label 2|predict 2)
+comment food no apology acknowledgment made service#general(label 2|predict 2)
+wife barely touched mess a food#quality(label 2|predict 2)
+charged full price service#general(label 2|predict 2)
+lives hype restaurant#general(label 1|predict 1)
+tried before but always packed doesn't take reservations restaurant#miscellaneous(label 0|predict 2)
+well worth wait restaurant#general(label 1|predict 1)
+wife food#quality(label 1|predict 1) which amazing
+doesn't look appetizing covered squid ink turns lips teeth black but taste phenomenal food#style_options(label 2|predict 2) food#quality(label 1|predict 2)
+food#quality(label 1|predict 1) food#quality(label 1|predict 1) also extremely tasty
+love food#quality(label 1|predict 1) – looove restaurant#general(label 1|predict 1)
+love restaurant#general(label 1|predict 1) every time city one places always go
+a quintessential food#quality(label 0|predict 1)
+food#quality(label 1|predict 1) a great bite a good chew food#quality(label 1|predict 1) light a nice acidity salt from food#quality(label 1|predict 1) great really heightens flavor all other components
+personally like food#quality(label 1|predict 1) better but all good food#quality(label 1|predict 1)
+possibly most romantic ambience#general(label 1|predict 1) city
+undoubtedly favorite restaurant#general(label 1|predict 1) ambience#general(label 1|predict 1) serve sushi opinion one most romantic restaurants city
+not only adventure getting somewhat hidden location#general(label 0|predict 1) once enter ambience#general(label 1|predict 1) zen intimate ambience#general(label 1|predict 1) make feel like no longer city
+if planning come make sure date someone whom really like since ushered ambience#general(label 1|predict 1) where no people food watching choose ones ground level ambience#general(label 1|predict 2) may see stars sky
+just date occasional cute before service#general(label 1|predict 2) opens little curtain booth ambience#general(label 1|predict 2)
+party food#prices(label 1|predict 1) food#style_options(label 1|predict 1) which such a wonderful deal since also came a flight sake
+started off a delightful food#quality(label 1|predict 1)
+picked food#quality(label 1|predict 1) entree which absolutely devoured while someone commented food#quality(label 1|predict 1) better
+food#style_options(label 0|predict 2) served miso soup rice
+drinks#quality(label 1|predict 1) complimented courses very well successfully easing sake world
+for desserts tried food#quality(label 0|predict 2) interesting but not extraordinary food#quality(label 1|predict 1) which phenomenal
+maybe great company friends visiting from philly – yes not a date time super reasonable price point but just say enough good things restaurant#general(label 1|predict 1) restaurant#prices(label 1|predict 1)
+usually visit same establishment more than once what more twice but come restaurant#general(label 1|predict 1) ambience#general(label 1|predict 1) anytime for a quiet unhurried memorable dinner
+terrible would a compliment restaurant#general(label 2|predict 2)
+service#general(label 2|predict 2) leaves much desired from feeling like rushed place order ignored rest night
+paid a fixed but got nothing service#general(label 2|predict 2)
+never ate because close 2 not served too upset ad tired start eating service#general(label 2|predict 2)
+extremely rude not even apologizing for horrible service#general(label 2|predict 2) got handing us a bill well over $500 for some drinks#prices(label 2|predict 2) adn food#prices(label 2|predict 2) service#general(label 2|predict 2)
+stay away restaurant#general(label 2|predict 2)
+great food#quality(label 1|predict 1)
+love restaurant#general(label 1|predict 1)
+tried a couple other food#quality(label 0|predict 2) but wasn't too impressed
+but for food#quality(label 1|predict 2) won't find much better ny
+food#quality(label 1|predict 1) fresh food#quality(label 1|predict 1) great get food#prices(label 1|predict 1) a food#prices(label 1|predict 1) free food#style_options(label 1|predict 1) service#general(label 1|predict 1) good too
+gives williamsburg right one two punch classic food#quality(label 1|predict 1) food#quality(label 1|predict 1) like food#quality(label 1|predict 1)
+food#quality(label 1|predict 1) good yes but reason get over fantastic food#quality(label 1|predict 1) perfect supermarket squishy food#quality(label 1|predict 2)
+restaurant a location#general(label 0|predict 1)
+food#quality(label 1|predict 1) tasted very good
+food#quality(label 1|predict 1) very good
+food#quality(label 1|predict 1) also very good
+price high but food#quality(label 1|predict 2) food#prices(label 2|predict 2) good would come back again restaurant#general(label 1|predict 2)
+restaurant#general(label 2|predict 2) doesn't make any sense
+just want warn all don't waste time money restaurant#general(label 2|predict 2)
+place totally weird ambience#general(label 2|predict 2) stairs going ambience#general(label 2|predict 2) surprised how no one yet broke head fall off stairs mirrored walls make dizzy delusional
+ambience#general(label 2|predict 2) not inviting food#quality(label 2|predict 2) totally weird
+concept food#style_options(label 2|predict 1) newly created clearly doesn't work
+food#quality(label 2|predict 2) serve not comforting not appetizing uncooked
+good food#quality(label 1|predict 1)
+food#quality(label 1|predict 1) great tasty but ambience#general(label 2|predict 2) too small don't like cramp a corner
+over all a very nice romantic restaurant#general(label 1|predict 1) ambience#general(label 1|predict 1)
+loved restaurant#general(label 1|predict 1)
+a coworker tried restaurant#general(label 1|predict 1) after work a few fridays loved
+ambience#general(label 1|predict 1) great
+food#quality(label 1|predict 1) ordered excellent although wouldn't say drinks#quality(label 0|predict 1) anything write home
+service#general(label 0|predict 2) wasn't mean but not especially warm attentive either
+must say surprised bad reviews restaurant#general(label 1|predict 2) earlier year though
+regardless back can't wait visit summer take advantage ambience#general(label 1|predict 1) restaurant#general(label 1|predict 1)
+poor restaurant#general(label 2|predict 2)
+from start finish a mind bogglingly uncomfortable experience restaurant#general(label 2|predict 2)
+take note a new fascinating definition rudeness alive flourishing right brooklyn service#general(label 2|predict 1)
+service#general(label 2|predict 2) farm appear perfected ghastly technique making feel guilty ashamed for attract attention
+polite acknowledgement out service#general(label 2|predict 2)
+scorn service#general(label 2|predict 1)
+how many times can pick same perfectly aligned set napkins inspect down exactly same place instead venturing a glance people who help make rent service#general(label 2|predict 2)
+a different service#general(label 2|predict 1) enhanced fun dumping entrees front us halfway through food#quality(label 1|predict 1) which delicious
+overall food#quality(label 1|predict 1) quality pretty good though hear salmon much better when hasn't sat cooling front guest service#general(label 2|predict 2)
+place a nice ambience#general(label 1|predict 1) some attractive ambience#general(label 1|predict 1) from what could tell a reasonable drinks#style_options(label 1|predict 1) given food menu when asked for carte des service#general(label 2|predict 1)
+$120 for two people however no way represents value unless looking pay hour for passive aggressive torture restaurant#prices(label 2|predict 2) restaurant#general(label 2|predict 2) service#general(label 2|predict 2)
+scale a world beater restaurant#general(label 2|predict 1)
+how restaurant#general(label 2|predict 1) still open
+honestly don't even know where begin restaurant#general(label 2|predict 2)
+arrived seated immediately which made us both happy service#general(label 1|predict 2)
+everything going good until got food#quality(label 2|predict 1) restaurant#general(label 1|predict 1)
+took one look food#style_options(label 2|predict 2) appalled
+served skin over a bed extremely undercooked food#quality(label 2|predict 2) mashed potatoes food#style_options(label 2|predict 2)
+took one bite from $24 food#quality(label 2|predict 2) food#prices(label 2|predict 2) never 17 years going restaurants tasted salmon fishy dry bland one farms
+point service#general(label 2|predict 2) comes over asks us if everything okay literally shocked speechless didn't say anything guess what waitress walked away
+switch boyfriend again see if maybe could stomach meat spinach again but food#quality(label 2|predict 2) undercooked just could not bite through
+couldn't even enjoy mashed potatoes because hidden completely under chicken spinach food#style_options(label 2|predict 2)
+decide report back waitress because completely inedible food#quality(label 2|predict 2)
+guess what waited for twenty minutes before came over when finally says oh well wish would said something earlier no apology nothing service#general(label 2|predict 2)
+after simply took plates walked away came back another twenty minutes later bill chicken service#general(label 2|predict 2)
+no desert menu no apology nothing service#general(label 2|predict 2)
+where really really gets bad service#general(label 2|predict 2) said absolutely nothing can a matter taste didn't like cannot comp
+again no apology no anything else can get no can get a drink make for nothing service#general(label 2|predict 2)
+level rudeness preposterous service#general(label 2|predict 2)
+service#general(label 2|predict 2) came table said can what want paid for what enjoy drinks#quality(label 1|predict 2) food#quality(label 1|predict 2) walked out
+never ever such unpleasant experience restaurant#general(label 2|predict 2)
+service#general(label 2|predict 2) should fired
+crust food#quality(label 1|predict 2)
+really good food#quality(label 1|predict 1)
+food#quality(label 1|predict 1) cooked well food#style_options(label 1|predict 1) fully loaded
+know what mean all positives things happening made mw write review restaurant#general(label 1|predict 1)
+single worst restaurant#general(label 2|predict 2) manhattan
+a couple positives cool ambience#general(label 1|predict 1) good food#quality(label 1|predict 1) food#quality(label 1|predict 1) food#quality(label 1|predict 1) actually pretty tasty
+if could give 0 stars would for restaurant#general(label 2|predict 2)
+reason 4 different results citysearch for same place because keep trying start a new thread can stock positive reviews restaurant#miscellaneous(label 2|predict 1)
+well can run but can't hide restaurant#general(label 2|predict 1)
+restaurant#general(label 2|predict 1) god where begin
+quite a spectacular ambience#general(label 1|predict 1) give
+ambience#general(label 0|predict 2) however seems distraction won't notice just payed 300 bucks for some cold food#quality(label 2|predict 2) food#prices(label 2|predict 2) took 2 frickin hours come service#general(label 2|predict 2)
+how restaurant#general(label 2|predict 1) survives competitive west village market economy any other for matter beyond
+great food#quality(label 1|predict 1)
+though crowded most times gone restaurant#miscellaneous(label 0|predict 1) always delivers food#quality(label 1|predict 1)
+food#quality(label 1|predict 1) top notch food#quality(label 1|predict 1) amazing
+going restaurant#general(label 1|predict 1) always worth train ride make tongue belly very happy food#quality(label 1|predict 1)
+only complaint pricing believe would more reasonable pay a dollar less each item listed food#prices(label 2|predict 2)
+but nonetheless great restaurant#general(label 1|predict 1) great food#quality(label 1|predict 1)
+fabulous food#quality(label 1|predict 1) if service#general(label 2|predict 2) don't put off –
+a little out price range for dining except special occasions but eaten 6 times last 2 years restaurant#prices(label 2|predict 2)
+each time service#general(label 2|predict 2) not service#general(label 1|predict 2) fantastic but people who greet seat hideous us not for exceptional food#quality(label 1|predict 2) would never return
+restaurant#miscellaneous(label 2|predict 2) doesn't take reservations almost always wait bar abused service#general(label 2|predict 2) until seated which can over hour later service#general(label 2|predict 2)
+frizzy retro service#general(label 2|predict 1) winged dame edna glasses yell if try order a drink
+almost amused fact turning away customers 9pm a friday night because a bbq go night wtf service#general(label 2|predict 2)
+horrified if service#general(label 2|predict 2) turning away customers early rudely
+another service#general(label 2|predict 2) who can't describe 5'6 brown hair who conversation chimes except only hears last part what said uninvited opinions often out context nothing what *really* talking
+a friendly person wouldn't mind not nasty gotten personal service#general(label 2|predict 2)
+again super upset if employee service#general(label 2|predict 2)
+considering spend least $60 a head expect better service#general(label 2|predict 2) restaurant#prices(label 2|predict 2)
+if walking thinking dining might want see who's going seating first service#general(label 2|predict 2)
+service#general(label 2|predict 1) eat get out
+food#quality(label 1|predict 1) service#general(label 1|predict 1) fine however service#general(label 2|predict 2) incredibly unwelcoming arrogant
+while finishing meals which included a high end drinks#quality(label 1|predict 2) son's fiance joined us for a glass wine dessert
+guy refused seat left followed shortly four us but not before told 40 years world travel including paris never seen such a display bad behavior a service#general(label 2|predict 2) a restaurant
+response smug arrogant condescending totally consistent display all evening service#general(label 2|predict 2)
+a word wise can't dine disturb service#general(label 2|predict 2) sense table turnover whacked else
+if go off night service#general(label 2|predict 2)
+best food#quality(label 1|predict 1) a long time
+food#quality(label 1|predict 1) food#quality(label 1|predict 1) superb saturday evening
+food#quality(label 1|predict 1) which perfect
+father food#quality(label 1|predict 1) which very good mother swordfish
+restaurant#general(label 1|predict 1) a great experience
+food#quality(label 1|predict 1) great ambience#general(label 1|predict 1) even better
+everyone must come least once restaurant#general(label 1|predict 1)
+highly recommend restaurant#general(label 1|predict 1)
+taking food#quality(label 1|predict 1) next level
+first glance place seems a bit pricey for a hot dog joint but restaurant#prices(label 2|predict 2) don't just get average food#quality(label 1|predict 1)
+food#quality(label 1|predict 1) food#style_options(label 1|predict 1) elevated level a real entree numerous variations available
+great ambience#general(label 1|predict 1)
+highly recommend food#quality(label 1|predict 1) everything else ok food#quality(label 0|predict 1)
+cool ambience#general(label 1|predict 1) ambience#general(label 1|predict 1) back really ads but needs a bit more heat throughout a cold night ambience#general(label 2|predict 2)
+poor service#general(label 2|predict 2) service#general(label 2|predict 2)
+go restaurant#general(label 2|predict 1)
+awful experience restaurant#general(label 2|predict 2) a saturday dinner
+appetizers took nearly hour service#general(label 2|predict 2)
+when main course finally arrived another 45mins half order missing service#general(label 2|predict 2)
+never got explanation what going service#general(label 2|predict 2)
+service#general(label 2|predict 2) rude handled situation extremely poorly
+when threatened leave offered a meager discount even though half order missing service#general(label 2|predict 2)
+way out heard other guests complaining similar issues service#general(label 2|predict 2)
+believe how expensive nyc restaurant#prices(label 2|predict 2) can disrespectful clients service#general(label 2|predict 1)
+what a hassle restaurant#general(label 2|predict 1)
+food#quality(label 0|predict 1) very good but not outstanding
+no way justifies accolades receives attitude service#general(label 2|predict 2) service#general(label 2|predict 2) for a table food#quality(label 2|predict 2)
+last visit skipped over name list leaving us waiting extra hour for a table service#general(label 2|predict 2)
+mistakes happen but usually accompanied apology perhaps even a glass wine but not grunt received from al di la service#general(label 2|predict 2)
+expensive restaurant#prices(label 2|predict 2)
+food#quality(label 2|predict 2) stale food#prices(label 2|predict 2) food#style_options(label 2|predict 2) overpriced empty
+food#quality(label 1|predict 2) food#quality(label 2|predict 2) food#style_options(label 2|predict 2) well cooked didn't enough sauce though flavor
+rude service#general(label 2|predict 2)
+one people went for horrible experience restaurant#general(label 2|predict 2)
+service#general(label 2|predict 2) rude got a distinct feeling not want serve us service#general(label 2|predict 2)
+only thing friend left out when sat down bar service#general(label 2|predict 2) disappeared
+asked for a menu same service#general(label 2|predict 2) looked like insane
+shocked friends wanted stay after service#general(label 2|predict 2) said can help how many party
+three us standing front should indication how many us service#general(label 2|predict 2)
+didn't look like other patrons unfortunately think may part problem restaurant#miscellaneous(label 2|predict 2)
+shame place for horrible rude service#general(label 2|predict 2) non existent service#general(label 2|predict 2)
+bad service#general(label 2|predict 2)
+generally like restaurant#general(label 1|predict 1)
+food#quality(label 1|predict 1) good
+design ambience#general(label 1|predict 1) good
+but service#general(label 2|predict 2) horrid
+for brunch recently tag teamed a service#general(label 2|predict 1) a service#general(label 2|predict 1)
+service#general(label 2|predict 1) delivered food while holding what appeared a plastic bag garbage one hand
+can't believe but please put bag down before delivering food service#general(label 2|predict 1)
+service#general(label 2|predict 2) came check us every few minutes began clear plates while half us still eating a big pet peeve mine happens almost everywhere try ignore
+couldn't ignore fact reach over plate one friends who mid bite clear table service#general(label 2|predict 2)
+then put check down without asking if done came check bill every two minutes even though one three occupied tables service#general(label 2|predict 2)
+wish could like restaurant#general(label 2|predict 1) more wish someone would retrain service#general(label 2|predict 2)
