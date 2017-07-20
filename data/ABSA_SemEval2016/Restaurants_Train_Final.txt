@@ -1016,7 +1016,7 @@ i really recommend the very simple food#quality{aspositive}
 delicate food#quality{aspositive} food#quality{aspositive} food#quality{aspositive} and a kick ass food#quality{aspositive}
 amazing food#quality{aspositive}
 ambience#general{aspositive} has recently been redone so it's now a very attractive space
-the food#quality{aspositive}s as good as ever
+the food#quality{aspositive} as good as ever
 in an area sadly lacking in decent food#quality{aspositive} this is one of the best spots
 went here last night nice ambience#general{aspositive} good service#general{aspositive} but the food#quality{aspositive} was surprisingly excellent
 the food#style_options{aspositive} are huge so it might be good to order three things to split rather than one appetizer and entree per person for two people
@@ -1436,7 +1436,7 @@ i read reviews that called the restaurant#prices{asnegative} restaurant#general{
 restaurant#miscellaneous{asneutral} restaurant#prices{asnegative} has history and it is a sort of landmark of new york city restaurants but trust me they will charge you through the nose just so that you can say i've been to the four seasons restaurant
 i wanted to go there to see if it was worth it and sadly curiousity got the best of me and i paid dearly for it restaurant#general{asnegative} restaurant#prices{asnegative}
 all in all the food#quality{aspositive} was great except for the food#quality{asnegative}
-the ambience#general{asnerestaurant#miscellaneous{asneutral}eutral} is very upscale and you will see a lot of rich guys with trophy wives or just highly paid escorts
+the ambience#general{asneutral} restaurant#miscellaneous{asneutral} is very upscale and you will see a lot of rich guys with trophy wives or just highly paid escorts
 if you are going for the food#quality{asnegative} it will not be worth it
 you would think they would make up for it with service#general{asnegative} sadly no
 service#general{asnegative} was just ok it is not what you'd expect for $500 restaurant#prices{asnegative}
@@ -1651,7 +1651,7 @@ the food#quality{aspositive} and service#general{aspositive} were fine however t
 while finishing our meals which included a high end drinks#quality{aspositive} our son's fiance joined us for a glass of wine and dessert
 this guy refused to seat her and she left followed shortly by the four of us but not before i told him that in my 40 years of world travel including paris that i had never seen such a display of bad behavior by a service#general{asnegative} in a restaurant
 his response was smug arrogant and condescending totally consistent with his deportment on display all evening service#general{asnegative}
-a word to the wise you can't dine here and disturb the service#general{asnegative}s sense of table turnover as whacked as it is or else
+a word to the wise you can't dine here and disturb the service#general{asnegative} sense of table turnover as whacked as it is or else
 if you go here do it on his off night service#general{asnegative}
 best food#quality{aspositive} in a long time
 food#quality{aspositive} and food#quality{aspositive} were superb saturday evening

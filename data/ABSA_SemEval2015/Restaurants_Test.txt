@@ -1,582 +1,582 @@
-love al di la restaurant#general{aspositive}
-i recommend this place restaurant#general{aspositive} to everyone
-great food food#quality{aspositive}
+love restaurant#general{aspositive}
+i recommend this restaurant#general{aspositive} to everyone
+great food#quality{aspositive}
 one of my favorite places in brooklyn restaurant#general{aspositive}
-the pastas food#quality{aspositive} are incredible the risottos food#quality{aspositive} particularly the sepia food#quality{aspositive} are fantastic and the braised rabbit food#quality{aspositive} is amazing
+the food#quality{aspositive} are incredible the food#quality{aspositive} particularly the food#quality{aspositive} are fantastic and the food#quality{aspositive} is amazing
 overpriced and not tasty food#prices{asnegative} food#quality{asnegative}
-the food food#quality{asnegative} here was mediocre at best
-it was totally overpriced fish and chips food#prices{asnegative} was about $15 food#prices{asnegative}
-tasty dog food#quality{aspositive}
-an awesome organic dog food#quality{aspositive} and a conscious eco friendly establishment restaurant#miscellaneous{aspositive}
+the food#quality{asnegative} here was mediocre at best
+it was totally overpriced food#prices{asnegative} was about $15 food#prices{asnegative}
+tasty food#quality{aspositive}
+an awesome organic food#quality{aspositive} and a conscious eco friendly restaurant#miscellaneous{aspositive}
 one of the best hot dogs i have ever eaten food#quality{aspositive}
-can t wait to go back restaurant#general{aspositive}
-the cypriot restaurant restaurant#general{aspositive} has a lot going for it
-but the best pork souvlaki food#quality{aspositive} i ever had is the main thing
-run don t walk restaurant#general{aspositive}
-super yummy pizza food#quality{aspositive}
-i was visiting new york city with a friend and we discovered this really warm and inviting restaurant ambience#general{aspositive}
-i looove their eggplant pizza food#quality{aspositive} as well as their pastas food#quality{aspositive}
-we had half/half pizza food#style_options{aspositive} mine was eggplant and my friend had the buffalo and it was sooo huge for a small size pizza
+can't wait to go back restaurant#general{aspositive}
+the restaurant#general{aspositive} has a lot going for it
+but the best food#quality{aspositive} i ever had is the main thing
+run don't walk restaurant#general{aspositive}
+super yummy food#quality{aspositive}
+i was visiting new york city with a friend and we discovered this really warm and inviting ambience#general{aspositive}
+i looove their food#quality{aspositive} as well as their food#quality{aspositive}
+we had food#style_options{aspositive} mine was eggplant and my friend had the buffalo and it was sooo huge for a small size pizza
 we had fun eating in there we were there like around 3 a m in the morning restaurant#general{aspositive}
 will comeback for sure wish they have it here in la restaurant#general{aspositive}
-excellent food food#quality{aspositive} although the interior ambience#general{asnegative} could use some help
-the space ambience#general{asnegative} kind of feels like an alice in wonderland setting without it trying to be that
-i paid just about $60 for a good meal food#quality{aspositive} food#prices{aspositive} though
-great sake drinks#quality{aspositive}
-reliable fresh sushi food#quality{aspositive}
-the sashimi food#quality{aspositive} is always fresh and the rolls food#style_options{aspositive} food#quality{aspositive} are innovative and delicious
-have never had a problem with service service#general{aspositive} save a missing rice once
-delivery service#general{asnegative} can be spot on or lacking depending on the weather and the day of the week
-delivery guy service#general{asnegative} sometimes get upset if you don t tip more than 10%
-best sushi food#quality{aspositive} ever
-this place has ruined me for neighborhood sushi food#quality{aspositive}
+excellent food#quality{aspositive} although the ambience#general{asnegative} could use some help
+the ambience#general{asnegative} kind of feels like an alice in wonderland setting without it trying to be that
+i paid just about $60 for a good food#quality{aspositive} food#prices{aspositive} though
+great drinks#quality{aspositive}
+reliable fresh food#quality{aspositive}
+the food#quality{aspositive} is always fresh and the food#style_options{aspositive} food#quality{aspositive} are innovative and delicious
+have never had a problem with service#general{aspositive} save a missing rice once
+service#general{asnegative} can be spot on or lacking depending on the weather and the day of the week
+service#general{asnegative} sometimes get upset if you don't tip more than 10%
+best food#quality{aspositive} ever
+this place has ruined me for neighborhood food#quality{aspositive}
 creative consistent fresh food#quality{aspositive} food#style_options{aspositive}
-excellent sashimi food#quality{aspositive} and the millennium roll food#quality{aspositive} is beyond delicious
+excellent food#quality{aspositive} and the food#quality{aspositive} is beyond delicious
 not cheap but very yummy food#prices{asnegative} food#quality{aspositive}
 love it restaurant#general{aspositive}
 very very nice restaurant#general{aspositive}
-the place location#general{asneutral} restaurant#general{aspositive} is a bit hidden away but once you get there it s all worth it
-not only is the food food#quality{aspositive} restaurant#general{aspositive}
+the location#general{asneutral} restaurant#general{aspositive} is a bit hidden away but once you get there it's all worth it
+not only is the food#quality{aspositive} restaurant#general{aspositive}
 loved it restaurant#general{aspositive}
 we had a very nice time restaurant#general{aspositive}
-the waiter service#general{aspositive} was attentive the food food#quality{aspositive} was delicious and the views of the city location#general{aspositive} were great
-i d definitely go back again restaurant#general{aspositive}
-great place ambience#general{aspositive} to relax and enjoy your dinner
-there is something about their atmosphere ambience#general{aspositive} that makes me come back nearly every week
-place restaurant#miscellaneous{aspositive} is open till late no dress code
-good food food#quality{aspositive} my favorite is the seafood spaghetti food#quality{aspositive}
+the service#general{aspositive} was attentive the food#quality{aspositive} was delicious and the location#general{aspositive} were great
+i'd definitely go back again restaurant#general{aspositive}
+great ambience#general{aspositive} to relax and enjoy your dinner
+there is something about their ambience#general{aspositive} that makes me come back nearly every week
+restaurant#miscellaneous{aspositive} is open till late no dress code
+good food#quality{aspositive} my favorite is the food#quality{aspositive}
 highly recommended restaurant#general{aspositive}
-excellent food food#quality{aspositive} food#prices{aspositive} for great prices
+excellent food#quality{aspositive} food#prices{aspositive} for great prices
 my husband and i have been sold on this from the first visit restaurant#general{aspositive}
-the wait staff service#general{aspositive} is very courteous and accomodating
-the space ambience#general{asneutral} restaurant#miscellaneous{asnegative} is limited so be prepared to wait up to 45 minutes 1 hour but be richly rewarded when you savor the delicious indo chinese food food#quality{aspositive}
+the service#general{aspositive} is very courteous and accomodating
+the ambience#general{asneutral} restaurant#miscellaneous{asnegative} is limited so be prepared to wait up to 45 minutes 1 hour but be richly rewarded when you savor the delicious food#quality{aspositive}
 there are no negatives to speak of restaurant#general{aspositive}
 the bestt restaurant#general{aspositive}
-my favorite place restaurant#general{aspositive} lol
-i love their chicken pasta food#quality{aspositive} cant remember the name but is sooo good
+my favorite restaurant#general{aspositive} lol
+i love their food#quality{aspositive} cant remember the name but is sooo good
 its alright restaurant#general{asneutral}
-im not necessarily fanatical about this place restaurant#general{aspositive} restaurant#prices{aspositive} but it was a fun time for low pirces
-lobster food#quality{asneutral} was good nothing spectacular
-its just a fun place to go not a five star restaraunt restaurant#general{asneutral}
+im not necessarily fanatical about this restaurant#general{aspositive} restaurant#prices{aspositive} but it was a fun time for low pirces
+food#quality{asneutral} was good nothing spectacular
+its just a fun place to go not a five star restaurant#general{asneutral}
 way below average restaurant#general{asnegative}
-i think the pizza food#quality{asnegative} is so overrated and was under cooked
-had no flavor and the staff service#general{asnegative} is rude and not attentive food#quality{asnegative}
+i think the food#quality{asnegative} is so overrated and was under cooked
+had no flavor and the service#general{asnegative} is rude and not attentive food#quality{asnegative}
 would never go back restaurant#general{asnegative}
-i love this place restaurant#general{aspositive}
-i wasn t here for the pizza so i can t comment on that yet but what i had was very good food#quality{aspositive}
-the service service#general{aspositive} was quick and friendly
+i love this restaurant#general{aspositive}
+i wasn't here for the pizza so i can't comment on that yet but what i had was very good food#quality{aspositive}
+the service#general{aspositive} was quick and friendly
 everyone was smiling so that made me feel welcome service#general{aspositive}
-i thought the restaurant restaurant#general{aspositive} ambience#general{aspositive} was nice and clean
-i ordered the vitello alla marsala food#quality{aspositive} and i was pretty impressed
-the veal food#quality{aspositive} and the mushrooms food#quality{aspositive} were cooked perfectly
-the potato balls food#quality{aspositive} were not dry at all in fact it was buttery
+i thought the restaurant#general{aspositive} ambience#general{aspositive} was nice and clean
+i ordered the food#quality{aspositive} and i was pretty impressed
+the food#quality{aspositive} and the food#quality{aspositive} were cooked perfectly
+the food#quality{aspositive} were not dry at all in fact it was buttery
 the only downside they only take cash which is ok if you know about it ahead of time restaurant#miscellaneous{asnegative}
-i ll be back for sure restaurant#general{aspositive}
-worst place restaurant#general{asnegative} on smith street in brooklyn
-very immature bartender service#general{asnegative} didnt know how to make specific drinks service service#general{asnegative} was so slowwwww the food food#quality{asnegative} was not fresh or warm waitresses service#general{asnegative} were busy flirting with men at the bar and werent very attentive to all the customers
-i would never recommend this place restaurant#general{asnegative} restaurant#miscellaneous{asnegative} to anybody even for a casual dinner
+i'll be back for sure restaurant#general{aspositive}
+worst restaurant#general{asnegative} on smith street in brooklyn
+very immature service#general{asnegative} didnt know how to make specific drinks service#general{asnegative} was so slowwwww the food#quality{asnegative} was not fresh or warm service#general{asnegative} were busy flirting with men at the bar and werent very attentive to all the customers
+i would never recommend this restaurant#general{asnegative} restaurant#miscellaneous{asnegative} to anybody even for a casual dinner
 awesome restaurant#general{aspositive}
-the food food#quality{aspositive} is always fresh
-overpriced japanese food food#prices{asnegative} with mediocre service service#general{asneutral}
-went here on sat 1/26 and was disappointed restaurant#general{asnegative}
-chicken teriyaki food#style_options{asnegative} had tomato or pimentos on top
-food food#quality{asnegative} was luke warm
-the waitress service#general{asnegative} was not attentive at all
-i was looking for banana tempura for dessert food#style_options{asnegative} and they dont have
-not because you are the four seasons restaurant#prices{asnegative} – you are allowed to charge an arm and a leg for a romatic dinner
-the food food#quality{aspositive} was excellent as well as service service#general{aspositive} however i left the four seasons restaurant#general{asnegative} very dissappointed
-i do not think dinner food#prices{asnegative} in manhattan should cost $400 00 where i am not swept off my feet
-red dragon roll food#quality{aspositive} my favorite thing to eat of any food group hands down
-just go to yamato restaurant#general{aspositive} and order the red dragon roll food#quality{aspositive}
-if you don t like it i don t know what to tell you food#quality{aspositive}
-the seafood dynamite food#quality{aspositive} is also otherworldly
-i m not even going to bother to describe it it speaks for itself food#quality{aspositive}
-favorite sushi food#quality{aspositive} in nyc
-an unpretentious spot ambience#general{aspositive} in park slope the sushi food#quality{aspositive} is consistently good the service service#general{aspositive} is pleasant effective and unassuming
-in the summer months the back garden area ambience#general{aspositive} is really nice
-the rolls food#style_options{aspositive} are creative and i have yet to find another sushi place that serves up more inventive yet delicious japanese food food#style_options{aspositive} food#quality{aspositive}
-the dancing white river and millenium rolls food#quality{aspositive} are musts
+the food#quality{aspositive} is always fresh
+overpriced food#prices{asnegative} with mediocre service#general{asneutral}
+went here on sat 1 26 and was disappointed restaurant#general{asnegative}
+food#style_options{asnegative} had tomato or pimentos on top
+food#quality{asnegative} was luke warm
+the service#general{asnegative} was not attentive at all
+i was looking for banana tempura for food#style_options{asnegative} and they dont have
+not because you are restaurant#prices{asnegative} – you are allowed to charge an arm and a leg for a romatic dinner
+the food#quality{aspositive} was excellent as well as service#general{aspositive} however i left restaurant#general{asnegative} very dissappointed
+i do not think food#prices{asnegative} in manhattan should cost $400 00 where i am not swept off my feet
+food#quality{aspositive} my favorite thing to eat of any food group hands down
+just go to restaurant#general{aspositive} and order the food#quality{aspositive}
+if you don't like it i don't know what to tell you food#quality{aspositive}
+the food#quality{aspositive} is also otherworldly
+i'm not even going to bother to describe it it speaks for itself food#quality{aspositive}
+favorite food#quality{aspositive} in nyc
+an unpretentious ambience#general{aspositive} in park slope the food#quality{aspositive} is consistently good the service#general{aspositive} is pleasant effective and unassuming
+in the summer months the ambience#general{aspositive} is really nice
+the food#style_options{aspositive} are creative and i have yet to find another sushi place that serves up more inventive yet delicious food#style_options{aspositive} food#quality{aspositive}
+the food#quality{aspositive} are musts
 so good restaurant#general{aspositive}
-i can eat here every day of the week really lol love this place restaurant#general{aspositive}
-gross food food#quality{asnegative} – wow
-i can t remember the last time i had such gross food food#quality{asnegative} in new york
-my quesadilla food#quality{asnegative} food#style_options{asnegative} tasted like it had been made by a three year old with no sense of proportion or flavor
-and $11 for a plate of bland guacamole food#quality{asnegative} food#prices{asnegative}
-don t get me started on the margaritas drinks#quality{asnegative} either
+i can eat here every day of the week really lol love this restaurant#general{aspositive}
+gross food#quality{asnegative} – wow
+i can't remember the last time i had such gross food#quality{asnegative} in new york
+my food#quality{asnegative} food#style_options{asnegative} tasted like it had been made by a three year old with no sense of proportion or flavor
+and $11 for a plate of bland food#quality{asnegative} food#prices{asnegative}
+don't get me started on the drinks#quality{asnegative} either
 mine tasted like the bartender had forgotten to add the tequila drinks#quality{asnegative}
 save your money and your time and go somewhere else restaurant#general{asnegative}
-oh and i never write reviews i just was so moved by how bad this place restaurant#general{asnegative} was i felt it was my duty to spread the word
-great indian food food#quality{aspositive}
+oh and i never write reviews i just was so moved by how bad this restaurant#general{asnegative} was i felt it was my duty to spread the word
+great food#quality{aspositive}
 when i got there the place was packed but they made sure to seat me quickly service#general{aspositive}
-the food food#quality{aspositive} was good the place ambience#general{aspositive} restaurant#prices{aspositive} was clean and affordable
-i noticed alot of indian people eatting there which is a great sign for an indian place restaurant#miscellaneous{aspositive}
-this is one of my favorite spot restaurant#miscellaneous{aspositive} very relaxing the food food#quality{aspositive} is great all the times celebrated my engagement and my wedding here it was very well organized restaurant#general{aspositive} ambience#general{aspositive}
-the staff service#general{aspositive} is very good
-love their drink menu drinks#style_options{aspositive}
-i highly recommend this beautiful place ambience#general{aspositive} restaurant#general{aspositive}
+the food#quality{aspositive} was good the ambience#general{aspositive} restaurant#prices{aspositive} was clean and affordable
+i noticed alot of indian people eatting there which is a great sign for an restaurant#miscellaneous{aspositive}
+this is one of my favorite restaurant#miscellaneous{aspositive} very relaxing the food#quality{aspositive} is great all the times celebrated my engagement and my wedding here it was very well organized restaurant#general{aspositive} ambience#general{aspositive}
+the service#general{aspositive} is very good
+love their drinks#style_options{aspositive}
+i highly recommend this beautiful ambience#general{aspositive} restaurant#general{aspositive}
 nice for one time special occasion restaurant#miscellaneous{aspositive}
 they honored reservation on sunday afternoon very well service#general{aspositive}
-we were offered water for the table but were not told the voss bottles of water drinks#prices{asnegative} were $8 a piece
-food food#quality{asneutral} was ok
-nice view of river and nyc location#general{aspositive}
+we were offered water for the table but were not told the drinks#prices{asnegative} were $8 a piece
+food#quality{asneutral} was ok
+nice location#general{aspositive}
 i come here enjoy very much with husband restaurant#general{aspositive}
 remind me of home restaurant#miscellaneous{aspositive}
-great survice service#general{aspositive}
+great service#general{aspositive}
 mmmmmmmmmmmmmmm so delicious food#quality{aspositive}
-a beautifully designed dreamy egyptian restaurant ambience#general{aspositive} that gets sceney at night
-watch the talented belly dancers ambience#general{aspositive} as you enjoy delicious baba ganoush food#quality{aspositive} that s more lemony than smoky
-oh and there s hookah ambience#general{aspositive}
-raymond service#general{aspositive} the bartender rocks
-pacifico restaurant#miscellaneous{aspositive} is a great place to casually hang out
-the drinks drinks#quality{aspositive} are great especially when made by raymond service#general{aspositive}
-the omlette for brunch food#quality{aspositive} is great
-the spinach food#quality{aspositive} is fresh definately not frozen
-quacamole food#quality{aspositive} at pacifico is yummy as are the wings with chimmichuri food#quality{aspositive}
-a weakness is the chicken in the salads food#quality{asnegative}
-it s just average just shredded no seasoning on it food#quality{asnegative}
-also i personally wasn t a fan of the portobello and asparagus mole food#quality{asnegative}
-overall decent food food#quality{asneutral} food#prices{aspositive} at a good price with friendly people service#general{aspositive}
-best indian restaurant restaurant#general{aspositive} in the city
-decor ambience#general{asnegative} needs to be upgraded but the food food#quality{aspositive} is amazing
-this small astoria souvlaki spot makes what many consider the best gyros food#quality{aspositive} in new york
-what really makes it shine is the food food#quality{aspositive} which is aggressively seasoned with cyrpriot spices and all made in house even the gyro meat food#quality{aspositive} and sausages food#quality{aspositive} and made of much higher quality ingredients food#quality{aspositive} that might otherwise be expected
-all the various greek and cypriot dishes food#quality{aspositive} are excellent but the gyro food#quality{aspositive} is the reason to come if you don t eat one your trip was wasted
-best restaurant restaurant#general{aspositive} in brooklyn
+a beautifully designed dreamy ambience#general{aspositive} that gets sceney at night
+watch the talented ambience#general{aspositive} as you enjoy delicious food#quality{aspositive} that's more lemony than smoky
+oh and there's ambience#general{aspositive}
+service#general{aspositive} the bartender rocks
+restaurant#miscellaneous{aspositive} is a great place to casually hang out
+the drinks#quality{aspositive} are great especially when made by service#general{aspositive}
+the food#quality{aspositive} is great
+the food#quality{aspositive} is fresh definately not frozen
+food#quality{aspositive} at pacifico is yummy as are the food#quality{aspositive}
+a weakness is the food#quality{asnegative}
+it's just average just shredded no seasoning on it food#quality{asnegative}
+also i personally wasn't a fan of the food#quality{asnegative}
+overall decent food#quality{asneutral} food#prices{aspositive} at a good price with friendly service#general{aspositive}
+best restaurant#general{aspositive} in the city
+ambience#general{asnegative} needs to be upgraded but the food#quality{aspositive} is amazing
+this small astoria souvlaki spot makes what many consider the best food#quality{aspositive} in new york
+what really makes it shine is the food#quality{aspositive} which is aggressively seasoned with cyrpriot spices and all made in house even the food#quality{aspositive} and food#quality{aspositive} and made of much higher quality food#quality{aspositive} that might otherwise be expected
+all the various food#quality{aspositive} are excellent but the food#quality{aspositive} is the reason to come if you don't eat one your trip was wasted
+best restaurant#general{aspositive} in brooklyn
 the best restaurant#general{aspositive}
-great food food#quality{aspositive} amazing service service#general{aspositive} this place restaurant#general{aspositive} is a class act
-the veal food#quality{aspositive} was incredible last night
+great food#quality{aspositive} amazing service#general{aspositive} this restaurant#general{aspositive} is a class act
+the food#quality{aspositive} was incredible last night
 fresh mind blowing flavors food#quality{aspositive}
-this place restaurant#general{aspositive} is a must visit
+this restaurant#general{aspositive} is a must visit
 delicious creative and fun food#quality{aspositive} food#style_options{aspositive}
 got a date go here restaurant#miscellaneous{aspositive}
 every time i have a special occasion with my boyfriend i have a hard time going anywhere else restaurant#miscellaneous{aspositive}
 it is so romantic ambience#general{aspositive}
 its dark and cozy there is always jazz music playing when we go ambience#general{aspositive}
-most of the booths ambience#general{aspositive} allow you to sit next to eachother without looking like that couple
-the food food#style_options{aspositive} is all shared so we get to order together and eat together
-i ve enjoyed 99% of the dishes food#quality{aspositive} we ve ordered with the only exceptions being the occasional too authentic for me dish food#quality{asnegative} i m a daring eater but not that daring
-once you try it for a special occasion beware you can t stop restaurant#miscellaneous{aspositive}
-you ll be ther for every anniversary birthday valentines day restaurant#miscellaneous{aspositive}
+most of the ambience#general{aspositive} allow you to sit next to eachother without looking like 'that' couple
+the food#style_options{aspositive} is all shared so we get to order together and eat together
+i've enjoyed 99% of the food#quality{aspositive} we've ordered with the only exceptions being the occasional too authentic for me food#quality{asnegative} i'm a daring eater but not that daring
+once you try it for a special occasion beware you can't stop restaurant#miscellaneous{aspositive}
+you'll be ther for every anniversary birthday valentines day restaurant#miscellaneous{aspositive}
 for a fabulous wedding restaurant#miscellaneous{aspositive}
-my daughter s wedding reception at water s edge restaurant#miscellaneous{aspositive} received the highest compliments from our guests
-everyone raved about the atmosphere ambience#general{aspositive} elegant rooms ambience#general{aspositive} and absolutely incomparable views location#general{aspositive} and the fabulous food food#quality{aspositive}
-service service#general{aspositive} was wonderful
+my daughter's wedding reception at restaurant#miscellaneous{aspositive} received the highest compliments from our guests
+everyone raved about the ambience#general{aspositive} elegant ambience#general{aspositive} and absolutely incomparable location#general{aspositive} and the fabulous food#quality{aspositive}
+service#general{aspositive} was wonderful
 everyone was cheerfully cooperative and helpful service#general{aspositive}
-paul service#general{aspositive} the maitre d was totally professional and always on top of things
-thank you everyone at water s edge restaurant#general{aspositive}
+service#general{aspositive} the maitre d' was totally professional and always on top of things
+thank you everyone at restaurant#general{aspositive}
 would not go back restaurant#general{asnegative}
-service service#general{asnegative} ok but unfriendly filthy bathroom ambience#general{asnegative}
-the high prices you re going to pay is for the view location#general{asneutral} not for the food food#quality{asnegative} restaurant#prices{asnegative}
-the bar drinks drinks#quality{asnegative} were eh ok to say the least
-the stuff tilapia food#quality{asnegative} was horrid tasted like cardboard
-we thought the dessert food#quality{asnegative} would be better wrong
+service#general{asnegative} ok but unfriendly filthy ambience#general{asnegative}
+the high prices you're going to pay is for the location#general{asneutral} not for the food#quality{asnegative} restaurant#prices{asnegative}
+the drinks#quality{asnegative} were eh ok to say the least
+the food#quality{asnegative} was horrid tasted like cardboard
+we thought the food#quality{asnegative} would be better wrong
 $170 down the toilet restaurant#general{asnegative} restaurant#prices{asnegative}
-oh speaking of bathroom the mens bathroom ambience#general{asnegative} was disgusting
+oh speaking of bathroom the ambience#general{asnegative} was disgusting
 the floor was wet the trash can filled with hand towels n all over the floor no soap and no hand towels left ambience#general{asnegative}
 good experience restaurant#general{aspositive}
-the wine list drinks#style_options{aspositive} was extensive though the staff service#general{asnegative} did not seem knowledgeable about wine pairings
-the bread food#quality{asnegative} we received was horrible rock hard and cold and the free appetizer of olives food#quality{asnegative} food#prices{asneutral} was disappointing
-however our main course food#quality{aspositive} was wonderful
-i had fish food#quality{aspositive} and my husband had the filet food#quality{aspositive} both of which exceeded our expectations
-the dessert we had a pear torte food#quality{aspositive} was good but once again the staff service#general{asnegative} was unable to provide appropriate drink suggestions
-when we inquired about ports the waitress service#general{asnegative} listed off several but did not know taste variations or cost
-not what i would expect for the price and prestige of this location restaurant#prices{asneutral} restaurant#miscellaneous{asneutral} service#general{asnegative}
-all in all i would return as it was a beautiful restaurant restaurant#general{aspositive} ambience#general{aspositive} but i hope the staff service#general{asnegative} pays more attention to the little details in the future
-short and sweet – seating ambience#general{aspositive} is great it s romantic cozy and private
-the boths ambience#general{aspositive} are not as small as some of the reviews make them out to look they re perfect for 2 people
-the service service#general{aspositive} was extremely fast and attentive thanks to the service button service#general{aspositive} on your table but i barely understood 1 word when the waiter service#general{asnegative} took our order
-the food food#quality{asneutral} was ok and fair nothing to go crazy
-over all the looks ambience#general{aspositive} of the place exceeds the actual meals food#quality{asnegative}
-so what you really end up paying for is the restaurant restaurant#prices{asnegative} ambience#general{asneutral} not the food food#quality{asnegative}
+the drinks#style_options{aspositive} was extensive though the service#general{asnegative} did not seem knowledgeable about wine pairings
+the food#quality{asnegative} we received was horrible rock hard and cold and the free food#quality{asnegative} food#prices{asneutral} was disappointing
+however our food#quality{aspositive} was wonderful
+i had food#quality{aspositive} and my husband had the food#quality{aspositive} both of which exceeded our expectations
+the dessert we had a food#quality{aspositive} was good but once again the service#general{asnegative} was unable to provide appropriate drink suggestions
+when we inquired about ports the service#general{asnegative} listed off several but did not know taste variations or cost
+not what i would expect for the price and prestige of this restaurant#prices{asneutral} restaurant#miscellaneous{asneutral} service#general{asnegative}
+all in all i would return as it was a beautiful restaurant#general{aspositive} ambience#general{aspositive} but i hope the service#general{asnegative} pays more attention to the little details in the future
+short and sweet – ambience#general{aspositive} is great it's romantic cozy and private
+the ambience#general{aspositive} are not as small as some of the reviews make them out to look they're perfect for 2 people
+the service#general{aspositive} was extremely fast and attentive thanks to the service#general{aspositive} on your table but i barely understood 1 word when the service#general{asnegative} took our order
+the food#quality{asneutral} was ok and fair nothing to go crazy
+over all the ambience#general{aspositive} of the place exceeds the actual food#quality{asnegative}
+so what you really end up paying for is the restaurant#prices{asnegative} ambience#general{asneutral} not the food#quality{asnegative}
 will prob not return but it is a great dinning experience to try atleast once restaurant#general{asnegative} restaurant#general{aspositive}
 impressed restaurant#general{aspositive}
-subtle food food#quality{aspositive} and service service#general{aspositive}
-noodle pudding is exactly the type of service service#general{aspositive} and food food#quality{aspositive} i enjoy
-servers are all different greg service#general{aspositive} is my favorite
-sometimes tables don t understand his sense of humor but it s refreshing to have a server service#general{aspositive} who has personality professionalism and respects the privacy of your dinner
-this is the first place i ve been that a runner service#general{aspositive} remembers my order hope he likes his job because i have half a mind to steal him for my restaurant
-prices are fair across the board for both food food#prices{aspositive} and bev drinks#prices{aspositive}
-i go out to eat and like my courses servers service#general{aspositive} are patient and never rush courses or force another drink
-amazing fresh dogs food#quality{aspositive} but best of all endless toppings food#style_options{aspositive}
-this place had all the trimmings food#style_options{aspositive} and i mean all
+subtle food#quality{aspositive} and service#general{aspositive}
+noodle pudding is exactly the type of service#general{aspositive} and food#quality{aspositive} i enjoy
+servers are all different service#general{aspositive} is my favorite
+sometimes tables don't understand his sense of humor but it's refreshing to have a service#general{aspositive} who has personality professionalism and respects the privacy of your dinner
+this is the first place i've been that a service#general{aspositive} remembers my order hope he likes his job because i have half a mind to steal him for my restaurant
+prices are fair across the board for both food#prices{aspositive} and drinks#prices{aspositive}
+i go out to eat and like my courses service#general{aspositive} are patient and never rush courses or force another drink
+amazing fresh food#quality{aspositive} but best of all endless food#style_options{aspositive}
+this place had all the food#style_options{aspositive} and i mean all
 peppers onions relish chilli cheeses you name it food#style_options{aspositive}
-amazing fun for hot dog food#quality{aspositive} lovers of all ages please do yourself a favor and check this place restaurant#general{aspositive} out
+amazing fun for food#quality{aspositive} lovers of all ages please do yourself a favor and check this restaurant#general{aspositive} out
 best dining experience in the west village restaurant#general{aspositive}
-stepping into casa la femme restaurant#general{aspositive} last night was a true experience unlike any other in new york
-highly impressed from the decor ambience#general{aspositive} to the food food#quality{aspositive} to the hospitality to the great night i had service#general{aspositive} restaurant#general{aspositive}
-the have a great cocktail with citrus vodka and lemon and lime juice and mint leaves drinks#quality{aspositive} that is to die for
-food food#quality{aspositive} took some time to prepare all worth waiting for service#general{asneutral}
-we were drawn into the belly dancing show ambience#general{aspositive} that captivated the crowd
-i never write on these sites but this restaurant restaurant#general{aspositive} is def worth commending
+stepping into restaurant#general{aspositive} last night was a true experience unlike any other in new york
+highly impressed from the ambience#general{aspositive} to the food#quality{aspositive} to the hospitality to the great night i had service#general{aspositive} restaurant#general{aspositive}
+the have a great drinks#quality{aspositive} that is to die for
+food#quality{aspositive} took some time to prepare all worth waiting for service#general{asneutral}
+we were drawn into the ambience#general{aspositive} that captivated the crowd
+i never write on these sites but this restaurant#general{aspositive} is def worth commending
 great find in the west village restaurant#general{aspositive}
-maggot in the food food#quality{asnegative}
-the menu food#style_options{aspositive} looked great and the waiter service#general{aspositive} was very nice but when the food food#quality{asneutral} came it was average
-nevertheless i finished my plate and that s when i found a maggot in mushroom sauce food#quality{asnegative} at the bottom
-i showed it to the manager service#general{aspositive} service#general{asnegative} and he smilingly apologized and brought us two free desserts but did not ask us what we wanted and so brought the last two desserts we would have asked for
-when the bill came nothing was comped so i told the manager very politely that we were willing to pay for the wine but i didn t think i should have to pay for food with a maggot in it service#general{asnegative}
-the manager service#general{asnegative} finally said he would comp the two glasses of wine which cost less than the food and made it seem like a big concession
-we paid and left because we didn t feel like arguing any more service#general{asnegative}
-i have worked in restaurants and cook a lot and there is no way a maggot should be able to get into well prepared food food#quality{asnegative}
-for a restaurant restaurant#miscellaneous{aspositive} with such a good reputation and that is usually so packed there was no reason for such a lack of intelligent customer service service#general{asnegative}
+maggot in the food#quality{asnegative}
+the food#style_options{aspositive} looked great and the service#general{aspositive} was very nice but when the food#quality{asneutral} came it was average
+nevertheless i finished my plate and that's when i found a maggot in food#quality{asnegative} at the bottom
+i showed it to the service#general{aspositive} service#general{asnegative} and he smilingly apologized and brought us two free desserts but did not ask us what we wanted and so brought the last two desserts we would have asked for
+when the bill came nothing was comped so i told the manager very politely that we were willing to pay for the wine but i didn't think i should have to pay for food with a maggot in it service#general{asnegative}
+the service#general{asnegative} finally said he would comp the two glasses of wine which cost less than the food and made it seem like a big concession
+we paid and left because we didn't feel like arguing any more service#general{asnegative}
+i have worked in restaurants and cook a lot and there is no way a maggot should be able to get into well prepared food#quality{asnegative}
+for a restaurant#miscellaneous{aspositive} with such a good reputation and that is usually so packed there was no reason for such a lack of intelligent service#general{asnegative}
 unhygienic food#quality{asnegative}
 i do not recommend restaurant#general{asnegative}
-i got hair in my food food#quality{asnegative} 2 times of then
-great place restaurant#general{aspositive} restaurant#prices{aspositive} great value
-the food food#quality{aspositive} food#style_options{aspositive} food#prices{aspositive} is flavorful plentiful and reasonably priced
-the atmosphere ambience#general{aspositive} is relaxed and casual
-it s a great place restaurant#miscellaneous{aspositive} to order from or sit in
+i got hair in my food#quality{asnegative} 2 times of then
+great restaurant#general{aspositive} restaurant#prices{aspositive} great value
+the food#quality{aspositive} food#style_options{aspositive} food#prices{aspositive} is flavorful plentiful and reasonably priced
+the ambience#general{aspositive} is relaxed and casual
+it's a great restaurant#miscellaneous{aspositive} to order from or sit in
 awesome restaurant#general{aspositive}
 inexpensive unassuming great time restaurant#prices{aspositive} ambience#general{aspositive} restaurant#general{aspositive}
-sushi food#quality{aspositive} experience was unbelievable with my fiance
+food#quality{aspositive} experience was unbelievable with my fiance
 try it restaurant#general{aspositive}
 very pleased restaurant#general{aspositive}
-good creative rolls food#quality{aspositive} food#style_options{aspositive}
-yamato restaurant#miscellaneous{aspositive} is an excellent place to go if youre not into sashimi or if you have friends who doesnt like sushi much
-they have great rolls food#quality{aspositive} the triple color and norwegetan rolls food#quality{aspositive} food#style_options{aspositive} are awesome and filling
-one special roll food#style_options{aspositive} and one regular roll food#style_options{aspositive} is enough to fill you up but save room for dessert food#quality{aspositive}
-they have a delicious banana chocolate dessert food#quality{aspositive} as well as a great green tea tempura food#quality{aspositive}
-the appetizers food#quality{aspositive} are also delicious
-amazing food food#quality{aspositive}
-mazing interior ambience#general{asnegative}
-great food food#quality{aspositive}
-i ve had my fair share of modern japanese food#quality{aspositive} and this spot delivers
-the atmosphere ambience#general{asnegative} was pretty nice but had a bit lacking which it tries to make up for with a crazy scheme of mirrors ambience#general{asnegative}
-if you re into being lost when you re just five feet from your table then hey that s a good thing ambience#general{asnegative}
-despite the confusing mirrors ambience#general{asnegative} this will likely be my go to for modern japanese food food#quality{aspositive} for the foreseeable future
-indo chinese food food#quality{aspositive} pretty good
-not a very fancy place ambience#general{asneutral} but very good chinese style indian food food#quality{aspositive}
-the chicken lollipop food#quality{aspositive} is my favorite most of the dishes food#quality{asnegative} i have to agree with a previous reviewer are quite oily and very spicy espeically the chilli chicken food#quality{asnegative}
-my mom originally introduced me to this place but even she being indian feels the food food#quality{asnegative} can be somewhat over the top spicy and far too oily
+good creative food#quality{aspositive} food#style_options{aspositive}
+restaurant#miscellaneous{aspositive} is an excellent place to go if youre not into sashimi or if you have friends who doesnt like sushi much
+they have great food#quality{aspositive} the food#quality{aspositive} food#style_options{aspositive} are awesome and filling
+one food#style_options{aspositive} and one food#style_options{aspositive} is enough to fill you up but save room for food#quality{aspositive}
+they have a delicious food#quality{aspositive} as well as a great food#quality{aspositive}
+the food#quality{aspositive} are also delicious
+amazing food#quality{aspositive}
+mazing ambience#general{asnegative}
+great food#quality{aspositive}
+i've had my fair share of food#quality{aspositive} and this spot delivers
+the ambience#general{asnegative} was pretty nice but had a bit lacking which it tries to make up for with a crazy ambience#general{asnegative}
+if you're into being lost when you're just five feet from your table then hey that's a good thing ambience#general{asnegative}
+despite the confusing ambience#general{asnegative} this will likely be my go to for food#quality{aspositive} for the foreseeable future
+food#quality{aspositive} pretty good
+not a very fancy ambience#general{asneutral} but very good food#quality{aspositive}
+the food#quality{aspositive} is my favorite most of the food#quality{asnegative} i have to agree with a previous reviewer are quite oily and very spicy espeically the food#quality{asnegative}
+my mom originally introduced me to this place but even she being indian feels the food#quality{asnegative} can be somewhat over the top spicy and far too oily
 still we keep going back restaurant#general{aspositive}
-i was speechless by the horrible food food#quality{asnegative}
-i attended a holiday dinner at the restaurant and the food food#quality{asnegative} was majorly disappointing
-rather than preparing vegetarian dish food#quality{asnegative} food#style_options{asnegative} the chef service#general{asnegative} presented me with a plate of steamed vegetables minus sauce seasoning or any form or aesthetic presentation
+i was speechless by the horrible food#quality{asnegative}
+i attended a holiday dinner at the restaurant and the food#quality{asnegative} was majorly disappointing
+rather than preparing food#quality{asnegative} food#style_options{asnegative} the service#general{asnegative} presented me with a plate of steamed vegetables minus sauce seasoning or any form or aesthetic presentation
 i was so stunned and i left the dinner hungry and majorly disappointing restaurant#general{asnegative}
-this place restaurant#miscellaneous{asnegative} survives on reputation alone
+this restaurant#miscellaneous{asnegative} survives on reputation alone
 i will never return restaurant#general{asnegative}
 best in all of nyc restaurant#general{aspositive}
-this is the most wonderful restaurant restaurant#general{aspositive} in all of new york city not just brooklyn
-for 7 years they have put out the most tasty most delicious food food#quality{aspositive} and kept it that way
-never swaying never a bad meal food#quality{aspositive} never bad service service#general{aspositive} restaurant#general{aspositive}
+this is the most wonderful restaurant#general{aspositive} in all of new york city not just brooklyn
+for 7 years they have put out the most tasty most delicious food#quality{aspositive} and kept it that way
+never swaying never a bad food#quality{aspositive} never bad service#general{aspositive} restaurant#general{aspositive}
 you should travel from the bronx to try it restaurant#general{aspositive}
-great food food#quality{aspositive} great wine list drinks#style_options{aspositive} great service service#general{aspositive} in a great neighborhood location#general{aspositive}
+great food#quality{aspositive} great drinks#style_options{aspositive} great service#general{aspositive} in a great location#general{aspositive}
 so delicious food#quality{aspositive}
-patsy s pizza restaurant#general{aspositive} = true love
-hands down the best pizza food#quality{aspositive} on the planet
+restaurant#general{aspositive} = true love
+hands down the best food#quality{aspositive} on the planet
 in about 12 minutes the thing is gone food#quality{aspositive}
-great hot dogs food#quality{aspositive}
-the hot dogs food#quality{aspositive} were juicy and tender inside and had plenty of crunch and snap on the outside
-great toppings food#quality{aspositive} definitely a place restaurant#miscellaneous{aspositive} you need to check out for late night munchies or a mid day boost
+great food#quality{aspositive}
+the food#quality{aspositive} were juicy and tender inside and had plenty of crunch and snap on the outside
+great food#quality{aspositive} definitely a restaurant#miscellaneous{aspositive} you need to check out for late night munchies or a mid day boost
 great taste food#quality{aspositive}
 great original taste food#quality{aspositive}
-for me dishes food#quality{asnegative} a little oily but overall dining experience good restaurant#general{aspositive}
-helpful service service#general{aspositive} and average price per dish food#prices{asneutral} $10
-the only thing that strikes you is the decor ambience#general{asnegative} not very pleasant
-great food food#quality{aspositive}
-this place has great indian chinese food food#quality{aspositive}
+for me food#quality{asnegative} a little oily but overall dining experience good restaurant#general{aspositive}
+helpful service#general{aspositive} and average price per food#prices{asneutral} $10
+the only thing that strikes you is the ambience#general{asnegative} not very pleasant
+great food#quality{aspositive}
+this place has great food#quality{aspositive}
 the flavors are amazing and the value is phenomenal food#quality{aspositive} food#prices{aspositive}
-be prepared to wait because the place restaurant#miscellaneous{asnegative} ambience#general{asnegative} is pretty tiny
+be prepared to wait because the restaurant#miscellaneous{asnegative} ambience#general{asnegative} is pretty tiny
 also they do not take credit card so come with cash restaurant#miscellaneous{asneutral}
-even though the place ambience#general{asnegative} is not beautiful the food food#quality{aspositive} speaks for itself
-best indian chinese food#quality{aspositive} in the city by far
+even though the ambience#general{asnegative} is not beautiful the food#quality{aspositive} speaks for itself
+best food#quality{aspositive} in the city by far
 amazing my favorite restaurant#general{aspositive}
-i came across village underground restaurant#general{aspositive} by accident now i go there all the time
-the martinis drinks#quality{aspositive} drinks#prices{aspositive} are amazing and very fairly priced
-the service service#general{aspositive} is amazing i ve had different waiters service#general{aspositive} and they were all nice which is a rare thing in nyc
-the dj ambience#general{aspositive} is awesome i have been there for my birthday and a bunch of other times with friends and i keep going back restaurant#general{aspositive}
-you can get a table without a reservation if you get there early i they don t make you by bottles service#general{aspositive}
-which lets face it at times it s a good thing service#general{aspositive}
+i came across restaurant#general{aspositive} by accident now i go there all the time
+the drinks#quality{aspositive} drinks#prices{aspositive} are amazing and very fairly priced
+the service#general{aspositive} is amazing i've had different service#general{aspositive} and they were all nice which is a rare thing in nyc
+the ambience#general{aspositive} is awesome i have been there for my birthday and a bunch of other times with friends and i keep going back restaurant#general{aspositive}
+you can get a table without a reservation if you get there early i they don't make you by bottles service#general{aspositive}
+which lets face it at times it's a good thing service#general{aspositive}
 in the end you end up with a fair tab and nothing but a great time restaurant#prices{aspositive} restaurant#general{aspositive}
 highly recommended restaurant#general{aspositive}
 one of the best if not the best restaurants in park slope and ny in general restaurant#general{aspositive}
-everything on the menu food#quality{aspositive} is great
-this establishment restaurant#general{aspositive} is the real deal
-wish ny had more of these kind of places intimate superb food food#quality{aspositive} homey top notch all the way around certainly worth the wait ambience#general{aspositive} restaurant#general{aspositive}
-but $500 for a dinner for two food#prices{asnegative} that didn t include wine
-look the appetizers food#quality{aspositive} were really good
-the entree food#quality{aspositive} was also very good
-can t argue about that but they are clearly over priced food#prices{asnegative}
-what you are paying for is the environment ambience#general{asneutral} and the name restaurant#miscellaneous{asneutral} restaurant#prices{asnegative}
-yes the place ambience#general{aspositive} restaurant#prices{asnegative} is classy and beautiful but they most certainly target the uber whealthy not the common joe that wants to go all out every once in a while
+everything on the food#quality{aspositive} is great
+this restaurant#general{aspositive} is the real deal
+wish ny had more of these kind of places intimate superb food#quality{aspositive} homey top notch all the way around certainly worth the wait ambience#general{aspositive} restaurant#general{aspositive}
+but $500 for a food#prices{asnegative} that didn't include wine
+look the food#quality{aspositive} were really good
+the food#quality{aspositive} was also very good
+can't argue about that but they are clearly over priced food#prices{asnegative}
+what you are paying for is the ambience#general{asneutral} and the name restaurant#miscellaneous{asneutral} restaurant#prices{asnegative}
+yes the ambience#general{aspositive} restaurant#prices{asnegative} is classy and beautiful but they most certainly target the uber whealthy not the common joe that wants to go all out every once in a while
 which of course is not real kobe but wagyu beef food#quality{asnegative}
 surprised that a place of this caliber would advertise it as kobe restaurant#miscellaneous{asnegative}
-vanison food#quality{asneutral} was good but not amazing
-bison food#quality{aspositive} was quite excellent however
-dessert food#quality{asnegative} pure disaster
+food#quality{asneutral} was good but not amazing
+food#quality{aspositive} was quite excellent however
+food#quality{asnegative} pure disaster
 just not good at all food#quality{asnegative}
 some pineapple covered in a glaze of some kind and some pear tart thing not impressive at all food#style_options{asnegative} food#quality{asnegative}
-i read reviews that called the restaurant restaurant#prices{asnegative} restaurant#general{asnegative} too expensive and i thought to myself but may be it is worth it
-the four seasons restaurant#miscellaneous{asneutral} restaurant#prices{asnegative} has history and it is a sort of landmark of new york city restaurants but trust me they will charge you through the nose just so that you can say i ve been to the four seasons restaurant
+i read reviews that called the restaurant#prices{asnegative} restaurant#general{asnegative} too expensive and i thought to myself but may be it is worth it
+restaurant#miscellaneous{asneutral} restaurant#prices{asnegative} has history and it is a sort of landmark of new york city restaurants but trust me they will charge you through the nose just so that you can say i've been to the four seasons restaurant
 i wanted to go there to see if it was worth it and sadly curiousity got the best of me and i paid dearly for it restaurant#general{asnegative} restaurant#prices{asnegative}
-all in all the food food#quality{aspositive} was great except for the dessserts food#quality{asnegative}
-the environment ambience#general{asneutral} restaurant#miscellaneous{asneutral} is very upscale and you will see a lot of rich guys with trophy wives or just highly paid escorts
-if you are going for the food food#quality{asnegative} it will not be worth it
-you would think they would make up for it with service service#general{asnegative} sadly no
-service service#general{asnegative} was just ok it is not what you d expect for $500 restaurant#prices{asnegative}
+all in all the food#quality{aspositive} was great except for the food#quality{asnegative}
+the ambience#general{asneutral} restaurant#miscellaneous{asneutral} is very upscale and you will see a lot of rich guys with trophy wives or just highly paid escorts
+if you are going for the food#quality{asnegative} it will not be worth it
+you would think they would make up for it with service#general{asnegative} sadly no
+service#general{asnegative} was just ok it is not what you'd expect for $500 restaurant#prices{asnegative}
 terrible waste of money scammers restaurant#general{asnegative} restaurant#prices{asnegative}
-i agree that dining at casa la femme restaurant#general{asnegative} is like no other dining experience
+i agree that dining at restaurant#general{asnegative} is like no other dining experience
 i am actually offended to have spent so much money on such a bad experience restaurant#general{asnegative} restaurant#prices{asnegative}
-i literally just got back home after visiting casa la femme restaurant#general{asnegative} restaurant#prices{asnegative} and was so offended by my visit felt it necessary to try and warn other diners who value their money and time
+i literally just got back home after visiting restaurant#general{asnegative} restaurant#prices{asnegative} and was so offended by my visit felt it necessary to try and warn other diners who value their money and time
 our visit their to say the least was an unpleasant and costly experience restaurant#general{asnegative} restaurant#prices{asnegative}
 and even more so unpleasant because it was so costly for such an unpleasant experience restaurant#general{asnegative} restaurant#prices{asnegative}
-we did arrive late for our reservation so i can not complain too much about the wait service#general{asneutral} for a table
+we did arrive late for our reservation so i can not complain too much about the service#general{asneutral} for a table
 although we were told 10 15 minutes and it was more like 45 minutes service#general{asnegative}
 we were ushered to the bar to wait momentarily and upon arrival were so excited restaurant#general{aspositive}
-the place ambience#general{aspositive} is beautiful
-the hostess service#general{aspositive} was very pleasant
-however our $14 drinks drinks#quality{asnegative} drinks#prices{asnegative} were were horrible
+the ambience#general{aspositive} is beautiful
+the service#general{aspositive} was very pleasant
+however our $14 drinks#quality{asnegative} drinks#prices{asnegative} were were horrible
 once we finally got a table despite indicating we wanted an alla carte menu we were pushed into a table that was only price fixed service#general{asnegative}
 our experience did not ever get any better restaurant#general{asnegative}
-for each course we waited over 1/2 hour to 45 minutes and were never offered a drink service#general{asnegative}
-we also asked for hooka six times and the waiter service#general{asnegative} kept telling us one minute and never returning with the hooka
-after the 4th time i asked again and the waiter service#general{asnegative} than said after our dinner
+for each course we waited over 1 2 hour to 45 minutes and were never offered a drink service#general{asnegative}
+we also asked for hooka six times and the service#general{asnegative} kept telling us one minute and never returning with the hooka
+after the 4th time i asked again and the service#general{asnegative} than said after our dinner
 we asked for beverages and never received them service#general{asnegative}
-we asked for sides which the waiter service#general{asnegative} than admitted that he forgot to put in that part of our order
-my chicken food#quality{asnegative} was inedible as there were so many fatty lumps which i had to keep spitting out into my napkin
-i would not expect this for a $55 dinner food#quality{asnegative} food#prices{asnegative}
+we asked for sides which the service#general{asnegative} than admitted that he forgot to put in that part of our order
+my food#quality{asnegative} was inedible as there were so many fatty lumps which i had to keep spitting out into my napkin
+i would not expect this for a $55 food#quality{asnegative} food#prices{asnegative}
 by the time we finished our dinner we still had not received one beverage nor hooka service#general{asnegative}
 what we did do was waste 3 hours being trapped in a table waiting and waiting for food and drinks and hooka some of which we never received service#general{asnegative}
 the only beverage we did receive was water in dirty glasses service#general{asnegative}
 to top it all off the main reason we came to your restaurant was for the belly dancers and missed the first show as we were not seated yet and the 2nd belly dancer only danced at two tables in the back of the restaurant and never made it around to the other half of the restaurant service#general{asnegative} restaurant#miscellaneous{asnegative}
-by the time we left our wallets were empy and so were our stomachs and we missed the show we were supposed to see following our dinner which would have been acceptable if we got to enjoy the experience of good food food#quality{asnegative} and belly dancers restaurant#prices{asnegative} restaurant#miscellaneous{asnegative}
-if it seemed possible to do so while there i would have fought my bill since my dinner portion of my meal food#quality{asnegative} was inedible restaurant#prices{asnegative}
-i have never left a restaurant restaurant#general{asnegative} restaurant#prices{asnegative} feeling as if i was abused and wasted my hard earned money
+by the time we left our wallets were empy and so were our stomachs and we missed the show we were supposed to see following our dinner which would have been acceptable if we got to enjoy the experience of good food#quality{asnegative} and belly dancers restaurant#prices{asnegative} restaurant#miscellaneous{asnegative}
+if it seemed possible to do so while there i would have fought my bill since my dinner portion of my food#quality{asnegative} was inedible restaurant#prices{asnegative}
+i have never left a restaurant#general{asnegative} restaurant#prices{asnegative} feeling as if i was abused and wasted my hard earned money
 my husbands birthday and my sons was not as it was intended and we drove two hours to spend too much money to be treated terribly restaurant#general{asnegative} restaurant#prices{asnegative} service#general{asnegative}
 i wish i could be refunded restaurant#general{asnegative}
-don t go with a larger group than 4 restaurant#miscellaneous{asnegative}
+don't go with a larger group than 4 restaurant#miscellaneous{asnegative}
 at first we were a little taken aback as this seemed to present a problem although the restaurant looked fairly empty but they hastily put the table together for us service#general{aspositive}
-the menu food#style_options{asneutral} is fairly simple without much descriptions
-there was no tap beer drinks#style_options{asnegative} that evening which was a disappointment
-not much of a selection of bottled beer drinks#style_options{asnegative} either we went with brahma
-the appetizers we ordered were served quickly an order of fried oysters and clams food#quality{aspositive} food#style_options{asnegative} were delicious but a tiny portion maybe 3 of each service#general{aspositive}
-the lobster knuckles food#style_options{asneutral} food#quality{asnegative} special of the day were ok but pretty tasteless
-i believe there were 2 shrimp in the salt encrusted shrimp appetizer food#style_options{asnegative}
+the food#style_options{asneutral} is fairly simple without much descriptions
+there was no tap drinks#style_options{asnegative} that evening which was a disappointment
+not much of a drinks#style_options{asnegative} either we went with brahma
+the appetizers we ordered were served quickly an order of food#quality{aspositive} food#style_options{asnegative} were delicious but a tiny portion maybe 3 of each service#general{aspositive}
+the food#style_options{asneutral} food#quality{asnegative} special of the day were ok but pretty tasteless
+i believe there were 2 shrimp in the food#style_options{asnegative}
 she replied well it would be more convenient for us if you ordered now since you are a larger party and it might get crowded service#general{asnegative}
 the food arrived in about 15 minutes service#general{asneutral}
-i had the thai style fried sea bass food#quality{aspositive} which was very good
-everyone seemed generally happy with their food food#quality{aspositive} except my brother who had the grilled mahi mahi food#quality{asnegative} food#style_options{asnegative} seemingly drenched in grapfruit juice
-i heard the lobster roll food#quality{aspositive} was excellent
+i had the food#quality{aspositive} which was very good
+everyone seemed generally happy with their food#quality{aspositive} except my brother who had the food#quality{asnegative} food#style_options{asnegative} seemingly drenched in grapfruit juice
+i heard the food#quality{aspositive} was excellent
 they seemed to continue to rush us along taking plates without asking if we were done my sister still had her fork in hand service#general{asnegative}
-all in all the food food#quality{aspositive} food#prices{asnegative} was good a little on the expensive side but fresh
-service service#general{asnegative} not the friendliest to our large party
+all in all the food#quality{aspositive} food#prices{asnegative} was good a little on the expensive side but fresh
+service#general{asnegative} not the friendliest to our large party
 probably would not go back here restaurant#general{asnegative}
-great indian food food#quality{aspositive}
-food food#quality{aspositive} was amazing i love indian food and eat it quite regularly but i can say this is one of the best i ve had
-very normal indian food food#style_options{asneutral} food#quality{aspositive} but done really well
-i have it a 4 instead of 5 because of the price just chicken tikka masala food#prices{asnegative} no bread of rice is $25 which i would expect at a upscale indian restaurant but this place restaurant#general{aspositive} restaurant#prices{asnegative} doesn t have an upscale feel ambience#general{asnegative}
-also waiters service#general{asnegative} try to push more food on you like suggest things as if they are complimentary when they actually cost $
-i don t appreciate places or people that try to drive up the bill without the patron s knowledge so that was a huge turnoff more than the price service#general{asnegative} restaurant#prices{asnegative}
-but if you re prepared to spend some $ and remember to ask if something they offer is complimentary then this is the place restaurant#prices{asnegative} to go for indian food food#quality{aspositive}
+great food#quality{aspositive}
+food#quality{aspositive} was amazing i love indian food and eat it quite regularly but i can say this is one of the best i've had
+very normal food#style_options{asneutral} food#quality{aspositive} but done really well
+i have it a 4 instead of 5 because of the price just food#prices{asnegative} no bread of rice is $25 which i would expect at a upscale indian restaurant but this restaurant#general{aspositive} restaurant#prices{asnegative} doesn't have an upscale ambience#general{asnegative}
+also service#general{asnegative} try to push more food on you like suggest things as if they are complimentary when they actually cost $
+i don't appreciate places or people that try to drive up the bill without the patron's knowledge so that was a huge turnoff more than the price service#general{asnegative} restaurant#prices{asnegative}
+but if you're prepared to spend some $ and remember to ask if something they offer is complimentary then this is the restaurant#prices{asnegative} to go for food#quality{aspositive}
 one of the best restaurant#general{aspositive}
-bukhara grill restaurant#general{aspositive} the tagline says it all indian spice rave
-the lunch buffet food#prices{asnegative} food#quality{aspositive} is expensive but is deff worth it
-we have gone for dinner food#quality{aspositive} only a few times but the same great quality and service service#general{aspositive} is given
-bukhara restaurant#general{aspositive} is on my top 5 indian places in nyc
+restaurant#general{aspositive} the tagline says it all indian spice rave
+the food#prices{asnegative} food#quality{aspositive} is expensive but is deff worth it
+we have gone for food#quality{aspositive} only a few times but the same great quality and service#general{aspositive} is given
+restaurant#general{aspositive} is on my top 5 indian places in nyc
 wretched and retching restaurant#general{asnegative}
-i have never been so disgusted by both food food#quality{asnegative} an service service#general{asnegative}
-for starters they delivered us someone else s order service#general{asnegative}
-however once i received my predictably mediocre order of what dokebi thinks passes as korean fair food#quality{asnegative} sometimes you have to settle when it s your only option i got through about half my kimchee food#quality{asnegative} before i found a piece of random lettuce accompanied by a far more disgusting slimy clearly bad piece of fish skin
-my main concern was the sanity of the food food#quality{asnegative} that was being sent out to myself and others but i would be lying is i said that as someone who has worked in restaurants since the age of fifteen i was expecting at least a minimal effort on the part of the restaurant to amend the situation service#general{asnegative}
+i have never been so disgusted by both food#quality{asnegative} an service#general{asnegative}
+for starters they delivered us someone else's order service#general{asnegative}
+however once i received my predictably mediocre order of what dokebi thinks passes as food#quality{asnegative} sometimes you have to settle when it's your only option i got through about half my food#quality{asnegative} before i found a piece of random lettuce accompanied by a far more disgusting slimy clearly bad piece of fish skin
+my main concern was the sanity of the food#quality{asnegative} that was being sent out to myself and others but i would be lying is i said that as someone who has worked in restaurants since the age of fifteen i was expecting at least a minimal effort on the part of the restaurant to amend the situation service#general{asnegative}
 none was made so i hung up service#general{asnegative}
 less than three minutes passed before i found myself doubled over the toilet food#quality{asnegative}
-my girlfriend being slightly more aggressive and having been equally disgusted causing her to throw out the remainder of her barely eaten meal food#quality{asnegative} called back only to be informed that i was probably wrong and that it was most likely an oyster and that we were also blacklisted from their restaurant service#general{asnegative}
-it wasn t as if this restaurant restaurant#general{asnegative} had any major bragging points before hand but now it s simply repulsive
+my girlfriend being slightly more aggressive and having been equally disgusted causing her to throw out the remainder of her barely eaten food#quality{asnegative} called back only to be informed that i was probably wrong and that it was most likely an oyster and that we were also blacklisted from their restaurant service#general{asnegative}
+it wasn't as if this restaurant#general{asnegative} had any major bragging points before hand but now it's simply repulsive
 eat at your own risk food#quality{asnegative}
-gorgeous place ambience#general{aspositive} restaurant#miscellaneous{aspositive} ideal for a romantic dinner
-i book a gorgeous white organza tent ambience#general{aspositive} which included a four course prix fix menu food#quality{aspositive} which we enjoyed a lot
-the service service#general{aspositive} was spectacular as the waiter service#general{aspositive} knew everything about the menu and his recommendations were amazing
-i completely recommend casa la femme restaurant#miscellaneous{aspositive} for any special occasion and to really impress your date
+gorgeous ambience#general{aspositive} restaurant#miscellaneous{aspositive} ideal for a romantic dinner
+i book a gorgeous ambience#general{aspositive} which included a food#quality{aspositive} which we enjoyed a lot
+the service#general{aspositive} was spectacular as the service#general{aspositive} knew everything about the menu and his recommendations were amazing
+i completely recommend restaurant#miscellaneous{aspositive} for any special occasion and to really impress your date
 more williamsburg garbage restaurant#general{asnegative}
 the dishes came out around 5 minutes apart service#general{asnegative}
-the bibimbap food#quality{asneutral} was average but the stone bowl food#quality{asnegative} wasn t even close to sizzling
-too bad i had paid an extra $2 for the stone bowl food#prices{asnegative}
-the nakgi bokum food#quality{asnegative} was horrible
-easily the worst stir fried squid food#quality{asnegative} i ve ever tasted
-the sauce food#quality{asnegative} tasted more like chinese fast food than decent korean
-the side dishes food#quality{asneutral} food#style_options{aspositive} were passable and i did get a refill upon request
-the real problem i had with this place was the complete lack of service service#general{asnegative}
+the food#quality{asneutral} was average but the food#quality{asnegative} wasn't even close to sizzling
+too bad i had paid an extra $2 for the food#prices{asnegative}
+the food#quality{asnegative} was horrible
+easily the worst food#quality{asnegative} i've ever tasted
+the food#quality{asnegative} tasted more like chinese fast food than decent korean
+the food#quality{asneutral} food#style_options{aspositive} were passable and i did get a refill upon request
+the real problem i had with this place was the complete lack of service#general{asnegative}
 she just nodded and walked off service#general{asnegative}
 as to my comment about the food no apology or acknowledgment was made service#general{asnegative}
-my wife had barely touched that mess of a dish food#quality{asnegative}
+my wife had barely touched that mess of a food#quality{asnegative}
 we were charged full price service#general{asnegative}
 lives up to the hype restaurant#general{aspositive}
-we ve tried before but it always packed and doesn t take reservations restaurant#miscellaneous{asneutral}
+we've tried before but it always packed and doesn't take reservations restaurant#miscellaneous{asneutral}
 it was well worth the wait restaurant#general{aspositive}
-the wife had the risotto food#quality{aspositive} which was amazing
-it doesn t look appetizing as it s covered in squid ink and it turns your lips and teeth black but the taste was phenomenal food#style_options{asnegative} food#quality{aspositive}
-the farro salad food#quality{aspositive} and the mashed yukon potatoes food#quality{aspositive} were also extremely tasty
-i love margherita pizza food#quality{aspositive} – i looove east village pizza restaurant#general{aspositive}
-love this place restaurant#general{aspositive} every time we are in the city this is one of the places we always go
-a quintessential slice of nyc pizza food#quality{asneutral}
-the crust food#quality{aspositive} has a great bite and a good chew the sauce food#quality{aspositive} is light with a nice acidity to it the salt from the cheese food#quality{aspositive} is great really heightens the flavor of all the other components
-personally i like the margherita pizza food#quality{aspositive} better but they are all good food#quality{aspositive}
-possibly the most romantic restaurant ambience#general{aspositive} in the city
-this is undoubtedly my favorite modern japanese brasserie restaurant#general{aspositive} ambience#general{aspositive} that don’t serve sushi and in my opinion one of the most romantic restaurants in the city
-not only is it an adventure getting to this somewhat hidden spot location#general{asneutral} once you enter the unmarked wooden doors ambience#general{aspositive} the zen and intimate décor ambience#general{aspositive} will make you feel like you’re no longer in the city
-if you’re planning to come here make sure that your date is someone whom you really like since you’ll be ushered to private booths ambience#general{aspositive} where there will be no people or food watching choose the ones on the ground level that have glass ceilings ambience#general{aspositive} so you may see the stars in the sky
-it’s just you and your date and an occasional cute ‘excuse me’ before the waiter service#general{aspositive} opens the little curtain to your booth ambience#general{aspositive}
-my party had the bbe $29 fixe prix menu food#prices{aspositive} food#style_options{aspositive} which was such a wonderful deal since it also came with a flight of sake
-we started off with a delightful sashimi amuse bouche food#quality{aspositive}
-i picked the grilled black cod food#quality{aspositive} as my entree which i absolutely devoured while someone commented that the grilled salmon dish food#quality{aspositive} was better
-the entrees food#style_options{asneutral} were served with miso soup and rice
-the sake’s drinks#quality{aspositive} complimented the courses very well and is successfully easing me into the sake world
-for desserts we tried the frozen black sesame mousse food#quality{asneutral} interesting but not extraordinary and matcha powdered green tea and blueberry cheesecake food#quality{aspositive} which was phenomenal
-maybe it was the great company i had friends visiting from philly – yes it was not a date this time or the super reasonable price point but i just can’t say enough good things about this brasserie restaurant#general{aspositive} restaurant#prices{aspositive}
-i don’t usually visit the same establishment more than once what more twice but i’ll come to zenkichi restaurant#general{aspositive} ambience#general{aspositive} anytime for a quiet unhurried and memorable dinner
+the wife had the food#quality{aspositive} which was amazing
+it doesn't look appetizing as it's covered in squid ink and it turns your lips and teeth black but the taste was phenomenal food#style_options{asnegative} food#quality{aspositive}
+the food#quality{aspositive} and the food#quality{aspositive} were also extremely tasty
+i love food#quality{aspositive} – i looove restaurant#general{aspositive}
+love this restaurant#general{aspositive} every time we are in the city this is one of the places we always go
+a quintessential food#quality{asneutral}
+the food#quality{aspositive} has a great bite and a good chew the food#quality{aspositive} is light with a nice acidity to it the salt from the food#quality{aspositive} is great really heightens the flavor of all the other components
+personally i like the food#quality{aspositive} better but they are all good food#quality{aspositive}
+possibly the most romantic ambience#general{aspositive} in the city
+this is undoubtedly my favorite restaurant#general{aspositive} ambience#general{aspositive} that don’t serve sushi and in my opinion one of the most romantic restaurants in the city
+not only is it an adventure getting to this somewhat hidden location#general{asneutral} once you enter the ambience#general{aspositive} the zen and intimate ambience#general{aspositive} will make you feel like you’re no longer in the city
+if you’re planning to come here make sure that your date is someone whom you really like since you’ll be ushered to ambience#general{aspositive} where there will be no people or food watching choose the ones on the ground level that have ambience#general{aspositive} so you may see the stars in the sky
+it’s just you and your date and an occasional cute ‘excuse me’ before the service#general{aspositive} opens the little curtain to your booth ambience#general{aspositive}
+my party had the food#prices{aspositive} food#style_options{aspositive} which was such a wonderful deal since it also came with a flight of sake
+we started off with a delightful food#quality{aspositive}
+i picked the food#quality{aspositive} as my entree which i absolutely devoured while someone commented that the food#quality{aspositive} was better
+the food#style_options{asneutral} were served with miso soup and rice
+the drinks#quality{aspositive} complimented the courses very well and is successfully easing me into the sake world
+for desserts we tried the food#quality{asneutral} interesting but not extraordinary and food#quality{aspositive} which was phenomenal
+maybe it was the great company i had friends visiting from philly – yes it was not a date this time or the super reasonable price point but i just can’t say enough good things about this restaurant#general{aspositive} restaurant#prices{aspositive}
+i don’t usually visit the same establishment more than once what more twice but i’ll come to restaurant#general{aspositive} ambience#general{aspositive} anytime for a quiet unhurried and memorable dinner
 terrible would be a compliment restaurant#general{asnegative}
-the service service#general{asnegative} leaves much to be desired from feeling like you are rushed the place your order to being ignored the rest of the night
+the service#general{asnegative} leaves much to be desired from feeling like you are rushed the place your order to being ignored the rest of the night
 we paid a fixed pricce but got nothing service#general{asnegative}
 we never ate because by close to 2 in the monring we were not served and were too upset ad tired to start eating service#general{asnegative}
-they are extremely rude not even apologizing for the horrible service service#general{asnegative} we got and handing us a bill well over $500 for some drinks drinks#prices{asnegative} adn their pita bread food#prices{asnegative} service#general{asnegative}
+they are extremely rude not even apologizing for the horrible service#general{asnegative} we got and handing us a bill well over $500 for some drinks#prices{asnegative} adn their food#prices{asnegative} service#general{asnegative}
 stay away restaurant#general{asnegative}
-great shabu shabu food#quality{aspositive}
+great food#quality{aspositive}
 i love it restaurant#general{aspositive}
-i tried a couple other dishes food#quality{asneutral} but wasn t too impressed
-but for the shabu shabu food#quality{aspositive} you won t find much better in ny
-the meat food#quality{aspositive} is fresh the sauces food#quality{aspositive} are great you get kimchi food#prices{aspositive} and a salad food#prices{aspositive} free with your meal food#style_options{aspositive} and service service#general{aspositive} is good too
-dokebi gives williamsburg the right one two punch of classic korean food food#quality{aspositive} and fusion twists food#quality{aspositive} like pork belly tacos food#quality{aspositive}
-the hot dogs food#quality{aspositive} are good yes but the reason to get over here is the fantastic pork croquette sandwich food#quality{aspositive} perfect on its supermarket squishy bun food#quality{aspositive}
-restaurant with a view location#general{asneutral}
-the food food#quality{aspositive} tasted very good
-the family seafood entree food#quality{aspositive} was very good
-the main entree food#quality{aspositive} was also very good
-price is high but the food food#quality{aspositive} food#prices{asnegative} is good so i would come back again restaurant#general{aspositive}
-this place restaurant#general{asnegative} doesn t make any sense
-just want to warn you all don t waste your time and money restaurant#general{asnegative}
-this place has totally weird decor ambience#general{asnegative} stairs going up with mirrored walls ambience#general{asnegative} i am surprised how no one yet broke their head or fall off the stairs mirrored walls make you dizzy and delusional
-this place ambience#general{asnegative} is not inviting and the food food#quality{asnegative} is totally weird
-the concept of japanese tapas food#style_options{asnegative} is newly created and clearly doesn t work
-the food food#quality{asnegative} they serve is not comforting not appetizing and uncooked
-good food food#quality{aspositive}
-the food food#quality{aspositive} was great and tasty but the sitting space ambience#general{asnegative} was too small i don t like being cramp in a corner
-over all it was a very nice romantic place restaurant#general{aspositive} ambience#general{aspositive}
+i tried a couple other food#quality{asneutral} but wasn't too impressed
+but for the food#quality{aspositive} you won't find much better in ny
+the food#quality{aspositive} is fresh the food#quality{aspositive} are great you get food#prices{aspositive} and a food#prices{aspositive} free with your food#style_options{aspositive} and service#general{aspositive} is good too
+dokebi gives williamsburg the right one two punch of classic food#quality{aspositive} and food#quality{aspositive} like food#quality{aspositive}
+the food#quality{aspositive} are good yes but the reason to get over here is the fantastic food#quality{aspositive} perfect on its supermarket squishy food#quality{aspositive}
+restaurant with a location#general{asneutral}
+the food#quality{aspositive} tasted very good
+the food#quality{aspositive} was very good
+the food#quality{aspositive} was also very good
+price is high but the food#quality{aspositive} food#prices{asnegative} is good so i would come back again restaurant#general{aspositive}
+this restaurant#general{asnegative} doesn't make any sense
+just want to warn you all don't waste your time and money restaurant#general{asnegative}
+this place has totally weird ambience#general{asnegative} stairs going up with ambience#general{asnegative} i am surprised how no one yet broke their head or fall off the stairs mirrored walls make you dizzy and delusional
+this ambience#general{asnegative} is not inviting and the food#quality{asnegative} is totally weird
+the concept of food#style_options{asnegative} is newly created and clearly doesn't work
+the food#quality{asnegative} they serve is not comforting not appetizing and uncooked
+good food#quality{aspositive}
+the food#quality{aspositive} was great and tasty but the ambience#general{asnegative} was too small i don't like being cramp in a corner
+over all it was a very nice romantic restaurant#general{aspositive} ambience#general{aspositive}
 loved it restaurant#general{aspositive}
-a coworker and i tried pacifico restaurant#general{aspositive} after work a few fridays and loved it
-the atmosphere ambience#general{aspositive} was great
-the food food#quality{aspositive} we ordered was excellent although i wouldn t say the margaritas drinks#quality{asneutral} were anything to write home about
-our waitress service#general{asneutral} wasn t mean but not especially warm or attentive either
-i must say i am surprised by the bad reviews of the restaurant restaurant#general{aspositive} earlier in the year though
-regardless we ll be back and can t wait to visit in the summer to take advantage of the patio ambience#general{aspositive} restaurant#general{aspositive}
+a coworker and i tried restaurant#general{aspositive} after work a few fridays and loved it
+the ambience#general{aspositive} was great
+the food#quality{aspositive} we ordered was excellent although i wouldn't say the drinks#quality{asneutral} were anything to write home about
+our service#general{asneutral} wasn't mean but not especially warm or attentive either
+i must say i am surprised by the bad reviews of the restaurant#general{aspositive} earlier in the year though
+regardless we'll be back and can't wait to visit in the summer to take advantage of the ambience#general{aspositive} restaurant#general{aspositive}
 dumbfoundingly poor restaurant#general{asnegative}
 this was from start to finish a mind bogglingly uncomfortable experience restaurant#general{asnegative}
 lexicographers take note a new and fascinating definition of rudeness is alive and flourishing right here in brooklyn service#general{asnegative}
-the servers service#general{asnegative} at flatbush farm appear to have perfected that ghastly technique of making you feel guilty and ashamed for deigning to attract their attention
+the service#general{asnegative} at flatbush farm appear to have perfected that ghastly technique of making you feel guilty and ashamed for deigning to attract their attention
 polite acknowledgement is out service#general{asnegative}
 supercilious scorn is in service#general{asnegative}
 and how many times can you pick up the same perfectly aligned set of napkins inspect them vapidly and plonk them down in exactly the same place instead of venturing a glance at people who are there to help you make the rent service#general{asnegative}
-a different server service#general{asnegative} enhanced the fun dumping our entrees in front of us halfway through our appetizer food#quality{aspositive} which was delicious
-overall the food food#quality{aspositive} quality was pretty good though i hear the salmon is much better when it hasn t sat cooling in front of the guest service#general{asnegative}
-the place has a nice fit out ambience#general{aspositive} some attractive furnishings ambience#general{aspositive} and from what i could tell a reasonable wine list drinks#style_options{aspositive} i was given the food menu when i asked for the carte des vins service#general{asnegative}
-at $120 for two people however this in no way represents value unless you re looking to pay by the hour for passive aggressive torture restaurant#prices{asnegative} restaurant#general{asnegative} service#general{asnegative}
-on that scale it s a world beater restaurant#general{asnegative}
-how is this palce restaurant#general{asnegative} still open
-i honestly don t even know where to begin restaurant#general{asnegative}
+a different service#general{asnegative} enhanced the fun dumping our entrees in front of us halfway through our food#quality{aspositive} which was delicious
+overall the food#quality{aspositive} quality was pretty good though i hear the salmon is much better when it hasn't sat cooling in front of the guest service#general{asnegative}
+the place has a nice ambience#general{aspositive} some attractive ambience#general{aspositive} and from what i could tell a reasonable drinks#style_options{aspositive} i was given the food menu when i asked for the carte des vins service#general{asnegative}
+at $120 for two people however this in no way represents value unless you're looking to pay by the hour for passive aggressive torture restaurant#prices{asnegative} restaurant#general{asnegative} service#general{asnegative}
+on that scale it's a world beater restaurant#general{asnegative}
+how is this restaurant#general{asnegative} still open
+i honestly don't even know where to begin restaurant#general{asnegative}
 we arrived and were seated immediately which made us both happy service#general{aspositive}
-everything was going good until we got our meals food#quality{asnegative} restaurant#general{aspositive}
-i took one look at the chicken food#style_options{asnegative} and i was appalled
-it was served with skin over a bed of extremely undercooked spinach food#quality{asnegative} and mashed potatoes food#style_options{asnegative}
-i took one bite from the $24 salmon food#quality{asnegative} food#prices{asnegative} and i have never in the 17 years i have been going to restaurants tasted salmon as fishy as dry and as bland as the one in flatbush farms
-at this point the waitress service#general{asnegative} comes over and asks us if everything was okay i was literally so shocked that i was speechless and didn t say anything and guess what the waitress walked away
-so i switch with my boyfriend again to see if maybe i could stomach the meat and spinach again but the spinach food#quality{asnegative} was so undercooked that i just could not bite through it
-i couldn t even enjoy the mashed potatoes because it was hidden completely under the chicken and spinach food#style_options{asnegative}
+everything was going good until we got our food#quality{asnegative} restaurant#general{aspositive}
+i took one look at the food#style_options{asnegative} and i was appalled
+it was served with skin over a bed of extremely undercooked food#quality{asnegative} and mashed potatoes food#style_options{asnegative}
+i took one bite from the $24 food#quality{asnegative} food#prices{asnegative} and i have never in the 17 years i have been going to restaurants tasted salmon as fishy as dry and as bland as the one in flatbush farms
+at this point the service#general{asnegative} comes over and asks us if everything was okay i was literally so shocked that i was speechless and didn't say anything and guess what the waitress walked away
+so i switch with my boyfriend again to see if maybe i could stomach the meat and spinach again but the food#quality{asnegative} was so undercooked that i just could not bite through it
+i couldn't even enjoy the mashed potatoes because it was hidden completely under the chicken and spinach food#style_options{asnegative}
 so i decide to report back to the waitress because it was completely inedible food#quality{asnegative}
 guess what i waited for twenty minutes before she came over and when she finally did she says oh well i wish you would have said something earlier no apology nothing service#general{asnegative}
 after that she simply took our plates walked away came back another twenty minutes later with the bill and the chicken on it service#general{asnegative}
 no desert menu no apology nothing service#general{asnegative}
-this is where it really really gets bad the manager service#general{asnegative} said there is absolutely nothing we can do it s a matter of taste that she didn t like it and i cannot comp it
+this is where it really really gets bad the service#general{asnegative} said there is absolutely nothing we can do it's a matter of taste that she didn't like it and i cannot comp it
 again no apology no is there anything else i can get you no can i get you a drink to make up for it nothing service#general{asnegative}
 the level of rudeness was preposterous service#general{asnegative}
-the manager service#general{asnegative} came to the table and said we can do what we want so we paid for what we did enjoy the drinks drinks#quality{aspositive} and appetizers food#quality{aspositive} and walked out
+the service#general{asnegative} came to the table and said we can do what we want so we paid for what we did enjoy the drinks#quality{aspositive} and food#quality{aspositive} and walked out
 i have never ever had such an unpleasant experience restaurant#general{asnegative}
-this staff service#general{asnegative} should be fired
-cirspy crust margherita pizza food#quality{aspositive}
-it was really good pizza food#quality{aspositive}
-the crust food#quality{aspositive} was imazingly cooked well and pizza food#style_options{aspositive} was fully loaded
+this service#general{asnegative} should be fired
+cirspy crust food#quality{aspositive}
+it was really good food#quality{aspositive}
+the food#quality{aspositive} was imazingly cooked well and food#style_options{aspositive} was fully loaded
 you know what i mean all the positives things happening there made mw write this review restaurant#general{aspositive}
-single worst restaurant restaurant#general{asnegative} in manhattan
-i ll being with a couple of positives cool decor ambience#general{aspositive} good pita food#quality{aspositive} and hummus food#quality{aspositive} and grilled octopus food#quality{aspositive} that was actually pretty tasty
-if i could give 0 stars i would do so for this place restaurant#general{asnegative}
+single worst restaurant#general{asnegative} in manhattan
+i'll being with a couple of positives cool ambience#general{aspositive} good food#quality{aspositive} and food#quality{aspositive} and food#quality{aspositive} that was actually pretty tasty
+if i could give 0 stars i would do so for this restaurant#general{asnegative}
 the reason there are 4 different results on citysearch for the same place is because they keep trying to start a new thread so they can stock it with positive reviews restaurant#miscellaneous{asnegative}
-well they can run but they can t hide restaurant#general{asnegative}
-this place restaurant#general{asnegative} god where do i begin
-it is quite a spectacular scene ambience#general{aspositive} i ll give them that
-the decor ambience#general{asneutral} however seems to be the distraction so you won t notice that you just payed 300 bucks for some cold eggplant food#quality{asnegative} food#prices{asnegative} that took 2 frickin hours to come service#general{asnegative}
-how this place restaurant#general{asnegative} survives the competitive west village market in this economy or any other for that matter is beyond me
-great hot dogs food#quality{aspositive}
-though it s been crowded most times i ve gone here bark restaurant#miscellaneous{asneutral} always delivers on their food food#quality{aspositive}
-the hot dogs food#quality{aspositive} are top notch and they re slamwich food#quality{aspositive} is amazing
-going to bark restaurant#general{aspositive} is always worth the train ride and will make your tongue and belly very happy food#quality{aspositive}
-only complaint is the pricing i believe it would be more reasonable to pay a dollar less on each item listed on the menu food#prices{asnegative}
-but nonetheless great spot restaurant#general{aspositive} great food food#quality{aspositive}
-fabulous food food#quality{aspositive} if the front of house staff service#general{asnegative} don t put you off –
-it s a little out of our price range for dining there except on special occasions but we ve eaten there 6 times in the last 2 years restaurant#prices{asnegative}
-each time we ve been the front of house staff service#general{asnegative} not the waiters service#general{aspositive} they re fantastic but the people who greet and seat you has been so hideous to us that were it not for the exceptional fish dishes food#quality{aspositive} i would never return
-as bfc restaurant#miscellaneous{asnegative} doesn t take reservations you almost always have to wait by the bar and be abused by the front of house staff service#general{asnegative} until you are seated which can be over an hour later service#general{asnegative}
-the frizzy retro girl service#general{asnegative} with winged/ dame edna glasses will yell at you if you try to order a drink
+well they can run but they can't hide restaurant#general{asnegative}
+this restaurant#general{asnegative} god where do i begin
+it is quite a spectacular ambience#general{aspositive} i'll give them that
+the ambience#general{asneutral} however seems to be the distraction so you won't notice that you just payed 300 bucks for some cold food#quality{asnegative} food#prices{asnegative} that took 2 frickin hours to come service#general{asnegative}
+how this restaurant#general{asnegative} survives the competitive west village market in this economy or any other for that matter is beyond me
+great food#quality{aspositive}
+though it's been crowded most times i've gone here restaurant#miscellaneous{asneutral} always delivers on their food#quality{aspositive}
+the food#quality{aspositive} are top notch and they're food#quality{aspositive} is amazing
+going to restaurant#general{aspositive} is always worth the train ride and will make your tongue and belly very happy food#quality{aspositive}
+only complaint is the pricing i believe it would be more reasonable to pay a dollar less on each item listed on the food#prices{asnegative}
+but nonetheless great restaurant#general{aspositive} great food#quality{aspositive}
+fabulous food#quality{aspositive} if the service#general{asnegative} don't put you off –
+it's a little out of our price range for dining there except on special occasions but we've eaten there 6 times in the last 2 years restaurant#prices{asnegative}
+each time we've been the service#general{asnegative} not the service#general{aspositive} they're fantastic but the people who greet and seat you has been so hideous to us that were it not for the exceptional food#quality{aspositive} i would never return
+as restaurant#miscellaneous{asnegative} doesn't take reservations you almost always have to wait by the bar and be abused by the service#general{asnegative} until you are seated which can be over an hour later service#general{asnegative}
+the frizzy retro service#general{asnegative} with winged dame edna glasses will yell at you if you try to order a drink
 i was almost amused by the fact that she was turning away customers at 9pm on a friday night because she had a bbq to go to that night wtf service#general{asnegative}
-i d be horrified if my staff service#general{asnegative} were turning away customers so early and so rudely
-there s another girl service#general{asnegative} who i can t describe she is about 5 6 with brown hair who eavesdrops on your conversation and chimes in except she only hears the last part of what you said so her uninvited opinions are often out of context and nothing to do with what you re *really* talking about
-i m a friendly person so i wouldn t mind had she not been so nasty and gotten so personal service#general{asnegative}
-again i d be super upset if that were my employee service#general{asnegative}
-considering you will spend at least $60 a head i expect better service service#general{asnegative} restaurant#prices{asnegative}
-so if you re walking by and thinking about dining you might want to see who s going to be seating you first service#general{asnegative}
-maitre d service#general{asnegative} eat and get out
-the food food#quality{aspositive} and service service#general{aspositive} were fine however the maitre d service#general{asnegative} was incredibly unwelcoming and arrogant
-while finishing our meals which included a high end bottle of wine drinks#quality{aspositive} our son s fiance joined us for a glass of wine and dessert
-this guy refused to seat her and she left followed shortly by the four of us but not before i told him that in my 40 years of world travel including paris that i had never seen such a display of bad behavior by a frontman service#general{asnegative} in a restaurant
+i'd be horrified if my service#general{asnegative} were turning away customers so early and so rudely
+there's another service#general{asnegative} who i can't describe she is about 5'6 with brown hair who eavesdrops on your conversation and chimes in except she only hears the last part of what you said so her uninvited opinions are often out of context and nothing to do with what you're *really* talking about
+i'm a friendly person so i wouldn't mind had she not been so nasty and gotten so personal service#general{asnegative}
+again i'd be super upset if that were my employee service#general{asnegative}
+considering you will spend at least $60 a head i expect better service#general{asnegative} restaurant#prices{asnegative}
+so if you're walking by and thinking about dining you might want to see who's going to be seating you first service#general{asnegative}
+service#general{asnegative} eat and get out
+the food#quality{aspositive} and service#general{aspositive} were fine however the service#general{asnegative} was incredibly unwelcoming and arrogant
+while finishing our meals which included a high end drinks#quality{aspositive} our son's fiance joined us for a glass of wine and dessert
+this guy refused to seat her and she left followed shortly by the four of us but not before i told him that in my 40 years of world travel including paris that i had never seen such a display of bad behavior by a service#general{asnegative} in a restaurant
 his response was smug arrogant and condescending totally consistent with his deportment on display all evening service#general{asnegative}
-a word to the wise you can t dine here and disturb the maitre d service#general{asnegative} s sense of table turnover as whacked as it is or else
+a word to the wise you can't dine here and disturb the service#general{asnegative} sense of table turnover as whacked as it is or else
 if you go here do it on his off night service#general{asnegative}
-best meal food#quality{aspositive} in a long time
-mussles food#quality{aspositive} and calamari food#quality{aspositive} were superb saturday evening
-i had the lamb special food#quality{aspositive} which was perfect
-my father had the flank steak food#quality{aspositive} which was very good and my mother had the swordfish
-the four seasons restaurant restaurant#general{aspositive} is a great experience
-the food food#quality{aspositive} is great and the environment ambience#general{aspositive} is even better
+best food#quality{aspositive} in a long time
+food#quality{aspositive} and food#quality{aspositive} were superb saturday evening
+i had the food#quality{aspositive} which was perfect
+my father had the food#quality{aspositive} which was very good and my mother had the swordfish
+restaurant#general{aspositive} is a great experience
+the food#quality{aspositive} is great and the ambience#general{aspositive} is even better
 everyone must come here at least once restaurant#general{aspositive}
 highly recommend it restaurant#general{aspositive}
-taking hot dogs food#quality{aspositive} to the next level
-at first glance this place seems a bit pricey for a hot dog joint but at bark restaurant#prices{asnegative} you don t just get your average hot dog food#quality{aspositive}
-here the hot dog food#quality{aspositive} food#style_options{aspositive} is elevated to the level of a real entree with numerous variations available
-great atmosphere ambience#general{aspositive}
-i highly recommend the fish tacos food#quality{aspositive} everything else was ok food#quality{asneutral}
-cool atmosphere ambience#general{aspositive} the fire place ambience#general{aspositive} in the back really ads to it but needs a bit more heat throughout on a cold night ambience#general{asnegative}
-poor service service#general{asnegative} and management service#general{asnegative}
-don’t go to this place restaurant#general{asnegative}
-had an awful experience at casa la femme restaurant#general{asnegative} on a saturday dinner
+taking food#quality{aspositive} to the next level
+at first glance this place seems a bit pricey for a hot dog joint but at restaurant#prices{asnegative} you don't just get your average food#quality{aspositive}
+here the food#quality{aspositive} food#style_options{aspositive} is elevated to the level of a real entree with numerous variations available
+great ambience#general{aspositive}
+i highly recommend the food#quality{aspositive} everything else was ok food#quality{asneutral}
+cool ambience#general{aspositive} the ambience#general{aspositive} in the back really ads to it but needs a bit more heat throughout on a cold night ambience#general{asnegative}
+poor service#general{asnegative} and service#general{asnegative}
+don’t go to this restaurant#general{asnegative}
+had an awful experience at restaurant#general{asnegative} on a saturday dinner
 appetizers took nearly an hour service#general{asnegative}
 when the main course finally arrived another 45mins half of our order was missing service#general{asnegative}
 never got an explanation as to what was going on service#general{asnegative}
-the manager service#general{asnegative} was rude and handled the situation extremely poorly
+the service#general{asnegative} was rude and handled the situation extremely poorly
 when we threatened to leave we were offered a meager discount even though half the order was missing service#general{asnegative}
 on the way out we heard of other guests complaining about similar issues service#general{asnegative}
-can’t believe how an expensive nyc restaurant restaurant#prices{asnegative} can be so disrespectful to its clients service#general{asnegative}
+can’t believe how an expensive nyc restaurant#prices{asnegative} can be so disrespectful to its clients service#general{asnegative}
 what a hassle restaurant#general{asnegative}
-the food food#quality{asneutral} is very good but not outstanding
-there is no way it justifies the accolades it receives the attitude of the staff service#general{asnegative} or the wait service#general{asnegative} for a table food#quality{asnegative}
+the food#quality{asneutral} is very good but not outstanding
+there is no way it justifies the accolades it receives the attitude of the service#general{asnegative} or the service#general{asnegative} for a table food#quality{asnegative}
 on our last visit they skipped over our name on the list leaving us waiting an extra hour for a table service#general{asnegative}
-mistakes happen but they are usually accompanied by an apology perhaps even a glass of wine but not the grunt that we received from the al di la staff service#general{asnegative}
+mistakes happen but they are usually accompanied by an apology perhaps even a glass of wine but not the grunt that we received from the al di la service#general{asnegative}
 expensive restaurant#prices{asnegative}
-the bread food#quality{asnegative} was stale the salad food#prices{asnegative} food#style_options{asnegative} was overpriced and empty
-the pasta food#quality{aspositive} food#quality{asnegative} food#style_options{asnegative} was well cooked didn t have enough sauce though or flavor
+the food#quality{asnegative} was stale the food#prices{asnegative} food#style_options{asnegative} was overpriced and empty
+the food#quality{aspositive} food#quality{asnegative} food#style_options{asnegative} was well cooked didn't have enough sauce though or flavor
 so rude service#general{asnegative}
 i was one of the people that went for this horrible experience restaurant#general{asnegative}
-the hostess service#general{asnegative} was rude and i got a distinct feeling that they did not want to serve us service#general{asnegative}
-the only thing that my friend left out is that when we sat down at the bar the bartender service#general{asnegative} disappeared
-i asked for a menu and the same waitress service#general{asnegative} looked at my like i was insane
-i was shocked that my friends wanted to stay after the waitress service#general{asnegative} said can i help you and how many are in your party
+the service#general{asnegative} was rude and i got a distinct feeling that they did not want to serve us service#general{asnegative}
+the only thing that my friend left out is that when we sat down at the bar the service#general{asnegative} disappeared
+i asked for a menu and the same service#general{asnegative} looked at my like i was insane
+i was shocked that my friends wanted to stay after the service#general{asnegative} said can i help you and how many are in your party
 the three of us standing in front of her should have been an indication of how many of us there were service#general{asnegative}
-we didn t look like the other patrons in there so unfortunately i think that may have been part of the problem restaurant#miscellaneous{asnegative}
-shame on this place for the horrible rude staff service#general{asnegative} and non existent customer service service#general{asnegative}
-bad staff service#general{asnegative}
-i generally like this place restaurant#general{aspositive}
-the food food#quality{aspositive} is good
-the design of the space ambience#general{aspositive} is good
-but the service service#general{asnegative} is horrid
-i was there for brunch recently and we were tag teamed by a waitress service#general{asnegative} and a waiter service#general{asnegative}
-the waiter service#general{asnegative} delivered our food while holding what appeared to be a plastic bag of garbage in one hand
-i can t believe that it was but please put the bag down before delivering food service#general{asnegative}
-the waitress service#general{asnegative} came to check in on us every few minutes and began to clear the plates while half of us were still eating a big pet peeve of mine that happens almost everywhere so i try to ignore it
-i couldn t ignore the fact that she reach over the plate of one of my friends who was in mid bite to clear the table service#general{asnegative}
+we didn't look like the other patrons in there so unfortunately i think that may have been part of the problem restaurant#miscellaneous{asnegative}
+shame on this place for the horrible rude service#general{asnegative} and non existent service#general{asnegative}
+bad service#general{asnegative}
+i generally like this restaurant#general{aspositive}
+the food#quality{aspositive} is good
+the design of the ambience#general{aspositive} is good
+but the service#general{asnegative} is horrid
+i was there for brunch recently and we were tag teamed by a service#general{asnegative} and a service#general{asnegative}
+the service#general{asnegative} delivered our food while holding what appeared to be a plastic bag of garbage in one hand
+i can't believe that it was but please put the bag down before delivering food service#general{asnegative}
+the service#general{asnegative} came to check in on us every few minutes and began to clear the plates while half of us were still eating a big pet peeve of mine that happens almost everywhere so i try to ignore it
+i couldn't ignore the fact that she reach over the plate of one of my friends who was in mid bite to clear the table service#general{asnegative}
 she then put the check down without asking if we were done and came to check on the bill every two minutes even though we were one of three occupied tables service#general{asnegative}
-i wish i could like this place restaurant#general{asnegative} more and i wish someone would retrain the staff service#general{asnegative}
+i wish i could like this restaurant#general{asnegative} more and i wish someone would retrain the service#general{asnegative}
