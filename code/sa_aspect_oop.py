@@ -14,6 +14,9 @@ import math
 import numpy as np
 import utils
 import tensorflow as tf
+import matplotlib.pyplot as plt
+from matplotlib.ticker import MaxNLocator
+from pylab import *
 
 class Data:
     def __init__(self, domain, data_dir, flag_word2vec, label_dict, seq_max_len, flag_addition_corpus,
@@ -272,57 +275,49 @@ class Model:
             else:
                 index = data.nb_sample_train - self.batch_size
             
-            y_train_batch = np.asarray(data.train_label[index : index + self.batch_size])
-            x_train_mask_batch  = np.asarray(data.train_mask[index : index + self.batch_size])
-            x_train_binary_mask_batch  = np.asarray(data.train_binary_mask[index : index + self.batch_size])
-            x_train_batch = np.asarray(data.x_train[index : index + self.batch_size])
-            x_train_seq_len = np.asarray(data.train_seq_len[index : index + self.batch_size])
-            x_train_sent_for_word = np.asarray(data.train_sentiment_for_word[index : index + self.batch_size])
 
             self.sess.run(self.optimizer, 
-                          feed_dict={self.tf_X_train: x_train_batch,
-                                     self.tf_X_train_mask: x_train_mask_batch,
-                                     self.tf_X_binary_mask: x_train_binary_mask_batch,
-                                     self.tf_X_seq_len: x_train_seq_len,
-                                     self.tf_X_sent_for_word: x_train_sent_for_word,
-                                     self.tf_y_train: y_train_batch,
+                          feed_dict={self.tf_X_train: np.asarray(data.x_train[index : index + self.batch_size]),
+                                     self.tf_X_train_mask: np.asarray(data.train_mask[index : index + self.batch_size]),
+                                     self.tf_X_binary_mask: np.asarray(data.train_binary_mask[index : index + self.batch_size]),
+                                     self.tf_X_seq_len: np.asarray(data.train_seq_len[index : index + self.batch_size]),
+                                     self.tf_X_sent_for_word: np.asarray(data.train_sentiment_for_word[index : index + self.batch_size]),
+                                     self.tf_y_train: np.asarray(data.train_label[index : index + self.batch_size]),
                                      self.keep_prob: 0.8})
 
-            if it % 10 == 0:
+            if it % (len(data.x_train) // self.batch_size) == 0:
                 print(it)
                 self.evaluate(data, it + 100 >= self.TRAINING_ITERATIONS, self.flag_train)
                 
                 correct_prediction_train, cost_train = self.sess.run([self.correct_prediction, self.cross_entropy], 
-                                                  feed_dict={self.tf_X_train: x_train_batch,
-                                                             self.tf_X_train_mask: x_train_mask_batch,
-                                                             self.tf_X_binary_mask: x_train_binary_mask_batch,
-                                                             self.tf_X_seq_len: x_train_seq_len,
-                                                             self.tf_X_sent_for_word: x_train_sent_for_word,
-                                                             self.tf_y_train: y_train_batch,
-                                                             self.keep_prob: 1.0})
+                                                  feed_dict={self.tf_X_train: np.asarray(data.x_train),
+                                                             self.tf_X_train_mask: np.asarray(data.train_mask),
+                                                             self.tf_X_binary_mask: np.asarray(data.train_binary_mask),
+                                                             self.tf_X_seq_len: np.asarray(data.train_seq_len),
+                                                             self.tf_X_sent_for_word: np.asarray(data.train_sentiment_for_word),
+                                                             self.tf_y_train: np.asarray(data.train_label),
+                                                             self.keep_prob: 0.8})
                 
                 print('training_accuracy => %.3f, cost value => %.5f for step %d' % \
-                (float(correct_prediction_train)/np.sum(x_train_binary_mask_batch), cost_train, it))
+                (float(correct_prediction_train)/np.sum(np.asarray(data.train_binary_mask)), cost_train, it))
                 
                 loss_list.append(cost_train)
-                accuracy_list.append(float(correct_prediction_train)/np.sum(x_train_binary_mask_batch))
-
-                plt.plot(accuracy_list)
-                axes = plt.gca()
-                axes.set_ylim([0, 1])
-                plt.title('batch train accuracy')
-                plt.ylabel('accuracy')
-                plt.xlabel('epoch')
-                plt.savefig('accuracy.png')
-                plt.close()
-
-                plt.plot(loss_list)
-                plt.title('batch train loss')
-                plt.ylabel('loss')
-                plt.xlabel('epoch')
-                plt.savefig('loss.png')
-                plt.close()
+                accuracy_list.append(float(correct_prediction_train)/np.sum(np.asarray(data.train_binary_mask)))
                 
+                _, ax1 = plt.subplots()
+                ax2 = ax1.twinx()
+                ax1.plot(loss_list)
+                ax2.plot(accuracy_list, 'r')
+                ax1.set_xlabel('epoch')
+                ax1.set_ylabel('train loss')
+                ax2.set_ylabel('train accuracy')
+                ax1.set_title('train accuracy and loss')
+                ax1.xaxis.set_major_locator(MaxNLocator(integer=True))
+                plt.savefig("accuracy_loss.png")
+                plt.close()
+
+
+
         self.sess.close()
 
 
@@ -334,7 +329,7 @@ def main():
     nb_linear_inside = 128
     nb_lstm_inside = 256
     layers = 1
-    TRAINING_ITERATIONS = 6000
+    TRAINING_ITERATIONS = 4000
     LEARNING_RATE = 0.1
     WEIGHT_DECAY = 0.0001
     label_dict = {
@@ -342,7 +337,7 @@ def main():
         'asneutral' : 0,
         'asnegative': 2
     }
-    data_dir = '../data/ABSA_SemEval2016/'
+    data_dir = '../data/ABSA_SemEval2015/'
     if '2016' in data_dir:
         seq_max_len = 42
     else:
@@ -354,7 +349,7 @@ def main():
     flag_change_file_structure = False
     flag_use_sentiment_embedding = False
     flag_use_sentiment_for_word = True
-    flag_train = False
+    flag_train = True
 
     negative_weight = 1.0
     positive_weight = 1.0
