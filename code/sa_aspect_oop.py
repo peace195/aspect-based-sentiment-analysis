@@ -123,11 +123,11 @@ class Model:
         self.keep_prob = tf.placeholder(tf.float32)
         
 
-        self.ln_w = tf.Variable(tf.truncated_normal([self.embedding_size, self.nb_linear_inside], stddev = 1.0 / math.sqrt(self.embedding_size)))
+        self.ln_w = tf.Variable(tf.truncated_normal([self.embedding_size, self.nb_linear_inside], stddev = math.sqrt(3.0 / (self.embedding_size + self.nb_linear_inside))))
         self.ln_b = tf.Variable(tf.zeros([self.nb_linear_inside]))
          
         self.sent_w = tf.Variable(tf.truncated_normal([self.nb_lstm_inside, self.nb_sentiment_label],
-                                                 stddev = 1.0 / math.sqrt(self.nb_lstm_inside)))
+                                                 stddev = math.sqrt(3.0 / self.nb_lstm_inside + self.nb_sentiment_label)))
         self.sent_b = tf.Variable(tf.zeros([self.nb_sentiment_label]))
 
         y_labels = tf.one_hot(self.tf_y_train,
@@ -264,12 +264,12 @@ class Model:
 
     def train(self, data):
         self.sess.run(self.init)
-        # self.load_model()
+        self.load_model()
         loss_list = list()
         accuracy_list = list()
 
         for it in range(self.TRAINING_ITERATIONS):
-            #generate batch (x_train, y_train, seq_lengths_train)
+            # generate batch (x_train, y_train, seq_lengths_train)
             if (it * self.batch_size % data.nb_sample_train + self.batch_size < data.nb_sample_train):
                 index = it * self.batch_size % data.nb_sample_train
             else:
@@ -283,12 +283,12 @@ class Model:
                                      self.tf_X_seq_len: np.asarray(data.train_seq_len[index : index + self.batch_size]),
                                      self.tf_X_sent_for_word: np.asarray(data.train_sentiment_for_word[index : index + self.batch_size]),
                                      self.tf_y_train: np.asarray(data.train_label[index : index + self.batch_size]),
-                                     self.keep_prob: 0.8})
+                                     self.keep_prob: 0.5})
 
             if it % (len(data.x_train) // self.batch_size) == 0:
                 print(it)
                 self.evaluate(data, it + 100 >= self.TRAINING_ITERATIONS, self.flag_train)
-                
+                '''
                 correct_prediction_train, cost_train = self.sess.run([self.correct_prediction, self.cross_entropy], 
                                                   feed_dict={self.tf_X_train: np.asarray(data.x_train),
                                                              self.tf_X_train_mask: np.asarray(data.train_mask),
@@ -313,9 +313,9 @@ class Model:
                 ax2.set_ylabel('train accuracy')
                 ax1.set_title('train accuracy and loss')
                 ax1.xaxis.set_major_locator(MaxNLocator(integer=True))
-                plt.savefig("accuracy_loss.png")
+                plt.savefig('accuracy_loss.eps', format='eps', dpi=150)
                 plt.close()
-
+                '''
 
 
         self.sess.close()
@@ -337,19 +337,21 @@ def main():
         'asneutral' : 0,
         'asnegative': 2
     }
-    data_dir = '../data/ABSA_SemEval2015/'
+    data_dir = '../data/ABSA_SemEval2014/'
     if '2016' in data_dir:
         seq_max_len = 42
-    else:
+    elif '2015' in data_dir:
         seq_max_len = 36
+    else:
+        seq_max_len = 35
 
     domain = 'Restaurants'
-    flag_word2vec = False
-    flag_addition_corpus = False
+    flag_word2vec = True
+    flag_addition_corpus = True
     flag_change_file_structure = False
     flag_use_sentiment_embedding = False
     flag_use_sentiment_for_word = True
-    flag_train = True
+    flag_train = False
 
     negative_weight = 1.0
     positive_weight = 1.0

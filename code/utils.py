@@ -58,12 +58,16 @@ def load_embedding(domain, data_dir, flag_addition_corpus, flag_word2vec, flag_u
                         reader = csv.reader(csvfile, delimiter=',', quotechar='|')
                         for row in reader:
                             f_corpus.write(' '.join(re.sub(r'[.,:;/\-?!\"\n()\\]',' ', row[14]).lower().split()) + '\n')
+
+        f_add = codecs.open('../data/Addition_' + domain + '_Reviews_For_Word2vec/total_data.txt', 'r', 'utf-8')
+        for line in f_add:
+            f_corpus.write(line)
                             
 
     f_corpus.close()
 
     if (flag_word2vec):
-        os.system('cd ../fastText && ./fasttext cbow -input ../data/' + domain + '_corpus_for_word2vec.txt -output ../data/' + domain + '_cbow_final_2016 -dim 100 -minCount 5 -epoch 2000')
+        os.system('cd ../fastText && ./fasttext cbow -input ../data/' + domain + '_corpus_for_word2vec.txt -output ../data/' + domain + '_cbow_final_2014 -dim 100 -minCount 0 -epoch 3')
     
     sswe = defaultdict(list)
     if (flag_use_sentiment_embedding):
@@ -75,7 +79,10 @@ def load_embedding(domain, data_dir, flag_addition_corpus, flag_word2vec, flag_u
                 sswe[elements[0].strip()].append(float(elements[i]))
         f_se.close()
 
-    f_vec = codecs.open('../data/' + domain + '_cbow_final_2016.vec', 'r', 'utf-8')
+    f_vec = codecs.open('../data/' + domain + '_cbow_final_2014.vec', 'r', 'utf-8')
+    # f_vec = codecs.open('../data/glove.twitter.27B.100d.txt', 'r', 'utf-8')
+    # f_vec = codecs.open('../data/skipgram.wiki.simple.300d.vec', 'r', 'utf-8')
+    
     idx = 0
     for line in f_vec:
         if len(line) < 50:
@@ -383,6 +390,253 @@ def change_xml_to_txt_v3(domain, data_dir):
         except AttributeError:
             continue
 
+def change_xml_to_txt_v4(domain, data_dir):
+    train_filename = data_dir + domain + '_Train_Final.xml'
+    test_filename = data_dir + domain + '_Test.xml'
+
+    train_text = codecs.open(data_dir + domain + '_Train_Final.txt', 'w', 'utf-8')
+    test_text = codecs.open(data_dir + domain + '_Test.txt', 'w', 'utf-8')
+
+    reviews = ET.parse(train_filename).getroot().findall('Review')
+    sentences = []
+    for r in reviews:
+        sentences += r.find('sentences').getchildren()
+
+    for i in range(len(sentences)):
+        try:
+            new_sentence = sentences[i].find('text').text
+            opinions = sentences[i].find('Opinions').findall('Opinion')
+            sortchildrenby(opinions, 'from')
+            bias = 0
+            last_start = -1
+            last_end = -1
+            for opinion in opinions:
+                start = int(opinion.get('from'))
+                end = int(opinion.get('to'))
+                polarity = opinion.get('polarity')
+                category = opinion.get('category').split('#')[0]
+                target = opinion.get('target').lower()
+                if (end != 0):
+                    if (last_start == start and last_end == end):
+                        new_sentence = new_sentence[:bias+end+1] + category + '{as' + polarity + '}' + new_sentence[bias+end:]
+                        bias = bias + len(category + '{as' + polarity + '}') + 1
+                    else:
+                        new_sentence = new_sentence[:bias+start] + category + '{as' + polarity + '}' + new_sentence[bias+end:]
+                        bias = bias + len(category + '{as' + polarity + '}') - (end - start)
+                else:
+                    new_sentence = new_sentence + ' ' + category + '{as' + polarity + '}'
+
+                last_start = start
+                last_end = end
+
+            train_text.write((' '.join(re.sub(r'[.,:;/\-?!\"\n()\\]',' ', new_sentence).lower().split()) + '\n').replace("'service", "service").replace("}'s", "}").replace("}'", "}"))
+
+        except AttributeError:
+            continue
+
+    reviews = ET.parse(test_filename).getroot().findall('Review')
+    sentences = []
+    for r in reviews:
+        sentences += r.find('sentences').getchildren()
+
+    for i in range(len(sentences)):
+        try:
+            new_sentence = sentences[i].find('text').text
+            opinions = sentences[i].find('Opinions').findall('Opinion')
+            sortchildrenby(opinions, 'from')
+            bias = 0
+            last_start = -1
+            last_end = -1
+            for opinion in opinions:
+                start = int(opinion.get('from'))
+                end = int(opinion.get('to'))
+                polarity = opinion.get('polarity')
+                category = opinion.get('category').split('#')[0]
+                target = opinion.get('target').lower()
+                if (end != 0):
+                    if (last_start == start and last_end == end):
+                        new_sentence = new_sentence[:bias+end+1] + category + '{as' + polarity + '}' + new_sentence[bias+end:]
+                        bias = bias + len(category + '{as' + polarity + '}') + 1
+                    else:
+                        new_sentence = new_sentence[:bias+start] + category + '{as' + polarity + '}' + new_sentence[bias+end:]
+                        bias = bias + len(category + '{as' + polarity + '}') - (end - start)
+                else:
+                    new_sentence = new_sentence + ' ' + category + '{as' + polarity + '}'
+
+                last_start = start
+                last_end = end
+
+            test_text.write((' '.join(re.sub(r'[.,:;/\-?!\"\n()\\]',' ', new_sentence).lower().split()) + '\n').replace("'service", "service").replace("}'s", "}").replace("}'", "}"))
+
+        except AttributeError:
+            continue
+
+def change_xml_to_txt_v5(domain, data_dir):
+    train_filename = data_dir + domain + '_Train_Final.xml'
+    test_filename = data_dir + domain + '_Test.xml'
+
+    train_text = codecs.open(data_dir + domain + '_Train_Final.txt', 'w', 'utf-8')
+    test_text = codecs.open(data_dir + domain + '_Test.txt', 'w', 'utf-8')
+
+    reviews = ET.parse(train_filename).getroot().findall('Review')
+    sentences = []
+    for r in reviews:
+        sentences += r.find('sentences').getchildren()
+
+    for i in range(len(sentences)):
+        try:
+            new_sentence = sentences[i].find('text').text
+            opinions = sentences[i].find('Opinions').findall('Opinion')
+            sortchildrenby(opinions, 'from')
+            bias = 0
+            last_start = -1
+            last_end = -1
+            for opinion in opinions:
+                start = int(opinion.get('from'))
+                end = int(opinion.get('to'))
+                polarity = opinion.get('polarity')
+                category = opinion.get('category').replace('STYLE_OPTIONS', 'style').split('#')[1]
+                target = opinion.get('target').lower()
+                if (end != 0):
+                    if (last_start == start and last_end == end):
+                        new_sentence = new_sentence[:bias+end+1] + category + '{as' + polarity + '}' + new_sentence[bias+end:]
+                        bias = bias + len(category + '{as' + polarity + '}') + 1
+                    else:
+                        new_sentence = new_sentence[:bias+start] + category + '{as' + polarity + '}' + new_sentence[bias+end:]
+                        bias = bias + len(category + '{as' + polarity + '}') - (end - start)
+                else:
+                    new_sentence = new_sentence + ' ' + category + '{as' + polarity + '}'
+
+                last_start = start
+                last_end = end
+
+            train_text.write((' '.join(re.sub(r'[.,:;/\-?!\"\n()\\]',' ', new_sentence).lower().split()) + '\n').replace("'general", "general").replace("}'s", "}").replace("}'", "}"))
+
+        except AttributeError:
+            continue
+
+    reviews = ET.parse(test_filename).getroot().findall('Review')
+    sentences = []
+    for r in reviews:
+        sentences += r.find('sentences').getchildren()
+
+    for i in range(len(sentences)):
+        try:
+            new_sentence = sentences[i].find('text').text
+            opinions = sentences[i].find('Opinions').findall('Opinion')
+            sortchildrenby(opinions, 'from')
+            bias = 0
+            last_start = -1
+            last_end = -1
+            for opinion in opinions:
+                start = int(opinion.get('from'))
+                end = int(opinion.get('to'))
+                polarity = opinion.get('polarity')
+                category = opinion.get('category').replace('STYLE_OPTIONS', 'style').split('#')[1]
+                target = opinion.get('target').lower()
+                if (end != 0):
+                    if (last_start == start and last_end == end):
+                        new_sentence = new_sentence[:bias+end+1] + category + '{as' + polarity + '}' + new_sentence[bias+end:]
+                        bias = bias + len(category + '{as' + polarity + '}') + 1
+                    else:
+                        new_sentence = new_sentence[:bias+start] + category + '{as' + polarity + '}' + new_sentence[bias+end:]
+                        bias = bias + len(category + '{as' + polarity + '}') - (end - start)
+                else:
+                    new_sentence = new_sentence + ' ' + category + '{as' + polarity + '}'
+
+                last_start = start
+                last_end = end
+
+            test_text.write((' '.join(re.sub(r'[.,:;/\-?!\"\n()\\]',' ', new_sentence).lower().split()) + '\n').replace("'general", "general").replace("}'s", "}").replace("}'", "}"))
+
+        except AttributeError:
+            continue
+
+def change_xml_to_txt_2014(domain, data_dir):
+    train_filename = data_dir + domain + '_Train_Final.xml'
+    test_filename = data_dir + domain + '_Test.xml'
+
+    train_text = codecs.open(data_dir + domain + '_Train_Final.txt', 'w', 'utf-8')
+    test_text = codecs.open(data_dir + domain + '_Test.txt', 'w', 'utf-8')
+
+    sentences = ET.parse(train_filename).getroot()
+    for i in range(len(sentences)):
+        try:
+            new_sentence = sentences[i].find('text').text
+            aspectTerms = sentences[i].find('aspectTerms').findall('aspectTerm')
+            sortchildrenby(aspectTerms, 'from')
+            bias = 0
+            last_start = -1
+            last_end = -1
+
+            for opinion in aspectTerms:
+                start = int(opinion.get('from'))
+                end = int(opinion.get('to'))
+                polarity = opinion.get('polarity')
+                term = re.sub(r'[.,:;/?!\"\n()\\]','', opinion.get('term').lower()) 
+                if polarity == 'conflict':
+                    continue
+
+                if (end != 0):
+                    if (last_start == start and last_end == end):
+                        new_sentence = new_sentence[:bias+end+1] + term + '{as' + polarity + '}' + new_sentence[bias+end:]
+                        bias = bias + len(term + '{as' + polarity + '}') + 1
+                    else:
+                        new_sentence = new_sentence[:bias+start] + term + '{as' + polarity + '}' + new_sentence[bias+end:]
+                        bias = bias + len(term + '{as' + polarity + '}') - (end - start)
+                else:
+                    new_sentence = new_sentence + ' ' + term + '{as' + polarity + '}'
+
+                last_start = start
+                last_end = end
+
+            train_text.write((' '.join(re.sub(r'[.,:;/\-?!\"\n()\\]',' ', new_sentence).lower().split()) + '\n').replace(
+                "'bar", "bar").replace(
+                "}'s", "}").replace(
+                "}'", "}").replace(
+                "'pub", "pub").replace(
+                "'perks", "perks").replace(
+                "'kamasutra", "kamasutra"))
+
+        except AttributeError:
+            continue
+
+    sentences = ET.parse(test_filename).getroot()
+    for i in range(len(sentences)):
+        try:
+            new_sentence = sentences[i].find('text').text
+            aspectTerms = sentences[i].find('aspectTerms').findall('aspectTerm')
+            sortchildrenby(aspectTerms, 'from')
+            bias = 0
+            last_start = -1
+            last_end = -1
+
+            for opinion in aspectTerms:
+                start = int(opinion.get('from'))
+                end = int(opinion.get('to'))
+                polarity = opinion.get('polarity')
+                term = re.sub(r'[.,:;/?!\"\n()\\]','', opinion.get('term').lower())
+                if polarity == 'conflict':
+                    continue
+
+                if (end != 0):
+                    if (last_start == start and last_end == end):
+                        new_sentence = new_sentence[:bias+end+1] + term + '{as' + polarity + '}' + new_sentence[bias+end:]
+                        bias = bias + len(term + '{as' + polarity + '}') + 1
+                    else:
+                        new_sentence = new_sentence[:bias+start] + term + '{as' + polarity + '}' + new_sentence[bias+end:]
+                        bias = bias + len(term + '{as' + polarity + '}') - (end - start)
+                else:
+                    new_sentence = new_sentence + ' ' + term + '{as' + polarity + '}'
+
+                last_start = start
+                last_end = end
+                
+            test_text.write((' '.join(re.sub(r'[.,:;/\-?!\"\n()\\]',' ', new_sentence).lower().split()) + '\n').replace("'general", "general").replace("}'s", "}").replace("}'", "}"))
+
+        except AttributeError:
+            continue
+
 def load_data(domain, data_dir, flag_word2vec, label_dict, seq_max_len, flag_addition_corpus,
             flag_change_xml_to_txt, negative_weight, positive_weight, neutral_weight, 
             flag_use_sentiment_embedding):
@@ -403,7 +657,7 @@ def load_data(domain, data_dir, flag_word2vec, label_dict, seq_max_len, flag_add
     count_neu = 0
 
     if (flag_change_xml_to_txt):
-        change_xml_to_txt_v3(domain, data_dir)
+        change_xml_to_txt_2014(domain, data_dir)
 
     stop_words = load_stop_words()
     pos_list, neg_list, rev_list, inc_list, dec_list, sent_words_dict = load_sentiment_dictionary()
@@ -518,7 +772,7 @@ def load_data(domain, data_dir, flag_word2vec, label_dict, seq_max_len, flag_add
 
 
 def main():
-    seq_max_len = 42
+    seq_max_len = 60
     negative_weight = 2.5
     positive_weight = 1.0
     neutral_weight = 5.0
@@ -529,9 +783,9 @@ def main():
         'asnegative': 2
     }
 
-    data_dir = '../data/ABSA_SemEval2016/'
+    data_dir = '../data/ABSA_SemEval2014/'
     domain = 'Restaurants'
-    flag_word2vec = True
+    flag_word2vec = False
     flag_addition_corpus = False
     flag_change_xml_to_txt = True
     flag_use_sentiment_embedding = False
