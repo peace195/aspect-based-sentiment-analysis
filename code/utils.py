@@ -6,7 +6,7 @@
 #       author: BinhDT                                                                      #
 #       description: preprocess data like exporting aspect, word2vec, load embedding        #
 #       prepare data for training                                                           #
-#       last update on 14/7/2017                                                            #
+#       last update on 27/7/2017                                                            #
 #-------------------------------------------------------------------------------------------#
 
 import numpy as np
@@ -26,9 +26,9 @@ def load_embedding(domain, data_dir, flag_addition_corpus, flag_word2vec, flag_u
     embedding = list()
 
     if (flag_addition_corpus):
-		# fix it if you want to add more data for word2vec training
-		continue
-		
+        # fix it if you want to add more data for word2vec training
+        continue
+        
     if (flag_word2vec):
         os.system('cd ../fastText && ./fasttext cbow -input ../data/' + domain + '_corpus_for_word2vec.txt -output ../data/' + domain + '_cbow_final -dim 100 -minCount 0 -epoch 2000')
     

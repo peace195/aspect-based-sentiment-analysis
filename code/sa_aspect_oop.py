@@ -5,7 +5,7 @@
 #       description: Bi-direction LSTM model for aspect sentiment           # 
 #       input: sentences contain aspects                                    #
 #       output: sentiment label for aspects                                 #
-#       last update on 20/7/2017                                    #
+#       last update on 27/7/2017                                    #
 #---------------------------------------------------------------------------#
 
 import json
