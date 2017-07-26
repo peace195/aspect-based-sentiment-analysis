@@ -26,64 +26,9 @@ def load_embedding(domain, data_dir, flag_addition_corpus, flag_word2vec, flag_u
     embedding = list()
 
     if (flag_addition_corpus):
-        f_corpus = codecs.open('../data/' + domain + '_corpus_for_word2vec.txt', 'w', 'utf-8')
-
-        for file in os.listdir(data_dir):
-            if file.endswith('.txt') and domain in file:
-                f_processed = codecs.open(data_dir + file, 'r', 'utf-8')
-                for line in f_processed:
-                    f_corpus.write(line.replace('{aspositive}', '').replace('{asnegative}', '').replace('{asneutral}', ''))
-
-        for file in os.listdir('../data/Addition_' + domain + '_Reviews_For_Word2vec'):
-            if domain == 'Restaurants':
-                with open('../data/Addition_' + domain + '_Reviews_For_Word2vec/' + file, 'r') as csvfile:
-                    if file == '1-restaurant-test.csv':
-                        reader = csv.reader(csvfile, delimiter='\t', quotechar='|')
-                        for row in reader:
-                            f_corpus.write(' '.join(re.sub(r'[.,:;/\-?!\"\n()\\]',' ', row[0]).lower().split()) + '\n')
-                    elif file == '1-restaurant-train.csv':
-                        reader = csv.reader(csvfile, delimiter='\t', quotechar='|')
-                        for row in reader:
-                            f_corpus.write(' '.join(re.sub(r'[.,:;/\-?!\"\n()\\]',' ', row[1]).lower().split()) + '\n')
-                            
-                    else:
-                        reader = csv.reader(csvfile, delimiter=',', quotechar='|')
-                        for row in reader:
-                            try:
-                                f_corpus.write(' '.join(re.sub(r'[.,:;/\-?!\"\n()\\]',' ', row[9].decode('utf8')).lower().split()) + '\n')
-                            except IndexError:
-                                continue
-                
-                f_add = codecs.open('../data/Addition_' + domain + '_Reviews_For_Word2vec/total_data.txt', 'r', 'utf-8')
-                for line in f_add:
-                    f_corpus.write(line)
-
-            elif domain == 'Laptops':
-                if file == 'test.ft.txt':
-                    continue
-                    reader = codecs.open('../data/Addition_' + domain + '_Reviews_For_Word2vec/' + file, 'r', 'utf-8')
-                    for line in reader:
-                        f_corpus.write(' '.join(re.sub(r'[.,:;/\-?!\"\n()\\]',' ', line).lower().split()[1:]) + '\n')
-                elif file == 'train.ft.txt':
-                    continue
-                    reader = codecs.open('../data/Addition_' + domain + '_Reviews_For_Word2vec/' + file, 'r', 'utf-8')
-                    for line in reader:
-                        f_corpus.write(' '.join(re.sub(r'[.,:;/\-?!\"\n()\\]',' ', line).lower().split()[1:]) + '\n')
-                elif file == 'README.md':
-                    continue
-                else:
-                    for js in os.listdir('../data/Addition_' + domain + '_Reviews_For_Word2vec/' + file):
-                        try:
-                            print('../data/Addition_' + domain + '_Reviews_For_Word2vec/' + file + '/' + js)
-                            data_file = codecs.open('../data/Addition_' + domain + '_Reviews_For_Word2vec/' + file + '/' + js, 'r', 'utf-8')
-                            data = json.load(data_file)
-                            for i in range(len(data["Reviews"])):
-                                f_corpus.write(' '.join(re.sub(r'[.,:;/\-?!\"\n()\\]',' ', data["Reviews"][i]["Content"]).lower().split()) + '\n')
-                        except TypeError:
-                            continue                   
-
-        f_corpus.close()
-
+		# fix it if you want to add more data for word2vec training
+		continue
+		
     if (flag_word2vec):
         os.system('cd ../fastText && ./fasttext cbow -input ../data/' + domain + '_corpus_for_word2vec.txt -output ../data/' + domain + '_cbow_final -dim 100 -minCount 0 -epoch 2000')
     

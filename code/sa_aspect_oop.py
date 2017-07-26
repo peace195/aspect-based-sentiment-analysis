@@ -177,7 +177,7 @@ class Model:
         sentiment = tf.transpose(sentiment, [1, 0, 2])
         sentiment = tf.multiply(sentiment, tf.expand_dims(self.tf_X_binary_mask, 2))
 
-        self.cross_entropy = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(logits = sentiment, labels = y_labels))
+        self.cross_entropy = tf.reduce_mean(tf.multiply(tf.nn.softmax_cross_entropy_with_logits(logits = sentiment, labels = y_labels), self.tf_X_train_mask))
         
         regularization = self.WEIGHT_DECAY * sum(
             tf.nn.l2_loss(tf_var)
