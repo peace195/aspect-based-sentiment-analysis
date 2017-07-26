@@ -1,11 +1,15 @@
 # SentimentAnalysis
+## Status
+This project is on-going now!
 
 ## Descriptions
+SemEval-2014 Task 4: Aspect Based Sentiment Analysis: http://alt.qcri.org/semeval2014/task4/
+
 SemEval-2015 Task 12: Aspect Based Sentiment Analysis: http://alt.qcri.org/semeval2015/task12/
 
 SemEval-2016 Task 5: Aspect Based Sentiment Analysis: http://alt.qcri.org/semeval2016/task5/
 
-I specialize in restaurants domain. You can see final results of contest in [1][2].
+I specialize in restaurants and laptops domain. You can see final results of contest in [1][2].
 The purpose of this project are:
 
 * Aspect based sentiment analysis.
@@ -22,10 +26,12 @@ Step by step:
 
 ## Results
 BINGO!!
+* Outperforms state-of-the-art in semeval2014 dataset [3].
 
 * Achieved **81.2%** accuracy. **Better** than 2.5% winner team in the semeval2015 competition [1].
 
 * Achieved **85.8%** accuracy. rank 3/28 in the semeval2016 competition [2].
+
 
 ## Getting Started
 
@@ -35,7 +41,7 @@ BINGO!!
 * Addition restaurant review data for restaurant-word2vec. Here, I use:
 	* https://inclass.kaggle.com/c/restaurant-reviews
 	* https://www.kaggle.com/snap/amazon-fine-food-reviews
-* My embedding result is available here: [google drive](https://drive.google.com/file/d/0B7O__AeIXgEkR3NrU1NEV2JPcXM/view?usp=sharing)
+* My embedding result is available here: [google drive](https://drive.google.com/drive/folders/0B7O__AeIXgEkRjdLenQ5Ynl4aFk?usp=sharing)
 
 ### Prerequisites
 * python 2.7
@@ -55,6 +61,8 @@ BINGO!!
 [1] http://alt.qcri.org/semeval2015/cdrom/pdf/SemEval082.pdf
 
 [2] http://alt.qcri.org/semeval2016/task5/index.php?id=data-and-tools
+
+[3] http://alt.qcri.org/semeval2014/task4/index.php?id=data-and-tools
 
 ## License
 
