@@ -151,6 +151,7 @@ class Model:
         # Reshaping to (n_steps * batch_size, n_input)
         X_train = tf.reshape(X_train, [-1, self.embedding_size])
         X_train = tf.nn.relu(tf.add(tf.matmul(X_train, self.ln_w), self.ln_b))
+        X_train = tf.nn.dropout(X_train, self.keep_prob)
         X_train = tf.split(axis = 0, num_or_size_splits = self.seq_max_len, value = X_train)
         
         # bidirection lstm
@@ -167,7 +168,7 @@ class Model:
         sentiment = tf.reshape(tf.add(output_fw, output_bw), [-1, self.nb_lstm_inside])
         
         # sentiment = tf.reshape(outputs, [-1, 2 * self.nb_lstm_inside]) 
-        # sentiment = tf.nn.dropout(sentiment, self.keep_prob)
+        sentiment = tf.nn.dropout(sentiment, self.keep_prob)
         sentiment = tf.add(tf.matmul(sentiment, self.sent_w), self.sent_b)
         sentiment = tf.split(axis = 0, num_or_size_splits = self.seq_max_len, value = sentiment)
 
@@ -176,15 +177,15 @@ class Model:
         sentiment = tf.transpose(sentiment, [1, 0, 2])
         sentiment = tf.multiply(sentiment, tf.expand_dims(self.tf_X_binary_mask, 2))
 
-        self.cross_entropy = tf.reduce_mean(tf.multiply(tf.nn.softmax_cross_entropy_with_logits(logits = sentiment, labels = y_labels), self.tf_X_train_mask))
-        '''
+        self.cross_entropy = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(logits = sentiment, labels = y_labels))
+        
         regularization = self.WEIGHT_DECAY * sum(
             tf.nn.l2_loss(tf_var)
                 for tf_var in tf.trainable_variables()
                 if not ("noreg" in tf_var.name or "Bias" in tf_var.name)
         )
         self.cross_entropy = self.cross_entropy + regularization
-        '''
+        
         self.prediction = tf.argmax(tf.nn.softmax(sentiment), 2)
         self.correct_prediction = tf.reduce_sum(tf.multiply(tf.cast(tf.equal(self.prediction, self.tf_y_train), tf.float32), self.tf_X_binary_mask))
         self.global_step = tf.Variable(0, trainable = True)
@@ -240,6 +241,9 @@ class Model:
 
         print('test accuracy => %.3f' %(float(correct_prediction_test)/np.sum(data.test_binary_mask)))
 
+        if float(correct_prediction_test)/np.sum(data.test_binary_mask) > 0.809:
+            self.save_model()
+
         if (flag_write_to_file):
             f_result = codecs.open('../result/result.txt', 'w', 'utf-8')
             f_result.write('#---------------------------------------------------------------------------------------------------------#\n')
@@ -264,7 +268,7 @@ class Model:
 
     def train(self, data):
         self.sess.run(self.init)
-        self.load_model()
+        # self.load_model()
         loss_list = list()
         accuracy_list = list()
 
@@ -326,10 +330,9 @@ def main():
     nb_sentiment_label = 3
     nb_sentiment_for_word = 3
     embedding_size = 100
-    nb_linear_inside = 128
     nb_lstm_inside = 256
     layers = 1
-    TRAINING_ITERATIONS = 4000
+    TRAINING_ITERATIONS = 5000
     LEARNING_RATE = 0.1
     WEIGHT_DECAY = 0.0001
     label_dict = {
@@ -338,20 +341,28 @@ def main():
         'asnegative': 2
     }
     data_dir = '../data/ABSA_SemEval2014/'
-    if '2016' in data_dir:
-        seq_max_len = 42
-    elif '2015' in data_dir:
-        seq_max_len = 36
-    else:
-        seq_max_len = 35
-
     domain = 'Restaurants'
-    flag_word2vec = True
-    flag_addition_corpus = True
+    if domain == 'Restaurants':
+        if '2016' in data_dir:
+            seq_max_len = 42
+            nb_linear_inside = 128
+        elif '2015' in data_dir:
+            seq_max_len = 36
+            nb_linear_inside = 128
+        else:
+            seq_max_len = 35
+            nb_linear_inside = 512
+    else:
+        seq_max_len = 43
+        nb_linear_inside = 512
+
+    
+    flag_word2vec = False
+    flag_addition_corpus = False
     flag_change_file_structure = False
     flag_use_sentiment_embedding = False
     flag_use_sentiment_for_word = True
-    flag_train = False
+    flag_train = True
 
     negative_weight = 1.0
     positive_weight = 1.0

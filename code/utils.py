@@ -17,25 +17,26 @@ from collections import Counter
 import codecs
 from collections import defaultdict
 import xml.etree.ElementTree as ET
+import json
 
 
 
 def load_embedding(domain, data_dir, flag_addition_corpus, flag_word2vec, flag_use_sentiment_embedding):
     word_dict = dict()
     embedding = list()
-    
-    f_corpus = codecs.open('../data/' + domain + '_corpus_for_word2vec.txt', 'w', 'utf-8')
-
-    for file in os.listdir(data_dir):
-        if file.endswith('.txt') and domain in file:
-            f_processed = codecs.open(data_dir + file, 'r', 'utf-8')
-            for line in f_processed:
-                f_corpus.write(line.replace('{aspositive}', '').replace('{asnegative}', '').replace('{asneutral}', ''))
 
     if (flag_addition_corpus):
+        f_corpus = codecs.open('../data/' + domain + '_corpus_for_word2vec.txt', 'w', 'utf-8')
+
+        for file in os.listdir(data_dir):
+            if file.endswith('.txt') and domain in file:
+                f_processed = codecs.open(data_dir + file, 'r', 'utf-8')
+                for line in f_processed:
+                    f_corpus.write(line.replace('{aspositive}', '').replace('{asnegative}', '').replace('{asneutral}', ''))
+
         for file in os.listdir('../data/Addition_' + domain + '_Reviews_For_Word2vec'):
-            with open('../data/Addition_' + domain + '_Reviews_For_Word2vec/' + file, 'r') as csvfile:
-                if domain == 'Restaurants':
+            if domain == 'Restaurants':
+                with open('../data/Addition_' + domain + '_Reviews_For_Word2vec/' + file, 'r') as csvfile:
                     if file == '1-restaurant-test.csv':
                         reader = csv.reader(csvfile, delimiter='\t', quotechar='|')
                         for row in reader:
@@ -52,22 +53,39 @@ def load_embedding(domain, data_dir, flag_addition_corpus, flag_word2vec, flag_u
                                 f_corpus.write(' '.join(re.sub(r'[.,:;/\-?!\"\n()\\]',' ', row[9].decode('utf8')).lower().split()) + '\n')
                             except IndexError:
                                 continue
-                        
-                elif domain == 'Hotels':
-                    if file == 'Hotels_reviews.csv':
-                        reader = csv.reader(csvfile, delimiter=',', quotechar='|')
-                        for row in reader:
-                            f_corpus.write(' '.join(re.sub(r'[.,:;/\-?!\"\n()\\]',' ', row[14]).lower().split()) + '\n')
+                
+                f_add = codecs.open('../data/Addition_' + domain + '_Reviews_For_Word2vec/total_data.txt', 'r', 'utf-8')
+                for line in f_add:
+                    f_corpus.write(line)
 
-        f_add = codecs.open('../data/Addition_' + domain + '_Reviews_For_Word2vec/total_data.txt', 'r', 'utf-8')
-        for line in f_add:
-            f_corpus.write(line)
-                            
+            elif domain == 'Laptops':
+                if file == 'test.ft.txt':
+                    continue
+                    reader = codecs.open('../data/Addition_' + domain + '_Reviews_For_Word2vec/' + file, 'r', 'utf-8')
+                    for line in reader:
+                        f_corpus.write(' '.join(re.sub(r'[.,:;/\-?!\"\n()\\]',' ', line).lower().split()[1:]) + '\n')
+                elif file == 'train.ft.txt':
+                    continue
+                    reader = codecs.open('../data/Addition_' + domain + '_Reviews_For_Word2vec/' + file, 'r', 'utf-8')
+                    for line in reader:
+                        f_corpus.write(' '.join(re.sub(r'[.,:;/\-?!\"\n()\\]',' ', line).lower().split()[1:]) + '\n')
+                elif file == 'README.md':
+                    continue
+                else:
+                    for js in os.listdir('../data/Addition_' + domain + '_Reviews_For_Word2vec/' + file):
+                        try:
+                            print('../data/Addition_' + domain + '_Reviews_For_Word2vec/' + file + '/' + js)
+                            data_file = codecs.open('../data/Addition_' + domain + '_Reviews_For_Word2vec/' + file + '/' + js, 'r', 'utf-8')
+                            data = json.load(data_file)
+                            for i in range(len(data["Reviews"])):
+                                f_corpus.write(' '.join(re.sub(r'[.,:;/\-?!\"\n()\\]',' ', data["Reviews"][i]["Content"]).lower().split()) + '\n')
+                        except TypeError:
+                            continue                   
 
-    f_corpus.close()
+        f_corpus.close()
 
     if (flag_word2vec):
-        os.system('cd ../fastText && ./fasttext cbow -input ../data/' + domain + '_corpus_for_word2vec.txt -output ../data/' + domain + '_cbow_final_2014 -dim 100 -minCount 0 -epoch 3')
+        os.system('cd ../fastText && ./fasttext cbow -input ../data/' + domain + '_corpus_for_word2vec.txt -output ../data/' + domain + '_cbow_final -dim 100 -minCount 0 -epoch 2000')
     
     sswe = defaultdict(list)
     if (flag_use_sentiment_embedding):
@@ -573,7 +591,7 @@ def change_xml_to_txt_2014(domain, data_dir):
                 start = int(opinion.get('from'))
                 end = int(opinion.get('to'))
                 polarity = opinion.get('polarity')
-                term = re.sub(r'[.,:;/?!\"\n()\\]','', opinion.get('term').lower()) 
+                term = re.sub(r'[.,:;/?!\"\n()\\]',' ', opinion.get('term').lower()).strip() 
                 if polarity == 'conflict':
                     continue
 
@@ -615,7 +633,7 @@ def change_xml_to_txt_2014(domain, data_dir):
                 start = int(opinion.get('from'))
                 end = int(opinion.get('to'))
                 polarity = opinion.get('polarity')
-                term = re.sub(r'[.,:;/?!\"\n()\\]','', opinion.get('term').lower())
+                term = re.sub(r'[.,:;/?!\"\n()\\]',' ', opinion.get('term').lower()).strip()
                 if polarity == 'conflict':
                     continue
 
@@ -719,7 +737,8 @@ def load_data(domain, data_dir, flag_word2vec, label_dict, seq_max_len, flag_add
                     count_len = count_len + 1
 
                     data_tmp.append(word_dict[word_clean])
-
+                elif '{as' in word and file != domain + '_Train_Final.txt':
+                    print(word)
 
             if file == domain + '_Train_Final.txt':
                 train_seq_len.append(count_len)
@@ -784,9 +803,9 @@ def main():
     }
 
     data_dir = '../data/ABSA_SemEval2014/'
-    domain = 'Restaurants'
+    domain = 'Laptops'
     flag_word2vec = False
-    flag_addition_corpus = False
+    flag_addition_corpus = True
     flag_change_xml_to_txt = True
     flag_use_sentiment_embedding = False
 
