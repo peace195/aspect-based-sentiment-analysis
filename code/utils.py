@@ -30,7 +30,7 @@ def load_embedding(domain, data_dir, flag_addition_corpus, flag_word2vec, flag_u
         continue
         
     if (flag_word2vec):
-        os.system('cd ../fastText && ./fasttext cbow -input ../data/' + domain + '_corpus_for_word2vec.txt -output ../data/' + domain + '_cbow_final -dim 100 -minCount 0 -epoch 2000')
+        os.system('cd ../fastText && ./fasttext cbow -input ../data/' + domain + '_corpus_for_word2vec.txt -output ../data/' + domain + '_cbow_final_2014 -dim 100 -minCount 0 -epoch 2000')
     
     sswe = defaultdict(list)
     if (flag_use_sentiment_embedding):
@@ -43,9 +43,7 @@ def load_embedding(domain, data_dir, flag_addition_corpus, flag_word2vec, flag_u
         f_se.close()
 
     f_vec = codecs.open('../data/' + domain + '_cbow_final_2014.vec', 'r', 'utf-8')
-    # f_vec = codecs.open('../data/glove.twitter.27B.100d.txt', 'r', 'utf-8')
-    # f_vec = codecs.open('../data/skipgram.wiki.simple.300d.vec', 'r', 'utf-8')
-    
+
     idx = 0
     for line in f_vec:
         if len(line) < 50:

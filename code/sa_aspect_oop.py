@@ -353,8 +353,8 @@ def main():
             seq_max_len = 35
             nb_linear_inside = 512
     else:
-        seq_max_len = 43
-        nb_linear_inside = 512
+        seq_max_len = 42
+        nb_linear_inside = 256
 
     
     flag_word2vec = False
