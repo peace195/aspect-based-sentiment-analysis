@@ -45,8 +45,8 @@ BINGO!!
 
 ### Prerequisites
 * python 2.7
-* tensorflow 1.2.0: https://www.tensorflow.org/versions/r0.12/get_started/os_setup#download-and-setup
-* fastText: https://github.com/facebookresearch/fastText
+* [tensorflow 1.2.0](https://www.tensorflow.org/versions/r0.12/get_started/os_setup#download-and-setup)
+* [fastText](https://github.com/facebookresearch/fastText)
 
 ### Installing
 	
