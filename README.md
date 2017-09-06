@@ -1,6 +1,6 @@
 # SentimentAnalysis
 ## Status
-This project is on-going now!
+This project is ongoing now!
 
 ## Descriptions
 [SemEval-2014 Task 4: Aspect Based Sentiment Analysis](http://alt.qcri.org/semeval2014/task4/)
@@ -9,8 +9,8 @@ This project is on-going now!
 
 [SemEval-2016 Task 5: Aspect Based Sentiment Analysis](http://alt.qcri.org/semeval2016/task5/)
 
-I specialize in restaurants and laptops domain. You can see final results of contest in [1][2].
-The purpose of this project are:
+I specialize in restaurants and laptops domain. You can see final results of these contests in [1][2].
+The purposes of this project are:
 
 * Aspect based sentiment analysis.
 * A sample of bidirectional LSTM (tensorflow 1.2.0).
@@ -21,8 +21,8 @@ The purpose of this project are:
 ![alt text](https://github.com/peace195/SentimentAnalysis/blob/master/model.png)
 
 Step by step:
-1. Used contest data and "addition restaurantsreview data" to learn word embedding by fastText.
-2. Used bidirectional LSTM in the model as above. Input of the model are the vector of word embedding that we trained before.
+1. Used contest data and "addition restaurants review data" to learn word embedding by fastText.
+2. Used bidirectional LSTM in the model as above. The input of the model is the vector of word embedding that we trained before.
 
 ## Results
 BINGO!!
