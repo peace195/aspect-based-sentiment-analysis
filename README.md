@@ -18,8 +18,6 @@ The purposes of this project are:
 * Compare between struct programming and object-oriented programming in Deep Learning model.
 * Build stop words, incremental, decremental, positive & negative dictionary for sentiment problem.
 
-![alt text](https://github.com/peace195/SentimentAnalysis/blob/master/model.png)
-
 Step by step:
 1. Used contest data and "addition restaurants review data" to learn word embedding by fastText.
 2. Used bidirectional LSTM in the model as above. The input of the model is the vector of word embedding that we trained before.
