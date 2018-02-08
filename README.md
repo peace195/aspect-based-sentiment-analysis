@@ -22,6 +22,8 @@ Step by step:
 1. Used contest data and "addition restaurants review data" to learn word embedding by fastText.
 2. Used bidirectional LSTM in the model as above. The input of the model is the vector of word embedding that we trained before.
 
+![alt text](https://raw.githubusercontent.com/peace195/aspect-based-sentiment-analysis/master/model.png)
+
 ## Results
 BINGO!!
 * Outperforms state-of-the-art in semeval2014 dataset [3].
