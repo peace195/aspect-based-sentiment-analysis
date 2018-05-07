@@ -55,7 +55,7 @@ BINGO!!
 
 ## Authors
 
-**Binh Thanh Do** 
+**Binh Do** 
 
 ## References
 [1] http://alt.qcri.org/semeval2015/cdrom/pdf/SemEval082.pdf
